@@ -1,24 +1,21 @@
 ﻿ddid,tid,direccion_despacho,comuna
-0,1/0/00,Calle el Desierto 123,Coquimbo
-1,1/0/00,Calle Atacama 321,La Serena
-2,1/1/00,Calle el Concierto 774,La Florida
-3,1/1/00,Calle el Desconcierto 313,Peñalolén
-4,1/2/00,Calle Saludos 4002,San Joaquín
-5,1/2/00,Calle Despidos 7843,San Joaquín
-6,1/3/00,Calle Gary Medel 5385,Macul
-7,1/3/00,Calle Arturo Vidal 5413,Macul
-8,1/4/00,Avenida la Modeda 21,Santiago Centro
-9,1/4/00,Avenida Sucre 2798,Nuñoa
-10,1/5/00,Calle Willie Arthur 1955,Providencia
-11,1/5/00,Calle Bustos 932,Providencia
-12,1/6/00,Calle Colibrí 5549,Las Condes
-13,1/6/00,Calle Copihue 1818,La Reina
-14,1/7/00,Avenida Macul 2308,Macul
-15,1/7/00,Avenida Flores 4399,San Joaquín
-16,1/8/00,Avenida Mi Rey 9876,San Joaquín
-17,1/8/00,Avenida Empanada 1149,San Miguel
-18,1/9/00,Calle Luis Pasteur 2948,La Florida
-19,1/9/00,Calle Espoz 4560,La Pintana
-,,,
-,,,
-,,,
+0,0,Calle el Desierto 123,Coquimbo
+1,0,Calle Atacama 321,La Serena
+2,1,Calle el Concierto 774,La Florida
+3,1,Calle el Desconcierto 313,Peñalolén
+4,2,Calle Saludos 4002,San Joaquín
+5,2,Calle Despidos 7843,San Joaquín
+6,3,Calle Gary Medel 5385,Macul
+7,3,Calle Arturo Vidal 5413,Macul
+8,4,Avenida la Modeda 21,Santiago Centro
+9,4,Avenida Sucre 2798,Nuñoa
+10,5,Calle Willie Arthur 1955,Providencia
+11,5,Calle Bustos 932,Providencia
+12,6,Calle Colibrí 5549,Las Condes
+13,6,Calle Copihue 1818,La Reina
+14,7,Avenida Macul 2308,Macul
+15,7,Avenida Flores 4399,San Joaquín
+16,8,Avenida Mi Rey 9876,San Joaquín
+17,8,Avenida Empanada 1149,San Miguel
+18,9,Calle Luis Pasteur 2948,La Florida
+19,9,Calle Espoz 4560,La Pintana
