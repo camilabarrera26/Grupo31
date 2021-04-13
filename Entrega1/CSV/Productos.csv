@@ -1,0 +1,29 @@
+﻿pid,nombre,precio,descripcion,tipo
+0,foco,40324,pantalla de luz,no comestible
+1,pilas,42358,pilas duracell,no comestible
+2,audifonos,51876,bose,no comestible
+3,radio,47973,radio antigua,no comestible
+4,camara,7216,nikon,no comestible
+5,leche,512,entera soprole,comestible
+6,pan,868,amasado ideal,comestible
+7,huevo,502,blanco grande,comestible
+8,mantequilla,696,soprole,comestible
+9,queso,592,mantecoso,comestible
+10,reineta,5701,kilo congelado,comestible
+11,papas fritas,5517,congeladas,comestible
+12,merluza,9873,kilo congelado,comestible
+13,salmon,5142,kilo congelado,comestible
+14,locos,8701,kilo congelado,comestible
+15,pisco,10589,litro alto del carmen,comestible
+16,ron,11659,litro havana,comestible
+17,agua,700,cachantun,comestible
+18,bebida,1200,litro ccu,comestible
+19,chicle,300,bigtime,comestible
+20,lomo,5640,kilo,comestible
+21,filete,5010,kilo,comestible
+22,empanadas,11572,congeladas,comestible
+23,salchichas,3000,6 unidades,comestible
+24,jamon,5000,pavo,comestible
+25,duraznos,1200,en conserva,comestible
+26,frutillas,1000,en conserva,comestible
+27,platano,1500,kilo,comestible
