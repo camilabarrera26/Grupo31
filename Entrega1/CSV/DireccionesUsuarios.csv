@@ -1,26 +1,26 @@
 ﻿duid,uid,direccion_usuario,comuna
 0,0,Colo Colo 905,Concepción
 1,0,Diego de Almagro 222,Providencia
-2,1/1/00,Calle Luz 63,Las Condes
-3,1/1/00,Calle Nuuk 4901,Cerillos
-4,1/2/00,Calle Reflejo 3923,Lo Espejo
-5,1/2/00,Calle el Desierto 123,Coquimbo
-6,1/3/00,Calle Atacama 321,La Serena
-7,1/3/00,Calle el Concierto 774,La Florida
-8,1/4/00,Calle el Desconcierto 313,Peñalolén
-9,1/4/00,Calle Saludos 4002,San Joaquín
-10,1/5/00,Calle Despidos 7843,San Joaquín
-11,1/6/00,Calle Gary Medel 5385,Macul
-12,1/7/00,Calle Arturo Vidal 5413,Macul
-13,1/8/00,Avenida la Modeda 21,Santiago Centro
-14,1/9/00,Avenida Sucre 2798,Nuñoa
-15,1/10/00,Calle Willie Arthur 1955,Providencia
-16,1/11/00,Calle Bustos 932,Providencia
-17,1/12/00,Calle Colibrí 5549,Las Condes
-18,1/13/00,Calle Copihue 1818,La Reina
-19,1/14/00,Avenida Macul 2308,Macul
-20,1/15/00,Avenida Flores 4399,San Joaquín
-21,1/16/00,Avenida Mi Rey 9876,San Joaquín
-22,1/17/00,Avenida Empanada 1149,San Miguel
+2,1,Calle Luz 63,Las Condes
+3,1,Calle Nuuk 4901,Cerillos
+4,2,Calle Reflejo 3923,Lo Espejo
+5,2,Calle el Desierto 123,Coquimbo
+6,3,Calle Atacama 321,La Serena
+7,3,Calle el Concierto 774,La Florida
+8,4,Calle el Desconcierto 313,Peñalolén
+9,4,Calle Saludos 4002,San Joaquín
+10,5,Calle Despidos 7843,San Joaquín
+11,6,Calle Gary Medel 5385,Macul
+12,7,Calle Arturo Vidal 5413,Macul
+13,8,Avenida la Modeda 21,Santiago Centro
+14,9,Avenida Sucre 2798,Nuñoa
+15,10,Calle Willie Arthur 1955,Providencia
+16,11,Calle Bustos 932,Providencia
+17,12,Calle Colibrí 5549,Las Condes
+18,13,Calle Copihue 1818,La Reina
+19,14,Avenida Macul 2308,Macul
+20,15,Avenida Flores 4399,San Joaquín
+21,16,Avenida Mi Rey 9876,San Joaquín
+22,17,Avenida Empanada 1149,San Miguel
 23,18,Calle Luis Pasteur 2948,La Florida
 24,19,Calle Espoz 4560,La Pintana
