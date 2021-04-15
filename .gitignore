@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.bash_logout
+.bashrc
+.cache/
+.gitconfig
+.gitignore
+.profile
+.ssh/

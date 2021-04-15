@@ -1,0 +1,21 @@
+﻿ddid,tid,direccion_despacho,comuna
+0,0,Calle el Desierto 123,Coquimbo
+1,0,Calle Atacama 321,La Serena
+2,1,Calle el Concierto 774,La Florida
+3,1,Calle el Desconcierto 313,Peñalolén
+4,2,Calle Saludos 4002,San Joaquin
+5,2,Calle Despidos 7843,San Joaquin
+6,3,Calle Gary Medel 5385,Macul
+7,3,Calle Arturo Vidal 5413,Macul
+8,4,Avenida la Modeda 21,Santiago Centro
+9,4,Avenida Sucre 2798,Nuñoa
+10,5,Calle Willie Arthur 1955,Providencia
+11,5,Calle Bustos 932,Providencia
+12,6,Calle Colibri 5549,Las Condes
+13,6,Calle Copihue 1818,La Reina
+14,7,Avenida Macul 2308,Macul
+15,7,Avenida Flores 4399,San Joaquin
+16,8,Avenida Mi Rey 9876,San Joaquin
+17,8,Avenida Empanada 1149,San Miguel
+18,9,Calle Luis Pasteur 2948,La Florida
+19,9,Calle Espoz 4560,La Pintana
