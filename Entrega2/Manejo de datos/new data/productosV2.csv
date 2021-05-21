@@ -1,0 +1,2111 @@
+id,nombre,precio,descripción,largo(cm),alto(cm),ancho(cm),peso(kg),fecha_de_caducidad,duracion_sin_refrigerar,tipo_de_conserva,tienda
+267,pollo,6605,carne,,,,,2021-10-15,17,,18
+357,mouse,14549,producto tecnologico,26,50,42,0.66,,,,17
+357,mouse,14549,producto tecnologico,26,50,42,0.66,,,,91
+295,manzana,11013,frutas,,,,,2022-01-18,17,,74
+158,hamburguesa de pollo,10287,hamburguesa,,,,3.71,2021-05-07,,,53
+379,hamburguesa de vacuno,11754,hamburguesa,,,,1.87,2021-07-16,,,84
+382,kiwi,10967,frutas,,,,,2021-12-07,10,,78
+367,teclado,7331,producto tecnologico,32,32,18,0.5,,,,16
+327,hallulla,6887,pan,,,,,2021-12-06,20,,34
+83, frutillas en conserva,12139,fruta en conserva,,,,,2021-05-23,,caja,34
+412,marraqueta,14464,pan,,,,,2021-11-17,24,,7
+384,pantalla lineas,13539,pantalla de luz,22,14,48,0.65,,,,30
+394,limon,5808,verduras,,,,,2021-09-15,11,,5
+150,salmon,6044,pescado congelado,,,,3.53,2022-04-17,,,26
+331,lenguado,6376,pescado congelado,,,,1.21,2021-08-01,,,9
+191,marraqueta,6589,pan,,,,,2022-05-02,17,,38
+151,cerdo congelado,13962,carne congelada,,,,2.29,2021-10-26,,,23
+284,marraqueta,14433,pan,,,,,2022-02-20,14,,58
+13,esparragos frasco,14537,verdura en conserva,,,,,2021-07-12,,caja,47
+257,pantalon,12445,ropa,39,15,50,0.46,,,,21
+41,hamburguesa de verduras,13789,hamburguesa,,,,3.86,2021-06-04,,,29
+40,pantalla lisa,11843,pantalla de luz,18,25,9,0.43,,,,37
+267,pollo,6605,carne,,,,,2021-10-15,17,,40
+257,pantalon,12445,ropa,39,15,50,0.46,,,,80
+75,lechuga,7914,verduras,,,,,2022-02-27,12,,14
+32,pantalla para colgar,6200,pantalla de luz,47,45,32,0.19,,,,77
+104,chaqueta,9435,ropa,17,38,46,0.37,,,,64
+313,platano,12727,frutas,,,,,2021-11-23,18,,41
+171,mix de frutas en conserva,8658,fruta en conserva,,,,,2022-02-04,,caja,54
+399,mouse,14474,producto tecnologico,42,36,10,0.36,,,,71
+401,arvejas congeladas,14782,verduras congeladas,,,,2.48,2022-01-09,,,90
+367,teclado,7331,producto tecnologico,32,32,18,0.5,,,,3
+400,mix de verduras congeladas,13648,verduras congeladas,,,,4.55,2022-04-09,,,30
+368,limon,12932,verduras,,,,,2021-11-29,6,,19
+167,hamburguesa de vacuno,9224,hamburguesa,,,,2.74,2021-09-26,,,5
+389,manzana,7436,frutas,,,,,2022-02-13,16,,4
+341,pollo congelado,10534,carne congelada,,,,4.13,2021-12-09,,,74
+352,mix de frutas en conserva,14348,fruta en conserva,,,,,2021-09-26,,frasco,100
+401,arvejas congeladas,14782,verduras congeladas,,,,2.48,2022-01-09,,,46
+30,vacuno,8973,carne,,,,,2021-08-12,22,,2
+40,pantalla lisa,11843,pantalla de luz,18,25,9,0.43,,,,95
+356,kiwi,14585,frutas,,,,,2021-06-07,23,,89
+128,pavo,9003,carne,,,,,2021-10-02,21,,45
+378,televisor,10657,producto tecnologico,26,45,5,0.13,,,,72
+57,cerdo,7160,carne,,,,,2022-03-25,15,,72
+110,pantalla papel,9914,pantalla de luz,38,48,20,0.25,,,,16
+63,arvejas congeladas,14607,verduras congeladas,,,,3.93,2021-11-05,,,5
+9,hamburguesa de verduras,11678,hamburguesa,,,,3.01,2021-07-02,,,53
+163,carne molida,7134,carne congelada,,,,3.66,2021-09-26,,,39
+369,tomate,13568,verduras,,,,,2022-02-12,12,,84
+61,vacuno,5898,carne,,,,,2021-11-25,7,,51
+39,merlusa,10053,pescado congelado,,,,4.86,2021-10-05,,,22
+389,manzana,7436,frutas,,,,,2022-02-13,16,,99
+381,pantalla para colgar,8882,pantalla de luz,41,9,42,0.37,,,,46
+220,manzana,11649,frutas,,,,,2021-06-03,7,,63
+367,teclado,7331,producto tecnologico,32,32,18,0.5,,,,43
+256,porotos congelados,14619,verduras congeladas,,,,1.09,2021-08-23,,,75
+92,garbanzos en conserva,11554,verdura en conserva,,,,,2022-04-17,,caja,11
+302,teclado,8227,producto tecnologico,26,40,48,0.62,,,,23
+357,mouse,14549,producto tecnologico,26,50,42,0.66,,,,8
+275,pantalla lisa,13875,pantalla de luz,34,42,25,0.77,,,,24
+116,cerdo congelado,11027,carne congelada,,,,2.27,2021-08-10,,,77
+367,teclado,7331,producto tecnologico,32,32,18,0.5,,,,85
+376,arvejas en conserva,14460,verdura en conserva,,,,,2022-02-21,,caja,54
+37,cerdo,13208,carne,,,,,2022-03-12,8,,65
+370,pera,14775,frutas,,,,,2021-07-24,21,,67
+122,porotos congelados,11540,verduras congeladas,,,,3.16,2021-12-27,,,80
+219,papaya en conserva,13561,fruta en conserva,,,,,2022-01-15,,caja,73
+63,arvejas congeladas,14607,verduras congeladas,,,,3.93,2021-11-05,,,11
+28,cerdo,12064,carne,,,,,2021-05-11,6,,75
+135,arvejas congeladas,9491,verduras congeladas,,,,2.42,2022-02-27,,,4
+182,manzana,14158,frutas,,,,,2021-07-27,23,,78
+332,pantalla lisa,7833,pantalla de luz,6,6,7,0.64,,,,4
+87,teclado,12613,producto tecnologico,9,15,25,0.33,,,,48
+142,mix de frutas en conserva,5219,fruta en conserva,,,,,2021-06-08,,caja,50
+37,cerdo,13208,carne,,,,,2022-03-12,8,,50
+344,pantalla para colgar,11629,pantalla de luz,9,18,47,0.23,,,,69
+53,durazno,5640,frutas,,,,,2022-04-08,22,,97
+73,pantalla lineas,8949,pantalla de luz,22,29,11,0.45,,,,45
+102,televisor,5303,producto tecnologico,33,12,50,0.17,,,,29
+351,vacuno congelado,11224,carne congelada,,,,4.69,2022-01-08,,,63
+284,marraqueta,14433,pan,,,,,2022-02-20,14,,19
+360,pantalla papel,11751,pantalla de luz,37,41,20,0.71,,,,16
+348,mouse,14046,producto tecnologico,18,14,42,0.29,,,,14
+218,hamburguesa de pollo,8248,hamburguesa,,,,1.39,2022-01-16,,,28
+244,pantalla para colgar,5174,pantalla de luz,21,45,10,0.64,,,,20
+278,camiseta,9381,ropa,16,15,40,0.88,,,,1
+369,tomate,13568,verduras,,,,,2022-02-12,12,,72
+315,pantalla lisa,13048,pantalla de luz,40,24,26,0.36,,,,6
+102,televisor,5303,producto tecnologico,33,12,50,0.17,,,,92
+291,arvejas congeladas,9580,verduras congeladas,,,,3.57,2021-07-06,,,101
+303,pantalla lisa,14182,pantalla de luz,7,46,33,0.57,,,,9
+127,pan de molde,9653,pan,,,,,2021-07-25,19,,74
+229,merlusa,8380,pescado congelado,,,,4.96,2021-07-12,,,56
+176,salmon,6261,pescado congelado,,,,2.72,2021-12-09,,,65
+314,pavo congelado,12293,carne congelada,,,,3.25,2021-06-19,,,71
+93,pan de molde,11181,pan,,,,,2021-10-23,22,,52
+5,mix de verduras congeladas,11791,verduras congeladas,,,,1.61,2022-01-03,,,8
+297,pantalla para colgar,6596,pantalla de luz,20,13,44,0.51,,,,52
+7,pantalla lineas,10802,pantalla de luz,33,41,5,0.41,,,,74
+331,lenguado,6376,pescado congelado,,,,1.21,2021-08-01,,,56
+133,reineta,7700,pescado congelado,,,,4.5,2021-12-18,,,61
+254,kiwi,7974,frutas,,,,,2021-12-29,17,,40
+368,limon,12932,verduras,,,,,2021-11-29,6,,38
+226,carne molida,5033,carne congelada,,,,2.01,2022-04-17,,,25
+208,telefono,9760,producto tecnologico,22,8,31,0.14,,,,36
+0,merlusa,8706,pescado congelado,,,,4.82,2021-08-28,,,51
+181,hamburguesa de verduras,5304,hamburguesa,,,,2.48,2021-06-26,,,61
+62, frutillas en conserva,6958,fruta en conserva,,,,,2022-04-02,,lata,20
+160,merlusa,10910,pescado congelado,,,,3.21,2021-08-08,,,53
+246,pollo,9006,carne,,,,,2021-10-27,7,,32
+171,mix de frutas en conserva,8658,fruta en conserva,,,,,2022-02-04,,caja,87
+356,kiwi,14585,frutas,,,,,2021-06-07,23,,65
+409,pantalla lineas,12158,pantalla de luz,24,27,14,0.92,,,,75
+340,pantalla para colgar,5107,pantalla de luz,48,27,39,0.29,,,,73
+20,cerdo,12012,carne,,,,,2021-12-08,6,,15
+181,hamburguesa de verduras,5304,hamburguesa,,,,2.48,2021-06-26,,,3
+22,televisor,5912,producto tecnologico,43,22,30,0.41,,,,66
+119,hamburguesa de vacuno,12701,hamburguesa,,,,1.52,2022-01-30,,,32
+187,carne molida,12944,carne congelada,,,,2.4,2021-06-16,,,2
+351,vacuno congelado,11224,carne congelada,,,,4.69,2022-01-08,,,73
+187,carne molida,12944,carne congelada,,,,2.4,2021-06-16,,,77
+122,porotos congelados,11540,verduras congeladas,,,,3.16,2021-12-27,,,100
+312,pantalla papel,6898,pantalla de luz,43,7,19,0.75,,,,76
+205,lechuga,5224,verduras,,,,,2021-07-19,11,,44
+295,manzana,11013,frutas,,,,,2022-01-18,17,,55
+404,mix de verduras congeladas,14681,verduras congeladas,,,,1.66,2022-01-03,,,48
+385,limon,11324,verduras,,,,,2022-01-06,14,,16
+315,pantalla lisa,13048,pantalla de luz,40,24,26,0.36,,,,90
+192,telefono,12648,producto tecnologico,23,6,6,0.41,,,,55
+340,pantalla para colgar,5107,pantalla de luz,48,27,39,0.29,,,,71
+279,merlusa,9334,pescado congelado,,,,1.41,2022-04-18,,,101
+245,pantalla lisa,6627,pantalla de luz,49,31,37,0.25,,,,33
+312,pantalla papel,6898,pantalla de luz,43,7,19,0.75,,,,8
+273,hallulla,12150,pan,,,,,2021-08-15,23,,65
+154,telefono,13859,producto tecnologico,36,10,20,0.43,,,,50
+18,palta,14117,verduras,,,,,2021-06-12,9,,41
+142,mix de frutas en conserva,5219,fruta en conserva,,,,,2021-06-08,,caja,38
+60,pantalla para colgar,8436,pantalla de luz,6,24,5,0.6,,,,64
+78,hamburguesa de quinoa,7460,hamburguesa,,,,3.82,2021-05-17,,,40
+218,hamburguesa de pollo,8248,hamburguesa,,,,1.39,2022-01-16,,,45
+62, frutillas en conserva,6958,fruta en conserva,,,,,2022-04-02,,lata,66
+192,telefono,12648,producto tecnologico,23,6,6,0.41,,,,65
+308,mix de verduras congeladas,6920,verduras congeladas,,,,1.33,2021-08-20,,,86
+414,pantalla lineas,11871,pantalla de luz,12,14,49,0.55,,,,29
+75,lechuga,7914,verduras,,,,,2022-02-27,12,,91
+298,vestido,5065,ropa,7,7,19,0.16,,,,68
+167,hamburguesa de vacuno,9224,hamburguesa,,,,2.74,2021-09-26,,,98
+326,esparragos frasco,14352,verdura en conserva,,,,,2021-08-16,,lata,17
+175,hallulla,11970,pan,,,,,2021-07-02,23,,73
+405,pavo,7717,carne,,,,,2022-04-06,9,,51
+76,manzana,9326,frutas,,,,,2021-06-19,22,,16
+396,porotos congelados,8296,verduras congeladas,,,,4.65,2021-08-24,,,17
+363,jeans,7348,ropa,38,34,31,0.25,,,,22
+1,mix de frutas en conserva,10730,fruta en conserva,,,,,2021-06-07,,caja,81
+140,teclado,6971,producto tecnologico,45,9,8,0.56,,,,61
+292,vacuno congelado,12122,carne congelada,,,,1.41,2021-05-20,,,47
+16,hamburguesa de quinoa,5914,hamburguesa,,,,2.2,2021-12-10,,,51
+311,vestido,14898,ropa,28,25,14,0.21,,,,51
+377,telefono,14256,producto tecnologico,35,5,12,0.82,,,,25
+222,vestido,10689,ropa,19,49,16,0.17,,,,12
+38,cerdo congelado,5036,carne congelada,,,,2.67,2021-07-11,,,10
+153,pantalla papel,8665,pantalla de luz,39,36,29,0.6,,,,61
+367,teclado,7331,producto tecnologico,32,32,18,0.5,,,,99
+327,hallulla,6887,pan,,,,,2021-12-06,20,,26
+224,camiseta,12133,ropa,7,38,23,0.41,,,,64
+138,marraqueta,9334,pan,,,,,2022-04-27,13,,97
+211,hamburguesa de quinoa,13949,hamburguesa,,,,2.31,2021-10-10,,,68
+264,hamburguesa de vacuno,14847,hamburguesa,,,,1.01,2021-08-21,,,53
+46,palta,13279,verduras,,,,,2021-09-14,17,,86
+94,pollo congelado,6136,carne congelada,,,,1.14,2021-10-09,,,16
+25,lechuga,7704,verduras,,,,,2021-12-21,15,,94
+214,cerdo,6063,carne,,,,,2022-03-24,15,,9
+143,vacuno,13742,carne,,,,,2022-03-08,8,,37
+66,vacuno congelado,12014,carne congelada,,,,1.35,2021-11-12,,,27
+402,salmon,6712,pescado congelado,,,,4.51,2022-01-08,,,90
+371,marraqueta,11380,pan,,,,,2022-04-05,21,,10
+83, frutillas en conserva,12139,fruta en conserva,,,,,2021-05-23,,caja,22
+332,pantalla lisa,7833,pantalla de luz,6,6,7,0.64,,,,85
+168,hallulla,6062,pan,,,,,2022-04-17,21,,51
+377,telefono,14256,producto tecnologico,35,5,12,0.82,,,,92
+209,televisor,10968,producto tecnologico,27,37,47,0.18,,,,85
+73,pantalla lineas,8949,pantalla de luz,22,29,11,0.45,,,,84
+238,reineta,10784,pescado congelado,,,,3.84,2022-04-11,,,86
+404,mix de verduras congeladas,14681,verduras congeladas,,,,1.66,2022-01-03,,,76
+381,pantalla para colgar,8882,pantalla de luz,41,9,42,0.37,,,,66
+30,vacuno,8973,carne,,,,,2021-08-12,22,,15
+366,pantalla papel,8830,pantalla de luz,45,47,16,0.92,,,,48
+318,pavo,6208,carne,,,,,2021-10-10,10,,80
+79,teclado,5555,producto tecnologico,26,10,17,0.35,,,,4
+205,lechuga,5224,verduras,,,,,2021-07-19,11,,28
+381,pantalla para colgar,8882,pantalla de luz,41,9,42,0.37,,,,11
+3,merlusa,13317,pescado congelado,,,,2.03,2021-08-09,,,73
+268,teclado,12598,producto tecnologico,43,14,8,0.86,,,,37
+366,pantalla papel,8830,pantalla de luz,45,47,16,0.92,,,,79
+13,esparragos frasco,14537,verdura en conserva,,,,,2021-07-12,,caja,70
+154,telefono,13859,producto tecnologico,36,10,20,0.43,,,,53
+101,mix de verduras congeladas,8253,verduras congeladas,,,,3.95,2021-07-18,,,11
+334,pantalla lineas,9860,pantalla de luz,40,14,10,0.98,,,,65
+326,esparragos frasco,14352,verdura en conserva,,,,,2021-08-16,,lata,101
+33, frutillas en conserva,9530,fruta en conserva,,,,,2021-09-14,,caja,31
+162,pollo,9026,carne,,,,,2021-08-28,24,,68
+304,jeans,8403,ropa,26,29,22,0.69,,,,85
+392,arvejas en conserva,13884,verdura en conserva,,,,,2021-07-28,,lata,54
+74,pantalla lisa,14478,pantalla de luz,5,33,14,0.72,,,,0
+370,pera,14775,frutas,,,,,2021-07-24,21,,98
+392,arvejas en conserva,13884,verdura en conserva,,,,,2021-07-28,,lata,100
+35,hamburguesa de vacuno,13174,hamburguesa,,,,3.37,2021-08-07,,,76
+301,carne molida,6414,carne congelada,,,,4.15,2021-12-30,,,64
+380,reineta,6388,pescado congelado,,,,4.72,2022-03-15,,,15
+261,palta,13207,verduras,,,,,2021-08-17,11,,82
+198,mouse,12730,producto tecnologico,33,29,6,0.62,,,,21
+85,salmon,9211,pescado congelado,,,,4.93,2021-11-09,,,87
+206,lenguado,8200,pescado congelado,,,,2.33,2021-05-19,,,84
+125,teclado,6734,producto tecnologico,12,42,48,0.82,,,,72
+378,televisor,10657,producto tecnologico,26,45,5,0.13,,,,8
+174,vacuno,14113,carne,,,,,2021-09-10,15,,67
+25,lechuga,7704,verduras,,,,,2021-12-21,15,,59
+215,durazno,9245,frutas,,,,,2021-10-16,23,,25
+113,hamburguesa de verduras,8820,hamburguesa,,,,1.24,2021-06-12,,,54
+142,mix de frutas en conserva,5219,fruta en conserva,,,,,2021-06-08,,caja,40
+36,lenguado,12514,pescado congelado,,,,4.0,2021-11-06,,,77
+397,palta,13962,verduras,,,,,2021-05-27,8,,46
+93,pan de molde,11181,pan,,,,,2021-10-23,22,,93
+301,carne molida,6414,carne congelada,,,,4.15,2021-12-30,,,96
+382,kiwi,10967,frutas,,,,,2021-12-07,10,,75
+70,vacuno congelado,14623,carne congelada,,,,3.94,2021-09-03,,,63
+157,hamburguesa de pollo,14465,hamburguesa,,,,2.41,2021-09-28,,,77
+34,mix de verduras congeladas,13386,verduras congeladas,,,,4.15,2021-06-30,,,71
+61,vacuno,5898,carne,,,,,2021-11-25,7,,17
+252,pavo congelado,6840,carne congelada,,,,1.6,2021-10-01,,,101
+38,cerdo congelado,5036,carne congelada,,,,2.67,2021-07-11,,,10
+98,teclado,5890,producto tecnologico,31,5,34,0.76,,,,67
+49,televisor,11837,producto tecnologico,9,36,33,0.39,,,,81
+412,marraqueta,14464,pan,,,,,2021-11-17,24,,66
+408,garbanzos en conserva,12008,verdura en conserva,,,,,2022-02-11,,frasco,46
+150,salmon,6044,pescado congelado,,,,3.53,2022-04-17,,,26
+367,teclado,7331,producto tecnologico,32,32,18,0.5,,,,86
+279,merlusa,9334,pescado congelado,,,,1.41,2022-04-18,,,10
+208,telefono,9760,producto tecnologico,22,8,31,0.14,,,,98
+314,pavo congelado,12293,carne congelada,,,,3.25,2021-06-19,,,98
+297,pantalla para colgar,6596,pantalla de luz,20,13,44,0.51,,,,85
+206,lenguado,8200,pescado congelado,,,,2.33,2021-05-19,,,84
+396,porotos congelados,8296,verduras congeladas,,,,4.65,2021-08-24,,,3
+84,pantalla lisa,14987,pantalla de luz,16,20,49,0.83,,,,24
+217,pollo,13965,carne,,,,,2021-09-16,24,,53
+74,pantalla lisa,14478,pantalla de luz,5,33,14,0.72,,,,37
+298,vestido,5065,ropa,7,7,19,0.16,,,,71
+32,pantalla para colgar,6200,pantalla de luz,47,45,32,0.19,,,,64
+269,televisor,11826,producto tecnologico,14,30,14,0.88,,,,67
+166,reineta,12040,pescado congelado,,,,3.73,2021-08-12,,,87
+388,hamburguesa de vacuno,8376,hamburguesa,,,,1.73,2021-10-11,,,81
+375,pollo congelado,7447,carne congelada,,,,2.31,2021-06-29,,,19
+60,pantalla para colgar,8436,pantalla de luz,6,24,5,0.6,,,,37
+411,durazno,11230,frutas,,,,,2022-02-17,8,,100
+172,polera,11996,ropa,44,10,39,0.7,,,,95
+68,camisa,5009,ropa,40,29,14,0.6,,,,16
+21,televisor,12324,producto tecnologico,14,38,28,0.2,,,,14
+266,poleron,11997,ropa,36,44,9,0.84,,,,27
+237,marraqueta,6179,pan,,,,,2022-01-17,15,,73
+293,vacuno congelado,7891,carne congelada,,,,1.44,2021-12-03,,,101
+265,telefono,6947,producto tecnologico,9,40,30,0.89,,,,10
+195,reineta,8674,pescado congelado,,,,2.9,2022-01-15,,,13
+66,vacuno congelado,12014,carne congelada,,,,1.35,2021-11-12,,,70
+94,pollo congelado,6136,carne congelada,,,,1.14,2021-10-09,,,101
+347,salmon,5361,pescado congelado,,,,1.66,2021-07-17,,,25
+331,lenguado,6376,pescado congelado,,,,1.21,2021-08-01,,,81
+134,jeans,10305,ropa,47,11,36,0.72,,,,96
+63,arvejas congeladas,14607,verduras congeladas,,,,3.93,2021-11-05,,,65
+128,pavo,9003,carne,,,,,2021-10-02,21,,56
+45,salmon,10211,pescado congelado,,,,1.69,2021-11-09,,,75
+0,merlusa,8706,pescado congelado,,,,4.82,2021-08-28,,,3
+82,durazno,9861,frutas,,,,,2021-07-18,17,,97
+26,manzana,7438,frutas,,,,,2021-10-02,17,,14
+194,hallulla,9444,pan,,,,,2021-11-03,15,,10
+74,pantalla lisa,14478,pantalla de luz,5,33,14,0.72,,,,50
+151,cerdo congelado,13962,carne congelada,,,,2.29,2021-10-26,,,53
+321,esparragos frasco,9752,verdura en conserva,,,,,2021-06-24,,lata,45
+267,pollo,6605,carne,,,,,2021-10-15,17,,77
+210,pantalla lisa,7658,pantalla de luz,46,8,14,0.35,,,,80
+388,hamburguesa de vacuno,8376,hamburguesa,,,,1.73,2021-10-11,,,39
+15,durazno,13302,frutas,,,,,2021-10-13,10,,95
+107,esparragos frasco,7134,verdura en conserva,,,,,2021-11-30,,caja,28
+222,vestido,10689,ropa,19,49,16,0.17,,,,29
+344,pantalla para colgar,11629,pantalla de luz,9,18,47,0.23,,,,8
+355,mix de frutas en conserva,12120,fruta en conserva,,,,,2021-08-27,,frasco,56
+258,chaqueta,13813,ropa,35,33,14,0.63,,,,100
+148,palta,9424,verduras,,,,,2021-06-22,17,,73
+211,hamburguesa de quinoa,13949,hamburguesa,,,,2.31,2021-10-10,,,7
+163,carne molida,7134,carne congelada,,,,3.66,2021-09-26,,,101
+355,mix de frutas en conserva,12120,fruta en conserva,,,,,2021-08-27,,frasco,23
+237,marraqueta,6179,pan,,,,,2022-01-17,15,,5
+270,hamburguesa de verduras,12794,hamburguesa,,,,2.99,2021-05-18,,,82
+95,esparragos frasco,9882,verdura en conserva,,,,,2021-09-09,,lata,39
+62, frutillas en conserva,6958,fruta en conserva,,,,,2022-04-02,,lata,84
+353,pavo congelado,7137,carne congelada,,,,2.29,2021-10-21,,,82
+309,carne molida,5014,carne congelada,,,,1.25,2021-08-06,,,17
+165,camiseta,10613,ropa,35,31,31,0.29,,,,71
+278,camiseta,9381,ropa,16,15,40,0.88,,,,0
+352,mix de frutas en conserva,14348,fruta en conserva,,,,,2021-09-26,,frasco,31
+37,cerdo,13208,carne,,,,,2022-03-12,8,,51
+123,choclo congelado,14418,verduras congeladas,,,,2.32,2021-09-01,,,36
+338,mix de frutas en conserva,10464,fruta en conserva,,,,,2021-10-26,,frasco,50
+413,durazno en conserva,12428,fruta en conserva,,,,,2021-09-15,,frasco,71
+247,poleron,12512,ropa,35,28,12,0.85,,,,12
+248,pantalla para colgar,8944,pantalla de luz,22,6,37,0.47,,,,28
+111,lechuga,8330,verduras,,,,,2021-09-04,13,,50
+81,hamburguesa de vacuno,8644,hamburguesa,,,,4.55,2022-04-16,,,69
+55,mouse,6334,producto tecnologico,11,13,39,0.64,,,,3
+283,telefono,12515,producto tecnologico,15,19,38,0.71,,,,42
+33, frutillas en conserva,9530,fruta en conserva,,,,,2021-09-14,,caja,73
+36,lenguado,12514,pescado congelado,,,,4.0,2021-11-06,,,76
+142,mix de frutas en conserva,5219,fruta en conserva,,,,,2021-06-08,,caja,43
+301,carne molida,6414,carne congelada,,,,4.15,2021-12-30,,,74
+409,pantalla lineas,12158,pantalla de luz,24,27,14,0.92,,,,85
+16,hamburguesa de quinoa,5914,hamburguesa,,,,2.2,2021-12-10,,,44
+287,carne molida,14751,carne congelada,,,,2.47,2021-12-29,,,83
+26,manzana,7438,frutas,,,,,2021-10-02,17,,89
+56,lenguado,5173,pescado congelado,,,,2.6,2021-11-07,,,1
+89,pantalla lineas,6647,pantalla de luz,38,11,43,0.78,,,,10
+120,marraqueta,13520,pan,,,,,2022-01-19,9,,11
+300,durazno en conserva,5467,fruta en conserva,,,,,2022-02-18,,caja,0
+208,telefono,9760,producto tecnologico,22,8,31,0.14,,,,14
+231,jeans,13914,ropa,35,15,10,0.92,,,,26
+398,pantalla papel,14579,pantalla de luz,19,20,25,0.19,,,,63
+53,durazno,5640,frutas,,,,,2022-04-08,22,,32
+184,hamburguesa de vacuno,6871,hamburguesa,,,,1.5,2022-02-25,,,41
+13,esparragos frasco,14537,verdura en conserva,,,,,2021-07-12,,caja,6
+82,durazno,9861,frutas,,,,,2021-07-18,17,,5
+75,lechuga,7914,verduras,,,,,2022-02-27,12,,36
+175,hallulla,11970,pan,,,,,2021-07-02,23,,99
+371,marraqueta,11380,pan,,,,,2022-04-05,21,,80
+18,palta,14117,verduras,,,,,2021-06-12,9,,9
+209,televisor,10968,producto tecnologico,27,37,47,0.18,,,,21
+381,pantalla para colgar,8882,pantalla de luz,41,9,42,0.37,,,,22
+214,cerdo,6063,carne,,,,,2022-03-24,15,,75
+331,lenguado,6376,pescado congelado,,,,1.21,2021-08-01,,,38
+131,cerdo congelado,8452,carne congelada,,,,2.73,2022-02-07,,,41
+416,esparragos frasco,6807,verdura en conserva,,,,,2022-01-18,,frasco,98
+379,hamburguesa de vacuno,11754,hamburguesa,,,,1.87,2021-07-16,,,92
+174,vacuno,14113,carne,,,,,2021-09-10,15,,50
+68,camisa,5009,ropa,40,29,14,0.6,,,,94
+44,lenguado,12660,pescado congelado,,,,3.44,2021-05-20,,,92
+37,cerdo,13208,carne,,,,,2022-03-12,8,,58
+260,limon,10707,verduras,,,,,2022-04-19,19,,55
+367,teclado,7331,producto tecnologico,32,32,18,0.5,,,,69
+167,hamburguesa de vacuno,9224,hamburguesa,,,,2.74,2021-09-26,,,33
+113,hamburguesa de verduras,8820,hamburguesa,,,,1.24,2021-06-12,,,95
+34,mix de verduras congeladas,13386,verduras congeladas,,,,4.15,2021-06-30,,,78
+244,pantalla para colgar,5174,pantalla de luz,21,45,10,0.64,,,,94
+355,mix de frutas en conserva,12120,fruta en conserva,,,,,2021-08-27,,frasco,56
+329,hallulla,12550,pan,,,,,2022-01-24,5,,66
+90,mix de verduras congeladas,9916,verduras congeladas,,,,2.52,2021-09-29,,,92
+18,palta,14117,verduras,,,,,2021-06-12,9,,50
+87,teclado,12613,producto tecnologico,9,15,25,0.33,,,,3
+34,mix de verduras congeladas,13386,verduras congeladas,,,,4.15,2021-06-30,,,31
+129,pan de molde,10062,pan,,,,,2022-01-30,16,,5
+401,arvejas congeladas,14782,verduras congeladas,,,,2.48,2022-01-09,,,37
+272,salmon,6760,pescado congelado,,,,3.85,2021-08-13,,,61
+366,pantalla papel,8830,pantalla de luz,45,47,16,0.92,,,,63
+357,mouse,14549,producto tecnologico,26,50,42,0.66,,,,5
+236,mouse,11941,producto tecnologico,42,8,38,0.94,,,,9
+27,hamburguesa de pollo,13436,hamburguesa,,,,2.03,2021-12-25,,,0
+42,cerdo,6686,carne,,,,,2022-01-09,19,,76
+23,arvejas congeladas,12666,verduras congeladas,,,,2.44,2021-12-04,,,56
+320,pantalla lineas,8495,pantalla de luz,34,42,48,0.41,,,,11
+379,hamburguesa de vacuno,11754,hamburguesa,,,,1.87,2021-07-16,,,76
+36,lenguado,12514,pescado congelado,,,,4.0,2021-11-06,,,17
+349, frutillas en conserva,7657,fruta en conserva,,,,,2021-11-27,,lata,47
+160,merlusa,10910,pescado congelado,,,,3.21,2021-08-08,,,38
+321,esparragos frasco,9752,verdura en conserva,,,,,2021-06-24,,lata,54
+292,vacuno congelado,12122,carne congelada,,,,1.41,2021-05-20,,,52
+341,pollo congelado,10534,carne congelada,,,,4.13,2021-12-09,,,44
+385,limon,11324,verduras,,,,,2022-01-06,14,,59
+332,pantalla lisa,7833,pantalla de luz,6,6,7,0.64,,,,4
+158,hamburguesa de pollo,10287,hamburguesa,,,,3.71,2021-05-07,,,50
+40,pantalla lisa,11843,pantalla de luz,18,25,9,0.43,,,,90
+297,pantalla para colgar,6596,pantalla de luz,20,13,44,0.51,,,,2
+377,telefono,14256,producto tecnologico,35,5,12,0.82,,,,48
+314,pavo congelado,12293,carne congelada,,,,3.25,2021-06-19,,,54
+300,durazno en conserva,5467,fruta en conserva,,,,,2022-02-18,,caja,98
+287,carne molida,14751,carne congelada,,,,2.47,2021-12-29,,,51
+84,pantalla lisa,14987,pantalla de luz,16,20,49,0.83,,,,92
+269,televisor,11826,producto tecnologico,14,30,14,0.88,,,,63
+191,marraqueta,6589,pan,,,,,2022-05-02,17,,58
+19,durazno en conserva,8421,fruta en conserva,,,,,2021-12-12,,frasco,56
+286,manzana,13091,frutas,,,,,2021-08-17,9,,54
+262,lenguado,14080,pescado congelado,,,,1.7,2021-07-30,,,84
+75,lechuga,7914,verduras,,,,,2022-02-27,12,,98
+372,mouse,9082,producto tecnologico,20,10,12,0.85,,,,67
+254,kiwi,7974,frutas,,,,,2021-12-29,17,,101
+89,pantalla lineas,6647,pantalla de luz,38,11,43,0.78,,,,38
+197,pantalla papel,10497,pantalla de luz,46,35,27,0.63,,,,79
+186,lechuga,13393,verduras,,,,,2021-12-03,24,,46
+415,pantalla lineas,8289,pantalla de luz,45,8,35,0.47,,,,59
+352,mix de frutas en conserva,14348,fruta en conserva,,,,,2021-09-26,,frasco,96
+134,jeans,10305,ropa,47,11,36,0.72,,,,59
+90,mix de verduras congeladas,9916,verduras congeladas,,,,2.52,2021-09-29,,,13
+126,teclado,12241,producto tecnologico,38,9,45,0.88,,,,34
+192,telefono,12648,producto tecnologico,23,6,6,0.41,,,,41
+285,durazno,13057,frutas,,,,,2022-01-21,11,,65
+74,pantalla lisa,14478,pantalla de luz,5,33,14,0.72,,,,4
+45,salmon,10211,pescado congelado,,,,1.69,2021-11-09,,,24
+308,mix de verduras congeladas,6920,verduras congeladas,,,,1.33,2021-08-20,,,83
+403,vestido,11750,ropa,41,36,14,0.61,,,,4
+121,pan de molde,7108,pan,,,,,2021-06-18,21,,79
+286,manzana,13091,frutas,,,,,2021-08-17,9,,87
+11,papaya en conserva,7060,fruta en conserva,,,,,2022-02-04,,lata,33
+322,mix de verduras congeladas,11198,verduras congeladas,,,,1.12,2021-09-18,,,41
+31,papaya en conserva,8954,fruta en conserva,,,,,2022-04-20,,lata,28
+226,carne molida,5033,carne congelada,,,,2.01,2022-04-17,,,9
+331,lenguado,6376,pescado congelado,,,,1.21,2021-08-01,,,90
+234,brocoli,10802,verduras,,,,,2022-01-06,5,,69
+386,carne molida,7866,carne congelada,,,,2.83,2021-09-14,,,34
+327,hallulla,6887,pan,,,,,2021-12-06,20,,70
+137,jeans,11374,ropa,41,5,7,0.89,,,,5
+202,garbanzos en conserva,14323,verdura en conserva,,,,,2022-01-29,,caja,67
+398,pantalla papel,14579,pantalla de luz,19,20,25,0.19,,,,81
+159,esparragos frasco,13153,verdura en conserva,,,,,2021-06-11,,frasco,58
+104,chaqueta,9435,ropa,17,38,46,0.37,,,,29
+26,manzana,7438,frutas,,,,,2021-10-02,17,,33
+107,esparragos frasco,7134,verdura en conserva,,,,,2021-11-30,,caja,12
+38,cerdo congelado,5036,carne congelada,,,,2.67,2021-07-11,,,73
+300,durazno en conserva,5467,fruta en conserva,,,,,2022-02-18,,caja,12
+101,mix de verduras congeladas,8253,verduras congeladas,,,,3.95,2021-07-18,,,55
+398,pantalla papel,14579,pantalla de luz,19,20,25,0.19,,,,42
+235,vacuno,8664,carne,,,,,2021-08-29,22,,21
+388,hamburguesa de vacuno,8376,hamburguesa,,,,1.73,2021-10-11,,,13
+305,teclado,9834,producto tecnologico,22,36,34,0.46,,,,49
+295,manzana,11013,frutas,,,,,2022-01-18,17,,31
+294,pollo congelado,10551,carne congelada,,,,4.93,2021-10-13,,,62
+363,jeans,7348,ropa,38,34,31,0.25,,,,45
+340,pantalla para colgar,5107,pantalla de luz,48,27,39,0.29,,,,46
+197,pantalla papel,10497,pantalla de luz,46,35,27,0.63,,,,80
+178,manzana,13975,frutas,,,,,2022-01-02,15,,42
+303,pantalla lisa,14182,pantalla de luz,7,46,33,0.57,,,,99
+302,teclado,8227,producto tecnologico,26,40,48,0.62,,,,89
+200,hamburguesa de verduras,5681,hamburguesa,,,,4.37,2022-02-03,,,38
+206,lenguado,8200,pescado congelado,,,,2.33,2021-05-19,,,7
+163,carne molida,7134,carne congelada,,,,3.66,2021-09-26,,,90
+35,hamburguesa de vacuno,13174,hamburguesa,,,,3.37,2021-08-07,,,62
+88,mouse,12978,producto tecnologico,24,18,26,0.44,,,,72
+44,lenguado,12660,pescado congelado,,,,3.44,2021-05-20,,,91
+245,pantalla lisa,6627,pantalla de luz,49,31,37,0.25,,,,90
+99,arvejas congeladas,12265,verduras congeladas,,,,1.51,2021-05-29,,,96
+375,pollo congelado,7447,carne congelada,,,,2.31,2021-06-29,,,75
+394,limon,5808,verduras,,,,,2021-09-15,11,,21
+25,lechuga,7704,verduras,,,,,2021-12-21,15,,32
+284,marraqueta,14433,pan,,,,,2022-02-20,14,,19
+94,pollo congelado,6136,carne congelada,,,,1.14,2021-10-09,,,39
+56,lenguado,5173,pescado congelado,,,,2.6,2021-11-07,,,71
+297,pantalla para colgar,6596,pantalla de luz,20,13,44,0.51,,,,20
+157,hamburguesa de pollo,14465,hamburguesa,,,,2.41,2021-09-28,,,68
+182,manzana,14158,frutas,,,,,2021-07-27,23,,88
+12,mix de frutas en conserva,9432,fruta en conserva,,,,,2021-10-07,,caja,37
+199,garbanzos en conserva,9115,verdura en conserva,,,,,2021-12-23,,lata,73
+228, frutillas en conserva,13599,fruta en conserva,,,,,2022-04-12,,lata,63
+45,salmon,10211,pescado congelado,,,,1.69,2021-11-09,,,70
+16,hamburguesa de quinoa,5914,hamburguesa,,,,2.2,2021-12-10,,,39
+33, frutillas en conserva,9530,fruta en conserva,,,,,2021-09-14,,caja,54
+390,vacuno congelado,12201,carne congelada,,,,3.58,2021-08-22,,,10
+123,choclo congelado,14418,verduras congeladas,,,,2.32,2021-09-01,,,73
+354,pollo congelado,8252,carne congelada,,,,2.98,2021-06-17,,,37
+275,pantalla lisa,13875,pantalla de luz,34,42,25,0.77,,,,97
+230,pantalla para colgar,5925,pantalla de luz,8,41,12,0.9,,,,67
+143,vacuno,13742,carne,,,,,2022-03-08,8,,48
+239,merlusa,8602,pescado congelado,,,,1.0,2022-03-10,,,13
+52,manzana,7327,frutas,,,,,2021-12-12,19,,101
+382,kiwi,10967,frutas,,,,,2021-12-07,10,,69
+88,mouse,12978,producto tecnologico,24,18,26,0.44,,,,40
+210,pantalla lisa,7658,pantalla de luz,46,8,14,0.35,,,,40
+325,cerdo congelado,8676,carne congelada,,,,1.62,2021-05-16,,,50
+264,hamburguesa de vacuno,14847,hamburguesa,,,,1.01,2021-08-21,,,28
+169,hallulla,12245,pan,,,,,2021-05-17,5,,35
+299,arvejas congeladas,7343,verduras congeladas,,,,2.55,2021-12-24,,,90
+313,platano,12727,frutas,,,,,2021-11-23,18,,64
+244,pantalla para colgar,5174,pantalla de luz,21,45,10,0.64,,,,20
+66,vacuno congelado,12014,carne congelada,,,,1.35,2021-11-12,,,38
+84,pantalla lisa,14987,pantalla de luz,16,20,49,0.83,,,,31
+106,pantalla papel,8041,pantalla de luz,25,14,45,0.8,,,,7
+38,cerdo congelado,5036,carne congelada,,,,2.67,2021-07-11,,,97
+6,marraqueta,7830,pan,,,,,2021-08-21,22,,25
+243,choclo congelado,6481,verduras congeladas,,,,3.91,2022-01-23,,,42
+235,vacuno,8664,carne,,,,,2021-08-29,22,,42
+14,durazno en conserva,8285,fruta en conserva,,,,,2021-06-08,,caja,34
+218,hamburguesa de pollo,8248,hamburguesa,,,,1.39,2022-01-16,,,75
+12,mix de frutas en conserva,9432,fruta en conserva,,,,,2021-10-07,,caja,74
+226,carne molida,5033,carne congelada,,,,2.01,2022-04-17,,,74
+75,lechuga,7914,verduras,,,,,2022-02-27,12,,85
+62, frutillas en conserva,6958,fruta en conserva,,,,,2022-04-02,,lata,61
+65,hamburguesa de verduras,7556,hamburguesa,,,,3.79,2022-02-08,,,100
+279,merlusa,9334,pescado congelado,,,,1.41,2022-04-18,,,4
+172,polera,11996,ropa,44,10,39,0.7,,,,50
+67,limon,13531,verduras,,,,,2022-03-25,11,,13
+410,salmon,12879,pescado congelado,,,,1.4,2021-09-02,,,54
+185,cerdo,12579,carne,,,,,2021-12-20,6,,93
+346,porotos congelados,7726,verduras congeladas,,,,2.94,2021-05-29,,,80
+218,hamburguesa de pollo,8248,hamburguesa,,,,1.39,2022-01-16,,,17
+92,garbanzos en conserva,11554,verdura en conserva,,,,,2022-04-17,,caja,70
+312,pantalla papel,6898,pantalla de luz,43,7,19,0.75,,,,43
+236,mouse,11941,producto tecnologico,42,8,38,0.94,,,,10
+44,lenguado,12660,pescado congelado,,,,3.44,2021-05-20,,,21
+89,pantalla lineas,6647,pantalla de luz,38,11,43,0.78,,,,85
+27,hamburguesa de pollo,13436,hamburguesa,,,,2.03,2021-12-25,,,56
+25,lechuga,7704,verduras,,,,,2021-12-21,15,,54
+158,hamburguesa de pollo,10287,hamburguesa,,,,3.71,2021-05-07,,,78
+9,hamburguesa de verduras,11678,hamburguesa,,,,3.01,2021-07-02,,,88
+239,merlusa,8602,pescado congelado,,,,1.0,2022-03-10,,,13
+127,pan de molde,9653,pan,,,,,2021-07-25,19,,80
+211,hamburguesa de quinoa,13949,hamburguesa,,,,2.31,2021-10-10,,,56
+226,carne molida,5033,carne congelada,,,,2.01,2022-04-17,,,94
+395,choclo en conserva,11836,verdura en conserva,,,,,2021-10-05,,frasco,68
+335,pan de molde,7937,pan,,,,,2022-02-12,17,,46
+170,mix de verduras congeladas,7212,verduras congeladas,,,,4.06,2021-06-20,,,55
+8,pantalla papel,5556,pantalla de luz,17,15,14,0.6,,,,30
+383,hamburguesa de verduras,9105,hamburguesa,,,,3.79,2021-07-14,,,30
+94,pollo congelado,6136,carne congelada,,,,1.14,2021-10-09,,,78
+113,hamburguesa de verduras,8820,hamburguesa,,,,1.24,2021-06-12,,,30
+69,teclado,11714,producto tecnologico,11,30,31,0.89,,,,43
+262,lenguado,14080,pescado congelado,,,,1.7,2021-07-30,,,43
+140,teclado,6971,producto tecnologico,45,9,8,0.56,,,,8
+191,marraqueta,6589,pan,,,,,2022-05-02,17,,39
+305,teclado,9834,producto tecnologico,22,36,34,0.46,,,,33
+156,hallulla,11210,pan,,,,,2021-08-15,6,,80
+24,teclado,9510,producto tecnologico,27,46,24,0.44,,,,98
+98,teclado,5890,producto tecnologico,31,5,34,0.76,,,,88
+179,teclado,12795,producto tecnologico,46,7,12,0.52,,,,94
+59,durazno en conserva,5186,fruta en conserva,,,,,2021-09-10,,frasco,55
+248,pantalla para colgar,8944,pantalla de luz,22,6,37,0.47,,,,31
+271,televisor,9188,producto tecnologico,47,23,16,0.25,,,,98
+177,hamburguesa de pollo,6480,hamburguesa,,,,2.75,2021-11-07,,,95
+314,pavo congelado,12293,carne congelada,,,,3.25,2021-06-19,,,25
+347,salmon,5361,pescado congelado,,,,1.66,2021-07-17,,,35
+165,camiseta,10613,ropa,35,31,31,0.29,,,,84
+32,pantalla para colgar,6200,pantalla de luz,47,45,32,0.19,,,,98
+1,mix de frutas en conserva,10730,fruta en conserva,,,,,2021-06-07,,caja,42
+316,vacuno,13806,carne,,,,,2022-04-03,12,,96
+73,pantalla lineas,8949,pantalla de luz,22,29,11,0.45,,,,96
+371,marraqueta,11380,pan,,,,,2022-04-05,21,,5
+44,lenguado,12660,pescado congelado,,,,3.44,2021-05-20,,,88
+333,pantalla lineas,6062,pantalla de luz,16,23,37,0.17,,,,24
+52,manzana,7327,frutas,,,,,2021-12-12,19,,61
+239,merlusa,8602,pescado congelado,,,,1.0,2022-03-10,,,53
+330,cerdo,7094,carne,,,,,2022-02-28,14,,45
+163,carne molida,7134,carne congelada,,,,3.66,2021-09-26,,,49
+278,camiseta,9381,ropa,16,15,40,0.88,,,,88
+108,pantalla papel,14454,pantalla de luz,18,12,5,0.76,,,,42
+65,hamburguesa de verduras,7556,hamburguesa,,,,3.79,2022-02-08,,,26
+58,hamburguesa de vacuno,5337,hamburguesa,,,,3.84,2022-01-06,,,60
+149,pan de molde,13136,pan,,,,,2021-09-30,24,,9
+417,pollo,10015,carne,,,,,2022-01-06,11,,50
+111,lechuga,8330,verduras,,,,,2021-09-04,13,,38
+316,vacuno,13806,carne,,,,,2022-04-03,12,,0
+350,brocoli,7862,verduras,,,,,2021-06-05,24,,53
+293,vacuno congelado,7891,carne congelada,,,,1.44,2021-12-03,,,10
+184,hamburguesa de vacuno,6871,hamburguesa,,,,1.5,2022-02-25,,,43
+386,carne molida,7866,carne congelada,,,,2.83,2021-09-14,,,37
+134,jeans,10305,ropa,47,11,36,0.72,,,,76
+253,platano,14191,frutas,,,,,2021-05-29,12,,72
+238,reineta,10784,pescado congelado,,,,3.84,2022-04-11,,,38
+126,teclado,12241,producto tecnologico,38,9,45,0.88,,,,28
+120,marraqueta,13520,pan,,,,,2022-01-19,9,,72
+309,carne molida,5014,carne congelada,,,,1.25,2021-08-06,,,24
+360,pantalla papel,11751,pantalla de luz,37,41,20,0.71,,,,23
+38,cerdo congelado,5036,carne congelada,,,,2.67,2021-07-11,,,22
+247,poleron,12512,ropa,35,28,12,0.85,,,,77
+39,merlusa,10053,pescado congelado,,,,4.86,2021-10-05,,,50
+24,teclado,9510,producto tecnologico,27,46,24,0.44,,,,23
+364,mouse,11097,producto tecnologico,8,45,46,0.18,,,,49
+355,mix de frutas en conserva,12120,fruta en conserva,,,,,2021-08-27,,frasco,18
+332,pantalla lisa,7833,pantalla de luz,6,6,7,0.64,,,,48
+395,choclo en conserva,11836,verdura en conserva,,,,,2021-10-05,,frasco,45
+117,telefono,6853,producto tecnologico,26,7,27,0.62,,,,16
+253,platano,14191,frutas,,,,,2021-05-29,12,,87
+48,cerdo,13194,carne,,,,,2022-03-18,18,,59
+256,porotos congelados,14619,verduras congeladas,,,,1.09,2021-08-23,,,57
+403,vestido,11750,ropa,41,36,14,0.61,,,,72
+343,choclo en conserva,12429,verdura en conserva,,,,,2021-06-09,,lata,36
+74,pantalla lisa,14478,pantalla de luz,5,33,14,0.72,,,,19
+229,merlusa,8380,pescado congelado,,,,4.96,2021-07-12,,,8
+152,lenguado,13791,pescado congelado,,,,4.9,2022-04-27,,,47
+264,hamburguesa de vacuno,14847,hamburguesa,,,,1.01,2021-08-21,,,97
+293,vacuno congelado,7891,carne congelada,,,,1.44,2021-12-03,,,45
+43,telefono,12517,producto tecnologico,38,19,35,0.15,,,,96
+72,camisa,9228,ropa,6,24,30,0.58,,,,72
+45,salmon,10211,pescado congelado,,,,1.69,2021-11-09,,,21
+246,pollo,9006,carne,,,,,2021-10-27,7,,53
+294,pollo congelado,10551,carne congelada,,,,4.93,2021-10-13,,,96
+51,limon,10356,verduras,,,,,2022-01-14,8,,95
+295,manzana,11013,frutas,,,,,2022-01-18,17,,85
+391,choclo en conserva,8087,verdura en conserva,,,,,2021-07-19,,lata,40
+349, frutillas en conserva,7657,fruta en conserva,,,,,2021-11-27,,lata,10
+278,camiseta,9381,ropa,16,15,40,0.88,,,,47
+411,durazno,11230,frutas,,,,,2022-02-17,8,,16
+126,teclado,12241,producto tecnologico,38,9,45,0.88,,,,19
+214,cerdo,6063,carne,,,,,2022-03-24,15,,35
+166,reineta,12040,pescado congelado,,,,3.73,2021-08-12,,,93
+255,vacuno congelado,5421,carne congelada,,,,1.53,2021-08-19,,,24
+35,hamburguesa de vacuno,13174,hamburguesa,,,,3.37,2021-08-07,,,17
+93,pan de molde,11181,pan,,,,,2021-10-23,22,,86
+348,mouse,14046,producto tecnologico,18,14,42,0.29,,,,8
+379,hamburguesa de vacuno,11754,hamburguesa,,,,1.87,2021-07-16,,,41
+62, frutillas en conserva,6958,fruta en conserva,,,,,2022-04-02,,lata,5
+90,mix de verduras congeladas,9916,verduras congeladas,,,,2.52,2021-09-29,,,38
+387,lenguado,6433,pescado congelado,,,,2.87,2021-05-13,,,19
+49,televisor,11837,producto tecnologico,9,36,33,0.39,,,,16
+77,hallulla,14637,pan,,,,,2021-08-24,20,,48
+400,mix de verduras congeladas,13648,verduras congeladas,,,,4.55,2022-04-09,,,67
+263,pantalla papel,14631,pantalla de luz,8,8,33,0.31,,,,91
+127,pan de molde,9653,pan,,,,,2021-07-25,19,,10
+47,jeans,10242,ropa,47,43,11,0.68,,,,52
+28,cerdo,12064,carne,,,,,2021-05-11,6,,62
+86,televisor,13862,producto tecnologico,13,10,16,0.68,,,,78
+371,marraqueta,11380,pan,,,,,2022-04-05,21,,8
+158,hamburguesa de pollo,10287,hamburguesa,,,,3.71,2021-05-07,,,86
+226,carne molida,5033,carne congelada,,,,2.01,2022-04-17,,,62
+256,porotos congelados,14619,verduras congeladas,,,,1.09,2021-08-23,,,38
+254,kiwi,7974,frutas,,,,,2021-12-29,17,,41
+155,vestido,12164,ropa,12,20,41,0.7,,,,54
+410,salmon,12879,pescado congelado,,,,1.4,2021-09-02,,,40
+228, frutillas en conserva,13599,fruta en conserva,,,,,2022-04-12,,lata,89
+282,salmon,11494,pescado congelado,,,,4.67,2021-06-10,,,60
+257,pantalon,12445,ropa,39,15,50,0.46,,,,99
+220,manzana,11649,frutas,,,,,2021-06-03,7,,33
+375,pollo congelado,7447,carne congelada,,,,2.31,2021-06-29,,,33
+343,choclo en conserva,12429,verdura en conserva,,,,,2021-06-09,,lata,83
+216,pera,14400,frutas,,,,,2022-02-24,14,,74
+59,durazno en conserva,5186,fruta en conserva,,,,,2021-09-10,,frasco,57
+282,salmon,11494,pescado congelado,,,,4.67,2021-06-10,,,36
+300,durazno en conserva,5467,fruta en conserva,,,,,2022-02-18,,caja,32
+401,arvejas congeladas,14782,verduras congeladas,,,,2.48,2022-01-09,,,6
+229,merlusa,8380,pescado congelado,,,,4.96,2021-07-12,,,19
+124,garbanzos en conserva,11677,verdura en conserva,,,,,2021-11-05,,lata,61
+52,manzana,7327,frutas,,,,,2021-12-12,19,,90
+410,salmon,12879,pescado congelado,,,,1.4,2021-09-02,,,36
+204,durazno,7673,frutas,,,,,2021-08-15,18,,56
+220,manzana,11649,frutas,,,,,2021-06-03,7,,44
+270,hamburguesa de verduras,12794,hamburguesa,,,,2.99,2021-05-18,,,39
+170,mix de verduras congeladas,7212,verduras congeladas,,,,4.06,2021-06-20,,,4
+9,hamburguesa de verduras,11678,hamburguesa,,,,3.01,2021-07-02,,,36
+309,carne molida,5014,carne congelada,,,,1.25,2021-08-06,,,9
+357,mouse,14549,producto tecnologico,26,50,42,0.66,,,,12
+277,limon,7442,verduras,,,,,2021-05-15,19,,62
+227,arvejas en conserva,13905,verdura en conserva,,,,,2021-09-04,,lata,18
+398,pantalla papel,14579,pantalla de luz,19,20,25,0.19,,,,68
+372,mouse,9082,producto tecnologico,20,10,12,0.85,,,,83
+258,chaqueta,13813,ropa,35,33,14,0.63,,,,41
+296,salmon,9495,pescado congelado,,,,1.02,2022-03-04,,,54
+217,pollo,13965,carne,,,,,2021-09-16,24,,4
+182,manzana,14158,frutas,,,,,2021-07-27,23,,89
+261,palta,13207,verduras,,,,,2021-08-17,11,,69
+16,hamburguesa de quinoa,5914,hamburguesa,,,,2.2,2021-12-10,,,64
+392,arvejas en conserva,13884,verdura en conserva,,,,,2021-07-28,,lata,96
+202,garbanzos en conserva,14323,verdura en conserva,,,,,2022-01-29,,caja,23
+383,hamburguesa de verduras,9105,hamburguesa,,,,3.79,2021-07-14,,,100
+394,limon,5808,verduras,,,,,2021-09-15,11,,6
+372,mouse,9082,producto tecnologico,20,10,12,0.85,,,,82
+148,palta,9424,verduras,,,,,2021-06-22,17,,40
+124,garbanzos en conserva,11677,verdura en conserva,,,,,2021-11-05,,lata,66
+45,salmon,10211,pescado congelado,,,,1.69,2021-11-09,,,14
+76,manzana,9326,frutas,,,,,2021-06-19,22,,84
+71,papaya en conserva,14577,fruta en conserva,,,,,2022-02-28,,lata,98
+244,pantalla para colgar,5174,pantalla de luz,21,45,10,0.64,,,,55
+356,kiwi,14585,frutas,,,,,2021-06-07,23,,81
+345,hamburguesa de verduras,12480,hamburguesa,,,,2.74,2021-11-22,,,70
+12,mix de frutas en conserva,9432,fruta en conserva,,,,,2021-10-07,,caja,97
+111,lechuga,8330,verduras,,,,,2021-09-04,13,,94
+395,choclo en conserva,11836,verdura en conserva,,,,,2021-10-05,,frasco,18
+370,pera,14775,frutas,,,,,2021-07-24,21,,33
+334,pantalla lineas,9860,pantalla de luz,40,14,10,0.98,,,,37
+415,pantalla lineas,8289,pantalla de luz,45,8,35,0.47,,,,33
+34,mix de verduras congeladas,13386,verduras congeladas,,,,4.15,2021-06-30,,,36
+344,pantalla para colgar,11629,pantalla de luz,9,18,47,0.23,,,,53
+103,hamburguesa de vacuno,11871,hamburguesa,,,,2.4,2021-12-25,,,76
+147,arvejas en conserva,10396,verdura en conserva,,,,,2021-10-15,,lata,73
+5,mix de verduras congeladas,11791,verduras congeladas,,,,1.61,2022-01-03,,,43
+80,pera,11624,frutas,,,,,2022-01-09,18,,89
+178,manzana,13975,frutas,,,,,2022-01-02,15,,69
+136,pollo,8650,carne,,,,,2021-08-28,22,,14
+77,hallulla,14637,pan,,,,,2021-08-24,20,,30
+85,salmon,9211,pescado congelado,,,,4.93,2021-11-09,,,62
+300,durazno en conserva,5467,fruta en conserva,,,,,2022-02-18,,caja,54
+167,hamburguesa de vacuno,9224,hamburguesa,,,,2.74,2021-09-26,,,18
+64,marraqueta,11303,pan,,,,,2021-06-30,9,,101
+417,pollo,10015,carne,,,,,2022-01-06,11,,91
+222,vestido,10689,ropa,19,49,16,0.17,,,,57
+41,hamburguesa de verduras,13789,hamburguesa,,,,3.86,2021-06-04,,,10
+300,durazno en conserva,5467,fruta en conserva,,,,,2022-02-18,,caja,33
+358,platano,10315,frutas,,,,,2021-08-30,21,,10
+0,merlusa,8706,pescado congelado,,,,4.82,2021-08-28,,,64
+102,televisor,5303,producto tecnologico,33,12,50,0.17,,,,68
+233,cerdo congelado,7670,carne congelada,,,,3.52,2022-03-03,,,73
+352,mix de frutas en conserva,14348,fruta en conserva,,,,,2021-09-26,,frasco,67
+252,pavo congelado,6840,carne congelada,,,,1.6,2021-10-01,,,83
+193,reineta,12780,pescado congelado,,,,4.52,2022-02-04,,,26
+219,papaya en conserva,13561,fruta en conserva,,,,,2022-01-15,,caja,92
+398,pantalla papel,14579,pantalla de luz,19,20,25,0.19,,,,34
+125,teclado,6734,producto tecnologico,12,42,48,0.82,,,,78
+309,carne molida,5014,carne congelada,,,,1.25,2021-08-06,,,5
+402,salmon,6712,pescado congelado,,,,4.51,2022-01-08,,,76
+191,marraqueta,6589,pan,,,,,2022-05-02,17,,9
+121,pan de molde,7108,pan,,,,,2021-06-18,21,,60
+245,pantalla lisa,6627,pantalla de luz,49,31,37,0.25,,,,13
+102,televisor,5303,producto tecnologico,33,12,50,0.17,,,,37
+143,vacuno,13742,carne,,,,,2022-03-08,8,,16
+313,platano,12727,frutas,,,,,2021-11-23,18,,57
+63,arvejas congeladas,14607,verduras congeladas,,,,3.93,2021-11-05,,,24
+55,mouse,6334,producto tecnologico,11,13,39,0.64,,,,21
+277,limon,7442,verduras,,,,,2021-05-15,19,,64
+165,camiseta,10613,ropa,35,31,31,0.29,,,,50
+141,mix de frutas en conserva,6583,fruta en conserva,,,,,2021-08-26,,caja,81
+314,pavo congelado,12293,carne congelada,,,,3.25,2021-06-19,,,24
+143,vacuno,13742,carne,,,,,2022-03-08,8,,74
+191,marraqueta,6589,pan,,,,,2022-05-02,17,,15
+404,mix de verduras congeladas,14681,verduras congeladas,,,,1.66,2022-01-03,,,97
+261,palta,13207,verduras,,,,,2021-08-17,11,,20
+248,pantalla para colgar,8944,pantalla de luz,22,6,37,0.47,,,,50
+119,hamburguesa de vacuno,12701,hamburguesa,,,,1.52,2022-01-30,,,47
+27,hamburguesa de pollo,13436,hamburguesa,,,,2.03,2021-12-25,,,58
+234,brocoli,10802,verduras,,,,,2022-01-06,5,,53
+348,mouse,14046,producto tecnologico,18,14,42,0.29,,,,95
+147,arvejas en conserva,10396,verdura en conserva,,,,,2021-10-15,,lata,47
+255,vacuno congelado,5421,carne congelada,,,,1.53,2021-08-19,,,49
+315,pantalla lisa,13048,pantalla de luz,40,24,26,0.36,,,,44
+12,mix de frutas en conserva,9432,fruta en conserva,,,,,2021-10-07,,caja,88
+69,teclado,11714,producto tecnologico,11,30,31,0.89,,,,27
+80,pera,11624,frutas,,,,,2022-01-09,18,,79
+233,cerdo congelado,7670,carne congelada,,,,3.52,2022-03-03,,,79
+76,manzana,9326,frutas,,,,,2021-06-19,22,,24
+258,chaqueta,13813,ropa,35,33,14,0.63,,,,49
+319,vacuno,13414,carne,,,,,2021-05-21,14,,72
+395,choclo en conserva,11836,verdura en conserva,,,,,2021-10-05,,frasco,52
+130,hamburguesa de verduras,11010,hamburguesa,,,,1.02,2021-07-28,,,53
+105,hamburguesa de vacuno,14223,hamburguesa,,,,4.37,2021-11-11,,,30
+339,telefono,5181,producto tecnologico,21,23,26,0.3,,,,43
+77,hallulla,14637,pan,,,,,2021-08-24,20,,68
+353,pavo congelado,7137,carne congelada,,,,2.29,2021-10-21,,,47
+351,vacuno congelado,11224,carne congelada,,,,4.69,2022-01-08,,,92
+211,hamburguesa de quinoa,13949,hamburguesa,,,,2.31,2021-10-10,,,43
+158,hamburguesa de pollo,10287,hamburguesa,,,,3.71,2021-05-07,,,55
+186,lechuga,13393,verduras,,,,,2021-12-03,24,,33
+173,porotos congelados,14661,verduras congeladas,,,,2.52,2021-06-29,,,62
+155,vestido,12164,ropa,12,20,41,0.7,,,,79
+362,pavo congelado,12446,carne congelada,,,,4.92,2022-01-03,,,17
+190,pantalla papel,14669,pantalla de luz,7,15,41,0.36,,,,51
+155,vestido,12164,ropa,12,20,41,0.7,,,,84
+42,cerdo,6686,carne,,,,,2022-01-09,19,,41
+62, frutillas en conserva,6958,fruta en conserva,,,,,2022-04-02,,lata,74
+324,poleron,6437,ropa,39,24,44,0.93,,,,2
+274,pera,11410,frutas,,,,,2022-01-28,15,,21
+85,salmon,9211,pescado congelado,,,,4.93,2021-11-09,,,3
+88,mouse,12978,producto tecnologico,24,18,26,0.44,,,,34
+109,brocoli,7370,verduras,,,,,2021-12-21,21,,43
+148,palta,9424,verduras,,,,,2021-06-22,17,,5
+2,pantalla lisa,5609,pantalla de luz,26,20,22,0.32,,,,60
+181,hamburguesa de verduras,5304,hamburguesa,,,,2.48,2021-06-26,,,8
+41,hamburguesa de verduras,13789,hamburguesa,,,,3.86,2021-06-04,,,36
+220,manzana,11649,frutas,,,,,2021-06-03,7,,52
+416,esparragos frasco,6807,verdura en conserva,,,,,2022-01-18,,frasco,68
+279,merlusa,9334,pescado congelado,,,,1.41,2022-04-18,,,22
+403,vestido,11750,ropa,41,36,14,0.61,,,,66
+246,pollo,9006,carne,,,,,2021-10-27,7,,93
+401,arvejas congeladas,14782,verduras congeladas,,,,2.48,2022-01-09,,,69
+105,hamburguesa de vacuno,14223,hamburguesa,,,,4.37,2021-11-11,,,20
+124,garbanzos en conserva,11677,verdura en conserva,,,,,2021-11-05,,lata,6
+178,manzana,13975,frutas,,,,,2022-01-02,15,,5
+394,limon,5808,verduras,,,,,2021-09-15,11,,48
+89,pantalla lineas,6647,pantalla de luz,38,11,43,0.78,,,,7
+399,mouse,14474,producto tecnologico,42,36,10,0.36,,,,2
+70,vacuno congelado,14623,carne congelada,,,,3.94,2021-09-03,,,16
+158,hamburguesa de pollo,10287,hamburguesa,,,,3.71,2021-05-07,,,74
+414,pantalla lineas,11871,pantalla de luz,12,14,49,0.55,,,,33
+104,chaqueta,9435,ropa,17,38,46,0.37,,,,13
+338,mix de frutas en conserva,10464,fruta en conserva,,,,,2021-10-26,,frasco,78
+246,pollo,9006,carne,,,,,2021-10-27,7,,12
+34,mix de verduras congeladas,13386,verduras congeladas,,,,4.15,2021-06-30,,,2
+89,pantalla lineas,6647,pantalla de luz,38,11,43,0.78,,,,12
+235,vacuno,8664,carne,,,,,2021-08-29,22,,70
+101,mix de verduras congeladas,8253,verduras congeladas,,,,3.95,2021-07-18,,,83
+247,poleron,12512,ropa,35,28,12,0.85,,,,74
+115, frutillas en conserva,9542,fruta en conserva,,,,,2021-11-02,,lata,71
+417,pollo,10015,carne,,,,,2022-01-06,11,,60
+295,manzana,11013,frutas,,,,,2022-01-18,17,,26
+59,durazno en conserva,5186,fruta en conserva,,,,,2021-09-10,,frasco,35
+415,pantalla lineas,8289,pantalla de luz,45,8,35,0.47,,,,25
+197,pantalla papel,10497,pantalla de luz,46,35,27,0.63,,,,65
+360,pantalla papel,11751,pantalla de luz,37,41,20,0.71,,,,91
+175,hallulla,11970,pan,,,,,2021-07-02,23,,33
+229,merlusa,8380,pescado congelado,,,,4.96,2021-07-12,,,82
+355,mix de frutas en conserva,12120,fruta en conserva,,,,,2021-08-27,,frasco,9
+296,salmon,9495,pescado congelado,,,,1.02,2022-03-04,,,51
+143,vacuno,13742,carne,,,,,2022-03-08,8,,51
+92,garbanzos en conserva,11554,verdura en conserva,,,,,2022-04-17,,caja,73
+191,marraqueta,6589,pan,,,,,2022-05-02,17,,36
+31,papaya en conserva,8954,fruta en conserva,,,,,2022-04-20,,lata,49
+273,hallulla,12150,pan,,,,,2021-08-15,23,,101
+14,durazno en conserva,8285,fruta en conserva,,,,,2021-06-08,,caja,14
+237,marraqueta,6179,pan,,,,,2022-01-17,15,,91
+101,mix de verduras congeladas,8253,verduras congeladas,,,,3.95,2021-07-18,,,33
+58,hamburguesa de vacuno,5337,hamburguesa,,,,3.84,2022-01-06,,,12
+122,porotos congelados,11540,verduras congeladas,,,,3.16,2021-12-27,,,97
+396,porotos congelados,8296,verduras congeladas,,,,4.65,2021-08-24,,,43
+414,pantalla lineas,11871,pantalla de luz,12,14,49,0.55,,,,40
+84,pantalla lisa,14987,pantalla de luz,16,20,49,0.83,,,,59
+151,cerdo congelado,13962,carne congelada,,,,2.29,2021-10-26,,,98
+52,manzana,7327,frutas,,,,,2021-12-12,19,,34
+296,salmon,9495,pescado congelado,,,,1.02,2022-03-04,,,55
+376,arvejas en conserva,14460,verdura en conserva,,,,,2022-02-21,,caja,51
+289,salmon,14016,pescado congelado,,,,2.18,2022-01-12,,,34
+134,jeans,10305,ropa,47,11,36,0.72,,,,75
+132,mix de verduras congeladas,10478,verduras congeladas,,,,4.75,2022-01-16,,,15
+288,mix de verduras congeladas,6320,verduras congeladas,,,,4.69,2021-09-27,,,46
+280,pollo congelado,6003,carne congelada,,,,3.68,2021-06-28,,,61
+22,televisor,5912,producto tecnologico,43,22,30,0.41,,,,60
+174,vacuno,14113,carne,,,,,2021-09-10,15,,38
+138,marraqueta,9334,pan,,,,,2022-04-27,13,,10
+417,pollo,10015,carne,,,,,2022-01-06,11,,60
+263,pantalla papel,14631,pantalla de luz,8,8,33,0.31,,,,73
+259,vestido,8209,ropa,43,34,39,0.76,,,,91
+129,pan de molde,10062,pan,,,,,2022-01-30,16,,88
+106,pantalla papel,8041,pantalla de luz,25,14,45,0.8,,,,99
+221,salmon,7372,pescado congelado,,,,1.76,2022-03-26,,,93
+377,telefono,14256,producto tecnologico,35,5,12,0.82,,,,9
+265,telefono,6947,producto tecnologico,9,40,30,0.89,,,,88
+276,pantalla para colgar,6897,pantalla de luz,41,15,10,0.12,,,,56
+317,pantalla lineas,13847,pantalla de luz,44,43,45,0.27,,,,89
+263,pantalla papel,14631,pantalla de luz,8,8,33,0.31,,,,48
+130,hamburguesa de verduras,11010,hamburguesa,,,,1.02,2021-07-28,,,34
+351,vacuno congelado,11224,carne congelada,,,,4.69,2022-01-08,,,97
+261,palta,13207,verduras,,,,,2021-08-17,11,,69
+409,pantalla lineas,12158,pantalla de luz,24,27,14,0.92,,,,46
+39,merlusa,10053,pescado congelado,,,,4.86,2021-10-05,,,90
+362,pavo congelado,12446,carne congelada,,,,4.92,2022-01-03,,,56
+135,arvejas congeladas,9491,verduras congeladas,,,,2.42,2022-02-27,,,94
+68,camisa,5009,ropa,40,29,14,0.6,,,,89
+344,pantalla para colgar,11629,pantalla de luz,9,18,47,0.23,,,,42
+115, frutillas en conserva,9542,fruta en conserva,,,,,2021-11-02,,lata,87
+153,pantalla papel,8665,pantalla de luz,39,36,29,0.6,,,,36
+231,jeans,13914,ropa,35,15,10,0.92,,,,51
+388,hamburguesa de vacuno,8376,hamburguesa,,,,1.73,2021-10-11,,,42
+49,televisor,11837,producto tecnologico,9,36,33,0.39,,,,64
+148,palta,9424,verduras,,,,,2021-06-22,17,,94
+59,durazno en conserva,5186,fruta en conserva,,,,,2021-09-10,,frasco,57
+65,hamburguesa de verduras,7556,hamburguesa,,,,3.79,2022-02-08,,,42
+126,teclado,12241,producto tecnologico,38,9,45,0.88,,,,100
+170,mix de verduras congeladas,7212,verduras congeladas,,,,4.06,2021-06-20,,,18
+149,pan de molde,13136,pan,,,,,2021-09-30,24,,99
+370,pera,14775,frutas,,,,,2021-07-24,21,,86
+115, frutillas en conserva,9542,fruta en conserva,,,,,2021-11-02,,lata,39
+358,platano,10315,frutas,,,,,2021-08-30,21,,83
+380,reineta,6388,pescado congelado,,,,4.72,2022-03-15,,,94
+321,esparragos frasco,9752,verdura en conserva,,,,,2021-06-24,,lata,0
+342,tomate,6548,verduras,,,,,2022-01-31,11,,74
+158,hamburguesa de pollo,10287,hamburguesa,,,,3.71,2021-05-07,,,90
+387,lenguado,6433,pescado congelado,,,,2.87,2021-05-13,,,4
+250,vacuno,14397,carne,,,,,2021-10-27,20,,94
+152,lenguado,13791,pescado congelado,,,,4.9,2022-04-27,,,54
+162,pollo,9026,carne,,,,,2021-08-28,24,,95
+103,hamburguesa de vacuno,11871,hamburguesa,,,,2.4,2021-12-25,,,12
+5,mix de verduras congeladas,11791,verduras congeladas,,,,1.61,2022-01-03,,,33
+308,mix de verduras congeladas,6920,verduras congeladas,,,,1.33,2021-08-20,,,89
+25,lechuga,7704,verduras,,,,,2021-12-21,15,,70
+228, frutillas en conserva,13599,fruta en conserva,,,,,2022-04-12,,lata,6
+168,hallulla,6062,pan,,,,,2022-04-17,21,,37
+129,pan de molde,10062,pan,,,,,2022-01-30,16,,80
+358,platano,10315,frutas,,,,,2021-08-30,21,,27
+144,tomate,8242,verduras,,,,,2021-11-22,6,,99
+310,manzana,11868,frutas,,,,,2022-04-25,5,,15
+50,pollo congelado,12523,carne congelada,,,,2.0,2021-07-07,,,51
+75,lechuga,7914,verduras,,,,,2022-02-27,12,,94
+99,arvejas congeladas,12265,verduras congeladas,,,,1.51,2021-05-29,,,75
+249,lechuga,8099,verduras,,,,,2021-08-14,5,,41
+227,arvejas en conserva,13905,verdura en conserva,,,,,2021-09-04,,lata,35
+10,reineta,10545,pescado congelado,,,,2.87,2022-02-22,,,91
+103,hamburguesa de vacuno,11871,hamburguesa,,,,2.4,2021-12-25,,,62
+417,pollo,10015,carne,,,,,2022-01-06,11,,0
+115, frutillas en conserva,9542,fruta en conserva,,,,,2021-11-02,,lata,42
+411,durazno,11230,frutas,,,,,2022-02-17,8,,1
+139,hamburguesa de quinoa,13665,hamburguesa,,,,4.61,2021-09-27,,,96
+276,pantalla para colgar,6897,pantalla de luz,41,15,10,0.12,,,,6
+131,cerdo congelado,8452,carne congelada,,,,2.73,2022-02-07,,,39
+150,salmon,6044,pescado congelado,,,,3.53,2022-04-17,,,57
+357,mouse,14549,producto tecnologico,26,50,42,0.66,,,,7
+150,salmon,6044,pescado congelado,,,,3.53,2022-04-17,,,97
+148,palta,9424,verduras,,,,,2021-06-22,17,,65
+205,lechuga,5224,verduras,,,,,2021-07-19,11,,75
+26,manzana,7438,frutas,,,,,2021-10-02,17,,93
+194,hallulla,9444,pan,,,,,2021-11-03,15,,72
+229,merlusa,8380,pescado congelado,,,,4.96,2021-07-12,,,101
+340,pantalla para colgar,5107,pantalla de luz,48,27,39,0.29,,,,85
+402,salmon,6712,pescado congelado,,,,4.51,2022-01-08,,,40
+179,teclado,12795,producto tecnologico,46,7,12,0.52,,,,8
+290,hallulla,8722,pan,,,,,2021-05-20,12,,63
+65,hamburguesa de verduras,7556,hamburguesa,,,,3.79,2022-02-08,,,33
+77,hallulla,14637,pan,,,,,2021-08-24,20,,5
+258,chaqueta,13813,ropa,35,33,14,0.63,,,,75
+52,manzana,7327,frutas,,,,,2021-12-12,19,,54
+282,salmon,11494,pescado congelado,,,,4.67,2021-06-10,,,13
+271,televisor,9188,producto tecnologico,47,23,16,0.25,,,,11
+129,pan de molde,10062,pan,,,,,2022-01-30,16,,76
+207, frutillas en conserva,6563,fruta en conserva,,,,,2021-05-11,,lata,10
+57,cerdo,7160,carne,,,,,2022-03-25,15,,81
+85,salmon,9211,pescado congelado,,,,4.93,2021-11-09,,,33
+384,pantalla lineas,13539,pantalla de luz,22,14,48,0.65,,,,10
+212,hamburguesa de quinoa,12482,hamburguesa,,,,1.52,2021-11-11,,,38
+109,brocoli,7370,verduras,,,,,2021-12-21,21,,65
+35,hamburguesa de vacuno,13174,hamburguesa,,,,3.37,2021-08-07,,,25
+300,durazno en conserva,5467,fruta en conserva,,,,,2022-02-18,,caja,15
+258,chaqueta,13813,ropa,35,33,14,0.63,,,,1
+253,platano,14191,frutas,,,,,2021-05-29,12,,62
+2,pantalla lisa,5609,pantalla de luz,26,20,22,0.32,,,,85
+119,hamburguesa de vacuno,12701,hamburguesa,,,,1.52,2022-01-30,,,16
+371,marraqueta,11380,pan,,,,,2022-04-05,21,,64
+275,pantalla lisa,13875,pantalla de luz,34,42,25,0.77,,,,93
+194,hallulla,9444,pan,,,,,2021-11-03,15,,64
+358,platano,10315,frutas,,,,,2021-08-30,21,,48
+227,arvejas en conserva,13905,verdura en conserva,,,,,2021-09-04,,lata,3
+2,pantalla lisa,5609,pantalla de luz,26,20,22,0.32,,,,91
+383,hamburguesa de verduras,9105,hamburguesa,,,,3.79,2021-07-14,,,80
+122,porotos congelados,11540,verduras congeladas,,,,3.16,2021-12-27,,,50
+13,esparragos frasco,14537,verdura en conserva,,,,,2021-07-12,,caja,96
+167,hamburguesa de vacuno,9224,hamburguesa,,,,2.74,2021-09-26,,,68
+81,hamburguesa de vacuno,8644,hamburguesa,,,,4.55,2022-04-16,,,98
+305,teclado,9834,producto tecnologico,22,36,34,0.46,,,,60
+109,brocoli,7370,verduras,,,,,2021-12-21,21,,87
+175,hallulla,11970,pan,,,,,2021-07-02,23,,52
+240,salmon,7427,pescado congelado,,,,2.06,2021-05-31,,,34
+333,pantalla lineas,6062,pantalla de luz,16,23,37,0.17,,,,38
+291,arvejas congeladas,9580,verduras congeladas,,,,3.57,2021-07-06,,,66
+262,lenguado,14080,pescado congelado,,,,1.7,2021-07-30,,,41
+235,vacuno,8664,carne,,,,,2021-08-29,22,,50
+108,pantalla papel,14454,pantalla de luz,18,12,5,0.76,,,,92
+208,telefono,9760,producto tecnologico,22,8,31,0.14,,,,27
+385,limon,11324,verduras,,,,,2022-01-06,14,,42
+337,pantalla lineas,11430,pantalla de luz,25,32,16,0.65,,,,65
+213,calcetin,14881,ropa,12,26,9,0.37,,,,33
+175,hallulla,11970,pan,,,,,2021-07-02,23,,5
+63,arvejas congeladas,14607,verduras congeladas,,,,3.93,2021-11-05,,,17
+162,pollo,9026,carne,,,,,2021-08-28,24,,93
+44,lenguado,12660,pescado congelado,,,,3.44,2021-05-20,,,33
+113,hamburguesa de verduras,8820,hamburguesa,,,,1.24,2021-06-12,,,15
+370,pera,14775,frutas,,,,,2021-07-24,21,,96
+75,lechuga,7914,verduras,,,,,2022-02-27,12,,12
+122,porotos congelados,11540,verduras congeladas,,,,3.16,2021-12-27,,,6
+356,kiwi,14585,frutas,,,,,2021-06-07,23,,86
+20,cerdo,12012,carne,,,,,2021-12-08,6,,15
+358,platano,10315,frutas,,,,,2021-08-30,21,,81
+383,hamburguesa de verduras,9105,hamburguesa,,,,3.79,2021-07-14,,,81
+76,manzana,9326,frutas,,,,,2021-06-19,22,,6
+271,televisor,9188,producto tecnologico,47,23,16,0.25,,,,12
+53,durazno,5640,frutas,,,,,2022-04-08,22,,55
+281,vestido,6522,ropa,42,7,26,0.17,,,,59
+295,manzana,11013,frutas,,,,,2022-01-18,17,,30
+349, frutillas en conserva,7657,fruta en conserva,,,,,2021-11-27,,lata,15
+51,limon,10356,verduras,,,,,2022-01-14,8,,72
+90,mix de verduras congeladas,9916,verduras congeladas,,,,2.52,2021-09-29,,,15
+375,pollo congelado,7447,carne congelada,,,,2.31,2021-06-29,,,69
+326,esparragos frasco,14352,verdura en conserva,,,,,2021-08-16,,lata,88
+363,jeans,7348,ropa,38,34,31,0.25,,,,19
+368,limon,12932,verduras,,,,,2021-11-29,6,,26
+336,esparragos frasco,7752,verdura en conserva,,,,,2022-05-04,,caja,97
+198,mouse,12730,producto tecnologico,33,29,6,0.62,,,,13
+258,chaqueta,13813,ropa,35,33,14,0.63,,,,3
+189,telefono,13048,producto tecnologico,7,48,21,0.98,,,,77
+239,merlusa,8602,pescado congelado,,,,1.0,2022-03-10,,,98
+22,televisor,5912,producto tecnologico,43,22,30,0.41,,,,51
+154,telefono,13859,producto tecnologico,36,10,20,0.43,,,,10
+128,pavo,9003,carne,,,,,2021-10-02,21,,97
+56,lenguado,5173,pescado congelado,,,,2.6,2021-11-07,,,21
+51,limon,10356,verduras,,,,,2022-01-14,8,,44
+131,cerdo congelado,8452,carne congelada,,,,2.73,2022-02-07,,,89
+77,hallulla,14637,pan,,,,,2021-08-24,20,,54
+327,hallulla,6887,pan,,,,,2021-12-06,20,,99
+41,hamburguesa de verduras,13789,hamburguesa,,,,3.86,2021-06-04,,,51
+133,reineta,7700,pescado congelado,,,,4.5,2021-12-18,,,19
+254,kiwi,7974,frutas,,,,,2021-12-29,17,,13
+121,pan de molde,7108,pan,,,,,2021-06-18,21,,79
+353,pavo congelado,7137,carne congelada,,,,2.29,2021-10-21,,,90
+178,manzana,13975,frutas,,,,,2022-01-02,15,,41
+273,hallulla,12150,pan,,,,,2021-08-15,23,,44
+192,telefono,12648,producto tecnologico,23,6,6,0.41,,,,47
+74,pantalla lisa,14478,pantalla de luz,5,33,14,0.72,,,,60
+149,pan de molde,13136,pan,,,,,2021-09-30,24,,57
+225,pantalla papel,8193,pantalla de luz,44,14,20,0.71,,,,96
+378,televisor,10657,producto tecnologico,26,45,5,0.13,,,,78
+297,pantalla para colgar,6596,pantalla de luz,20,13,44,0.51,,,,92
+214,cerdo,6063,carne,,,,,2022-03-24,15,,92
+115, frutillas en conserva,9542,fruta en conserva,,,,,2021-11-02,,lata,39
+397,palta,13962,verduras,,,,,2021-05-27,8,,98
+304,jeans,8403,ropa,26,29,22,0.69,,,,26
+95,esparragos frasco,9882,verdura en conserva,,,,,2021-09-09,,lata,1
+320,pantalla lineas,8495,pantalla de luz,34,42,48,0.41,,,,78
+415,pantalla lineas,8289,pantalla de luz,45,8,35,0.47,,,,6
+166,reineta,12040,pescado congelado,,,,3.73,2021-08-12,,,17
+246,pollo,9006,carne,,,,,2021-10-27,7,,99
+154,telefono,13859,producto tecnologico,36,10,20,0.43,,,,17
+13,esparragos frasco,14537,verdura en conserva,,,,,2021-07-12,,caja,45
+345,hamburguesa de verduras,12480,hamburguesa,,,,2.74,2021-11-22,,,95
+3,merlusa,13317,pescado congelado,,,,2.03,2021-08-09,,,38
+88,mouse,12978,producto tecnologico,24,18,26,0.44,,,,59
+200,hamburguesa de verduras,5681,hamburguesa,,,,4.37,2022-02-03,,,12
+3,merlusa,13317,pescado congelado,,,,2.03,2021-08-09,,,15
+47,jeans,10242,ropa,47,43,11,0.68,,,,29
+329,hallulla,12550,pan,,,,,2022-01-24,5,,36
+391,choclo en conserva,8087,verdura en conserva,,,,,2021-07-19,,lata,60
+242,marraqueta,6667,pan,,,,,2022-02-10,13,,23
+284,marraqueta,14433,pan,,,,,2022-02-20,14,,35
+49,televisor,11837,producto tecnologico,9,36,33,0.39,,,,56
+226,carne molida,5033,carne congelada,,,,2.01,2022-04-17,,,58
+320,pantalla lineas,8495,pantalla de luz,34,42,48,0.41,,,,78
+67,limon,13531,verduras,,,,,2022-03-25,11,,53
+392,arvejas en conserva,13884,verdura en conserva,,,,,2021-07-28,,lata,39
+232,mouse,7653,producto tecnologico,33,16,40,0.21,,,,35
+285,durazno,13057,frutas,,,,,2022-01-21,11,,39
+204,durazno,7673,frutas,,,,,2021-08-15,18,,32
+209,televisor,10968,producto tecnologico,27,37,47,0.18,,,,66
+170,mix de verduras congeladas,7212,verduras congeladas,,,,4.06,2021-06-20,,,68
+317,pantalla lineas,13847,pantalla de luz,44,43,45,0.27,,,,73
+198,mouse,12730,producto tecnologico,33,29,6,0.62,,,,55
+103,hamburguesa de vacuno,11871,hamburguesa,,,,2.4,2021-12-25,,,70
+339,telefono,5181,producto tecnologico,21,23,26,0.3,,,,93
+318,pavo,6208,carne,,,,,2021-10-10,10,,0
+5,mix de verduras congeladas,11791,verduras congeladas,,,,1.61,2022-01-03,,,55
+377,telefono,14256,producto tecnologico,35,5,12,0.82,,,,60
+190,pantalla papel,14669,pantalla de luz,7,15,41,0.36,,,,3
+28,cerdo,12064,carne,,,,,2021-05-11,6,,60
+151,cerdo congelado,13962,carne congelada,,,,2.29,2021-10-26,,,34
+160,merlusa,10910,pescado congelado,,,,3.21,2021-08-08,,,78
+241,durazno en conserva,12190,fruta en conserva,,,,,2022-03-11,,caja,45
+243,choclo congelado,6481,verduras congeladas,,,,3.91,2022-01-23,,,100
+123,choclo congelado,14418,verduras congeladas,,,,2.32,2021-09-01,,,74
+88,mouse,12978,producto tecnologico,24,18,26,0.44,,,,99
+115, frutillas en conserva,9542,fruta en conserva,,,,,2021-11-02,,lata,27
+35,hamburguesa de vacuno,13174,hamburguesa,,,,3.37,2021-08-07,,,22
+397,palta,13962,verduras,,,,,2021-05-27,8,,72
+361,mouse,10779,producto tecnologico,32,30,31,0.21,,,,11
+218,hamburguesa de pollo,8248,hamburguesa,,,,1.39,2022-01-16,,,91
+393,televisor,8016,producto tecnologico,22,19,47,0.32,,,,20
+183,hallulla,10309,pan,,,,,2021-05-24,18,,3
+269,televisor,11826,producto tecnologico,14,30,14,0.88,,,,80
+316,vacuno,13806,carne,,,,,2022-04-03,12,,79
+271,televisor,9188,producto tecnologico,47,23,16,0.25,,,,70
+110,pantalla papel,9914,pantalla de luz,38,48,20,0.25,,,,73
+19,durazno en conserva,8421,fruta en conserva,,,,,2021-12-12,,frasco,85
+294,pollo congelado,10551,carne congelada,,,,4.93,2021-10-13,,,55
+336,esparragos frasco,7752,verdura en conserva,,,,,2022-05-04,,caja,8
+213,calcetin,14881,ropa,12,26,9,0.37,,,,89
+15,durazno,13302,frutas,,,,,2021-10-13,10,,64
+133,reineta,7700,pescado congelado,,,,4.5,2021-12-18,,,75
+18,palta,14117,verduras,,,,,2021-06-12,9,,70
+246,pollo,9006,carne,,,,,2021-10-27,7,,19
+11,papaya en conserva,7060,fruta en conserva,,,,,2022-02-04,,lata,17
+71,papaya en conserva,14577,fruta en conserva,,,,,2022-02-28,,lata,16
+383,hamburguesa de verduras,9105,hamburguesa,,,,3.79,2021-07-14,,,55
+344,pantalla para colgar,11629,pantalla de luz,9,18,47,0.23,,,,7
+20,cerdo,12012,carne,,,,,2021-12-08,6,,29
+89,pantalla lineas,6647,pantalla de luz,38,11,43,0.78,,,,2
+182,manzana,14158,frutas,,,,,2021-07-27,23,,91
+96,pavo,6717,carne,,,,,2021-11-22,15,,37
+57,cerdo,7160,carne,,,,,2022-03-25,15,,39
+42,cerdo,6686,carne,,,,,2022-01-09,19,,48
+94,pollo congelado,6136,carne congelada,,,,1.14,2021-10-09,,,22
+51,limon,10356,verduras,,,,,2022-01-14,8,,79
+111,lechuga,8330,verduras,,,,,2021-09-04,13,,11
+192,telefono,12648,producto tecnologico,23,6,6,0.41,,,,59
+136,pollo,8650,carne,,,,,2021-08-28,22,,2
+338,mix de frutas en conserva,10464,fruta en conserva,,,,,2021-10-26,,frasco,31
+27,hamburguesa de pollo,13436,hamburguesa,,,,2.03,2021-12-25,,,29
+361,mouse,10779,producto tecnologico,32,30,31,0.21,,,,86
+189,telefono,13048,producto tecnologico,7,48,21,0.98,,,,66
+21,televisor,12324,producto tecnologico,14,38,28,0.2,,,,94
+271,televisor,9188,producto tecnologico,47,23,16,0.25,,,,51
+217,pollo,13965,carne,,,,,2021-09-16,24,,98
+61,vacuno,5898,carne,,,,,2021-11-25,7,,3
+274,pera,11410,frutas,,,,,2022-01-28,15,,76
+45,salmon,10211,pescado congelado,,,,1.69,2021-11-09,,,20
+132,mix de verduras congeladas,10478,verduras congeladas,,,,4.75,2022-01-16,,,24
+69,teclado,11714,producto tecnologico,11,30,31,0.89,,,,7
+253,platano,14191,frutas,,,,,2021-05-29,12,,86
+16,hamburguesa de quinoa,5914,hamburguesa,,,,2.2,2021-12-10,,,69
+211,hamburguesa de quinoa,13949,hamburguesa,,,,2.31,2021-10-10,,,100
+348,mouse,14046,producto tecnologico,18,14,42,0.29,,,,34
+56,lenguado,5173,pescado congelado,,,,2.6,2021-11-07,,,71
+215,durazno,9245,frutas,,,,,2021-10-16,23,,64
+100,camisa,14690,ropa,15,16,31,0.99,,,,94
+112,hallulla,11425,pan,,,,,2021-05-16,20,,90
+160,merlusa,10910,pescado congelado,,,,3.21,2021-08-08,,,31
+245,pantalla lisa,6627,pantalla de luz,49,31,37,0.25,,,,74
+373,pantalla papel,5674,pantalla de luz,11,41,31,0.87,,,,7
+150,salmon,6044,pescado congelado,,,,3.53,2022-04-17,,,56
+131,cerdo congelado,8452,carne congelada,,,,2.73,2022-02-07,,,32
+258,chaqueta,13813,ropa,35,33,14,0.63,,,,41
+344,pantalla para colgar,11629,pantalla de luz,9,18,47,0.23,,,,7
+6,marraqueta,7830,pan,,,,,2021-08-21,22,,53
+208,telefono,9760,producto tecnologico,22,8,31,0.14,,,,52
+157,hamburguesa de pollo,14465,hamburguesa,,,,2.41,2021-09-28,,,54
+318,pavo,6208,carne,,,,,2021-10-10,10,,10
+341,pollo congelado,10534,carne congelada,,,,4.13,2021-12-09,,,71
+400,mix de verduras congeladas,13648,verduras congeladas,,,,4.55,2022-04-09,,,59
+403,vestido,11750,ropa,41,36,14,0.61,,,,23
+385,limon,11324,verduras,,,,,2022-01-06,14,,16
+296,salmon,9495,pescado congelado,,,,1.02,2022-03-04,,,68
+35,hamburguesa de vacuno,13174,hamburguesa,,,,3.37,2021-08-07,,,99
+347,salmon,5361,pescado congelado,,,,1.66,2021-07-17,,,21
+290,hallulla,8722,pan,,,,,2021-05-20,12,,66
+222,vestido,10689,ropa,19,49,16,0.17,,,,36
+259,vestido,8209,ropa,43,34,39,0.76,,,,9
+8,pantalla papel,5556,pantalla de luz,17,15,14,0.6,,,,4
+252,pavo congelado,6840,carne congelada,,,,1.6,2021-10-01,,,63
+177,hamburguesa de pollo,6480,hamburguesa,,,,2.75,2021-11-07,,,50
+111,lechuga,8330,verduras,,,,,2021-09-04,13,,29
+354,pollo congelado,8252,carne congelada,,,,2.98,2021-06-17,,,54
+369,tomate,13568,verduras,,,,,2022-02-12,12,,3
+397,palta,13962,verduras,,,,,2021-05-27,8,,97
+389,manzana,7436,frutas,,,,,2022-02-13,16,,4
+415,pantalla lineas,8289,pantalla de luz,45,8,35,0.47,,,,26
+416,esparragos frasco,6807,verdura en conserva,,,,,2022-01-18,,frasco,0
+411,durazno,11230,frutas,,,,,2022-02-17,8,,41
+146,poleron,12236,ropa,40,20,9,0.95,,,,77
+165,camiseta,10613,ropa,35,31,31,0.29,,,,78
+71,papaya en conserva,14577,fruta en conserva,,,,,2022-02-28,,lata,5
+316,vacuno,13806,carne,,,,,2022-04-03,12,,51
+41,hamburguesa de verduras,13789,hamburguesa,,,,3.86,2021-06-04,,,15
+15,durazno,13302,frutas,,,,,2021-10-13,10,,44
+17,camiseta,14514,ropa,44,16,11,0.25,,,,48
+223,reineta,8439,pescado congelado,,,,3.19,2021-08-14,,,37
+220,manzana,11649,frutas,,,,,2021-06-03,7,,27
+339,telefono,5181,producto tecnologico,21,23,26,0.3,,,,98
+220,manzana,11649,frutas,,,,,2021-06-03,7,,31
+37,cerdo,13208,carne,,,,,2022-03-12,8,,5
+211,hamburguesa de quinoa,13949,hamburguesa,,,,2.31,2021-10-10,,,82
+276,pantalla para colgar,6897,pantalla de luz,41,15,10,0.12,,,,66
+272,salmon,6760,pescado congelado,,,,3.85,2021-08-13,,,10
+63,arvejas congeladas,14607,verduras congeladas,,,,3.93,2021-11-05,,,10
+302,teclado,8227,producto tecnologico,26,40,48,0.62,,,,20
+89,pantalla lineas,6647,pantalla de luz,38,11,43,0.78,,,,62
+412,marraqueta,14464,pan,,,,,2021-11-17,24,,33
+345,hamburguesa de verduras,12480,hamburguesa,,,,2.74,2021-11-22,,,60
+372,mouse,9082,producto tecnologico,20,10,12,0.85,,,,96
+243,choclo congelado,6481,verduras congeladas,,,,3.91,2022-01-23,,,100
+90,mix de verduras congeladas,9916,verduras congeladas,,,,2.52,2021-09-29,,,58
+368,limon,12932,verduras,,,,,2021-11-29,6,,101
+275,pantalla lisa,13875,pantalla de luz,34,42,25,0.77,,,,12
+230,pantalla para colgar,5925,pantalla de luz,8,41,12,0.9,,,,99
+95,esparragos frasco,9882,verdura en conserva,,,,,2021-09-09,,lata,58
+75,lechuga,7914,verduras,,,,,2022-02-27,12,,37
+323,vacuno,11553,carne,,,,,2021-06-07,10,,25
+142,mix de frutas en conserva,5219,fruta en conserva,,,,,2021-06-08,,caja,39
+115, frutillas en conserva,9542,fruta en conserva,,,,,2021-11-02,,lata,72
+164,platano,13220,frutas,,,,,2021-11-02,10,,45
+281,vestido,6522,ropa,42,7,26,0.17,,,,74
+5,mix de verduras congeladas,11791,verduras congeladas,,,,1.61,2022-01-03,,,73
+86,televisor,13862,producto tecnologico,13,10,16,0.68,,,,75
+60,pantalla para colgar,8436,pantalla de luz,6,24,5,0.6,,,,81
+29,limon,13395,verduras,,,,,2021-08-02,9,,98
+373,pantalla papel,5674,pantalla de luz,11,41,31,0.87,,,,40
+186,lechuga,13393,verduras,,,,,2021-12-03,24,,23
+277,limon,7442,verduras,,,,,2021-05-15,19,,98
+403,vestido,11750,ropa,41,36,14,0.61,,,,96
+215,durazno,9245,frutas,,,,,2021-10-16,23,,48
+327,hallulla,6887,pan,,,,,2021-12-06,20,,55
+152,lenguado,13791,pescado congelado,,,,4.9,2022-04-27,,,98
+294,pollo congelado,10551,carne congelada,,,,4.93,2021-10-13,,,42
+410,salmon,12879,pescado congelado,,,,1.4,2021-09-02,,,73
+241,durazno en conserva,12190,fruta en conserva,,,,,2022-03-11,,caja,30
+19,durazno en conserva,8421,fruta en conserva,,,,,2021-12-12,,frasco,31
+162,pollo,9026,carne,,,,,2021-08-28,24,,1
+381,pantalla para colgar,8882,pantalla de luz,41,9,42,0.37,,,,29
+265,telefono,6947,producto tecnologico,9,40,30,0.89,,,,34
+125,teclado,6734,producto tecnologico,12,42,48,0.82,,,,3
+148,palta,9424,verduras,,,,,2021-06-22,17,,100
+342,tomate,6548,verduras,,,,,2022-01-31,11,,50
+130,hamburguesa de verduras,11010,hamburguesa,,,,1.02,2021-07-28,,,48
+316,vacuno,13806,carne,,,,,2022-04-03,12,,100
+306,hamburguesa de verduras,7976,hamburguesa,,,,1.64,2022-01-29,,,86
+416,esparragos frasco,6807,verdura en conserva,,,,,2022-01-18,,frasco,78
+155,vestido,12164,ropa,12,20,41,0.7,,,,61
+313,platano,12727,frutas,,,,,2021-11-23,18,,67
+54,papaya en conserva,6280,fruta en conserva,,,,,2022-04-01,,frasco,71
+369,tomate,13568,verduras,,,,,2022-02-12,12,,63
+154,telefono,13859,producto tecnologico,36,10,20,0.43,,,,13
+198,mouse,12730,producto tecnologico,33,29,6,0.62,,,,9
+238,reineta,10784,pescado congelado,,,,3.84,2022-04-11,,,101
+246,pollo,9006,carne,,,,,2021-10-27,7,,23
+204,durazno,7673,frutas,,,,,2021-08-15,18,,23
+276,pantalla para colgar,6897,pantalla de luz,41,15,10,0.12,,,,3
+286,manzana,13091,frutas,,,,,2021-08-17,9,,36
+95,esparragos frasco,9882,verdura en conserva,,,,,2021-09-09,,lata,83
+151,cerdo congelado,13962,carne congelada,,,,2.29,2021-10-26,,,48
+290,hallulla,8722,pan,,,,,2021-05-20,12,,40
+322,mix de verduras congeladas,11198,verduras congeladas,,,,1.12,2021-09-18,,,89
+84,pantalla lisa,14987,pantalla de luz,16,20,49,0.83,,,,56
+78,hamburguesa de quinoa,7460,hamburguesa,,,,3.82,2021-05-17,,,66
+394,limon,5808,verduras,,,,,2021-09-15,11,,27
+276,pantalla para colgar,6897,pantalla de luz,41,15,10,0.12,,,,53
+21,televisor,12324,producto tecnologico,14,38,28,0.2,,,,6
+146,poleron,12236,ropa,40,20,9,0.95,,,,28
+229,merlusa,8380,pescado congelado,,,,4.96,2021-07-12,,,24
+80,pera,11624,frutas,,,,,2022-01-09,18,,19
+233,cerdo congelado,7670,carne congelada,,,,3.52,2022-03-03,,,0
+99,arvejas congeladas,12265,verduras congeladas,,,,1.51,2021-05-29,,,83
+235,vacuno,8664,carne,,,,,2021-08-29,22,,67
+94,pollo congelado,6136,carne congelada,,,,1.14,2021-10-09,,,77
+192,telefono,12648,producto tecnologico,23,6,6,0.41,,,,97
+352,mix de frutas en conserva,14348,fruta en conserva,,,,,2021-09-26,,frasco,74
+28,cerdo,12064,carne,,,,,2021-05-11,6,,90
+336,esparragos frasco,7752,verdura en conserva,,,,,2022-05-04,,caja,78
+95,esparragos frasco,9882,verdura en conserva,,,,,2021-09-09,,lata,27
+254,kiwi,7974,frutas,,,,,2021-12-29,17,,25
+386,carne molida,7866,carne congelada,,,,2.83,2021-09-14,,,3
+405,pavo,7717,carne,,,,,2022-04-06,9,,55
+239,merlusa,8602,pescado congelado,,,,1.0,2022-03-10,,,23
+196,reineta,13212,pescado congelado,,,,4.8,2022-04-04,,,23
+26,manzana,7438,frutas,,,,,2021-10-02,17,,21
+27,hamburguesa de pollo,13436,hamburguesa,,,,2.03,2021-12-25,,,69
+63,arvejas congeladas,14607,verduras congeladas,,,,3.93,2021-11-05,,,35
+129,pan de molde,10062,pan,,,,,2022-01-30,16,,17
+15,durazno,13302,frutas,,,,,2021-10-13,10,,15
+156,hallulla,11210,pan,,,,,2021-08-15,6,,58
+339,telefono,5181,producto tecnologico,21,23,26,0.3,,,,91
+383,hamburguesa de verduras,9105,hamburguesa,,,,3.79,2021-07-14,,,25
+359,hamburguesa de vacuno,9503,hamburguesa,,,,3.31,2021-10-09,,,76
+206,lenguado,8200,pescado congelado,,,,2.33,2021-05-19,,,97
+92,garbanzos en conserva,11554,verdura en conserva,,,,,2022-04-17,,caja,15
+141,mix de frutas en conserva,6583,fruta en conserva,,,,,2021-08-26,,caja,19
+58,hamburguesa de vacuno,5337,hamburguesa,,,,3.84,2022-01-06,,,24
+290,hallulla,8722,pan,,,,,2021-05-20,12,,6
+326,esparragos frasco,14352,verdura en conserva,,,,,2021-08-16,,lata,49
+67,limon,13531,verduras,,,,,2022-03-25,11,,88
+415,pantalla lineas,8289,pantalla de luz,45,8,35,0.47,,,,37
+352,mix de frutas en conserva,14348,fruta en conserva,,,,,2021-09-26,,frasco,19
+230,pantalla para colgar,5925,pantalla de luz,8,41,12,0.9,,,,25
+273,hallulla,12150,pan,,,,,2021-08-15,23,,45
+307,marraqueta,10434,pan,,,,,2022-01-11,20,,77
+196,reineta,13212,pescado congelado,,,,4.8,2022-04-04,,,85
+306,hamburguesa de verduras,7976,hamburguesa,,,,1.64,2022-01-29,,,23
+85,salmon,9211,pescado congelado,,,,4.93,2021-11-09,,,26
+282,salmon,11494,pescado congelado,,,,4.67,2021-06-10,,,33
+343,choclo en conserva,12429,verdura en conserva,,,,,2021-06-09,,lata,43
+325,cerdo congelado,8676,carne congelada,,,,1.62,2021-05-16,,,38
+253,platano,14191,frutas,,,,,2021-05-29,12,,19
+104,chaqueta,9435,ropa,17,38,46,0.37,,,,77
+358,platano,10315,frutas,,,,,2021-08-30,21,,65
+130,hamburguesa de verduras,11010,hamburguesa,,,,1.02,2021-07-28,,,98
+39,merlusa,10053,pescado congelado,,,,4.86,2021-10-05,,,92
+169,hallulla,12245,pan,,,,,2021-05-17,5,,76
+55,mouse,6334,producto tecnologico,11,13,39,0.64,,,,67
+173,porotos congelados,14661,verduras congeladas,,,,2.52,2021-06-29,,,39
+4,hallulla,13556,pan,,,,,2021-12-01,14,,20
+406,pantalla para colgar,5421,pantalla de luz,9,41,24,0.99,,,,38
+76,manzana,9326,frutas,,,,,2021-06-19,22,,6
+251,vacuno,13598,carne,,,,,2021-12-21,12,,32
+406,pantalla para colgar,5421,pantalla de luz,9,41,24,0.99,,,,85
+4,hallulla,13556,pan,,,,,2021-12-01,14,,67
+329,hallulla,12550,pan,,,,,2022-01-24,5,,37
+44,lenguado,12660,pescado congelado,,,,3.44,2021-05-20,,,3
+318,pavo,6208,carne,,,,,2021-10-10,10,,80
+198,mouse,12730,producto tecnologico,33,29,6,0.62,,,,81
+95,esparragos frasco,9882,verdura en conserva,,,,,2021-09-09,,lata,44
+201,arvejas en conserva,11500,verdura en conserva,,,,,2021-06-28,,lata,91
+343,choclo en conserva,12429,verdura en conserva,,,,,2021-06-09,,lata,101
+266,poleron,11997,ropa,36,44,9,0.84,,,,91
+269,televisor,11826,producto tecnologico,14,30,14,0.88,,,,67
+286,manzana,13091,frutas,,,,,2021-08-17,9,,98
+222,vestido,10689,ropa,19,49,16,0.17,,,,57
+313,platano,12727,frutas,,,,,2021-11-23,18,,18
+372,mouse,9082,producto tecnologico,20,10,12,0.85,,,,79
+123,choclo congelado,14418,verduras congeladas,,,,2.32,2021-09-01,,,30
+270,hamburguesa de verduras,12794,hamburguesa,,,,2.99,2021-05-18,,,45
+231,jeans,13914,ropa,35,15,10,0.92,,,,18
+371,marraqueta,11380,pan,,,,,2022-04-05,21,,20
+214,cerdo,6063,carne,,,,,2022-03-24,15,,61
+231,jeans,13914,ropa,35,15,10,0.92,,,,48
+417,pollo,10015,carne,,,,,2022-01-06,11,,92
+148,palta,9424,verduras,,,,,2021-06-22,17,,92
+336,esparragos frasco,7752,verdura en conserva,,,,,2022-05-04,,caja,30
+412,marraqueta,14464,pan,,,,,2021-11-17,24,,2
+110,pantalla papel,9914,pantalla de luz,38,48,20,0.25,,,,32
+261,palta,13207,verduras,,,,,2021-08-17,11,,92
+86,televisor,13862,producto tecnologico,13,10,16,0.68,,,,77
+271,televisor,9188,producto tecnologico,47,23,16,0.25,,,,17
+369,tomate,13568,verduras,,,,,2022-02-12,12,,73
+147,arvejas en conserva,10396,verdura en conserva,,,,,2021-10-15,,lata,34
+331,lenguado,6376,pescado congelado,,,,1.21,2021-08-01,,,92
+247,poleron,12512,ropa,35,28,12,0.85,,,,99
+290,hallulla,8722,pan,,,,,2021-05-20,12,,81
+204,durazno,7673,frutas,,,,,2021-08-15,18,,50
+345,hamburguesa de verduras,12480,hamburguesa,,,,2.74,2021-11-22,,,9
+324,poleron,6437,ropa,39,24,44,0.93,,,,93
+225,pantalla papel,8193,pantalla de luz,44,14,20,0.71,,,,45
+373,pantalla papel,5674,pantalla de luz,11,41,31,0.87,,,,35
+160,merlusa,10910,pescado congelado,,,,3.21,2021-08-08,,,45
+271,televisor,9188,producto tecnologico,47,23,16,0.25,,,,95
+262,lenguado,14080,pescado congelado,,,,1.7,2021-07-30,,,35
+223,reineta,8439,pescado congelado,,,,3.19,2021-08-14,,,65
+349, frutillas en conserva,7657,fruta en conserva,,,,,2021-11-27,,lata,63
+99,arvejas congeladas,12265,verduras congeladas,,,,1.51,2021-05-29,,,75
+109,brocoli,7370,verduras,,,,,2021-12-21,21,,32
+181,hamburguesa de verduras,5304,hamburguesa,,,,2.48,2021-06-26,,,98
+389,manzana,7436,frutas,,,,,2022-02-13,16,,93
+371,marraqueta,11380,pan,,,,,2022-04-05,21,,97
+413,durazno en conserva,12428,fruta en conserva,,,,,2021-09-15,,frasco,53
+76,manzana,9326,frutas,,,,,2021-06-19,22,,30
+290,hallulla,8722,pan,,,,,2021-05-20,12,,45
+6,marraqueta,7830,pan,,,,,2021-08-21,22,,23
+386,carne molida,7866,carne congelada,,,,2.83,2021-09-14,,,45
+6,marraqueta,7830,pan,,,,,2021-08-21,22,,20
+333,pantalla lineas,6062,pantalla de luz,16,23,37,0.17,,,,51
+180,hallulla,7278,pan,,,,,2021-09-20,8,,78
+12,mix de frutas en conserva,9432,fruta en conserva,,,,,2021-10-07,,caja,19
+277,limon,7442,verduras,,,,,2021-05-15,19,,8
+13,esparragos frasco,14537,verdura en conserva,,,,,2021-07-12,,caja,53
+161,cerdo,13134,carne,,,,,2021-07-27,19,,42
+175,hallulla,11970,pan,,,,,2021-07-02,23,,96
+272,salmon,6760,pescado congelado,,,,3.85,2021-08-13,,,66
+170,mix de verduras congeladas,7212,verduras congeladas,,,,4.06,2021-06-20,,,39
+217,pollo,13965,carne,,,,,2021-09-16,24,,48
+197,pantalla papel,10497,pantalla de luz,46,35,27,0.63,,,,86
+165,camiseta,10613,ropa,35,31,31,0.29,,,,30
+378,televisor,10657,producto tecnologico,26,45,5,0.13,,,,93
+123,choclo congelado,14418,verduras congeladas,,,,2.32,2021-09-01,,,49
+257,pantalon,12445,ropa,39,15,50,0.46,,,,26
+345,hamburguesa de verduras,12480,hamburguesa,,,,2.74,2021-11-22,,,15
+106,pantalla papel,8041,pantalla de luz,25,14,45,0.8,,,,9
+111,lechuga,8330,verduras,,,,,2021-09-04,13,,75
+405,pavo,7717,carne,,,,,2022-04-06,9,,53
+181,hamburguesa de verduras,5304,hamburguesa,,,,2.48,2021-06-26,,,46
+275,pantalla lisa,13875,pantalla de luz,34,42,25,0.77,,,,17
+4,hallulla,13556,pan,,,,,2021-12-01,14,,27
+368,limon,12932,verduras,,,,,2021-11-29,6,,9
+69,teclado,11714,producto tecnologico,11,30,31,0.89,,,,19
+87,teclado,12613,producto tecnologico,9,15,25,0.33,,,,47
+159,esparragos frasco,13153,verdura en conserva,,,,,2021-06-11,,frasco,46
+76,manzana,9326,frutas,,,,,2021-06-19,22,,72
+217,pollo,13965,carne,,,,,2021-09-16,24,,58
+22,televisor,5912,producto tecnologico,43,22,30,0.41,,,,72
+23,arvejas congeladas,12666,verduras congeladas,,,,2.44,2021-12-04,,,21
+131,cerdo congelado,8452,carne congelada,,,,2.73,2022-02-07,,,90
+259,vestido,8209,ropa,43,34,39,0.76,,,,24
+388,hamburguesa de vacuno,8376,hamburguesa,,,,1.73,2021-10-11,,,57
+102,televisor,5303,producto tecnologico,33,12,50,0.17,,,,42
+147,arvejas en conserva,10396,verdura en conserva,,,,,2021-10-15,,lata,21
+401,arvejas congeladas,14782,verduras congeladas,,,,2.48,2022-01-09,,,56
+79,teclado,5555,producto tecnologico,26,10,17,0.35,,,,38
+108,pantalla papel,14454,pantalla de luz,18,12,5,0.76,,,,43
+254,kiwi,7974,frutas,,,,,2021-12-29,17,,29
+273,hallulla,12150,pan,,,,,2021-08-15,23,,18
+167,hamburguesa de vacuno,9224,hamburguesa,,,,2.74,2021-09-26,,,89
+214,cerdo,6063,carne,,,,,2022-03-24,15,,39
+217,pollo,13965,carne,,,,,2021-09-16,24,,80
+383,hamburguesa de verduras,9105,hamburguesa,,,,3.79,2021-07-14,,,37
+50,pollo congelado,12523,carne congelada,,,,2.0,2021-07-07,,,56
+310,manzana,11868,frutas,,,,,2022-04-25,5,,39
+216,pera,14400,frutas,,,,,2022-02-24,14,,71
+92,garbanzos en conserva,11554,verdura en conserva,,,,,2022-04-17,,caja,8
+281,vestido,6522,ropa,42,7,26,0.17,,,,63
+394,limon,5808,verduras,,,,,2021-09-15,11,,4
+176,salmon,6261,pescado congelado,,,,2.72,2021-12-09,,,74
+344,pantalla para colgar,11629,pantalla de luz,9,18,47,0.23,,,,42
+125,teclado,6734,producto tecnologico,12,42,48,0.82,,,,15
+88,mouse,12978,producto tecnologico,24,18,26,0.44,,,,25
+149,pan de molde,13136,pan,,,,,2021-09-30,24,,10
+260,limon,10707,verduras,,,,,2022-04-19,19,,96
+17,camiseta,14514,ropa,44,16,11,0.25,,,,80
+195,reineta,8674,pescado congelado,,,,2.9,2022-01-15,,,17
+372,mouse,9082,producto tecnologico,20,10,12,0.85,,,,46
+363,jeans,7348,ropa,38,34,31,0.25,,,,79
+228, frutillas en conserva,13599,fruta en conserva,,,,,2022-04-12,,lata,55
+340,pantalla para colgar,5107,pantalla de luz,48,27,39,0.29,,,,63
+351,vacuno congelado,11224,carne congelada,,,,4.69,2022-01-08,,,6
+187,carne molida,12944,carne congelada,,,,2.4,2021-06-16,,,64
+155,vestido,12164,ropa,12,20,41,0.7,,,,42
+172,polera,11996,ropa,44,10,39,0.7,,,,10
+362,pavo congelado,12446,carne congelada,,,,4.92,2022-01-03,,,17
+222,vestido,10689,ropa,19,49,16,0.17,,,,92
+205,lechuga,5224,verduras,,,,,2021-07-19,11,,51
+29,limon,13395,verduras,,,,,2021-08-02,9,,77
+86,televisor,13862,producto tecnologico,13,10,16,0.68,,,,100
+398,pantalla papel,14579,pantalla de luz,19,20,25,0.19,,,,42
+145,hamburguesa de verduras,8137,hamburguesa,,,,2.86,2022-02-04,,,27
+42,cerdo,6686,carne,,,,,2022-01-09,19,,2
+320,pantalla lineas,8495,pantalla de luz,34,42,48,0.41,,,,4
+286,manzana,13091,frutas,,,,,2021-08-17,9,,5
+359,hamburguesa de vacuno,9503,hamburguesa,,,,3.31,2021-10-09,,,3
+325,cerdo congelado,8676,carne congelada,,,,1.62,2021-05-16,,,7
+143,vacuno,13742,carne,,,,,2022-03-08,8,,67
+276,pantalla para colgar,6897,pantalla de luz,41,15,10,0.12,,,,2
+331,lenguado,6376,pescado congelado,,,,1.21,2021-08-01,,,67
+236,mouse,11941,producto tecnologico,42,8,38,0.94,,,,14
+78,hamburguesa de quinoa,7460,hamburguesa,,,,3.82,2021-05-17,,,91
+374,pantalla papel,13760,pantalla de luz,5,32,38,0.98,,,,57
+322,mix de verduras congeladas,11198,verduras congeladas,,,,1.12,2021-09-18,,,39
+23,arvejas congeladas,12666,verduras congeladas,,,,2.44,2021-12-04,,,66
+256,porotos congelados,14619,verduras congeladas,,,,1.09,2021-08-23,,,48
+339,telefono,5181,producto tecnologico,21,23,26,0.3,,,,5
+221,salmon,7372,pescado congelado,,,,1.76,2022-03-26,,,16
+212,hamburguesa de quinoa,12482,hamburguesa,,,,1.52,2021-11-11,,,83
+370,pera,14775,frutas,,,,,2021-07-24,21,,99
+117,telefono,6853,producto tecnologico,26,7,27,0.62,,,,63
+325,cerdo congelado,8676,carne congelada,,,,1.62,2021-05-16,,,39
+391,choclo en conserva,8087,verdura en conserva,,,,,2021-07-19,,lata,47
+324,poleron,6437,ropa,39,24,44,0.93,,,,52
+238,reineta,10784,pescado congelado,,,,3.84,2022-04-11,,,38
+303,pantalla lisa,14182,pantalla de luz,7,46,33,0.57,,,,21
+257,pantalon,12445,ropa,39,15,50,0.46,,,,78
+203,marraqueta,6335,pan,,,,,2022-04-09,5,,44
+246,pollo,9006,carne,,,,,2021-10-27,7,,24
+54,papaya en conserva,6280,fruta en conserva,,,,,2022-04-01,,frasco,0
+190,pantalla papel,14669,pantalla de luz,7,15,41,0.36,,,,47
+325,cerdo congelado,8676,carne congelada,,,,1.62,2021-05-16,,,66
+288,mix de verduras congeladas,6320,verduras congeladas,,,,4.69,2021-09-27,,,76
+413,durazno en conserva,12428,fruta en conserva,,,,,2021-09-15,,frasco,9
+191,marraqueta,6589,pan,,,,,2022-05-02,17,,58
+344,pantalla para colgar,11629,pantalla de luz,9,18,47,0.23,,,,30
+34,mix de verduras congeladas,13386,verduras congeladas,,,,4.15,2021-06-30,,,76
+48,cerdo,13194,carne,,,,,2022-03-18,18,,67
+161,cerdo,13134,carne,,,,,2021-07-27,19,,76
+163,carne molida,7134,carne congelada,,,,3.66,2021-09-26,,,85
+188,mix de verduras congeladas,13804,verduras congeladas,,,,1.82,2021-05-09,,,72
+112,hallulla,11425,pan,,,,,2021-05-16,20,,30
+179,teclado,12795,producto tecnologico,46,7,12,0.52,,,,20
+333,pantalla lineas,6062,pantalla de luz,16,23,37,0.17,,,,96
+131,cerdo congelado,8452,carne congelada,,,,2.73,2022-02-07,,,76
+254,kiwi,7974,frutas,,,,,2021-12-29,17,,28
+227,arvejas en conserva,13905,verdura en conserva,,,,,2021-09-04,,lata,96
+275,pantalla lisa,13875,pantalla de luz,34,42,25,0.77,,,,5
+146,poleron,12236,ropa,40,20,9,0.95,,,,69
+151,cerdo congelado,13962,carne congelada,,,,2.29,2021-10-26,,,8
+372,mouse,9082,producto tecnologico,20,10,12,0.85,,,,43
+77,hallulla,14637,pan,,,,,2021-08-24,20,,21
+346,porotos congelados,7726,verduras congeladas,,,,2.94,2021-05-29,,,97
+52,manzana,7327,frutas,,,,,2021-12-12,19,,97
+319,vacuno,13414,carne,,,,,2021-05-21,14,,75
+147,arvejas en conserva,10396,verdura en conserva,,,,,2021-10-15,,lata,69
+37,cerdo,13208,carne,,,,,2022-03-12,8,,32
+275,pantalla lisa,13875,pantalla de luz,34,42,25,0.77,,,,68
+405,pavo,7717,carne,,,,,2022-04-06,9,,12
+335,pan de molde,7937,pan,,,,,2022-02-12,17,,68
+232,mouse,7653,producto tecnologico,33,16,40,0.21,,,,84
+305,teclado,9834,producto tecnologico,22,36,34,0.46,,,,93
+158,hamburguesa de pollo,10287,hamburguesa,,,,3.71,2021-05-07,,,72
+205,lechuga,5224,verduras,,,,,2021-07-19,11,,65
+20,cerdo,12012,carne,,,,,2021-12-08,6,,70
+371,marraqueta,11380,pan,,,,,2022-04-05,21,,60
+121,pan de molde,7108,pan,,,,,2021-06-18,21,,76
+262,lenguado,14080,pescado congelado,,,,1.7,2021-07-30,,,9
+46,palta,13279,verduras,,,,,2021-09-14,17,,91
+410,salmon,12879,pescado congelado,,,,1.4,2021-09-02,,,95
+386,carne molida,7866,carne congelada,,,,2.83,2021-09-14,,,4
+159,esparragos frasco,13153,verdura en conserva,,,,,2021-06-11,,frasco,40
+124,garbanzos en conserva,11677,verdura en conserva,,,,,2021-11-05,,lata,67
+1,mix de frutas en conserva,10730,fruta en conserva,,,,,2021-06-07,,caja,93
+363,jeans,7348,ropa,38,34,31,0.25,,,,96
+282,salmon,11494,pescado congelado,,,,4.67,2021-06-10,,,25
+135,arvejas congeladas,9491,verduras congeladas,,,,2.42,2022-02-27,,,11
+406,pantalla para colgar,5421,pantalla de luz,9,41,24,0.99,,,,93
+248,pantalla para colgar,8944,pantalla de luz,22,6,37,0.47,,,,56
+196,reineta,13212,pescado congelado,,,,4.8,2022-04-04,,,67
+51,limon,10356,verduras,,,,,2022-01-14,8,,54
+391,choclo en conserva,8087,verdura en conserva,,,,,2021-07-19,,lata,72
+410,salmon,12879,pescado congelado,,,,1.4,2021-09-02,,,90
+273,hallulla,12150,pan,,,,,2021-08-15,23,,20
+98,teclado,5890,producto tecnologico,31,5,34,0.76,,,,51
+353,pavo congelado,7137,carne congelada,,,,2.29,2021-10-21,,,60
+84,pantalla lisa,14987,pantalla de luz,16,20,49,0.83,,,,47
+405,pavo,7717,carne,,,,,2022-04-06,9,,45
+38,cerdo congelado,5036,carne congelada,,,,2.67,2021-07-11,,,69
+337,pantalla lineas,11430,pantalla de luz,25,32,16,0.65,,,,55
+313,platano,12727,frutas,,,,,2021-11-23,18,,81
+370,pera,14775,frutas,,,,,2021-07-24,21,,4
+27,hamburguesa de pollo,13436,hamburguesa,,,,2.03,2021-12-25,,,4
+101,mix de verduras congeladas,8253,verduras congeladas,,,,3.95,2021-07-18,,,4
+113,hamburguesa de verduras,8820,hamburguesa,,,,1.24,2021-06-12,,,26
+356,kiwi,14585,frutas,,,,,2021-06-07,23,,28
+81,hamburguesa de vacuno,8644,hamburguesa,,,,4.55,2022-04-16,,,85
+40,pantalla lisa,11843,pantalla de luz,18,25,9,0.43,,,,17
+15,durazno,13302,frutas,,,,,2021-10-13,10,,68
+238,reineta,10784,pescado congelado,,,,3.84,2022-04-11,,,32
+396,porotos congelados,8296,verduras congeladas,,,,4.65,2021-08-24,,,46
+339,telefono,5181,producto tecnologico,21,23,26,0.3,,,,90
+299,arvejas congeladas,7343,verduras congeladas,,,,2.55,2021-12-24,,,2
+330,cerdo,7094,carne,,,,,2022-02-28,14,,13
+159,esparragos frasco,13153,verdura en conserva,,,,,2021-06-11,,frasco,64
+43,telefono,12517,producto tecnologico,38,19,35,0.15,,,,96
+170,mix de verduras congeladas,7212,verduras congeladas,,,,4.06,2021-06-20,,,2
+402,salmon,6712,pescado congelado,,,,4.51,2022-01-08,,,38
+169,hallulla,12245,pan,,,,,2021-05-17,5,,69
+395,choclo en conserva,11836,verdura en conserva,,,,,2021-10-05,,frasco,77
+62, frutillas en conserva,6958,fruta en conserva,,,,,2022-04-02,,lata,48
+95,esparragos frasco,9882,verdura en conserva,,,,,2021-09-09,,lata,21
+383,hamburguesa de verduras,9105,hamburguesa,,,,3.79,2021-07-14,,,52
+79,teclado,5555,producto tecnologico,26,10,17,0.35,,,,62
+232,mouse,7653,producto tecnologico,33,16,40,0.21,,,,75
+178,manzana,13975,frutas,,,,,2022-01-02,15,,99
+405,pavo,7717,carne,,,,,2022-04-06,9,,28
+404,mix de verduras congeladas,14681,verduras congeladas,,,,1.66,2022-01-03,,,76
+301,carne molida,6414,carne congelada,,,,4.15,2021-12-30,,,66
+181,hamburguesa de verduras,5304,hamburguesa,,,,2.48,2021-06-26,,,88
+402,salmon,6712,pescado congelado,,,,4.51,2022-01-08,,,26
+189,telefono,13048,producto tecnologico,7,48,21,0.98,,,,93
+179,teclado,12795,producto tecnologico,46,7,12,0.52,,,,78
+368,limon,12932,verduras,,,,,2021-11-29,6,,31
+381,pantalla para colgar,8882,pantalla de luz,41,9,42,0.37,,,,77
+395,choclo en conserva,11836,verdura en conserva,,,,,2021-10-05,,frasco,64
+412,marraqueta,14464,pan,,,,,2021-11-17,24,,68
+410,salmon,12879,pescado congelado,,,,1.4,2021-09-02,,,100
+147,arvejas en conserva,10396,verdura en conserva,,,,,2021-10-15,,lata,58
+24,teclado,9510,producto tecnologico,27,46,24,0.44,,,,42
+357,mouse,14549,producto tecnologico,26,50,42,0.66,,,,61
+408,garbanzos en conserva,12008,verdura en conserva,,,,,2022-02-11,,frasco,33
+224,camiseta,12133,ropa,7,38,23,0.41,,,,14
+248,pantalla para colgar,8944,pantalla de luz,22,6,37,0.47,,,,82
+239,merlusa,8602,pescado congelado,,,,1.0,2022-03-10,,,72
+157,hamburguesa de pollo,14465,hamburguesa,,,,2.41,2021-09-28,,,99
+66,vacuno congelado,12014,carne congelada,,,,1.35,2021-11-12,,,79
+321,esparragos frasco,9752,verdura en conserva,,,,,2021-06-24,,lata,83
+1,mix de frutas en conserva,10730,fruta en conserva,,,,,2021-06-07,,caja,76
+114,reineta,9430,pescado congelado,,,,2.29,2021-12-14,,,71
+102,televisor,5303,producto tecnologico,33,12,50,0.17,,,,69
+403,vestido,11750,ropa,41,36,14,0.61,,,,53
+172,polera,11996,ropa,44,10,39,0.7,,,,55
+240,salmon,7427,pescado congelado,,,,2.06,2021-05-31,,,41
+228, frutillas en conserva,13599,fruta en conserva,,,,,2022-04-12,,lata,29
+0,merlusa,8706,pescado congelado,,,,4.82,2021-08-28,,,33
+178,manzana,13975,frutas,,,,,2022-01-02,15,,83
+348,mouse,14046,producto tecnologico,18,14,42,0.29,,,,45
+192,telefono,12648,producto tecnologico,23,6,6,0.41,,,,100
+364,mouse,11097,producto tecnologico,8,45,46,0.18,,,,76
+58,hamburguesa de vacuno,5337,hamburguesa,,,,3.84,2022-01-06,,,96
+236,mouse,11941,producto tecnologico,42,8,38,0.94,,,,52
+171,mix de frutas en conserva,8658,fruta en conserva,,,,,2022-02-04,,caja,97
+171,mix de frutas en conserva,8658,fruta en conserva,,,,,2022-02-04,,caja,48
+377,telefono,14256,producto tecnologico,35,5,12,0.82,,,,9
+165,camiseta,10613,ropa,35,31,31,0.29,,,,94
+139,hamburguesa de quinoa,13665,hamburguesa,,,,4.61,2021-09-27,,,77
+150,salmon,6044,pescado congelado,,,,3.53,2022-04-17,,,91
+223,reineta,8439,pescado congelado,,,,3.19,2021-08-14,,,90
+39,merlusa,10053,pescado congelado,,,,4.86,2021-10-05,,,8
+229,merlusa,8380,pescado congelado,,,,4.96,2021-07-12,,,97
+297,pantalla para colgar,6596,pantalla de luz,20,13,44,0.51,,,,89
+236,mouse,11941,producto tecnologico,42,8,38,0.94,,,,94
+113,hamburguesa de verduras,8820,hamburguesa,,,,1.24,2021-06-12,,,94
+179,teclado,12795,producto tecnologico,46,7,12,0.52,,,,89
+49,televisor,11837,producto tecnologico,9,36,33,0.39,,,,47
+172,polera,11996,ropa,44,10,39,0.7,,,,19
+260,limon,10707,verduras,,,,,2022-04-19,19,,18
+293,vacuno congelado,7891,carne congelada,,,,1.44,2021-12-03,,,62
+29,limon,13395,verduras,,,,,2021-08-02,9,,54
+307,marraqueta,10434,pan,,,,,2022-01-11,20,,12
+213,calcetin,14881,ropa,12,26,9,0.37,,,,53
+28,cerdo,12064,carne,,,,,2021-05-11,6,,37
+32,pantalla para colgar,6200,pantalla de luz,47,45,32,0.19,,,,83
+393,televisor,8016,producto tecnologico,22,19,47,0.32,,,,8
+334,pantalla lineas,9860,pantalla de luz,40,14,10,0.98,,,,54
+114,reineta,9430,pescado congelado,,,,2.29,2021-12-14,,,80
+296,salmon,9495,pescado congelado,,,,1.02,2022-03-04,,,92
+58,hamburguesa de vacuno,5337,hamburguesa,,,,3.84,2022-01-06,,,8
+338,mix de frutas en conserva,10464,fruta en conserva,,,,,2021-10-26,,frasco,49
+409,pantalla lineas,12158,pantalla de luz,24,27,14,0.92,,,,44
+36,lenguado,12514,pescado congelado,,,,4.0,2021-11-06,,,13
+134,jeans,10305,ropa,47,11,36,0.72,,,,3
+260,limon,10707,verduras,,,,,2022-04-19,19,,7
+83, frutillas en conserva,12139,fruta en conserva,,,,,2021-05-23,,caja,93
+378,televisor,10657,producto tecnologico,26,45,5,0.13,,,,25
+330,cerdo,7094,carne,,,,,2022-02-28,14,,68
+33, frutillas en conserva,9530,fruta en conserva,,,,,2021-09-14,,caja,43
+242,marraqueta,6667,pan,,,,,2022-02-10,13,,99
+159,esparragos frasco,13153,verdura en conserva,,,,,2021-06-11,,frasco,95
+148,palta,9424,verduras,,,,,2021-06-22,17,,91
+231,jeans,13914,ropa,35,15,10,0.92,,,,95
+283,telefono,12515,producto tecnologico,15,19,38,0.71,,,,46
+354,pollo congelado,8252,carne congelada,,,,2.98,2021-06-17,,,2
+236,mouse,11941,producto tecnologico,42,8,38,0.94,,,,82
+33, frutillas en conserva,9530,fruta en conserva,,,,,2021-09-14,,caja,34
+325,cerdo congelado,8676,carne congelada,,,,1.62,2021-05-16,,,13
+326,esparragos frasco,14352,verdura en conserva,,,,,2021-08-16,,lata,72
+265,telefono,6947,producto tecnologico,9,40,30,0.89,,,,56
+84,pantalla lisa,14987,pantalla de luz,16,20,49,0.83,,,,71
+261,palta,13207,verduras,,,,,2021-08-17,11,,51
+16,hamburguesa de quinoa,5914,hamburguesa,,,,2.2,2021-12-10,,,25
+179,teclado,12795,producto tecnologico,46,7,12,0.52,,,,36
+200,hamburguesa de verduras,5681,hamburguesa,,,,4.37,2022-02-03,,,86
+263,pantalla papel,14631,pantalla de luz,8,8,33,0.31,,,,77
+207, frutillas en conserva,6563,fruta en conserva,,,,,2021-05-11,,lata,37
+172,polera,11996,ropa,44,10,39,0.7,,,,31
+388,hamburguesa de vacuno,8376,hamburguesa,,,,1.73,2021-10-11,,,82
+234,brocoli,10802,verduras,,,,,2022-01-06,5,,7
+340,pantalla para colgar,5107,pantalla de luz,48,27,39,0.29,,,,66
+330,cerdo,7094,carne,,,,,2022-02-28,14,,81
+139,hamburguesa de quinoa,13665,hamburguesa,,,,4.61,2021-09-27,,,93
+60,pantalla para colgar,8436,pantalla de luz,6,24,5,0.6,,,,11
+10,reineta,10545,pescado congelado,,,,2.87,2022-02-22,,,44
+210,pantalla lisa,7658,pantalla de luz,46,8,14,0.35,,,,7
+316,vacuno,13806,carne,,,,,2022-04-03,12,,15
+292,vacuno congelado,12122,carne congelada,,,,1.41,2021-05-20,,,2
+60,pantalla para colgar,8436,pantalla de luz,6,24,5,0.6,,,,45
+62, frutillas en conserva,6958,fruta en conserva,,,,,2022-04-02,,lata,15
+363,jeans,7348,ropa,38,34,31,0.25,,,,83
+28,cerdo,12064,carne,,,,,2021-05-11,6,,35
+300,durazno en conserva,5467,fruta en conserva,,,,,2022-02-18,,caja,12
+99,arvejas congeladas,12265,verduras congeladas,,,,1.51,2021-05-29,,,20
+156,hallulla,11210,pan,,,,,2021-08-15,6,,43
+236,mouse,11941,producto tecnologico,42,8,38,0.94,,,,0
+289,salmon,14016,pescado congelado,,,,2.18,2022-01-12,,,72
+26,manzana,7438,frutas,,,,,2021-10-02,17,,38
+52,manzana,7327,frutas,,,,,2021-12-12,19,,49
+277,limon,7442,verduras,,,,,2021-05-15,19,,28
+230,pantalla para colgar,5925,pantalla de luz,8,41,12,0.9,,,,3
+152,lenguado,13791,pescado congelado,,,,4.9,2022-04-27,,,56
+214,cerdo,6063,carne,,,,,2022-03-24,15,,59
+248,pantalla para colgar,8944,pantalla de luz,22,6,37,0.47,,,,56
+242,marraqueta,6667,pan,,,,,2022-02-10,13,,28
+360,pantalla papel,11751,pantalla de luz,37,41,20,0.71,,,,16
+319,vacuno,13414,carne,,,,,2021-05-21,14,,49
+253,platano,14191,frutas,,,,,2021-05-29,12,,32
+109,brocoli,7370,verduras,,,,,2021-12-21,21,,67
+366,pantalla papel,8830,pantalla de luz,45,47,16,0.92,,,,37
+332,pantalla lisa,7833,pantalla de luz,6,6,7,0.64,,,,46
+362,pavo congelado,12446,carne congelada,,,,4.92,2022-01-03,,,57
+396,porotos congelados,8296,verduras congeladas,,,,4.65,2021-08-24,,,16
+6,marraqueta,7830,pan,,,,,2021-08-21,22,,11
+332,pantalla lisa,7833,pantalla de luz,6,6,7,0.64,,,,68
+2,pantalla lisa,5609,pantalla de luz,26,20,22,0.32,,,,61
+11,papaya en conserva,7060,fruta en conserva,,,,,2022-02-04,,lata,2
+85,salmon,9211,pescado congelado,,,,4.93,2021-11-09,,,3
+325,cerdo congelado,8676,carne congelada,,,,1.62,2021-05-16,,,24
+391,choclo en conserva,8087,verdura en conserva,,,,,2021-07-19,,lata,16
+22,televisor,5912,producto tecnologico,43,22,30,0.41,,,,96
+109,brocoli,7370,verduras,,,,,2021-12-21,21,,53
+110,pantalla papel,9914,pantalla de luz,38,48,20,0.25,,,,35
+194,hallulla,9444,pan,,,,,2021-11-03,15,,55
+365,camiseta,12323,ropa,6,14,41,0.34,,,,79
+164,platano,13220,frutas,,,,,2021-11-02,10,,13
+356,kiwi,14585,frutas,,,,,2021-06-07,23,,72
+268,teclado,12598,producto tecnologico,43,14,8,0.86,,,,77
+362,pavo congelado,12446,carne congelada,,,,4.92,2022-01-03,,,44
+198,mouse,12730,producto tecnologico,33,29,6,0.62,,,,48
+156,hallulla,11210,pan,,,,,2021-08-15,6,,43
+262,lenguado,14080,pescado congelado,,,,1.7,2021-07-30,,,69
+231,jeans,13914,ropa,35,15,10,0.92,,,,66
+9,hamburguesa de verduras,11678,hamburguesa,,,,3.01,2021-07-02,,,73
+244,pantalla para colgar,5174,pantalla de luz,21,45,10,0.64,,,,92
+377,telefono,14256,producto tecnologico,35,5,12,0.82,,,,1
+345,hamburguesa de verduras,12480,hamburguesa,,,,2.74,2021-11-22,,,29
+163,carne molida,7134,carne congelada,,,,3.66,2021-09-26,,,96
+23,arvejas congeladas,12666,verduras congeladas,,,,2.44,2021-12-04,,,55
+125,teclado,6734,producto tecnologico,12,42,48,0.82,,,,42
+115, frutillas en conserva,9542,fruta en conserva,,,,,2021-11-02,,lata,28
+110,pantalla papel,9914,pantalla de luz,38,48,20,0.25,,,,7
+144,tomate,8242,verduras,,,,,2021-11-22,6,,26
+238,reineta,10784,pescado congelado,,,,3.84,2022-04-11,,,61
+96,pavo,6717,carne,,,,,2021-11-22,15,,87
+192,telefono,12648,producto tecnologico,23,6,6,0.41,,,,26
+128,pavo,9003,carne,,,,,2021-10-02,21,,82
+195,reineta,8674,pescado congelado,,,,2.9,2022-01-15,,,100
+19,durazno en conserva,8421,fruta en conserva,,,,,2021-12-12,,frasco,20
+32,pantalla para colgar,6200,pantalla de luz,47,45,32,0.19,,,,97
+110,pantalla papel,9914,pantalla de luz,38,48,20,0.25,,,,59
+133,reineta,7700,pescado congelado,,,,4.5,2021-12-18,,,0
+37,cerdo,13208,carne,,,,,2022-03-12,8,,75
+71,papaya en conserva,14577,fruta en conserva,,,,,2022-02-28,,lata,74
+61,vacuno,5898,carne,,,,,2021-11-25,7,,13
+368,limon,12932,verduras,,,,,2021-11-29,6,,20
+251,vacuno,13598,carne,,,,,2021-12-21,12,,34
+88,mouse,12978,producto tecnologico,24,18,26,0.44,,,,63
+92,garbanzos en conserva,11554,verdura en conserva,,,,,2022-04-17,,caja,0
+3,merlusa,13317,pescado congelado,,,,2.03,2021-08-09,,,62
+175,hallulla,11970,pan,,,,,2021-07-02,23,,1
+26,manzana,7438,frutas,,,,,2021-10-02,17,,88
+415,pantalla lineas,8289,pantalla de luz,45,8,35,0.47,,,,65
+126,teclado,12241,producto tecnologico,38,9,45,0.88,,,,87
+263,pantalla papel,14631,pantalla de luz,8,8,33,0.31,,,,6
+214,cerdo,6063,carne,,,,,2022-03-24,15,,47
+388,hamburguesa de vacuno,8376,hamburguesa,,,,1.73,2021-10-11,,,19
+385,limon,11324,verduras,,,,,2022-01-06,14,,12
+378,televisor,10657,producto tecnologico,26,45,5,0.13,,,,23
+261,palta,13207,verduras,,,,,2021-08-17,11,,82
+414,pantalla lineas,11871,pantalla de luz,12,14,49,0.55,,,,89
+3,merlusa,13317,pescado congelado,,,,2.03,2021-08-09,,,85
+283,telefono,12515,producto tecnologico,15,19,38,0.71,,,,40
+336,esparragos frasco,7752,verdura en conserva,,,,,2022-05-04,,caja,82
+2,pantalla lisa,5609,pantalla de luz,26,20,22,0.32,,,,14
+109,brocoli,7370,verduras,,,,,2021-12-21,21,,46
+43,telefono,12517,producto tecnologico,38,19,35,0.15,,,,35
+2,pantalla lisa,5609,pantalla de luz,26,20,22,0.32,,,,53
+40,pantalla lisa,11843,pantalla de luz,18,25,9,0.43,,,,38
+169,hallulla,12245,pan,,,,,2021-05-17,5,,84
+252,pavo congelado,6840,carne congelada,,,,1.6,2021-10-01,,,66
+359,hamburguesa de vacuno,9503,hamburguesa,,,,3.31,2021-10-09,,,89
+190,pantalla papel,14669,pantalla de luz,7,15,41,0.36,,,,70
+68,camisa,5009,ropa,40,29,14,0.6,,,,17
+134,jeans,10305,ropa,47,11,36,0.72,,,,2
+415,pantalla lineas,8289,pantalla de luz,45,8,35,0.47,,,,34
+305,teclado,9834,producto tecnologico,22,36,34,0.46,,,,14
+369,tomate,13568,verduras,,,,,2022-02-12,12,,30
+252,pavo congelado,6840,carne congelada,,,,1.6,2021-10-01,,,80
+125,teclado,6734,producto tecnologico,12,42,48,0.82,,,,18
+167,hamburguesa de vacuno,9224,hamburguesa,,,,2.74,2021-09-26,,,77
+343,choclo en conserva,12429,verdura en conserva,,,,,2021-06-09,,lata,42
+264,hamburguesa de vacuno,14847,hamburguesa,,,,1.01,2021-08-21,,,97
+126,teclado,12241,producto tecnologico,38,9,45,0.88,,,,59
+373,pantalla papel,5674,pantalla de luz,11,41,31,0.87,,,,46
+355,mix de frutas en conserva,12120,fruta en conserva,,,,,2021-08-27,,frasco,50
+313,platano,12727,frutas,,,,,2021-11-23,18,,38
+243,choclo congelado,6481,verduras congeladas,,,,3.91,2022-01-23,,,78
+179,teclado,12795,producto tecnologico,46,7,12,0.52,,,,44
+373,pantalla papel,5674,pantalla de luz,11,41,31,0.87,,,,89
+412,marraqueta,14464,pan,,,,,2021-11-17,24,,10
+275,pantalla lisa,13875,pantalla de luz,34,42,25,0.77,,,,80
+386,carne molida,7866,carne congelada,,,,2.83,2021-09-14,,,92
+153,pantalla papel,8665,pantalla de luz,39,36,29,0.6,,,,53
+18,palta,14117,verduras,,,,,2021-06-12,9,,29
+166,reineta,12040,pescado congelado,,,,3.73,2021-08-12,,,12
+49,televisor,11837,producto tecnologico,9,36,33,0.39,,,,13
+125,teclado,6734,producto tecnologico,12,42,48,0.82,,,,7
+320,pantalla lineas,8495,pantalla de luz,34,42,48,0.41,,,,20
+77,hallulla,14637,pan,,,,,2021-08-24,20,,28
+308,mix de verduras congeladas,6920,verduras congeladas,,,,1.33,2021-08-20,,,75
+124,garbanzos en conserva,11677,verdura en conserva,,,,,2021-11-05,,lata,0
+243,choclo congelado,6481,verduras congeladas,,,,3.91,2022-01-23,,,1
+287,carne molida,14751,carne congelada,,,,2.47,2021-12-29,,,18
+259,vestido,8209,ropa,43,34,39,0.76,,,,66
+356,kiwi,14585,frutas,,,,,2021-06-07,23,,26
+184,hamburguesa de vacuno,6871,hamburguesa,,,,1.5,2022-02-25,,,57
+250,vacuno,14397,carne,,,,,2021-10-27,20,,0
+279,merlusa,9334,pescado congelado,,,,1.41,2022-04-18,,,9
+162,pollo,9026,carne,,,,,2021-08-28,24,,85
+87,teclado,12613,producto tecnologico,9,15,25,0.33,,,,89
+162,pollo,9026,carne,,,,,2021-08-28,24,,48
+73,pantalla lineas,8949,pantalla de luz,22,29,11,0.45,,,,9
+412,marraqueta,14464,pan,,,,,2021-11-17,24,,92
+221,salmon,7372,pescado congelado,,,,1.76,2022-03-26,,,11
+417,pollo,10015,carne,,,,,2022-01-06,11,,82
+326,esparragos frasco,14352,verdura en conserva,,,,,2021-08-16,,lata,31
+287,carne molida,14751,carne congelada,,,,2.47,2021-12-29,,,8
+217,pollo,13965,carne,,,,,2021-09-16,24,,74
+122,porotos congelados,11540,verduras congeladas,,,,3.16,2021-12-27,,,71
+290,hallulla,8722,pan,,,,,2021-05-20,12,,92
+398,pantalla papel,14579,pantalla de luz,19,20,25,0.19,,,,43
+104,chaqueta,9435,ropa,17,38,46,0.37,,,,0
+338,mix de frutas en conserva,10464,fruta en conserva,,,,,2021-10-26,,frasco,28
+252,pavo congelado,6840,carne congelada,,,,1.6,2021-10-01,,,29
+20,cerdo,12012,carne,,,,,2021-12-08,6,,90
+307,marraqueta,10434,pan,,,,,2022-01-11,20,,65
+230,pantalla para colgar,5925,pantalla de luz,8,41,12,0.9,,,,78
+226,carne molida,5033,carne congelada,,,,2.01,2022-04-17,,,15
+409,pantalla lineas,12158,pantalla de luz,24,27,14,0.92,,,,97
+305,teclado,9834,producto tecnologico,22,36,34,0.46,,,,77
+205,lechuga,5224,verduras,,,,,2021-07-19,11,,0
+83, frutillas en conserva,12139,fruta en conserva,,,,,2021-05-23,,caja,43
+372,mouse,9082,producto tecnologico,20,10,12,0.85,,,,66
+411,durazno,11230,frutas,,,,,2022-02-17,8,,36
+152,lenguado,13791,pescado congelado,,,,4.9,2022-04-27,,,29
+395,choclo en conserva,11836,verdura en conserva,,,,,2021-10-05,,frasco,6
+235,vacuno,8664,carne,,,,,2021-08-29,22,,2
+240,salmon,7427,pescado congelado,,,,2.06,2021-05-31,,,38
+156,hallulla,11210,pan,,,,,2021-08-15,6,,17
+118,limon,11756,verduras,,,,,2021-06-28,15,,1
+351,vacuno congelado,11224,carne congelada,,,,4.69,2022-01-08,,,25
+185,cerdo,12579,carne,,,,,2021-12-20,6,,85
+312,pantalla papel,6898,pantalla de luz,43,7,19,0.75,,,,48
+106,pantalla papel,8041,pantalla de luz,25,14,45,0.8,,,,99
+59,durazno en conserva,5186,fruta en conserva,,,,,2021-09-10,,frasco,99
+170,mix de verduras congeladas,7212,verduras congeladas,,,,4.06,2021-06-20,,,75
+160,merlusa,10910,pescado congelado,,,,3.21,2021-08-08,,,31
+282,salmon,11494,pescado congelado,,,,4.67,2021-06-10,,,75
+181,hamburguesa de verduras,5304,hamburguesa,,,,2.48,2021-06-26,,,73
+79,teclado,5555,producto tecnologico,26,10,17,0.35,,,,65
+411,durazno,11230,frutas,,,,,2022-02-17,8,,84
+65,hamburguesa de verduras,7556,hamburguesa,,,,3.79,2022-02-08,,,68
+18,palta,14117,verduras,,,,,2021-06-12,9,,38
+311,vestido,14898,ropa,28,25,14,0.21,,,,97
+357,mouse,14549,producto tecnologico,26,50,42,0.66,,,,15
+369,tomate,13568,verduras,,,,,2022-02-12,12,,1
+172,polera,11996,ropa,44,10,39,0.7,,,,44
+175,hallulla,11970,pan,,,,,2021-07-02,23,,56
+32,pantalla para colgar,6200,pantalla de luz,47,45,32,0.19,,,,94
+152,lenguado,13791,pescado congelado,,,,4.9,2022-04-27,,,97
+77,hallulla,14637,pan,,,,,2021-08-24,20,,82
+126,teclado,12241,producto tecnologico,38,9,45,0.88,,,,29
+194,hallulla,9444,pan,,,,,2021-11-03,15,,20
+345,hamburguesa de verduras,12480,hamburguesa,,,,2.74,2021-11-22,,,63
+39,merlusa,10053,pescado congelado,,,,4.86,2021-10-05,,,79
+392,arvejas en conserva,13884,verdura en conserva,,,,,2021-07-28,,lata,72
+33, frutillas en conserva,9530,fruta en conserva,,,,,2021-09-14,,caja,22
+18,palta,14117,verduras,,,,,2021-06-12,9,,22
+356,kiwi,14585,frutas,,,,,2021-06-07,23,,62
+33, frutillas en conserva,9530,fruta en conserva,,,,,2021-09-14,,caja,27
+87,teclado,12613,producto tecnologico,9,15,25,0.33,,,,37
+301,carne molida,6414,carne congelada,,,,4.15,2021-12-30,,,6
+130,hamburguesa de verduras,11010,hamburguesa,,,,1.02,2021-07-28,,,0
+1,mix de frutas en conserva,10730,fruta en conserva,,,,,2021-06-07,,caja,98
+85,salmon,9211,pescado congelado,,,,4.93,2021-11-09,,,21
+20,cerdo,12012,carne,,,,,2021-12-08,6,,5
+174,vacuno,14113,carne,,,,,2021-09-10,15,,67
+34,mix de verduras congeladas,13386,verduras congeladas,,,,4.15,2021-06-30,,,26
+74,pantalla lisa,14478,pantalla de luz,5,33,14,0.72,,,,72
+295,manzana,11013,frutas,,,,,2022-01-18,17,,10
+122,porotos congelados,11540,verduras congeladas,,,,3.16,2021-12-27,,,5
+232,mouse,7653,producto tecnologico,33,16,40,0.21,,,,75
+116,cerdo congelado,11027,carne congelada,,,,2.27,2021-08-10,,,101
+296,salmon,9495,pescado congelado,,,,1.02,2022-03-04,,,94
+220,manzana,11649,frutas,,,,,2021-06-03,7,,32
+222,vestido,10689,ropa,19,49,16,0.17,,,,71
+247,poleron,12512,ropa,35,28,12,0.85,,,,38
+391,choclo en conserva,8087,verdura en conserva,,,,,2021-07-19,,lata,38
+320,pantalla lineas,8495,pantalla de luz,34,42,48,0.41,,,,63
+328,hamburguesa de pollo,6638,hamburguesa,,,,2.09,2021-07-26,,,66
+393,televisor,8016,producto tecnologico,22,19,47,0.32,,,,8
+197,pantalla papel,10497,pantalla de luz,46,35,27,0.63,,,,30
+220,manzana,11649,frutas,,,,,2021-06-03,7,,29
+326,esparragos frasco,14352,verdura en conserva,,,,,2021-08-16,,lata,30
+165,camiseta,10613,ropa,35,31,31,0.29,,,,48
+350,brocoli,7862,verduras,,,,,2021-06-05,24,,45
+301,carne molida,6414,carne congelada,,,,4.15,2021-12-30,,,20
+402,salmon,6712,pescado congelado,,,,4.51,2022-01-08,,,34
+46,palta,13279,verduras,,,,,2021-09-14,17,,82
+223,reineta,8439,pescado congelado,,,,3.19,2021-08-14,,,80
+137,jeans,11374,ropa,41,5,7,0.89,,,,15
+318,pavo,6208,carne,,,,,2021-10-10,10,,48
+355,mix de frutas en conserva,12120,fruta en conserva,,,,,2021-08-27,,frasco,57
+262,lenguado,14080,pescado congelado,,,,1.7,2021-07-30,,,37
+40,pantalla lisa,11843,pantalla de luz,18,25,9,0.43,,,,13
+159,esparragos frasco,13153,verdura en conserva,,,,,2021-06-11,,frasco,31
+204,durazno,7673,frutas,,,,,2021-08-15,18,,76
+81,hamburguesa de vacuno,8644,hamburguesa,,,,4.55,2022-04-16,,,69
+23,arvejas congeladas,12666,verduras congeladas,,,,2.44,2021-12-04,,,62
+234,brocoli,10802,verduras,,,,,2022-01-06,5,,35
+252,pavo congelado,6840,carne congelada,,,,1.6,2021-10-01,,,70
+233,cerdo congelado,7670,carne congelada,,,,3.52,2022-03-03,,,0
+353,pavo congelado,7137,carne congelada,,,,2.29,2021-10-21,,,45
+18,palta,14117,verduras,,,,,2021-06-12,9,,2
+239,merlusa,8602,pescado congelado,,,,1.0,2022-03-10,,,38
+317,pantalla lineas,13847,pantalla de luz,44,43,45,0.27,,,,34
+205,lechuga,5224,verduras,,,,,2021-07-19,11,,42
+411,durazno,11230,frutas,,,,,2022-02-17,8,,69
+236,mouse,11941,producto tecnologico,42,8,38,0.94,,,,79
+131,cerdo congelado,8452,carne congelada,,,,2.73,2022-02-07,,,79
+16,hamburguesa de quinoa,5914,hamburguesa,,,,2.2,2021-12-10,,,57
+159,esparragos frasco,13153,verdura en conserva,,,,,2021-06-11,,frasco,73
+199,garbanzos en conserva,9115,verdura en conserva,,,,,2021-12-23,,lata,76
+366,pantalla papel,8830,pantalla de luz,45,47,16,0.92,,,,66
+221,salmon,7372,pescado congelado,,,,1.76,2022-03-26,,,59
+88,mouse,12978,producto tecnologico,24,18,26,0.44,,,,52
+241,durazno en conserva,12190,fruta en conserva,,,,,2022-03-11,,caja,68
+156,hallulla,11210,pan,,,,,2021-08-15,6,,17
+333,pantalla lineas,6062,pantalla de luz,16,23,37,0.17,,,,87
+333,pantalla lineas,6062,pantalla de luz,16,23,37,0.17,,,,35
+373,pantalla papel,5674,pantalla de luz,11,41,31,0.87,,,,15
+98,teclado,5890,producto tecnologico,31,5,34,0.76,,,,8
+338,mix de frutas en conserva,10464,fruta en conserva,,,,,2021-10-26,,frasco,42
+396,porotos congelados,8296,verduras congeladas,,,,4.65,2021-08-24,,,47
+414,pantalla lineas,11871,pantalla de luz,12,14,49,0.55,,,,23
+226,carne molida,5033,carne congelada,,,,2.01,2022-04-17,,,90
+68,camisa,5009,ropa,40,29,14,0.6,,,,89
+121,pan de molde,7108,pan,,,,,2021-06-18,21,,39
+232,mouse,7653,producto tecnologico,33,16,40,0.21,,,,70
+268,teclado,12598,producto tecnologico,43,14,8,0.86,,,,29
+320,pantalla lineas,8495,pantalla de luz,34,42,48,0.41,,,,16
+68,camisa,5009,ropa,40,29,14,0.6,,,,100
+44,lenguado,12660,pescado congelado,,,,3.44,2021-05-20,,,15
+197,pantalla papel,10497,pantalla de luz,46,35,27,0.63,,,,42
+188,mix de verduras congeladas,13804,verduras congeladas,,,,1.82,2021-05-09,,,100
+108,pantalla papel,14454,pantalla de luz,18,12,5,0.76,,,,86
+403,vestido,11750,ropa,41,36,14,0.61,,,,52
+122,porotos congelados,11540,verduras congeladas,,,,3.16,2021-12-27,,,92
+318,pavo,6208,carne,,,,,2021-10-10,10,,53
+145,hamburguesa de verduras,8137,hamburguesa,,,,2.86,2022-02-04,,,94
+194,hallulla,9444,pan,,,,,2021-11-03,15,,82
+166,reineta,12040,pescado congelado,,,,3.73,2021-08-12,,,51
+412,marraqueta,14464,pan,,,,,2021-11-17,24,,20
+414,pantalla lineas,11871,pantalla de luz,12,14,49,0.55,,,,73
+327,hallulla,6887,pan,,,,,2021-12-06,20,,20
+393,televisor,8016,producto tecnologico,22,19,47,0.32,,,,17
+403,vestido,11750,ropa,41,36,14,0.61,,,,7
+208,telefono,9760,producto tecnologico,22,8,31,0.14,,,,78
+280,pollo congelado,6003,carne congelada,,,,3.68,2021-06-28,,,91
+10,reineta,10545,pescado congelado,,,,2.87,2022-02-22,,,91
+22,televisor,5912,producto tecnologico,43,22,30,0.41,,,,34
+157,hamburguesa de pollo,14465,hamburguesa,,,,2.41,2021-09-28,,,26
+149,pan de molde,13136,pan,,,,,2021-09-30,24,,76
+37,cerdo,13208,carne,,,,,2022-03-12,8,,78
+147,arvejas en conserva,10396,verdura en conserva,,,,,2021-10-15,,lata,53
+319,vacuno,13414,carne,,,,,2021-05-21,14,,56
+400,mix de verduras congeladas,13648,verduras congeladas,,,,4.55,2022-04-09,,,55
+363,jeans,7348,ropa,38,34,31,0.25,,,,69
+91,arvejas congeladas,7384,verduras congeladas,,,,4.18,2022-02-23,,,32
+317,pantalla lineas,13847,pantalla de luz,44,43,45,0.27,,,,32
+279,merlusa,9334,pescado congelado,,,,1.41,2022-04-18,,,27
+71,papaya en conserva,14577,fruta en conserva,,,,,2022-02-28,,lata,30
+21,televisor,12324,producto tecnologico,14,38,28,0.2,,,,54
+20,cerdo,12012,carne,,,,,2021-12-08,6,,21
+153,pantalla papel,8665,pantalla de luz,39,36,29,0.6,,,,17
+71,papaya en conserva,14577,fruta en conserva,,,,,2022-02-28,,lata,64
+15,durazno,13302,frutas,,,,,2021-10-13,10,,37
+164,platano,13220,frutas,,,,,2021-11-02,10,,17
+277,limon,7442,verduras,,,,,2021-05-15,19,,46
+102,televisor,5303,producto tecnologico,33,12,50,0.17,,,,81
+326,esparragos frasco,14352,verdura en conserva,,,,,2021-08-16,,lata,98
+49,televisor,11837,producto tecnologico,9,36,33,0.39,,,,48
+340,pantalla para colgar,5107,pantalla de luz,48,27,39,0.29,,,,82
+19,durazno en conserva,8421,fruta en conserva,,,,,2021-12-12,,frasco,35
+10,reineta,10545,pescado congelado,,,,2.87,2022-02-22,,,84
+340,pantalla para colgar,5107,pantalla de luz,48,27,39,0.29,,,,81
+409,pantalla lineas,12158,pantalla de luz,24,27,14,0.92,,,,33
+159,esparragos frasco,13153,verdura en conserva,,,,,2021-06-11,,frasco,88
+111,lechuga,8330,verduras,,,,,2021-09-04,13,,87
+76,manzana,9326,frutas,,,,,2021-06-19,22,,16
+290,hallulla,8722,pan,,,,,2021-05-20,12,,59
+332,pantalla lisa,7833,pantalla de luz,6,6,7,0.64,,,,68
+294,pollo congelado,10551,carne congelada,,,,4.93,2021-10-13,,,87
+411,durazno,11230,frutas,,,,,2022-02-17,8,,17
+80,pera,11624,frutas,,,,,2022-01-09,18,,78
+149,pan de molde,13136,pan,,,,,2021-09-30,24,,9
+296,salmon,9495,pescado congelado,,,,1.02,2022-03-04,,,52
+0,merlusa,8706,pescado congelado,,,,4.82,2021-08-28,,,53
+354,pollo congelado,8252,carne congelada,,,,2.98,2021-06-17,,,73
+178,manzana,13975,frutas,,,,,2022-01-02,15,,10
+118,limon,11756,verduras,,,,,2021-06-28,15,,34
+193,reineta,12780,pescado congelado,,,,4.52,2022-02-04,,,76
+393,televisor,8016,producto tecnologico,22,19,47,0.32,,,,52
+328,hamburguesa de pollo,6638,hamburguesa,,,,2.09,2021-07-26,,,99
+205,lechuga,5224,verduras,,,,,2021-07-19,11,,56
+222,vestido,10689,ropa,19,49,16,0.17,,,,29
+352,mix de frutas en conserva,14348,fruta en conserva,,,,,2021-09-26,,frasco,18
+249,lechuga,8099,verduras,,,,,2021-08-14,5,,42
+245,pantalla lisa,6627,pantalla de luz,49,31,37,0.25,,,,34
+6,marraqueta,7830,pan,,,,,2021-08-21,22,,94
+167,hamburguesa de vacuno,9224,hamburguesa,,,,2.74,2021-09-26,,,45
+386,carne molida,7866,carne congelada,,,,2.83,2021-09-14,,,71
+410,salmon,12879,pescado congelado,,,,1.4,2021-09-02,,,86
+190,pantalla papel,14669,pantalla de luz,7,15,41,0.36,,,,49
+203,marraqueta,6335,pan,,,,,2022-04-09,5,,99
+21,televisor,12324,producto tecnologico,14,38,28,0.2,,,,84
+97,lechuga,8668,verduras,,,,,2022-03-08,6,,82
+381,pantalla para colgar,8882,pantalla de luz,41,9,42,0.37,,,,44
+228, frutillas en conserva,13599,fruta en conserva,,,,,2022-04-12,,lata,92
+229,merlusa,8380,pescado congelado,,,,4.96,2021-07-12,,,65
+367,teclado,7331,producto tecnologico,32,32,18,0.5,,,,88
+276,pantalla para colgar,6897,pantalla de luz,41,15,10,0.12,,,,17
+307,marraqueta,10434,pan,,,,,2022-01-11,20,,41
+396,porotos congelados,8296,verduras congeladas,,,,4.65,2021-08-24,,,37
+84,pantalla lisa,14987,pantalla de luz,16,20,49,0.83,,,,76
+407,manzana,8989,frutas,,,,,2021-07-08,14,,30
+322,mix de verduras congeladas,11198,verduras congeladas,,,,1.12,2021-09-18,,,53
+32,pantalla para colgar,6200,pantalla de luz,47,45,32,0.19,,,,37
+160,merlusa,10910,pescado congelado,,,,3.21,2021-08-08,,,86
+155,vestido,12164,ropa,12,20,41,0.7,,,,68
+89,pantalla lineas,6647,pantalla de luz,38,11,43,0.78,,,,91
+384,pantalla lineas,13539,pantalla de luz,22,14,48,0.65,,,,13
+103,hamburguesa de vacuno,11871,hamburguesa,,,,2.4,2021-12-25,,,50
+375,pollo congelado,7447,carne congelada,,,,2.31,2021-06-29,,,4
+142,mix de frutas en conserva,5219,fruta en conserva,,,,,2021-06-08,,caja,2
+181,hamburguesa de verduras,5304,hamburguesa,,,,2.48,2021-06-26,,,74
+107,esparragos frasco,7134,verdura en conserva,,,,,2021-11-30,,caja,86
+120,marraqueta,13520,pan,,,,,2022-01-19,9,,68
+209,televisor,10968,producto tecnologico,27,37,47,0.18,,,,22
+180,hallulla,7278,pan,,,,,2021-09-20,8,,73
+390,vacuno congelado,12201,carne congelada,,,,3.58,2021-08-22,,,31
+315,pantalla lisa,13048,pantalla de luz,40,24,26,0.36,,,,60
+261,palta,13207,verduras,,,,,2021-08-17,11,,28
+0,merlusa,8706,pescado congelado,,,,4.82,2021-08-28,,,24
+343,choclo en conserva,12429,verdura en conserva,,,,,2021-06-09,,lata,56
+190,pantalla papel,14669,pantalla de luz,7,15,41,0.36,,,,69
+91,arvejas congeladas,7384,verduras congeladas,,,,4.18,2022-02-23,,,26
+107,esparragos frasco,7134,verdura en conserva,,,,,2021-11-30,,caja,58
+92,garbanzos en conserva,11554,verdura en conserva,,,,,2022-04-17,,caja,83
+288,mix de verduras congeladas,6320,verduras congeladas,,,,4.69,2021-09-27,,,78
+67,limon,13531,verduras,,,,,2022-03-25,11,,86
+270,hamburguesa de verduras,12794,hamburguesa,,,,2.99,2021-05-18,,,83
+223,reineta,8439,pescado congelado,,,,3.19,2021-08-14,,,18
+329,hallulla,12550,pan,,,,,2022-01-24,5,,96
+6,marraqueta,7830,pan,,,,,2021-08-21,22,,58
+328,hamburguesa de pollo,6638,hamburguesa,,,,2.09,2021-07-26,,,2
+184,hamburguesa de vacuno,6871,hamburguesa,,,,1.5,2022-02-25,,,71
+85,salmon,9211,pescado congelado,,,,4.93,2021-11-09,,,60
+64,marraqueta,11303,pan,,,,,2021-06-30,9,,77
+317,pantalla lineas,13847,pantalla de luz,44,43,45,0.27,,,,90
+59,durazno en conserva,5186,fruta en conserva,,,,,2021-09-10,,frasco,9
+132,mix de verduras congeladas,10478,verduras congeladas,,,,4.75,2022-01-16,,,52
+310,manzana,11868,frutas,,,,,2022-04-25,5,,12
+155,vestido,12164,ropa,12,20,41,0.7,,,,50
+166,reineta,12040,pescado congelado,,,,3.73,2021-08-12,,,28
+231,jeans,13914,ropa,35,15,10,0.92,,,,59
+296,salmon,9495,pescado congelado,,,,1.02,2022-03-04,,,7
+393,televisor,8016,producto tecnologico,22,19,47,0.32,,,,57
+57,cerdo,7160,carne,,,,,2022-03-25,15,,16
+317,pantalla lineas,13847,pantalla de luz,44,43,45,0.27,,,,86
+126,teclado,12241,producto tecnologico,38,9,45,0.88,,,,19
+294,pollo congelado,10551,carne congelada,,,,4.93,2021-10-13,,,38
+240,salmon,7427,pescado congelado,,,,2.06,2021-05-31,,,51
+287,carne molida,14751,carne congelada,,,,2.47,2021-12-29,,,85
+196,reineta,13212,pescado congelado,,,,4.8,2022-04-04,,,60
+110,pantalla papel,9914,pantalla de luz,38,48,20,0.25,,,,71
+51,limon,10356,verduras,,,,,2022-01-14,8,,39
+201,arvejas en conserva,11500,verdura en conserva,,,,,2021-06-28,,lata,101
+235,vacuno,8664,carne,,,,,2021-08-29,22,,83
+387,lenguado,6433,pescado congelado,,,,2.87,2021-05-13,,,26
+301,carne molida,6414,carne congelada,,,,4.15,2021-12-30,,,4
+21,televisor,12324,producto tecnologico,14,38,28,0.2,,,,51
+314,pavo congelado,12293,carne congelada,,,,3.25,2021-06-19,,,18
+193,reineta,12780,pescado congelado,,,,4.52,2022-02-04,,,101
+343,choclo en conserva,12429,verdura en conserva,,,,,2021-06-09,,lata,94
+312,pantalla papel,6898,pantalla de luz,43,7,19,0.75,,,,10
+301,carne molida,6414,carne congelada,,,,4.15,2021-12-30,,,50
+223,reineta,8439,pescado congelado,,,,3.19,2021-08-14,,,78
+39,merlusa,10053,pescado congelado,,,,4.86,2021-10-05,,,21
+74,pantalla lisa,14478,pantalla de luz,5,33,14,0.72,,,,7
+94,pollo congelado,6136,carne congelada,,,,1.14,2021-10-09,,,70
+147,arvejas en conserva,10396,verdura en conserva,,,,,2021-10-15,,lata,2
+114,reineta,9430,pescado congelado,,,,2.29,2021-12-14,,,85
+109,brocoli,7370,verduras,,,,,2021-12-21,21,,2
+94,pollo congelado,6136,carne congelada,,,,1.14,2021-10-09,,,73
+396,porotos congelados,8296,verduras congeladas,,,,4.65,2021-08-24,,,78
+140,teclado,6971,producto tecnologico,45,9,8,0.56,,,,36
+304,jeans,8403,ropa,26,29,22,0.69,,,,67
+399,mouse,14474,producto tecnologico,42,36,10,0.36,,,,82
+268,teclado,12598,producto tecnologico,43,14,8,0.86,,,,73
+263,pantalla papel,14631,pantalla de luz,8,8,33,0.31,,,,85
+316,vacuno,13806,carne,,,,,2022-04-03,12,,77
+26,manzana,7438,frutas,,,,,2021-10-02,17,,80
+295,manzana,11013,frutas,,,,,2022-01-18,17,,25
+45,salmon,10211,pescado congelado,,,,1.69,2021-11-09,,,19
+60,pantalla para colgar,8436,pantalla de luz,6,24,5,0.6,,,,63
+407,manzana,8989,frutas,,,,,2021-07-08,14,,17
+141,mix de frutas en conserva,6583,fruta en conserva,,,,,2021-08-26,,caja,2
+323,vacuno,11553,carne,,,,,2021-06-07,10,,74
+215,durazno,9245,frutas,,,,,2021-10-16,23,,96
+48,cerdo,13194,carne,,,,,2022-03-18,18,,22
+362,pavo congelado,12446,carne congelada,,,,4.92,2022-01-03,,,79
+260,limon,10707,verduras,,,,,2022-04-19,19,,6
+386,carne molida,7866,carne congelada,,,,2.83,2021-09-14,,,46
+373,pantalla papel,5674,pantalla de luz,11,41,31,0.87,,,,27
+239,merlusa,8602,pescado congelado,,,,1.0,2022-03-10,,,7
+343,choclo en conserva,12429,verdura en conserva,,,,,2021-06-09,,lata,28
+103,hamburguesa de vacuno,11871,hamburguesa,,,,2.4,2021-12-25,,,78
+58,hamburguesa de vacuno,5337,hamburguesa,,,,3.84,2022-01-06,,,40
+90,mix de verduras congeladas,9916,verduras congeladas,,,,2.52,2021-09-29,,,29
+312,pantalla papel,6898,pantalla de luz,43,7,19,0.75,,,,3
+193,reineta,12780,pescado congelado,,,,4.52,2022-02-04,,,2
+374,pantalla papel,13760,pantalla de luz,5,32,38,0.98,,,,49
+251,vacuno,13598,carne,,,,,2021-12-21,12,,77
+191,marraqueta,6589,pan,,,,,2022-05-02,17,,12
+110,pantalla papel,9914,pantalla de luz,38,48,20,0.25,,,,22
+331,lenguado,6376,pescado congelado,,,,1.21,2021-08-01,,,23
+72,camisa,9228,ropa,6,24,30,0.58,,,,18
+234,brocoli,10802,verduras,,,,,2022-01-06,5,,70
+3,merlusa,13317,pescado congelado,,,,2.03,2021-08-09,,,44
+116,cerdo congelado,11027,carne congelada,,,,2.27,2021-08-10,,,53
+314,pavo congelado,12293,carne congelada,,,,3.25,2021-06-19,,,49
+258,chaqueta,13813,ropa,35,33,14,0.63,,,,20
+20,cerdo,12012,carne,,,,,2021-12-08,6,,80
+3,merlusa,13317,pescado congelado,,,,2.03,2021-08-09,,,56
+234,brocoli,10802,verduras,,,,,2022-01-06,5,,48
+19,durazno en conserva,8421,fruta en conserva,,,,,2021-12-12,,frasco,44
+19,durazno en conserva,8421,fruta en conserva,,,,,2021-12-12,,frasco,94
+291,arvejas congeladas,9580,verduras congeladas,,,,3.57,2021-07-06,,,51
+168,hallulla,6062,pan,,,,,2022-04-17,21,,63
+223,reineta,8439,pescado congelado,,,,3.19,2021-08-14,,,98
+202,garbanzos en conserva,14323,verdura en conserva,,,,,2022-01-29,,caja,89
+178,manzana,13975,frutas,,,,,2022-01-02,15,,64
+152,lenguado,13791,pescado congelado,,,,4.9,2022-04-27,,,23
+97,lechuga,8668,verduras,,,,,2022-03-08,6,,81
+60,pantalla para colgar,8436,pantalla de luz,6,24,5,0.6,,,,15
+100,camisa,14690,ropa,15,16,31,0.99,,,,88
+359,hamburguesa de vacuno,9503,hamburguesa,,,,3.31,2021-10-09,,,99
+104,chaqueta,9435,ropa,17,38,46,0.37,,,,92
+354,pollo congelado,8252,carne congelada,,,,2.98,2021-06-17,,,96
+31,papaya en conserva,8954,fruta en conserva,,,,,2022-04-20,,lata,100
+118,limon,11756,verduras,,,,,2021-06-28,15,,9
+171,mix de frutas en conserva,8658,fruta en conserva,,,,,2022-02-04,,caja,89
+155,vestido,12164,ropa,12,20,41,0.7,,,,77
+185,cerdo,12579,carne,,,,,2021-12-20,6,,13
+183,hallulla,10309,pan,,,,,2021-05-24,18,,28
+5,mix de verduras congeladas,11791,verduras congeladas,,,,1.61,2022-01-03,,,62
+190,pantalla papel,14669,pantalla de luz,7,15,41,0.36,,,,7
+145,hamburguesa de verduras,8137,hamburguesa,,,,2.86,2022-02-04,,,55
+254,kiwi,7974,frutas,,,,,2021-12-29,17,,17
+32,pantalla para colgar,6200,pantalla de luz,47,45,32,0.19,,,,39
+273,hallulla,12150,pan,,,,,2021-08-15,23,,57
+29,limon,13395,verduras,,,,,2021-08-02,9,,96
+394,limon,5808,verduras,,,,,2021-09-15,11,,89
+400,mix de verduras congeladas,13648,verduras congeladas,,,,4.55,2022-04-09,,,61
+321,esparragos frasco,9752,verdura en conserva,,,,,2021-06-24,,lata,8
+179,teclado,12795,producto tecnologico,46,7,12,0.52,,,,61
+417,pollo,10015,carne,,,,,2022-01-06,11,,72
+251,vacuno,13598,carne,,,,,2021-12-21,12,,69
+107,esparragos frasco,7134,verdura en conserva,,,,,2021-11-30,,caja,20
+245,pantalla lisa,6627,pantalla de luz,49,31,37,0.25,,,,35
+353,pavo congelado,7137,carne congelada,,,,2.29,2021-10-21,,,26
+339,telefono,5181,producto tecnologico,21,23,26,0.3,,,,4
+399,mouse,14474,producto tecnologico,42,36,10,0.36,,,,83
+315,pantalla lisa,13048,pantalla de luz,40,24,26,0.36,,,,16
+46,palta,13279,verduras,,,,,2021-09-14,17,,11
+169,hallulla,12245,pan,,,,,2021-05-17,5,,57
+414,pantalla lineas,11871,pantalla de luz,12,14,49,0.55,,,,20
+365,camiseta,12323,ropa,6,14,41,0.34,,,,95
+319,vacuno,13414,carne,,,,,2021-05-21,14,,22
+231,jeans,13914,ropa,35,15,10,0.92,,,,99
+42,cerdo,6686,carne,,,,,2022-01-09,19,,63
+47,jeans,10242,ropa,47,43,11,0.68,,,,95
+376,arvejas en conserva,14460,verdura en conserva,,,,,2022-02-21,,caja,2
+165,camiseta,10613,ropa,35,31,31,0.29,,,,5
+217,pollo,13965,carne,,,,,2021-09-16,24,,15
+307,marraqueta,10434,pan,,,,,2022-01-11,20,,65
+61,vacuno,5898,carne,,,,,2021-11-25,7,,86
+38,cerdo congelado,5036,carne congelada,,,,2.67,2021-07-11,,,79
+118,limon,11756,verduras,,,,,2021-06-28,15,,7
+7,pantalla lineas,10802,pantalla de luz,33,41,5,0.41,,,,72
+209,televisor,10968,producto tecnologico,27,37,47,0.18,,,,44

@@ -1,0 +1,132 @@
+pid,nombre,precio,descripcion,peso
+0,merlusa,8706,pescado congelado,4.82
+3,merlusa,13317,pescado congelado,2.03
+5,mix de verduras congeladas,11791,verduras congeladas,1.61
+9,hamburguesa de verduras,11678,hamburguesa,3.01
+10,reineta,10545,pescado congelado,2.87
+16,hamburguesa de quinoa,5914,hamburguesa,2.2
+23,arvejas congeladas,12666,verduras congeladas,2.44
+27,hamburguesa de pollo,13436,hamburguesa,2.03
+34,mix de verduras congeladas,13386,verduras congeladas,4.15
+35,hamburguesa de vacuno,13174,hamburguesa,3.37
+36,lenguado,12514,pescado congelado,4.0
+38,cerdo congelado,5036,carne congelada,2.67
+39,merlusa,10053,pescado congelado,4.86
+41,hamburguesa de verduras,13789,hamburguesa,3.86
+44,lenguado,12660,pescado congelado,3.44
+45,salmon,10211,pescado congelado,1.69
+50,pollo congelado,12523,carne congelada,2.0
+56,lenguado,5173,pescado congelado,2.6
+58,hamburguesa de vacuno,5337,hamburguesa,3.84
+63,arvejas congeladas,14607,verduras congeladas,3.93
+65,hamburguesa de verduras,7556,hamburguesa,3.79
+66,vacuno congelado,12014,carne congelada,1.35
+70,vacuno congelado,14623,carne congelada,3.94
+78,hamburguesa de quinoa,7460,hamburguesa,3.82
+81,hamburguesa de vacuno,8644,hamburguesa,4.55
+85,salmon,9211,pescado congelado,4.93
+90,mix de verduras congeladas,9916,verduras congeladas,2.52
+91,arvejas congeladas,7384,verduras congeladas,4.18
+94,pollo congelado,6136,carne congelada,1.14
+99,arvejas congeladas,12265,verduras congeladas,1.51
+101,mix de verduras congeladas,8253,verduras congeladas,3.95
+103,hamburguesa de vacuno,11871,hamburguesa,2.4
+105,hamburguesa de vacuno,14223,hamburguesa,4.37
+113,hamburguesa de verduras,8820,hamburguesa,1.24
+114,reineta,9430,pescado congelado,2.29
+116,cerdo congelado,11027,carne congelada,2.27
+119,hamburguesa de vacuno,12701,hamburguesa,1.52
+122,porotos congelados,11540,verduras congeladas,3.16
+123,choclo congelado,14418,verduras congeladas,2.32
+130,hamburguesa de verduras,11010,hamburguesa,1.02
+131,cerdo congelado,8452,carne congelada,2.73
+132,mix de verduras congeladas,10478,verduras congeladas,4.75
+133,reineta,7700,pescado congelado,4.5
+135,arvejas congeladas,9491,verduras congeladas,2.42
+139,hamburguesa de quinoa,13665,hamburguesa,4.61
+145,hamburguesa de verduras,8137,hamburguesa,2.86
+150,salmon,6044,pescado congelado,3.53
+151,cerdo congelado,13962,carne congelada,2.29
+152,lenguado,13791,pescado congelado,4.9
+157,hamburguesa de pollo,14465,hamburguesa,2.41
+158,hamburguesa de pollo,10287,hamburguesa,3.71
+160,merlusa,10910,pescado congelado,3.21
+163,carne molida,7134,carne congelada,3.66
+166,reineta,12040,pescado congelado,3.73
+167,hamburguesa de vacuno,9224,hamburguesa,2.74
+170,mix de verduras congeladas,7212,verduras congeladas,4.06
+173,porotos congelados,14661,verduras congeladas,2.52
+176,salmon,6261,pescado congelado,2.72
+177,hamburguesa de pollo,6480,hamburguesa,2.75
+181,hamburguesa de verduras,5304,hamburguesa,2.48
+184,hamburguesa de vacuno,6871,hamburguesa,1.5
+187,carne molida,12944,carne congelada,2.4
+188,mix de verduras congeladas,13804,verduras congeladas,1.82
+193,reineta,12780,pescado congelado,4.52
+195,reineta,8674,pescado congelado,2.9
+196,reineta,13212,pescado congelado,4.8
+200,hamburguesa de verduras,5681,hamburguesa,4.37
+206,lenguado,8200,pescado congelado,2.33
+211,hamburguesa de quinoa,13949,hamburguesa,2.31
+212,hamburguesa de quinoa,12482,hamburguesa,1.52
+218,hamburguesa de pollo,8248,hamburguesa,1.39
+221,salmon,7372,pescado congelado,1.76
+223,reineta,8439,pescado congelado,3.19
+226,carne molida,5033,carne congelada,2.01
+229,merlusa,8380,pescado congelado,4.96
+233,cerdo congelado,7670,carne congelada,3.52
+238,reineta,10784,pescado congelado,3.84
+239,merlusa,8602,pescado congelado,1.0
+240,salmon,7427,pescado congelado,2.06
+243,choclo congelado,6481,verduras congeladas,3.91
+252,pavo congelado,6840,carne congelada,1.6
+255,vacuno congelado,5421,carne congelada,1.53
+256,porotos congelados,14619,verduras congeladas,1.09
+262,lenguado,14080,pescado congelado,1.7
+264,hamburguesa de vacuno,14847,hamburguesa,1.01
+270,hamburguesa de verduras,12794,hamburguesa,2.99
+272,salmon,6760,pescado congelado,3.85
+279,merlusa,9334,pescado congelado,1.41
+280,pollo congelado,6003,carne congelada,3.68
+282,salmon,11494,pescado congelado,4.67
+287,carne molida,14751,carne congelada,2.47
+288,mix de verduras congeladas,6320,verduras congeladas,4.69
+289,salmon,14016,pescado congelado,2.18
+291,arvejas congeladas,9580,verduras congeladas,3.57
+292,vacuno congelado,12122,carne congelada,1.41
+293,vacuno congelado,7891,carne congelada,1.44
+294,pollo congelado,10551,carne congelada,4.93
+296,salmon,9495,pescado congelado,1.02
+299,arvejas congeladas,7343,verduras congeladas,2.55
+301,carne molida,6414,carne congelada,4.15
+306,hamburguesa de verduras,7976,hamburguesa,1.64
+308,mix de verduras congeladas,6920,verduras congeladas,1.33
+309,carne molida,5014,carne congelada,1.25
+314,pavo congelado,12293,carne congelada,3.25
+322,mix de verduras congeladas,11198,verduras congeladas,1.12
+325,cerdo congelado,8676,carne congelada,1.62
+328,hamburguesa de pollo,6638,hamburguesa,2.09
+331,lenguado,6376,pescado congelado,1.21
+341,pollo congelado,10534,carne congelada,4.13
+345,hamburguesa de verduras,12480,hamburguesa,2.74
+346,porotos congelados,7726,verduras congeladas,2.94
+347,salmon,5361,pescado congelado,1.66
+351,vacuno congelado,11224,carne congelada,4.69
+353,pavo congelado,7137,carne congelada,2.29
+354,pollo congelado,8252,carne congelada,2.98
+359,hamburguesa de vacuno,9503,hamburguesa,3.31
+362,pavo congelado,12446,carne congelada,4.92
+375,pollo congelado,7447,carne congelada,2.31
+379,hamburguesa de vacuno,11754,hamburguesa,1.87
+380,reineta,6388,pescado congelado,4.72
+383,hamburguesa de verduras,9105,hamburguesa,3.79
+386,carne molida,7866,carne congelada,2.83
+387,lenguado,6433,pescado congelado,2.87
+388,hamburguesa de vacuno,8376,hamburguesa,1.73
+390,vacuno congelado,12201,carne congelada,3.58
+396,porotos congelados,8296,verduras congeladas,4.65
+400,mix de verduras congeladas,13648,verduras congeladas,4.55
+401,arvejas congeladas,14782,verduras congeladas,2.48
+402,salmon,6712,pescado congelado,4.51
+404,mix de verduras congeladas,14681,verduras congeladas,1.66
+410,salmon,12879,pescado congelado,1.4

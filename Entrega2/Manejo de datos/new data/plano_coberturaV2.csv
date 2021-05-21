@@ -1,0 +1,292 @@
+id,nombre,dirección,jefe,comuna_de_cobertura
+25,Steak Almacen,272,439,valparaiso
+85,Almacen Almeja,1061,445,la serena
+48,Almacen Petalos,291,430,la serena
+20,Familiares Almacen,523,132,coquimbo
+81,Propiedades Almacen,866,361,providencia
+72,Algortimos Almacen,156,417,la serena
+97,Luz Almacen,225,147,coquimbo
+84,Almacen Hada,711,311,san joaquin
+33,Almacen Fluido,208,81,arica
+30,Almacen Autor,819,449,coquimbo
+83,Fuera del atico,613,228,santiago
+7,Couture Almacen,150,368,valparaiso
+76,Almacen Colmena,539,363,punta arenas
+50,Fuera del cofre,257,415,arica
+67,Almacen Incidente,241,285,la ligua
+57,Luz Almacen,969,447,arica
+19,Buqui Almacen,324,395,san joaquin
+14,Calle Antigua,377,450,coquimbo
+72,Algortimos Almacen,156,417,la ligua
+59,Almacen Madera,494,400,valparaiso
+58,La Casa de la Abuela Antiguedades,1084,364,providencia
+22,Almacen Andares,648,428,buin
+27,Almacen Incidente,841,315,santiago
+100,Casa Antigua,170,372,santiago
+99,El cofre del tesoro,787,295,la serena
+10,Almacen Caninos,97,391,la ligua
+81,Propiedades Almacen,866,361,coquimbo
+94,Steak Almacen,858,341,valparaiso
+71,Couture Almacen,158,337,valparaiso
+24,Almacen Centrales,283,466,punta arenas
+66,Almacen Estilo,1055,332,arica
+86,Almacen Intensas,400,455,punta arenas
+32,Paw Almacen,777,201,coquimbo
+48,Almacen Petalos,291,430,coquimbo
+101,Almacen Fluido,194,308,valparaiso
+93,Almacen Cambio,772,335,la ligua
+71,Couture Almacen,158,337,santiago
+47,Almacen Camino,286,153,santiago
+45,Familiares Almacen,532,446,la serena
+69,Almacen Recreativas,93,338,santiago
+63,Almacen Caninos,285,396,providencia
+88,Backup Almacen,1064,469,buin
+45,Familiares Almacen,532,446,coquimbo
+59,Almacen Madera,494,400,san joaquin
+101,Almacen Fluido,194,308,san joaquin
+72,Algortimos Almacen,156,417,buin
+13,Almacen Fluido,387,423,buin
+88,Backup Almacen,1064,469,san joaquin
+79,Almacen Ecuacion,542,408,coquimbo
+88,Backup Almacen,1064,469,santiago
+69,Almacen Recreativas,93,338,la serena
+37,Sustentables Almacen,835,334,la ligua
+32,Paw Almacen,777,201,la serena
+91,Fuera del atico,141,279,buin
+23,Almacen Almeja,957,394,valparaiso
+35,Almacen Cuspides,567,424,san joaquin
+9,Almacen Idea,229,414,valparaiso
+21,Almacen Afinidad,823,222,santiago
+62,Oda Almacen,773,464,buin
+79,Almacen Ecuacion,542,408,valparaiso
+11,Steak Almacen,1053,456,coquimbo
+52,Almacen Petalos,618,167,valparaiso
+10,Almacen Caninos,97,391,la serena
+4,Fuera del atico,429,437,valparaiso
+35,Almacen Cuspides,567,424,buin
+46,Almacen Fortaleza,528,459,santiago
+65,El cofre del tesoro,1088,357,arica
+62,Oda Almacen,773,464,la ligua
+31,Almacen Colmena,372,376,arica
+74,Almacen Hada,1011,373,buin
+28,Almacen Madera,1094,460,la ligua
+16,Fuera del cofre,838,451,la serena
+16,Fuera del cofre,838,451,buin
+40,Inversiones Almacen,430,399,la ligua
+58,La Casa de la Abuela Antiguedades,1084,364,la ligua
+36,Almacen Cuspides,74,339,punta arenas
+23,Almacen Almeja,957,394,buin
+100,Casa Antigua,170,372,valparaiso
+73,Almacen Fluido,100,467,arica
+96,Camelias Almacen,892,241,santiago
+2,Casa Antigua,213,386,buin
+45,Familiares Almacen,532,446,buin
+6,Almacen Camino,462,440,santiago
+96,Camelias Almacen,892,241,san joaquin
+1,Tesoros el dia 42,1049,443,la ligua
+91,Fuera del atico,141,279,santiago
+11,Steak Almacen,1053,456,valparaiso
+59,Almacen Madera,494,400,coquimbo
+60,Fantasia Almacen,670,444,coquimbo
+2,Casa Antigua,213,386,la ligua
+45,Familiares Almacen,532,446,la ligua
+90,Almacen Receta,294,300,santiago
+40,Inversiones Almacen,430,399,providencia
+74,Almacen Hada,1011,373,coquimbo
+94,Steak Almacen,858,341,san joaquin
+32,Paw Almacen,777,201,buin
+70,Almacen Intensas,962,457,punta arenas
+18,Steak Almacen,615,463,arica
+41,Oda Almacen,212,402,arica
+32,Paw Almacen,777,201,providencia
+23,Almacen Almeja,957,394,providencia
+61,Pimienta Almacen,145,470,providencia
+63,Almacen Caninos,285,396,buin
+43,Propiedades Almacen,876,461,arica
+72,Algortimos Almacen,156,417,providencia
+101,Almacen Fluido,194,308,la serena
+19,Buqui Almacen,324,395,la ligua
+5,La Casa de la Abuela Antiguedades,990,465,la ligua
+78,Lacio Almacen,172,307,la serena
+49,Almacen Cables,21,403,la serena
+84,Almacen Hada,711,311,valparaiso
+12,Almendras Almacen,99,438,la serena
+11,Steak Almacen,1053,456,buin
+58,La Casa de la Abuela Antiguedades,1084,364,valparaiso
+90,Almacen Receta,294,300,la ligua
+77,Familiares Almacen,309,454,buin
+14,Calle Antigua,377,450,la ligua
+35,Almacen Cuspides,567,424,coquimbo
+68,Almacen Elegante,632,420,providencia
+79,Almacen Ecuacion,542,408,la serena
+61,Pimienta Almacen,145,470,buin
+53,Almacen Intensas,90,412,arica
+95,Almendras Almacen,730,405,la ligua
+9,Almacen Idea,229,414,providencia
+10,Almacen Caninos,97,391,valparaiso
+15,Algortimos Almacen,582,462,providencia
+34,Paw Almacen,183,409,la ligua
+82,Quetzal Almacen,950,413,la ligua
+45,Familiares Almacen,532,446,valparaiso
+62,Oda Almacen,773,464,la serena
+77,Familiares Almacen,309,454,la ligua
+80,Antique Me,393,305,punta arenas
+97,Luz Almacen,225,147,la ligua
+95,Almendras Almacen,730,405,la serena
+82,Quetzal Almacen,950,413,santiago
+77,Familiares Almacen,309,454,valparaiso
+84,Almacen Hada,711,311,buin
+39,Steak Almacen,1048,354,buin
+0,Almacen Centrales,506,319,providencia
+82,Quetzal Almacen,950,413,providencia
+72,Algortimos Almacen,156,417,coquimbo
+11,Steak Almacen,1053,456,la serena
+29,Almacen Tulipan,1063,321,san joaquin
+52,Almacen Petalos,618,167,la ligua
+74,Almacen Hada,1011,373,santiago
+8,Couture Almacen,122,429,coquimbo
+21,Almacen Afinidad,823,222,coquimbo
+69,Almacen Recreativas,93,338,la ligua
+56,Algortimos Almacen,1003,435,coquimbo
+75,Almacen Incidente,882,442,valparaiso
+34,Paw Almacen,183,409,coquimbo
+14,Calle Antigua,377,450,providencia
+62,Oda Almacen,773,464,providencia
+84,Almacen Hada,711,311,coquimbo
+5,La Casa de la Abuela Antiguedades,990,465,buin
+64,Almacen Camino,52,360,arica
+0,Almacen Centrales,506,319,valparaiso
+40,Inversiones Almacen,430,399,la serena
+3,Almendras Almacen,102,411,la serena
+17,Focus Almacen,679,441,coquimbo
+79,Almacen Ecuacion,542,408,san joaquin
+28,Almacen Madera,1094,460,san joaquin
+101,Almacen Fluido,194,308,coquimbo
+67,Almacen Incidente,241,285,coquimbo
+30,Almacen Autor,819,449,santiago
+35,Almacen Cuspides,567,424,valparaiso
+15,Algortimos Almacen,582,462,santiago
+27,Almacen Incidente,841,315,providencia
+20,Familiares Almacen,523,132,santiago
+96,Camelias Almacen,892,241,la serena
+22,Almacen Andares,648,428,santiago
+77,Familiares Almacen,309,454,coquimbo
+27,Almacen Incidente,841,315,san joaquin
+83,Fuera del atico,613,228,la serena
+14,Calle Antigua,377,450,la serena
+15,Algortimos Almacen,582,462,san joaquin
+67,Almacen Incidente,241,285,valparaiso
+15,Algortimos Almacen,582,462,coquimbo
+87,Buqui Almacen,594,389,arica
+47,Almacen Camino,286,153,providencia
+38,Almacen Ecuacion,701,351,santiago
+26,Almacen Centrales,404,468,buin
+58,La Casa de la Abuela Antiguedades,1084,364,buin
+27,Almacen Incidente,841,315,buin
+93,Almacen Cambio,772,335,san joaquin
+89,Fuera del atico,182,388,arica
+60,Fantasia Almacen,670,444,la serena
+84,Almacen Hada,711,311,la serena
+0,Almacen Centrales,506,319,santiago
+62,Oda Almacen,773,464,san joaquin
+4,Fuera del atico,429,437,providencia
+21,Almacen Afinidad,823,222,buin
+2,Casa Antigua,213,386,san joaquin
+35,Almacen Cuspides,567,424,santiago
+51,Oda Almacen,1074,458,la ligua
+93,Almacen Cambio,772,335,providencia
+25,Steak Almacen,272,439,san joaquin
+96,Camelias Almacen,892,241,buin
+98,Almacen Almeja,987,234,valparaiso
+55,Almacen Camino,1068,427,punta arenas
+83,Fuera del atico,613,228,san joaquin
+69,Almacen Recreativas,93,338,valparaiso
+26,Almacen Centrales,404,468,santiago
+26,Almacen Centrales,404,468,san joaquin
+1,Tesoros el dia 42,1049,443,valparaiso
+38,Almacen Ecuacion,701,351,valparaiso
+30,Almacen Autor,819,449,valparaiso
+85,Almacen Almeja,1061,445,valparaiso
+40,Inversiones Almacen,430,399,santiago
+13,Almacen Fluido,387,423,valparaiso
+88,Backup Almacen,1064,469,coquimbo
+63,Almacen Caninos,285,396,coquimbo
+97,Luz Almacen,225,147,buin
+46,Almacen Fortaleza,528,459,la serena
+101,Almacen Fluido,194,308,buin
+92,Almacen Caninos,657,349,la serena
+92,Almacen Caninos,657,349,buin
+44,exito Almacen,59,433,arica
+7,Couture Almacen,150,368,coquimbo
+12,Almendras Almacen,99,438,buin
+78,Lacio Almacen,172,307,santiago
+3,Almendras Almacen,102,411,santiago
+0,Almacen Centrales,506,319,la ligua
+22,Almacen Andares,648,428,providencia
+16,Fuera del cofre,838,451,providencia
+13,Almacen Fluido,387,423,la ligua
+17,Focus Almacen,679,441,la ligua
+74,Almacen Hada,1011,373,providencia
+37,Sustentables Almacen,835,334,santiago
+74,Almacen Hada,1011,373,san joaquin
+39,Steak Almacen,1048,354,providencia
+85,Almacen Almeja,1061,445,coquimbo
+46,Almacen Fortaleza,528,459,providencia
+38,Almacen Ecuacion,701,351,coquimbo
+2,Casa Antigua,213,386,la serena
+10,Almacen Caninos,97,391,santiago
+60,Fantasia Almacen,670,444,valparaiso
+96,Camelias Almacen,892,241,coquimbo
+13,Almacen Fluido,387,423,san joaquin
+49,Almacen Cables,21,403,providencia
+59,Almacen Madera,494,400,santiago
+8,Couture Almacen,122,429,la ligua
+91,Fuera del atico,141,279,san joaquin
+34,Paw Almacen,183,409,valparaiso
+98,Almacen Almeja,987,234,la serena
+5,La Casa de la Abuela Antiguedades,990,465,santiago
+68,Almacen Elegante,632,420,coquimbo
+29,Almacen Tulipan,1063,321,la ligua
+93,Almacen Cambio,772,335,buin
+75,Almacen Incidente,882,442,coquimbo
+6,Almacen Camino,462,440,providencia
+67,Almacen Incidente,241,285,santiago
+4,Fuera del atico,429,437,la serena
+85,Almacen Almeja,1061,445,buin
+14,Calle Antigua,377,450,buin
+17,Focus Almacen,679,441,buin
+10,Almacen Caninos,97,391,providencia
+99,El cofre del tesoro,787,295,santiago
+30,Almacen Autor,819,449,la ligua
+61,Pimienta Almacen,145,470,la serena
+52,Almacen Petalos,618,167,san joaquin
+42,Almacen Madera,492,304,coquimbo
+81,Propiedades Almacen,866,361,santiago
+95,Almendras Almacen,730,405,coquimbo
+4,Fuera del atico,429,437,santiago
+2,Casa Antigua,213,386,providencia
+16,Fuera del cofre,838,451,la ligua
+54,Asteroide Cofre,698,374,coquimbo
+51,Oda Almacen,1074,458,buin
+82,Quetzal Almacen,950,413,valparaiso
+54,Asteroide Cofre,698,374,san joaquin
+34,Paw Almacen,183,409,la serena
+90,Almacen Receta,294,300,valparaiso
+60,Fantasia Almacen,670,444,la ligua
+83,Fuera del atico,613,228,providencia
+42,Almacen Madera,492,304,santiago
+79,Almacen Ecuacion,542,408,providencia
+29,Almacen Tulipan,1063,321,coquimbo
+58,La Casa de la Abuela Antiguedades,1084,364,coquimbo
+95,Almendras Almacen,730,405,san joaquin
+56,Algortimos Almacen,1003,435,la ligua
+38,Almacen Ecuacion,701,351,providencia
+5,La Casa de la Abuela Antiguedades,990,465,providencia
+22,Almacen Andares,648,428,la serena
+83,Fuera del atico,613,228,buin
+34,Paw Almacen,183,409,providencia
+0,Almacen Centrales,506,319,buin
+16,Fuera del cofre,838,451,coquimbo
+61,Pimienta Almacen,145,470,santiago
+47,Almacen Camino,286,153,san joaquin
+9,Almacen Idea,229,414,santiago
