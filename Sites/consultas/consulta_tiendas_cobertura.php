@@ -7,11 +7,12 @@
 
   #Se construye la consulta como un string
  	$query = "SELECT tiendas.nombre, comunas.comuna_cobertura FROM comunas, direccionesdespacho, tiendas WHERE comunas.did = direccionesdespacho.did AND direccionesdespacho.tid = tiendas.tid;";
-
+  echo $query;
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$comunas = $result -> fetchAll();
+  echo $comunas;
   ?>
 
   <table class='table'>
