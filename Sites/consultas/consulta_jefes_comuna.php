@@ -13,7 +13,7 @@
      FROM comunas, tiendas, personal 
      WHERE $comuna = comunas.comuna_cobertura AND
      comunas.did = tiendas.direccion AND
-     tiendas.jefe = personal.eid
+     tiendas.jefe = personal.eid;
      ";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados

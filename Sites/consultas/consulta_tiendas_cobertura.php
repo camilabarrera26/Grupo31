@@ -9,7 +9,7 @@
  	$query = "SELECT tiendas.nombre, comunas.comuna_cobertura 
      FROM comunas, direccionesdespacho, tiendas
      WHERE comunas.did = direccionesdespacho.did AND
-     direccionesdespacho.tid = tiendas.tid AND
+     direccionesdespacho.tid = tiendas.tid;
      ";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
@@ -20,8 +20,8 @@
 
   <table class='table'>
     <tr>
-      <th>Comuna</th>
-      <th>comunas Promedio Trabajadores</th>
+      <th>Tienda</th>
+      <th> Comunas Cobertura</th>
     </tr>
   
       <?php

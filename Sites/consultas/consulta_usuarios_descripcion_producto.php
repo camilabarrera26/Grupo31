@@ -14,7 +14,7 @@
      WHERE $descripcion = productos.descripcion AND
      productos.pid = productoscompras.pid AND
      productoscompras.cid = compras.cid AND
-     compras.uid = usuarios.uid
+     compras.uid = usuarios.uid;
      ";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados

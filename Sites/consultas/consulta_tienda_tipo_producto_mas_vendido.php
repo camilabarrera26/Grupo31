@@ -16,7 +16,8 @@
      compras.tid = tiendas.tid
      GROUP BY tiendas.nombre
      ORDER BY cantidad DESC
-     LIMIT 5";
+     LIMIT 5;
+     ";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

@@ -14,7 +14,7 @@
      WHERE $comuna = comunas.comuna_cobertura AND
      comunas.did = tiendas.direccion AND
      tiendas.tid = personaltienda.tid AND
-     personaltienda.eid = personal.eid
+     personaltienda.eid = personal.eid;
      ";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
