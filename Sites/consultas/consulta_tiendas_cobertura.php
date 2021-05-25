@@ -11,7 +11,6 @@
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$comunas = $result -> fetchAll();
-  echo $result;
   ?>
 
   <table class='table'>
