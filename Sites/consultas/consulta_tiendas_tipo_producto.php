@@ -10,7 +10,7 @@
 
   #Se construye la consulta como un string
  	$query = "SELECT DISTINCT tiendas.nombre FROM $tipo, productoscompras, compras, tiendas WHERE $tipo.pid = productoscompras.pid AND productoscompras.cid = compras.cid AND compras.tid = tiendas.tid;";
-
+  echo $query;
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
 	$result -> execute();
