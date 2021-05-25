@@ -9,13 +9,7 @@
   $comuna = $_POST["comuna_tienda"];
 
   #Se construye la consulta como un string
- 	$query = "SELECT comunas.comuna_cobertura, AVG(personal.edad) 
-     FROM comunas, tiendas, personaltienda, personal 
-     WHERE $comuna = comunas.comuna_cobertura AND
-     comunas.did = tiendas.direccion AND
-     tiendas.tid = personaltienda.tid AND
-     personaltienda.eid = personal.eid;
-     ";
+ 	$query = "SELECT comunas.comuna_cobertura, AVG(personal.edad) FROM comunas, tiendas, personaltienda, personal WHERE $comuna = comunas.comuna_cobertura AND comunas.did = tiendas.direccion AND tiendas.tid = personaltienda.tid AND personaltienda.eid = personal.eid;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

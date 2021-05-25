@@ -9,13 +9,7 @@
   $descripcion = $_POST["descripcion_producto"];
 
   #Se construye la consulta como un string
- 	$query = "SELECT usuarios.nombre
-     FROM productos, productoscompras, compras, usuarios
-     WHERE $descripcion = productos.descripcion AND
-     productos.pid = productoscompras.pid AND
-     productoscompras.cid = compras.cid AND
-     compras.uid = usuarios.uid;
-     ";
+ 	$query = "SELECT usuarios.nombre FROM productos, productoscompras, compras, usuarios WHERE $descripcion = productos.descripcion AND productos.pid = productoscompras.pid AND productoscompras.cid = compras.cid AND compras.uid = usuarios.uid;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
