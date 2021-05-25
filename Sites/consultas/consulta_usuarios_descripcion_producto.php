@@ -7,9 +7,31 @@
 
   #Se obtiene el valor del input del usuario
   $descripcion = $_POST["descripcion_producto"];
+  $descripcion = strtolower($descripcion);
+  $descripcion = trim($descripcion);
+  $count = 0;
+  while ($count == 0):
+    $count = 1;
+    if (strpos($descripcion, "á")) {
+      $descripcion = str_replace('á', 'a', $descripcion);
+      $count = 0;
+    } elseif (strpos($descripcion, "é")) {
+      $descripcion = str_replace('é', 'e', $descripcion);
+      $count = 0;
+    } elseif (strpos($descripcion, "í")) {
+      $descripcion = str_replace('í', 'i', $descripcion);
+      $count = 0;
+    } elseif (strpos($descripcion, "ó")) {
+      $descripcion = str_replace('ó', 'o', $descripcion);
+      $count = 0;
+    } elseif (strpos($descripcion, "ú")) {
+      $descripcion = str_replace('ú', 'u', $descripcion);
+      $count = 0;
+    }
+  endwhile;
 
   #Se construye la consulta como un string
- 	$query = "SELECT usuarios.nombre FROM productos, productoscompras, compras, usuarios WHERE '$descripcion' = productos.descripcion AND productos.pid = productoscompras.pid AND productoscompras.cid = compras.cid AND compras.uid = usuarios.uid;";
+ 	$query = "SELECT usuarios.nombre FROM productos, productoscompras, compras, usuarios WHERE productos.descripcion LIKE '%%$descripcion%%' AND productos.pid = productoscompras.pid AND productoscompras.cid = compras.cid AND compras.uid = usuarios.uid;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

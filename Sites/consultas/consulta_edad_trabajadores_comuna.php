@@ -7,11 +7,8 @@
 
   #Se obtiene el valor del input del usuario
   $comuna = $_POST["comuna_tienda"];
-  echo $comuna;
   $comuna = strtolower($comuna);
-  echo $comuna;
   $comuna = trim($comuna);
-  echo $comuna;
   $count = 0;
   while ($count == 0):
     $count = 1;
@@ -32,7 +29,6 @@
       $count = 0;
     }
   endwhile;
-  echo $comuna;
 
   #Se construye la consulta como un string
  	$query = "SELECT comunas.comuna_cobertura, AVG(personal.edad) FROM comunas, tiendas, personaltienda, personal WHERE comunas.comuna_cobertura LIKE '%%$comuna%%' AND comunas.did = tiendas.direccion AND tiendas.tid = personaltienda.tid AND personaltienda.eid = personal.eid GROUP BY comunas.comuna_cobertura;";
