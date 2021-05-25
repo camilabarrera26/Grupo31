@@ -13,7 +13,7 @@
   $comuna = trim($comuna);
   echo $comuna;
   $count = 0;
-  while $count == 0:
+  while ($count == 0):
     $count = 1;
     if (strpos($comuna, "á")) {
       $comuna = str_replace('á', 'a', $comuna);
