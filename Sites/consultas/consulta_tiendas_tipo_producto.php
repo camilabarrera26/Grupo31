@@ -19,14 +19,13 @@
 
   <table class='table'>
     <tr>
-      <th>Comuna</th>
-      <th>Edad Promedio Trabajadores</th>
+      <th>Tienda</th>
     </tr>
   
       <?php
         // echo $productos;
         foreach ($productos as $p) {
-          echo "<tr><td>$p[0]</td><td>$p[1]</td></tr>";
+          echo "<tr><td>$p[0]</td></tr>";
       }
       ?>
       

@@ -19,8 +19,8 @@
 
   <table class='table'>
     <tr>
-      <th>Comuna</th>
-      <th>Edad Promedio Trabajadores</th>
+      <th>Tienda</th>
+      <th>Cantidad Vendida</th>
     </tr>
   
       <?php
