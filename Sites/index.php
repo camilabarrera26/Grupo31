@@ -42,11 +42,11 @@
                 <br>
                 <select name="tipo">
                 <?php
-                  echo "<option value=comestible>Comestible</option>";
-                  echo "<option value=no_comestible>No Comestible</option>";
-                  echo "<option value=congelado>Congelado</option>";
-                  echo "<option value=fresco>Fresco</option>";
-                  echo "<option value=en_conserva>En Conserva</option>";
+                  echo "<option value=productoscomestibles>Comestible</option>";
+                  echo "<option value=productosnocomestibles>No Comestible</option>";
+                  echo "<option value=productoscongelados>Congelado</option>";
+                  echo "<option value=productosfrescos>Fresco</option>";
+                  echo "<option value=productosenconserva>En Conserva</option>";
                 ?>
                 </select>
                 <input type="submit" value="Buscar">
@@ -93,8 +93,8 @@
                 <br>
                 <select name="tipo">
                 <?php
-                  echo "<option value=comestibles>Comestible</option>";
-                  echo "<option value=nocomestibles>No Comestible</option>";
+                  echo "<option value=productoscomestibles>Comestible</option>";
+                  echo "<option value=productosnocomestibles>No Comestible</option>";
                   echo "<option value=productoscongelados>Congelado</option>";
                   echo "<option value=productosfrescos>Fresco</option>";
                   echo "<option value=productosenconserva>En Conserva</option>";

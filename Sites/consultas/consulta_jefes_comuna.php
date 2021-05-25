@@ -9,7 +9,7 @@
   $comuna = $_POST["comuna_tienda"];
 
   #Se construye la consulta como un string
- 	$query = "SELECT personal.nombre FROM comunas, tiendas, personal WHERE '$comuna' = comunas.comuna_cobertura AND comunas.did = tiendas.direccion AND tiendas.jefe = personal.eid;";
+ 	$query = "SELECT comunas.comuna_cobertura, personal.nombre FROM comunas, tiendas, personal WHERE '$comuna' = comunas.comuna_cobertura AND comunas.did = tiendas.direccion AND tiendas.jefe = personal.eid;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
@@ -20,11 +20,11 @@
   <table class='table'>
     <tr>
       <th>Comuna</th>
-      <th>Edad Promedio Trabajadores</th>
+      <th>Jefe</th>
     </tr>
   
       <?php
-        // echo $jefes;
+        // echo $jefes;s
         foreach ($jefes as $p) {
           echo "<tr><td>$p[0]</td><td>$p[1]</td></tr>";
       }
