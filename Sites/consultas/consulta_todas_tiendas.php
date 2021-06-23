@@ -7,7 +7,7 @@
 
   #Se construye la consulta como un string
  	$query = "SELECT DISTINCT tiendas.tid, tiendas.nombre FROM tiendas;";
-  echo $query
+  echo $query;
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
 	$result -> execute();
