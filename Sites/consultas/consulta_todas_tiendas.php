@@ -9,7 +9,7 @@
  	$query = "SELECT DISTINCT tiendas.tid, tiendas.nombre FROM tiendas;";
   echo $query;
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
-	$result = $db -> prepare($query);
+	$result = $db -> prepare("SELECT DISTINCT tiendas.tid, tiendas.nombre FROM tiendas;");
 	$result -> execute();
 	$comunas = $result -> fetchAll();
   ?>
