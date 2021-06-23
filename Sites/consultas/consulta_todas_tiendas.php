@@ -11,7 +11,7 @@
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $dbimp -> prepare($query);
 	$result -> execute();
-	$comunas = $result -> fetchAll();
+	$tienda = $result -> fetchAll();
   ?>
 
   <table class='table'>
@@ -20,7 +20,7 @@
     </tr>
   
       <?php
-        // echo $comunas;
+        // echo $tienda;
         foreach ($tienda as $t) {
           echo "<tr><td><a href='consulta_tienda.php?id=<?php echo $t[0] ?>' role='button' class=btn'> $p[1] </a></td></tr>";
       }
