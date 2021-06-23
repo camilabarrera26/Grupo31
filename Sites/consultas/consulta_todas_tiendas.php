@@ -22,7 +22,7 @@
       <?php
         // echo $tienda;
         foreach ($tienda as $t) {
-          echo "<tr><td><a href='consulta_tienda.php?id=<?php echo $t[0] ?>' role='button' class=btn'> $t[1] </a></td></tr>";
+          echo "<tr><td><a href='consulta_tienda.php?id=$t[0]' role='button' class=btn'> $t[1] </a></td></tr>";
       }
 ?>
       
