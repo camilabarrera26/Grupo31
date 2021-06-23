@@ -7,7 +7,7 @@
 
   #Se construye la consulta como un string
  	$query = "SELECT DISTINCT tiendas.tid, tiendas.nombre FROM tiendas;";
-  echo $query;
+
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $dbimp -> prepare($query);
 	$result -> execute();
@@ -22,7 +22,7 @@
       <?php
         // echo $tienda;
         foreach ($tienda as $t) {
-          echo "<tr><td><a href='consulta_tienda.php?id=<?php echo $t[0] ?>' role='button' class=btn'> $p[1] </a></td></tr>";
+          echo "<tr><td><a href='consulta_tienda.php?id=<?php echo $t[0] ?>' role='button' class=btn'> $t[1] </a></td></tr>";
       }
 ?>
       
