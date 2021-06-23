@@ -6,7 +6,7 @@
   require("../config/conexion.php");
 
   #Se construye la consulta como un string
- 	$query = "SELECT DISTINCT tiendas.tid, tiendas.nombre FROM tiendas";
+ 	$query = "SELECT DISTINCT tiendas.tid, tiendas.nombre FROM tiendas;";
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
 	$result -> execute();
