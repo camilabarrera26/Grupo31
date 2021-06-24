@@ -17,8 +17,6 @@
   <table class='table'>
     <tr>
       <th>Tienda</th>
-    </tr>
-    <tr>
       <th>Comuna</th>
     </tr>
         <?php
