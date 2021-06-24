@@ -4,16 +4,12 @@
 
 <?php 
 echo 'hola';
-$id = $_POST;
-$id1 = $_REQUEST; 
-$id2 = $_GET;
-foreach ($id as $d) {
-    echo $d;
+$id1 = $_POST;
+foreach ($id1 as $d) {
+    $id = $d;
+    break;
 };
 echo $id;  
-echo $id1;
-echo $id2;
-?>
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
