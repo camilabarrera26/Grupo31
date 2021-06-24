@@ -4,7 +4,7 @@
 
 <?php 
 echo 'hola';
-$id = $_POST; 
+$id = $_POST[0]; 
 echo $id;  
 ?>
 <?php
