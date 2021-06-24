@@ -51,4 +51,6 @@ $nombre = $_REQUEST['nombre'];
       
   </table>
 
-<?php include('../templates/footer.html'); ?>
+  <?php
+    echo "<a href='consulta_tienda.php?id=$id' role='button' class='btn'> Volver </a>";
+  ?>
