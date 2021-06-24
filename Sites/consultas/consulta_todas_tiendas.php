@@ -21,8 +21,7 @@
     <tr>
       <th>Comuna</th>
     </tr>
-  
-      <?php
+        <?php
         // echo $tienda;
         foreach ($tienda as $t) {
           echo "<tr><td><a href='consulta_tienda.php?id=$t[0]&nombre=$t[1]' role='button' class='btn'> $t[1] </a></td><td>$t[2]</td></tr>";
