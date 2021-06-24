@@ -5,7 +5,7 @@ if ($_POST["id_tienda"] == null) {
     $id = $_REQUEST['id']; 
     $nombre = $_REQUEST['nombre']; 
 } else {
-    $id = $_POST["id_tienda"]
+    $id = $_POST["id_tienda"];
 }
 ?>
 
