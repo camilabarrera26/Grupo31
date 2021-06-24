@@ -18,7 +18,7 @@ foreach ($id2 as $d) {
     echo $d;
     echo 'hola';
 }
-echo $id;
+echo $_POST["id_tienda"];
 ?>
 
 <?php
