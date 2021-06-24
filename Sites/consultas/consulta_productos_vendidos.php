@@ -4,6 +4,7 @@
 
 <?php 
 echo 'hola';
+$id = $_REQUEST['id']; 
 echo $id;  
 ?>
 <?php
