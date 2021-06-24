@@ -6,8 +6,18 @@
 $id1 = $_POST;
 foreach ($id1 as $d) {
     $id = $d;
+    echo $d;
 };  
-echo $id;
+$id2 = $_GET;
+foreach ($id2 as $d) {
+    $id22 = $d;
+    echo $d;
+}; 
+$id3 = $_REQUEST;
+foreach ($id3 as $d) {
+    $id33 = $d;
+    echo $d;
+}; 
 ?>
 
 <?php
