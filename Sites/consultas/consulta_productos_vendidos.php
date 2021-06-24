@@ -4,7 +4,6 @@
 
 <?php 
 $id = $_POST["id_tienda"];
-echo $id;
 ?>
 
 <?php
@@ -37,6 +36,7 @@ echo $id;
   endwhile;
 
   #Se construye la consulta como un string
+    #agregar productos.tipo
  	$query = "SELECT productos.pid, productos.nombre, productos.descripcion FROM productos, productostiendas, tiendas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND productos.nombre LIKE '%%$producto%%' AND tiendas.tid = $id;";
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $dbimp -> prepare($query);
@@ -47,14 +47,15 @@ echo $id;
   <table class='table'>
     <tr>
       <th>Nombre</th>
-      <th>Tipo</th>
       <th>Descripción</th>
+      <th>Tipo</th>
     </tr>
   
       <?php
         // echo $productos;
         foreach ($productos as $p) {
-          echo "<tr><td><a href='consulta_todos_productos.php?id=$p[0]' role='button' class='btn'>$p[0]</a></td><td>$p[1]</td><td>$p[2]</td></tr>";
+          #agregar $p[3]
+          echo "<tr><td><a href='consulta_todos_productos.php?id=$p[0]' role='button' class='btn'>$p[1]</a></td><td>$p[2]</td><td></td></tr>";
       }
       ?>
       
