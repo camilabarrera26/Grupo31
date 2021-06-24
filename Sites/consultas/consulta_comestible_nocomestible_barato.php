@@ -17,10 +17,10 @@ $nombre = $_REQUEST['nombre'];
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result1 = $dbimp -> prepare($query1);
 	$result1 -> execute();
-	$comestibles = $result -> fetchAll();
+	$comestibles = $result1 -> fetchAll();
   $result2 = $dbimp -> prepare($query2);
 	$result2 -> execute();
-	$nocomestibles = $result -> fetchAll();
+	$nocomestibles = $result2 -> fetchAll();
   ?>
 
   <table class='table'>
