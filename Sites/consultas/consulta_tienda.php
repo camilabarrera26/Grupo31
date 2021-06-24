@@ -15,7 +15,7 @@ Busque algún producto por nombre:
 <form action="consulta_productos_vendidos.php" method="post">
     Producto:
     <input type="text" name="producto">
-    <input type="hidden" value="<?php echo "$id"; ?>">
+    <input type="hidden" value="<?php $id1 =$id; ?>">
     <input type="submit" value="Buscar">
 </form>
 </br>

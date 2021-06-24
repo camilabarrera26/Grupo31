@@ -3,8 +3,8 @@
 <body>
 
 <?php 
-$id1 = $_POST;
-foreach ($id1 as $d) {
+$id11 = $_POST;
+foreach ($id11 as $d) {
     $id = $d;
     echo $d;
 };  
@@ -17,6 +17,8 @@ $id3 = $_REQUEST;
 foreach ($id3 as $d) {
     $id33 = $d;
     echo $d;
+echo 'hola';
+echo $id1;
 }; 
 ?>
 
