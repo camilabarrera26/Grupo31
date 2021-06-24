@@ -6,8 +6,10 @@
 echo 'hola';
 $id = $_POST[0];
 $id1 = $_REQUEST[0]; 
+$id2 = $_GET[0];
 echo $id;  
 echo $id1;
+echo $id2;
 ?>
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
