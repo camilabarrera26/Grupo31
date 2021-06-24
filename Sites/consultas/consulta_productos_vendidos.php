@@ -8,6 +8,7 @@ foreach ($id1 as $d) {
     $id = $d;
     break;
 };  
+echo $id;
 ?>
 
 <?php
