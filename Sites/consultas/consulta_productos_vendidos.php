@@ -3,7 +3,9 @@
 <body>
 
 <?php 
-echo $_POST['id_tienda'];
+$id = $_POST['id_tienda'];
+echo $id;
+echo 'hola';
 ?>
 
 <?php
