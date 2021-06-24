@@ -20,6 +20,8 @@ Busque algún producto por nombre:
 </form>
 </br>
 
-<?php include('../templates/footer.html'); ?>
+<form action="consulta_todas_tiendas.php" method="get">
+    <input type="submit" value="Volver">
+</form>
 
 

@@ -59,4 +59,6 @@ $id = $_POST["id_tienda"];
       
   </table>
 
-<?php include('../templates/footer.html'); ?>
+<form action="consulta_tienda.php" method="get">
+    <input type="submit" value="Volver">
+</form>
