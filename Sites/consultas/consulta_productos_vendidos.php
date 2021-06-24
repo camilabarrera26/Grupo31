@@ -7,6 +7,9 @@ echo 'hola';
 $id = $_POST;
 $id1 = $_REQUEST; 
 $id2 = $_GET;
+foreach ($id as $d) {
+    echo $d;
+};
 echo $id;  
 echo $id1;
 echo $id2;
