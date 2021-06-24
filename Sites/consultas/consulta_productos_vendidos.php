@@ -60,5 +60,6 @@ $id = $_POST["id_tienda"];
   </table>
 
 <form action="consulta_tienda.php" method="get">
+    <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
     <input type="submit" value="Volver">
 </form>
