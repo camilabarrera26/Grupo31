@@ -3,22 +3,8 @@
 <body>
 
 <?php 
-$id1 = $_POST;
-foreach ($id1 as $d) {
-    echo $d;
-    echo 'hola';
-}
-$id2 = $_GET;
-foreach ($id2 as $d) {
-    echo $d;
-    echo 'hola';
-}
-$id2 = $_REQUEST;
-foreach ($id2 as $d) {
-    echo $d;
-    echo 'hola';
-}
-echo $_POST["id_tienda"];
+$id = $_POST["id_tienda"];
+echo $id;
 ?>
 
 <?php
