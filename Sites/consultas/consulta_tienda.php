@@ -2,10 +2,14 @@
 
 <?php
 if ($_POST["id_tienda"] == null) {
+    echo 'hola1';
     $id = $_REQUEST['id']; 
     $nombre = $_REQUEST['nombre']; 
+    echo $id;
 } else {
+    echo 'hola2';
     $id = $_POST["id_tienda"];
+    echo $id;
 }
 ?>
 
