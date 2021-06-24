@@ -4,8 +4,13 @@
 
 <?php 
 $id = $_POST['id_tienda'];
+$id1 = $_GET['id_tienda'];
+$id2 = $_REQUEST['id_tienda'];
 echo $id;
 echo 'hola';
+echo $id1;
+echo 'hola';
+echo $id2;
 ?>
 
 <?php
