@@ -115,6 +115,11 @@ def crear_tabla_compras(ruta):
         del lista[-3]
         del lista[-2]
 
+    new_array = []
+    for x in array:
+        if x not in new_array:
+            new_array.append(x)
+
     with open('tablas traspasadas\\compras.csv', 'w+', encoding='UTF-8') \
             as csv_file:
 
@@ -122,7 +127,7 @@ def crear_tabla_compras(ruta):
 
         delimiter = ","
 
-        for lista in array:
+        for lista in new_array:
             string = delimiter.join(lista) + "\n"
             csv_file.write(string)
 
@@ -141,6 +146,11 @@ def crear_tabla_productos_compras(ruta):
         del lista[-4]
         del lista[-3]
 
+    new_array = []
+    for x in array:
+        if x not in new_array:
+            new_array.append(x)
+
     with open(
         'tablas traspasadas\\productos_compras.csv', 'w+', encoding='UTF-8') \
             as csv_file:
@@ -149,7 +159,7 @@ def crear_tabla_productos_compras(ruta):
 
         delimiter = ","
 
-        for lista in array:
+        for lista in new_array:
             string = delimiter.join(lista) + "\n"
             csv_file.write(string)
 
@@ -209,18 +219,33 @@ def crear_tabla_tiendas(ruta):
 def crear_tabla_productos(ruta):
 
     """ Genera la tabla productos con
-        los nuevos datos """
+        los nuevos datos. Agregamos
+        la columna tipo. """
 
     array = read_csv_file(ruta)
 
     array = sorted(array, key=lambda x: int(x[0]))
 
-    for lista in array:
+    lista_final = []
+
+    for product in array:
+        # Producto no comestible
+        if product[4] != "":
+            new_list = product.copy()
+            new_list.append("no comestible")
+            lista_final.append(new_list)
+        # Producto comestible
+        else:
+            new_list = product.copy()
+            new_list.append("comestible")
+            lista_final.append(new_list)
+
+    for lista in lista_final:
         for _ in range(8):
-            del lista[-1]
+            del lista[-2]
 
     new_array = []
-    for x in array:
+    for x in lista_final:
         if x not in new_array:
             new_array.append(x)
 
@@ -228,7 +253,7 @@ def crear_tabla_productos(ruta):
         'tablas traspasadas\\productos.csv', 'w+', encoding='UTF-8') \
             as csv_file:
 
-        csv_file.write("pid,nombre,precio,descripcion\n")
+        csv_file.write("pid,nombre,precio,descripcion,tipo\n")
 
         delimiter = ","
 
