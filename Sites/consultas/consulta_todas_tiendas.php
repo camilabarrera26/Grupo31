@@ -30,5 +30,3 @@
 
 <?php include('../templates/footer.html'); ?>
 </body>
-
-<?php include('../templates/footer.html'); ?>
