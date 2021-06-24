@@ -4,9 +4,9 @@
 
 <?php 
 echo 'hola';
-$id = $_POST[0];
-$id1 = $_REQUEST[0]; 
-$id2 = $_GET[0];
+$id = $_POST;
+$id1 = $_REQUEST; 
+$id2 = $_GET;
 echo $id;  
 echo $id1;
 echo $id2;
