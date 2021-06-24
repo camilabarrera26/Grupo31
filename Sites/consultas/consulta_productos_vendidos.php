@@ -3,23 +3,7 @@
 <body>
 
 <?php 
-$id11 = $_POST;
-foreach ($id11 as $d) {
-    $id = $d;
-    echo $d;
-};  
-$id2 = $_GET;
-foreach ($id2 as $d) {
-    $id22 = $d;
-    echo $d;
-}; 
-$id3 = $_REQUEST;
-foreach ($id3 as $d) {
-    $id33 = $d;
-    echo $d;
-echo 'hola';
-echo $id1;
-}; 
+echo $_POST['id_tienda'];
 ?>
 
 <?php
