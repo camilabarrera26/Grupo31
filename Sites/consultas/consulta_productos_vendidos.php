@@ -59,7 +59,6 @@ $id = $_POST["id_tienda"];
       
   </table>
 
-<form action="consulta_tienda.php" method="get">
-    <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
-    <input type="submit" value="Volver">
-</form>
+  <?php
+    echo "<a href='consulta_tienda.php?id=$id' role='button' class='btn'> Volver </a>";
+  ?>

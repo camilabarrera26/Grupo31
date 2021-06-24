@@ -1,16 +1,8 @@
 <?php include('../templates/header.html');   ?>
 
 <?php
-if ($_POST["id_tienda"]) {
-    echo 'hola1';
-    $id = $_POST["id_tienda"];
-    echo $id;
-} else {
-    echo 'hola2';
     $id = $_REQUEST['id']; 
     $nombre = $_REQUEST['nombre']; 
-    echo $id;
-}
 ?>
 
 Consulte por los 3 productos comestibles y no comestibles más económicos de la tienda:
