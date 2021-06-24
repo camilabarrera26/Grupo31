@@ -10,6 +10,8 @@ foreach ($id1 as $d) {
     break;
 };
 echo $id;  
+?>
+
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
