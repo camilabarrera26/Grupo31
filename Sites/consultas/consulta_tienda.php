@@ -12,7 +12,7 @@ echo "<a href='consulta_comestible_nocomestible_barato.php?id=$id&nombre=$nombre
 
 <br>
 Busque algún producto por nombre:
-<form action="consultas/consulta_productos_vendidos.php" method="post">
+<form action="consulta_productos_vendidos.php" method="post">
     Producto:
     <input type="text" name="producto">
     <input type="hidden" value="<?php echo "$id"; ?>">

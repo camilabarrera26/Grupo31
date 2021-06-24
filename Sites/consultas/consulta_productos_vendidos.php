@@ -3,6 +3,7 @@
 <body>
 
 <?php 
+echo 'hola';
 echo $id;  
 ?>
 <?php
