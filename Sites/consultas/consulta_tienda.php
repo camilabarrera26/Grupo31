@@ -1,7 +1,7 @@
 <?php include('../templates/header.html');   ?>
 
 <?php
-if ($_POST["id_tienda"] == null) {
+if ($_POST["id_tienda"]) {
     echo 'hola1';
     $id = $_REQUEST['id']; 
     $nombre = $_REQUEST['nombre']; 
