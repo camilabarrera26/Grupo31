@@ -1,3 +1,8 @@
+<head>
+<link href="styles/index.css" rel="stylesheet" />
+<link rel="stylesheet" href="../styles/index.css">
+</head>
+
 <?php include('../templates/header.html');   ?>
 
 <?php
