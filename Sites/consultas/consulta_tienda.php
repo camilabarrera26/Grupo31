@@ -23,6 +23,10 @@ Busque algún producto por nombre:
 </br>
 
 <?php
+
+#Llama a conexión, crea el objeto PDO y obtiene la variable $db
+require("../config/conexion.php");
+
 $query = "SELECT productos.pid FROM productos;";
 echo "$query";
 $result = $dbimp -> prepare($query);
