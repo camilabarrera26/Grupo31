@@ -3,8 +3,20 @@
 <body>
 
 <?php 
-$id = $_POST["id_tienda"];
+$id = $_REQUEST['id']; 
+$nombre = $_REQUEST['nombre']; 
 ?>
+
+<header class="py-5">
+    <div class="container px-lg-0">
+        <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
+            <div class="m-4 m-lg-2">
+                <h1 class="display-5 fw-bold"><?php echo "$nombre"; ?></h1> 
+                <p class="fs-4">Aquí podrás encontrar el resultado de tu compra.</p>  
+            </div>
+        </div>
+    </div>
+</header>
 
   <?php
     // Nos conectamos a las bdds
@@ -45,4 +57,9 @@ $id = $_POST["id_tienda"];
 
   ?>
 </body>
+
+<?php
+    echo "<a href='consulta_tienda.php?id=$id&nombre=$nombre' role='button' class='btn'> Volver </a>";
+  ?>
+
 </html>

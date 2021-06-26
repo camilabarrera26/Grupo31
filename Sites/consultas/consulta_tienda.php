@@ -1,7 +1,7 @@
-<head>
+<header>
 <link href="styles/index.css" rel="stylesheet" />
 <link rel="stylesheet" href="../styles/index.css">
-</head>
+</header>
 
 <?php include('../templates/header.html');   ?>
 
@@ -9,6 +9,17 @@
     $id = $_REQUEST['id']; 
     $nombre = $_REQUEST['nombre']; 
 ?>
+
+<header class="py-5">
+    <div class="container px-lg-0">
+        <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
+            <div class="m-4 m-lg-2">
+                <h1 class="display-5 fw-bold"><?php echo "$nombre"; ?></h1> 
+                <p class="fs-4">Aquí podrás encontrar información sobre la tienda y comprar productos.</p>  
+            </div>
+        </div>
+    </div>
+</header>
 
 <div class='py-5'>
 <div class="container-xl px-lg-4">
