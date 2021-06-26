@@ -21,15 +21,19 @@
   </div>
 </div>
 
-<br>
-Busque algún producto por nombre:
-<form action="consulta_productos_vendidos.php" method="post">
-    Producto:
-    <input type="text" name="producto">
-    <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
-    <input type="submit" value="Buscar">
-</form>
-</br>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+      Busque algún producto por nombre:
+      <form action="consulta_productos_vendidos.php" method="post">
+        Producto:
+        <input type="text" name="producto">
+        <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
+        <input type="submit" value="Buscar" class="btn">
+       </form>
+    </div>
+  </div>
+</div>
 
 <?php
 
