@@ -2,6 +2,10 @@
 <html>
 <body>
 
+<?php 
+$id = $_POST["id_tienda"];
+?>
+
   <?php
     // Nos conectamos a las bdds
     require("../config/conexion.php");
