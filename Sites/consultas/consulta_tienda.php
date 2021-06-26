@@ -41,7 +41,7 @@ Seleccione el ID del producto que desea comprar:
     <select>
     <?php
     foreach ($pid as $p) {
-        echo "<option value=$p>$p</option>";
+        echo "<option value=$p[0]>$p[0]</option>";
     }
     ?>
     </select>
