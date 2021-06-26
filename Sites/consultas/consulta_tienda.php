@@ -28,7 +28,7 @@ Busque algún producto por nombre:
 require("../config/conexion.php");
 
 $query = "SELECT productos.pid FROM productos;";
-echo "$query";
+
 $result = $dbimp -> prepare($query);
 $result -> execute();
 $pid = $result -> fetchAll();
@@ -38,11 +38,13 @@ $pid = $result -> fetchAll();
 Seleccione el ID del producto que desea comprar:
 <form action="consulta_compra.php" method="post">
     ID Producto:
+    <select>
     <?php
     foreach ($pid as $p) {
         echo "<option value=$p>$p</option>";
     }
     ?>
+    </select>
   <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
   <input type="submit" value="Comprar">
 </form>
