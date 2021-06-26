@@ -78,6 +78,7 @@ $pid = $result -> fetchAll();
         ?>
         </select>
         <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
+        <input type="hidden" name="id_tienda" value="<?php echo $nombre; ?>">
         <input type="submit" value="Comprar" class='btn'>
       </form>
     </div>
