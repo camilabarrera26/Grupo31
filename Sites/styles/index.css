@@ -522,7 +522,7 @@ progress {
 }
 @media (min-width: 1200px) {
   .display-6 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -7578,7 +7578,7 @@ textarea.form-control-lg {
 }
 
 .bg-contrast {
-  background-color: #5fd6c2 !important;
+  background-color: #91d8cc !important;
 }
 
 .bg-dark {
