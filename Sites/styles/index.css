@@ -597,10 +597,17 @@ progress {
 .container,
 .container-fluid,
 .container-xxl,
-.container-xl,
 .container-lg,
 .container-md,
 .container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-xl {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
@@ -4184,7 +4191,7 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(230, 65, 65, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
@@ -7556,6 +7563,10 @@ textarea.form-control-lg {
 
 .bg-warning {
   background-color: #ffc107 !important;
+}
+
+.bg-body1 {
+  background-color: #5fd6c2 !important;
 }
 
 .bg-danger {
