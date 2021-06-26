@@ -24,6 +24,7 @@ Busque algún producto por nombre:
 
 <?php
 $query = "SELECT productos.pid FROM productos;";
+echo "$query";
 $result = $dbimp -> prepare($query);
 $result -> execute();
 $pid = $result -> fetchAll();
