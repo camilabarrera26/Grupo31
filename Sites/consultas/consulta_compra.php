@@ -58,8 +58,10 @@ $nombre = $_REQUEST['nombre'];
   ?>
 </body>
 
+<br>
 <?php
     echo "<a href='consulta_tienda.php?id=$id&nombre=$nombre' role='button' class='btn'> Volver </a>";
   ?>
+</br>
 
 </html>
