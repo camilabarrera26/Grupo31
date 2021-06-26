@@ -42,8 +42,8 @@
       <form action="consulta_productos_vendidos.php" method="post">
         Producto:
         <input type="text" name="producto">
-        <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
-        <input type="hidden" name="id_tienda" value="<?php echo $nombre; ?>">
+        <input type="hidden" name="id" value="<?php echo $id; ?>">
+        <input type="hidden" name="nombre" value="<?php echo $nombre; ?>">
         <input type="submit" value="Buscar" class="btn">
        </form>
     </div>
@@ -77,8 +77,8 @@ $pid = $result -> fetchAll();
         }
         ?>
         </select>
-        <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
-        <input type="hidden" name="id_tienda" value="<?php echo $nombre; ?>">
+        <input type="hidden" name="id" value="<?php echo $id; ?>">
+        <input type="hidden" name="nombre" value="<?php echo $nombre; ?>">
         <input type="submit" value="Comprar" class='btn'>
       </form>
     </div>
