@@ -5,12 +5,16 @@
     $nombre = $_REQUEST['nombre']; 
 ?>
 
-<br>
-Consulte por los 3 productos comestibles y no comestibles más económicos de la tienda:
-<?php
-echo "<a href='consulta_comestible_nocomestible_barato.php?id=$id&nombre=$nombre' role='button' class='btn'> Consulta </a>";
-?>
-</br>
+<div class="container px-lg-5">
+  <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+    <div class="m-4 m-lg-5">
+      <h1 class="display-5 fw-bold">Consulte por los 3 productos comestibles y no comestibles más económicos de la tienda:</h1>
+        <?php
+          echo "<a href='consulta_comestible_nocomestible_barato.php?id=$id&nombre=$nombre' role='button' class='btn'> Consulta </a>";
+        ?>
+    </div>
+  </div>
+</div>
 
 <br>
 Busque algún producto por nombre:
