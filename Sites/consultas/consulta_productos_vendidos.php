@@ -12,7 +12,7 @@ $nombre = $_REQUEST['nombre'];
         <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
             <div class="m-4 m-lg-2">
                 <h1 class="display-5 fw-bold"><?php echo "$nombre"; ?></h1> 
-                <p class="fs-4">Aquí podrás ver si la tienda vende un producto.</p>  
+                <p class="fs-4">Resultados de la búsqueda:</p>  
             </div>
         </div>
     </div>
