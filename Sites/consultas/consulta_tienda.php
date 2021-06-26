@@ -6,7 +6,7 @@
 ?>
 
 <div class="container px-lg-4">
-  <div class="p-4 p-lg-4 bg-contrast rounded-3 text-center">
+  <div class="p-4 p-lg-4 bg-gradient rounded-3 text-center">
     <div class="m-4 m-lg-4">
       <h1 class="display-6 fw-bold">Consulte por los 3 productos comestibles y no comestibles más económicos de la tienda:</h1>
         <?php
