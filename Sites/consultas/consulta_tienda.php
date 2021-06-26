@@ -10,6 +10,7 @@
     $nombre = $_REQUEST['nombre']; 
 ?>
 
+<div class='py-5'>
 <div class="container-xl px-lg-4">
   <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
     <div class="m-4 m-lg-4">
@@ -20,7 +21,9 @@
     </div>
   </div>
 </div>
+</div>
 
+<div class='py-5'>
 <div class="container-xl px-lg-4">
   <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
     <div class="m-4 m-lg-4">
@@ -33,6 +36,7 @@
        </form>
     </div>
   </div>
+</div>
 </div>
 
 <?php
@@ -47,6 +51,7 @@ $result -> execute();
 $pid = $result -> fetchAll();
 ?>
 
+<div class='py-5'>
 <div class="container-xl px-lg-4">
   <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
     <div class="m-4 m-lg-4">
@@ -61,10 +66,11 @@ $pid = $result -> fetchAll();
         ?>
         </select>
         <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
-          input type="submit" value="Comprar" class='btn'>
+        <input type="submit" value="Comprar" class='btn'>
       </form>
     </div>
   </div>
+</div>
 </div>
 
 <form action="consulta_todas_tiendas.php" method="get">
