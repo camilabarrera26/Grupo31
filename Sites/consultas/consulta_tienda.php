@@ -43,6 +43,7 @@
         Producto:
         <input type="text" name="producto">
         <input type="hidden" name="id_tienda" value="<?php echo $id; ?>">
+        <input type="hidden" name="id_tienda" value="<?php echo $nombre; ?>">
         <input type="submit" value="Buscar" class="btn">
        </form>
     </div>
