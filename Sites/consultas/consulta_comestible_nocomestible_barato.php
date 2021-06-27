@@ -43,7 +43,8 @@ $nombre = $_REQUEST['nombre'];
         // echo $comestibles;
         foreach ($comestibles as $c) {
           $tipo = 'comestible';
-          echo "<tr><td><a href='consulta_producto.php?id=$c[1]&nombre=$c[0]&tipo=$tipo' role='button' class='btn'>$c[0]</td></tr>";
+          $nombre_mayuscula = ucfirst($c[0]);
+          echo "<tr><td><a href='consulta_producto.php?id=$c[1]&nombre=$c[0]&tipo=$tipo' role='button' class='btn'>$nombre_mayuscula</td></tr>";
       }
       ?>
       
@@ -58,7 +59,8 @@ $nombre = $_REQUEST['nombre'];
         // echo $nocomestibles;
         foreach ($nocomestibles as $c) {
           $tipo = 'no comestible';
-          echo "<tr><td><a href='consulta_producto.php?id=$c[1]&nombre=$c[0]&tipo=$tipo' role='button' class='btn'>$c[0]</td></tr>";
+          $nombre_mayuscula = ucfirst($c[0]);
+          echo "<tr><td><a href='consulta_producto.php?id=$c[1]&nombre=$c[0]&tipo=$tipo' role='button' class='btn'>$nombre_mayuscula</td></tr>";
       }
       ?>
       
