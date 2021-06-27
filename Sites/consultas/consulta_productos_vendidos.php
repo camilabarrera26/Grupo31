@@ -65,7 +65,7 @@ $nombre = $_REQUEST['nombre'];
       <?php
         // echo $productos;
         foreach ($productos as $p) {
-          echo "<tr><td><a href='consulta_todos_productos.php?id=$p[0]' role='button' class='btn'>$p[1]</a></td><td>$p[2]</td><td>$p[3]</td></tr>";
+          echo "<tr><td><a href='consulta_producto.php?id=$p[0]&nombre=$p[1]&tipo=$p[3]' role='button' class='btn'>$p[1]</a></td><td>$p[2]</td><td>$p[3]</td></tr>";
       }
       ?>
       

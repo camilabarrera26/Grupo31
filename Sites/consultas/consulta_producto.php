@@ -87,7 +87,7 @@
           }
          } else {
             foreach ($producto1 as $t) {
-              echo "<tr><td>$t[0]</td><td>$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[6]</td></tr>";
+              echo "<tr><td>$t[0]</td><td>$$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[6]</td></tr>";
             }
          }
       ?>    

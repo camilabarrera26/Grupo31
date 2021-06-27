@@ -23,8 +23,8 @@ $nombre = $_REQUEST['nombre'];
   require("../config/conexion.php");
 
   #Se construye la consulta como un string
- 	$query1 = "SELECT productoscomestibles.nombre FROM productoscomestibles, productostiendas WHERE productoscomestibles.pid=productostiendas.pid AND productostiendas.tid=$id ORDER BY productoscomestibles.precio ASC LIMIT 3;";
-  $query2 = "SELECT productosnocomestibles.nombre FROM productosnocomestibles, productostiendas WHERE productosnocomestibles.pid=productostiendas.pid AND productostiendas.tid=$id ORDER BY productosnocomestibles.precio ASC LIMIT 3;";
+ 	$query1 = "SELECT productoscomestibles.nombre, productoscomestibles.pid FROM productoscomestibles, productostiendas WHERE productoscomestibles.pid=productostiendas.pid AND productostiendas.tid=$id ORDER BY productoscomestibles.precio ASC LIMIT 3;";
+  $query2 = "SELECT productosnocomestibles.nombre, productosnocomestibles.pid FROM productosnocomestibles, productostiendas WHERE productosnocomestibles.pid=productostiendas.pid AND productostiendas.tid=$id ORDER BY productosnocomestibles.precio ASC LIMIT 3;";
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result1 = $dbimp -> prepare($query1);
 	$result1 -> execute();
@@ -42,7 +42,8 @@ $nombre = $_REQUEST['nombre'];
       <?php
         // echo $comestibles;
         foreach ($comestibles as $c) {
-          echo "<tr><td>$c[0]</td></tr>";
+          $tipo = 'comestible';
+          echo "<tr><td><a href='consulta_producto.php?id=$c[1]&nombre=$c[0]&tipo=$tipo'>$c[0]</td></tr>";
       }
       ?>
       
@@ -56,7 +57,8 @@ $nombre = $_REQUEST['nombre'];
       <?php
         // echo $nocomestibles;
         foreach ($nocomestibles as $c) {
-          echo "<tr><td>$c[0]</td></tr>";
+          $tipo = 'no comestible';
+          echo "<tr><td><a href='consulta_producto.php?id=$c[1]&nombre=$c[0]&tipo=$tipo'>$c[0]</td></tr>";
       }
       ?>
       
