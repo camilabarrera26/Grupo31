@@ -33,11 +33,8 @@
     $result = $dbimp -> prepare($query);
 	$result -> execute();
 	$producto = $result -> fetchAll();
-    echo $producto;
-    echo '1';
 
     foreach ($producto as $t) {
-        echo '2';
         if ($t[0] == 'fresco'){
             $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosfrescos.duracion FROM productosfrescos, productoscomestibles WHERE productosfrescos.pid = $id AND productosfrescos.pid = productoscomestibles.pid;";
         } elseif ($t[0] == 'congelado') {
@@ -54,6 +51,8 @@
 	$result = $dbimp -> prepare($query);
 	$result -> execute();
 	$producto1 = $result -> fetchAll();
+    echo $producto1;
+    echo $producto1[0];
   ?>
 
   <table class='table'>
@@ -65,10 +64,6 @@
           if ($tipo == 'comestible'){
             echo "<th>Fecha de Expiración</th>";
             foreach ($producto as $t) {
-                echo 'chao';
-                echo $t;
-                echo $t[0];
-                echo 'chao1';
             }
             echo "hola";
             foreach ($producto as $t) {
@@ -91,10 +86,12 @@
         <?php
          if ($tipo == 'comestible') {
           foreach ($producto1 as $t) {
+            echo "hola1";
             echo "<tr><td>$t[0]</td><td>$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td></tr>";
           }
          } else {
             foreach ($producto1 as $t) {
+              echo 'hola2';
               echo "<tr><td>$t[0]</td><td>$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[6]</td></tr>";
             }
          }
