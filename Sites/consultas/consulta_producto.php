@@ -33,8 +33,6 @@
     $result = $dbimp -> prepare($query);
 	$result -> execute();
 	$producto = $result -> fetchAll();
-    echo "$producto[0]";
-    echo "hola";
 
     foreach ($producto as $t) {
         if ($t[0] == 'fresco'){
@@ -63,6 +61,8 @@
       <?php
           if ($tipo == 'comestible'){
             echo "<th>Fecha de Expiración</th>";
+            echo "$producto[0]";
+            echo "hola";
             foreach ($producto as $t) {
                 if ($t[0] == 'fresco'){
                     echo "<th>Duración</th>";
