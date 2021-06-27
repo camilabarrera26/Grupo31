@@ -15,7 +15,7 @@
     <div class="container px-lg-0">
         <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
             <div class="m-4 m-lg-2">
-                <h1 class="display-5 fw-bold"><?php echo "$nombre"; ?></h1> 
+                <h1 class="display-5 fw-bold"><?php echo ucfirst($nombre); ?></h1> 
                 <p class="fs-4">Aquí podrás encontrar especificaciones del producto.</p>  
             </div>
         </div>
@@ -83,11 +83,13 @@
         <?php
          if ($tipo == 'comestible') {
           foreach ($producto1 as $t) {
-            echo "<tr><td>$t[0]</td><td>$$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td></tr>";
+            $nombre_mayuscula = ucfirst($t[0]);
+            echo "<tr><td>$nombre_mayuscula</td><td>$$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td></tr>";
           }
          } else {
             foreach ($producto1 as $t) {
-              echo "<tr><td>$t[0]</td><td>$$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[6]</td></tr>";
+              $nombre_mayuscula = ucfirst($t[0]);
+              echo "<tr><td>$nombre_mayuscula</td><td>$$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[6]</td></tr>";
             }
          }
       ?>    
