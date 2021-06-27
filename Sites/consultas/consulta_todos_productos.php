@@ -29,6 +29,7 @@
     <tr>
       <th>Productos</th>
       <th>Precio</th>
+      <th>Tipo</th>
     </tr>
         <?php
         // echo $productos;
