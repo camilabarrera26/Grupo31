@@ -33,7 +33,8 @@
     $result = $dbimp -> prepare($query);
 	$result -> execute();
 	$producto = $result -> fetchAll();
-    echo $producto[0];
+    echo "$producto[0]";
+
     foreach ($producto as $t) {
         if ($t[0] == 'fresco'){
             $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosfrescos.duracion FROM productosfrescos, productoscomestibles WHERE productosfrescos.pid = $id AND productosfrescos.pid = productoscomestibles.pid;";
