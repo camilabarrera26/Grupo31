@@ -34,6 +34,7 @@
 	$result -> execute();
 	$producto = $result -> fetchAll();
     echo "$producto[0]";
+    echo "hola";
 
     foreach ($producto as $t) {
         if ($t[0] == 'fresco'){
