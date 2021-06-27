@@ -61,7 +61,7 @@
       <?php
           if ($tipo == 'comestible'){
             echo "<th>Fecha de Expiración</th>";
-            echo "$producto[0]";
+            echo "$producto";
             echo "hola";
             foreach ($producto as $t) {
                 if ($t[0] == 'fresco'){
