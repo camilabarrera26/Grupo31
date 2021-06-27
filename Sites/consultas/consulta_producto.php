@@ -83,7 +83,7 @@
         <?php
          if ($tipo == 'comestible') {
           foreach ($producto1 as $t) {
-            echo "<tr><td>$t[0]</td><td>$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td></tr>";
+            echo "<tr><td>$t[0]</td><td>$$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td></tr>";
           }
          } else {
             foreach ($producto1 as $t) {
