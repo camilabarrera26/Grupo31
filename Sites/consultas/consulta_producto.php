@@ -36,23 +36,21 @@
 
     foreach ($producto as $t) {
         if ($t[0] == 'fresco'){
-            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosfrescos.duracion FROM productosfrescos, productoscomestibles WHERE productosfrescos.pid = $id AND productosfrescos.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosfrescos.duracion FROM productosfrescos, productoscomestibles WHERE productosfrescos.pid = $id AND productosfrescos.pid = productoscomestibles.pid;";
         } elseif ($t[0] == 'congelado') {
-            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productoscongelados.peso FROM productoscongelados, productoscomestibles WHERE productoscongelados.pid = $id AND productoscongelados.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productoscongelados.peso FROM productoscongelados, productoscomestibles WHERE productoscongelados.pid = $id AND productoscongelados.pid = productoscomestibles.pid;";
         } else {
-            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosenconserva.metodo_conservacion FROM productosenconserva, productoscomestibles WHERE productosenconserva.pid = $id AND productosenconserva.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosenconserva.metodo_conservacion FROM productosenconserva, productoscomestibles WHERE productosenconserva.pid = $id AND productosenconserva.pid = productoscomestibles.pid;";
         }
     }
   } else {
-    $query = "SELECT productosnocomestibles.nombre, productosnocomestibles.precio productosnocomestibles.descripcion, productosnocomestibles.largo, productosnocomestibles.alto, productosnocomestibles.ancho, productosnocomestibles.peso FROM productosnocomestibles WHERE productosnocomestibles.pid = $id;";
+    $query = "SELECT productosnocomestibles.nombre, productosnocomestibles.precio, productosnocomestibles.descripcion, productosnocomestibles.largo, productosnocomestibles.alto, productosnocomestibles.ancho, productosnocomestibles.peso FROM productosnocomestibles WHERE productosnocomestibles.pid = $id;";
   }
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $dbimp -> prepare($query);
 	$result -> execute();
 	$producto1 = $result -> fetchAll();
-    echo $producto1;
-    echo $producto1[0];
   ?>
 
   <table class='table'>
@@ -65,7 +63,6 @@
             echo "<th>Fecha de Expiración</th>";
             foreach ($producto as $t) {
             }
-            echo "hola";
             foreach ($producto as $t) {
                 if ($t[0] == 'fresco'){
                     echo "<th>Duración</th>";
@@ -86,12 +83,10 @@
         <?php
          if ($tipo == 'comestible') {
           foreach ($producto1 as $t) {
-            echo "hola1";
             echo "<tr><td>$t[0]</td><td>$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td></tr>";
           }
          } else {
             foreach ($producto1 as $t) {
-              echo 'hola2';
               echo "<tr><td>$t[0]</td><td>$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[6]</td></tr>";
             }
          }
