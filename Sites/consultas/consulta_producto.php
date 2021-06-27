@@ -9,6 +9,11 @@
     $id = $_REQUEST['id']; 
     $nombre = $_REQUEST['nombre'];
     $tipo = $_REQUEST['tipo']; 
+    echo 'a';
+    echo $id;
+    echo $nombre;
+    echo $tipo;
+    echo 'b';
 ?>
 
 <header class="py-5">
