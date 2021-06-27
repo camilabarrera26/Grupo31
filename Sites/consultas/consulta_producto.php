@@ -9,11 +9,6 @@
     $id = $_REQUEST['id']; 
     $nombre = $_REQUEST['nombre'];
     $tipo = $_REQUEST['tipo']; 
-    echo 'a';
-    echo $id;
-    echo $nombre;
-    echo $tipo;
-    echo 'b';
 ?>
 
 <header class="py-5">
@@ -34,7 +29,7 @@
 
   #Se construye la consulta como un string
   if ($tipo == 'comestible'){
-    $query = "SELECT prductoscomestibles.tipo FROM productoscomestibles WHERE productoscomestibles.pid = $id;";
+    $query = "SELECT productoscomestibles.tipo FROM productoscomestibles WHERE productoscomestibles.pid = $id;";
     $result = $dbimp -> prepare($query);
 	$result -> execute();
 	$producto = $result -> fetchAll();
