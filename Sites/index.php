@@ -12,3 +12,91 @@
 <body>
 
 </body>
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Delivery </title>
+</head>
+
+<body>
+
+<h3>Cambio tablas</h3>
+
+<form action='./queries/procedimiento_tablas.php' method='GET'>
+    <input type='submit' value='Cambio tablas'>
+</form>
+
+<h3>Contraseñas</h3>
+
+<form action='./queries/procedimiento_asignar_contra.php' method='GET'>
+    <input type='submit' value='Asignar Contraseñas'>
+</form>
+
+<h3>BDD1</h3>
+<form action='./queries/bdd1.php' method='GET'>
+    <input type='submit' value='Consultar'>
+</form>
+
+<h3>BDD2</h3>
+<form action='./queries/bdd2.php' method='GET'>
+    <input type='submit' value='Consultar'>
+</form>
+
+<h3>Registrarse</h3>
+
+<form action='./queries/procedimiento_registro.php' method='POST'>
+        <label for='nombre'>Nombre</label>
+        <input type='text' name='nombre' />
+
+        <label for='rut'>Rut</label>
+        <input type='text' name='rut' />
+        
+        <label for='type'>Sexo</label>
+        <select name='sexo' id='type'>
+            <option value='hombre'>Hombre</option>
+            <option value='mujer'>Mujer</option>
+        </select>
+
+        <label for='edad'>Edad</label>
+        <input type='number' name='edad'/>
+
+        <label for='direccion'>Dirección</label>
+        <input type='text' name='direccion'/>
+
+    <input type='submit' value='Registrarse'>
+</form>
+
+<h3>Iniciar seción</h3>
+
+<form action='./queries/procedimiento_entrada.php' method='POST'>
+        <label for='rut'>Rut</label>
+        <input type='text' name='rut' />
+
+        <label for='contrasena'>Contraseña</label>
+        <input type='text' name='contrasena'/>
+
+    <input type='submit' value='Iniciar Seción'>
+</form>
+
+<h3>Cambiar Contraseña</h3>
+
+<form action='./queries/procedimiento_cambiar_contra.php' method='POST'>
+        <label for='rut'>Rut</label>
+        <input type='text' name='rut' />
+
+        <label for='contrasena_actual'>Contraseña Actual</label>
+        <input type='text' name='contrasena_actual'/>
+
+        <label for='contrasena_nueva'>Contraseña Nueva</label>
+        <input type='text' name='contrasena_nueva'/>
+
+    <input type='submit' value='Iniciar Seción'>
+</form>
+
+</body>
+</html>
