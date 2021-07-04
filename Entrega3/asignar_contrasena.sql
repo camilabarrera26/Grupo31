@@ -2,7 +2,7 @@ CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
 -- SEGUNDA FUNCIÓN QUE EJECUTAR
-asignar_contrasena (pid int, nombre varchar(50), rute varchar(12), edad int, sexo varchar(25))
+asignar_contrasena (pid int, nombre varchar(50), rute varchar(12), edad int, sexo varchar(25), direccion varchar (200))
 
 -- declaramos lo que retorna, en este caso un booleano
 RETURNS BOOLEAN AS $$
@@ -28,7 +28,7 @@ BEGIN
     FROM usuarios;
 
     IF rute NOT IN (SELECT usuarios.rut from usuarios) THEN
-        INSERT INTO usuarios values(idmax + 1, nombre, rute, edad, sexo, ROUND(RANDOM()*(999999999-100000000)+100000000));
+        INSERT INTO usuarios values(idmax + 1, nombre, rute, edad, sexo, ROUND(RANDOM()*(999999999-100000000)+100000000), direccion);
         -- retornamos true si se agregó el valor
         RETURN TRUE;
     ELSE

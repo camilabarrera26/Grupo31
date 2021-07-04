@@ -14,13 +14,9 @@
     $result = $dbimp -> prepare($query);
     $result -> execute();
 
-    $query = "SELECT cambio_personal();";
-    $result = $dbp -> prepare($query);
-    $result -> execute();
-
     // Mostramos los cambios en una nueva tabla
-    $query = "SELECT * FROM personal ORDER BY pid;";
-    $result = $dbp -> prepare($query);
+    $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
+    $result = $dbimp -> prepare($query);
     $result -> execute();
     $personals = $result -> fetchAll();
 
@@ -35,8 +31,8 @@
             <th>Rut</th>
             <th>Sexo</th>
             <th>Edad</th>
-            <th>Dirección</th>
             <th>Contraseña</th>
+            <th>Dirección</th>
             
             </tr>
         </thead>
@@ -44,7 +40,7 @@
             <?php
             foreach ($personals as $personal) {
                 echo "<tr>";
-                for ($i = 0; $i < 6; $i++) {
+                for ($i = 0; $i < 7; $i++) {
                     echo "<td>$personal[$i]</td> ";
                 }
                 echo "</tr>";

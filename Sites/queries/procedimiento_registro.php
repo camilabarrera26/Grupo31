@@ -45,6 +45,7 @@
             <th>Sexo</th>
             <th>Edad</th>
             <th>Contrasena</th>
+            <th>Dirección</th>
             </tr>
         </thead>
         <tbody>

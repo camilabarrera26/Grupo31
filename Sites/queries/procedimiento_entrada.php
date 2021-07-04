@@ -29,7 +29,7 @@
         echo "Ha ingresado correctamente";
     }
     // Mostramos los cambios en una nueva tabla
-    $query = "SELECT * FROM usuarios WHERE rut = '$_POST[rut]' AND contrasena = '$_POST[contrasena]';";
+    $query = "SELECT usuarios.uid, usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.contrasena, usuarios.direccion FROM usuarios WHERE rut = '$_POST[rut]' AND contrasena = '$_POST[contrasena]';";
     $result = $dbimp -> prepare($query);
     $result -> execute();
     $personals = $result -> fetchAll();
@@ -49,6 +49,7 @@
             <th>Sexo</th>
             <th>Edad</th>
             <th>Contrasena</th>
+            <th>Dirección</th>
             </tr>
         </thead>
         <tbody>

@@ -26,13 +26,15 @@ BEGIN
         RETURN FALSE;
     END IF;
 
+    -- ACEPTA CUALQUIER DIRECCIÓN
+
     -- insertamos el maximo id en la variable idmax
     SELECT INTO idmax
     MAX(usuarios.uid)
     FROM usuarios;
 
     -- insertamos el dato y la contraseña
-    INSERT INTO usuarios values(idmax + 1, nombrexd, rute, edad, sexo, ROUND(RANDOM()*(999999999-100000000)+100000000));
+    INSERT INTO usuarios values(idmax + 1, nombrexd, rute, edad, sexo, ROUND(RANDOM()*(999999999-100000000)+100000000), direccion);
     RETURN TRUE;
     
 
