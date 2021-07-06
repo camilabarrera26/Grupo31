@@ -8,10 +8,10 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 
 <?php 
   if(isset($_SESSION['id'])){
-    include('templates/header_login.html'); 
+    include('../templates/header_login.html'); 
   }  
   else {
-  include('templates/header.html');  
+  include('../templates/header.html');  
   }
 ?>
 
