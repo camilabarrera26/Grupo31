@@ -29,7 +29,7 @@ session_start();
 #Se construye la consulta como un string
   $id = $_SESSION["id"];
   $query = "SELECT usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.direccion FROM usuarios WHERE usuarios.uid = $id;";
-  $query2 = "SELECT compras.cid, compras.uid, compras.did, compras.tid FROM compras WHERE compras.uid = $id;";
+  $query2 = "SELECT compras.did, compras.tid FROM compras WHERE compras.uid = $id;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
   $result = $dbimp -> prepare($query);
@@ -60,16 +60,13 @@ session_start();
  <h1> Historial de Compras </h1>
   <table class='table'>
       <tr>
-        <th>Nombre</th>
-        <th>Rut</th>
-        <th>Edad</th>
-        <th>Sexo</th>
-        <th>Dirección</th>
+        <th>Nombre Tienda</th>
+        <th>Dirección de envío</th>
       </tr>
           <?php
           // echo $tienda;
           foreach ($compra as $c) {
-            echo "<tr><td>$c[0]</td><td>$c[1]</td><td>$c[2]</td><td>$c[3]</td><td>$c[4]</td></tr>";
+            echo "<tr><td>$c[1]</td><tr><td>$c[0]</td></tr>";
         }
         ?>
   </table>
