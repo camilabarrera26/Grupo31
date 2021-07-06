@@ -19,7 +19,7 @@
     $result1 -> execute();
     $id_usuario = $result1 -> fetchAll();
     foreach ($id_usuario as $id){
-        echo $id;
+        echo $id[0];
     }
 
 
