@@ -3,19 +3,32 @@
     require("config/conexion.php");
     $message="";
     if(count($_POST)>0) {
+        $nombre = $_POST["nombre"];
         $rut = $_POST["rut"];
-        $password = $_POST["password"];
-        $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$rut' AND usuarios.contrasena = '$password';";
+        $sexo = $_POST["sexo"];
+        $edad = $_POST["edad"];
+        $direccion = $_POST["direccion"];
+
+        $query = "SELECT registrar_usuario('$nombre', '$rut', '$sexo', $edad, '$direccion');";
         $result = $dbimp -> prepare($query);
         $result -> execute();
-        $usuario = $result -> fetchAll();
-        if(count($usuario) > 0) {
-            foreach ($usuario as $u){
-            $_SESSION["id"] = $u[0];
-            $_SESSION["nombre"] = $u[1];
+
+        $personals = $result -> fetchAll();
+        $a = $personals['0'];
+
+        if ($personals == null) {
+            $message = "Error al Registrarse!";
+        } elseif (in_array(1, $a) == false) {
+            $message = "Error al Registrarse!";
+        } elseif (in_array(1, $a)) {
+            $query1 = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$rut';";
+            $result1 = $dbimp -> prepare($query1);
+            $result1 -> execute();
+            $usuario = $result1 -> fetchAll();
+            foreach ($usuario as $u) {
+              $_SESSION["id"] = $u[0];
+              $_SESSION["nombre"] = $u[1];
             }
-        } else {
-         $message = "Error al Registrarse!";
         }
     }
     if(isset($_SESSION["id"])) {
