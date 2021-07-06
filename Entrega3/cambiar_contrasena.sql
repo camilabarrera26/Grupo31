@@ -15,7 +15,7 @@ BEGIN
         -- UPDATE personal SET contrasena = contrasena_nueva;
         --RETURN TRUE;
 
-    IF (rute, contrasena_actual) IN (SELECT usuarios.rut, usuarios.contrasena FROM usuarios WHERE rut = rute AND contrasena = contrasena_actual) AND contrasena_nueva >= 100000000 AND contrasena_nueva <= 9999999999 THEN
+    IF (rute, contrasena_actual) IN (SELECT usuarios.rut, usuarios.contrasena FROM usuarios WHERE rut = rute AND contrasena = contrasena_actual) THEN
         UPDATE usuarios SET contrasena = contrasena_nueva WHERE rut = rute AND contrasena = contrasena_actual;
         RETURN TRUE;
 
