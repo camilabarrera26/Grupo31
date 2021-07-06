@@ -11,14 +11,12 @@
             foreach ($usuario as $u){
             $_SESSION["id"] = $u[0];
             $_SESSION["nombre"] = $u[1];
-            echo $u[1];
             }
         } else {
          $message = "Invalid Username or Password!";
         }
     }
     if(isset($_SESSION["id"])) {
-    echo $_SESSION["id"];
     header("Location:index.php");
     }
 ?>
@@ -41,6 +39,9 @@
 <input type="submit" name="submit" value="Submit">
 <input type="reset">
 </form>
+<?php
+echo $_SESSION["id"];
+?>
 </body>
 </html>
 
