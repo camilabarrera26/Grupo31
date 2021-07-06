@@ -10,6 +10,9 @@
     </div>
 </header>
 <body>
+<?php
+echo $_SESSION['user'];
+?>
 
 </body>
 

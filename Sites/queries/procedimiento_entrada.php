@@ -19,7 +19,7 @@
     $result1 -> execute();
     $id_usuario = $result1 -> fetchAll();
     foreach ($id_usuario as $id){
-        echo $id[0];
+        $id1 = $id[0];
     }
 
 
@@ -37,6 +37,8 @@
         //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a)) {
         echo "Ha ingresado correctamente";
+        session_start();
+        $_SESSION['user'] = $id1;
     }
     // Mostramos los cambios en una nueva tabla
     $query = "SELECT usuarios.uid, usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.contrasena, usuarios.direccion FROM usuarios WHERE rut = '$_POST[rut]' AND contrasena = '$_POST[contrasena]';";
