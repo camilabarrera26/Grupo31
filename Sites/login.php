@@ -19,9 +19,7 @@
         }
     }
     if(isset($_SESSION["id"])) {
-    echo "hola";
-    echo $_SESSION["id"];
-    //header("Location: ../index.php");
+      header("Location: index.php");
     }
 ?>
 

@@ -1,4 +1,20 @@
-<?php   session_start();  ?>
+<?php
+session_start();
+?>
+
+<?php
+      if(!isset($_SESSION['rut'])) // If session is not set then redirect to Login Page
+       {
+           header("Location:login.php");  
+       }
+
+          echo $_SESSION['nombre'];
+
+          echo "Login Success";
+
+          echo "<a href='logout.php'> Logout</a> "; 
+?>
+
 
 <?php include('templates/header.html');   ?>
 <header class="py-5">
