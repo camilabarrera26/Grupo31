@@ -23,6 +23,8 @@ session_start();
 </header>
 <body>
 
+<?php echo $_SESSION['nombre']; ?>
+
 </body>
 
 <!--

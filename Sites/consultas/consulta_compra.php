@@ -19,7 +19,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 <body>
 
 <?php 
-$id = $_REQUEST['id']; 
+$id_tienda = $_REQUEST['id']; 
 $nombre = $_REQUEST['nombre']; 
 ?>
 
@@ -45,7 +45,8 @@ $nombre = $_REQUEST['nombre'];
     $result = $dbimp -> prepare($query);
     $result -> execute();
     $productos = $result -> fetchAll();
-
+    
+    $id_usuario = $_SESSION['id'];
 
     foreach ($productos as $p){
 
@@ -53,7 +54,7 @@ $nombre = $_REQUEST['nombre'];
         // Hacemos una verificacion para ver si el pokemon es legendario porque ese parámetro no se comporta muy bien entre php y sql
         // asi que lo agregamos manualmente al final (por eso los FALSE o TRUE)
 
-            $query = "SELECT verificar_compra($p[0], $id);";
+        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario);";
 
         // Ejecutamos las querys para efectivamente insertar los datos
         $result = $dbimp -> prepare($query);
