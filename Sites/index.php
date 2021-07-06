@@ -1,3 +1,5 @@
+<?php   session_start();  ?>
+
 <?php include('templates/header.html');   ?>
 <header class="py-5">
     <div class="container px-lg-0">
@@ -10,9 +12,16 @@
     </div>
 </header>
 <body>
+
+<!--
 <?php
-echo $_SESSION['user'];
+//if($_SESSION["name"]) {
 ?>
+Welcome <?php //echo $_SESSION["name"]; ?>. Click here to <a href="logout.php" tite="Logout">Logout.
+<?php 
+//}else echo "<h1>Please login first .</h1>";
+?>
+-->
 
 </body>
 

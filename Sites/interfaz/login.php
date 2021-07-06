@@ -29,6 +29,7 @@
 <body>
 <form name="frmUser" method="post" action="" align="center">
 <div class="message"><?php if($message!="") { echo $message; } ?></div>
+<?php echo "hola"; ?>
 <h3 align="center">Ingresa tus datos:</h3>
  Rut:<br>
  <input type="text" name="user_name">
