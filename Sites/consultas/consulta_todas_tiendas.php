@@ -1,4 +1,21 @@
 <?php
+session_start();
+if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
+       {
+           header("Location: ../login.php");  
+       }
+?>
+
+<?php 
+  if(isset($_SESSION['id'])){
+    include('../templates/header_login.html'); 
+  }  
+  else {
+  include('../templates/header.html');  
+  }
+?>
+
+<?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
@@ -10,8 +27,6 @@
 	$result -> execute();
 	$tienda = $result -> fetchAll();
   ?>
-
-<?php include('../templates/header.html');   ?>
 
   <table class='table'>
     <tr>
