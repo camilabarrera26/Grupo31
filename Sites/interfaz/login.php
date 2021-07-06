@@ -1,5 +1,49 @@
-<?php include("head.php"); ?>
+<?php
+    session_start();
+    require("../config/conexion.php");
+    $message="";
+    if(count($_POST)>0) {
+        $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$_POST[rut]' AND usuarios.contrasena = '$_POST[password]';";
+        $result = $dbimp -> prepare($query);
+        $result -> execute();
+        $usuario = $result -> fetchAll();
+        if(is_array($usuario)) {
+            foreach ($usuario as $u){
+            $_SESSION["id"] = $u[0];
+            $_SESSION["nombre"] = $u[1];
+            }
+        } else {
+         $message = "Invalid Username or Password!";
+        }
+    }
+    if(isset($_SESSION["id"])) {
+    header("Location:index.php");
+    }
+?>
 
+<?php include("head.php"); ?>
+<html>
+<head>
+<title>Iniciar Sesión</title>
+</head>
+<body>
+<form name="frmUser" method="post" action="" align="center">
+<div class="message"><?php if($message!="") { echo $message; } ?></div>
+<h3 align="center">Ingresa tus datos:</h3>
+ Rut:<br>
+ <input type="text" name="user_name">
+ <br>
+ Contraseña:<br>
+<input type="password" name="password">
+<br><br>
+<input type="submit" name="submit" value="Submit">
+<input type="reset">
+</form>
+</body>
+</html>
+
+
+<!--
 <body>
     <form action='./queries/procedimiento_registro.php' method='POST'>
         <h1>Registrate Ahora</h1> <br>
@@ -16,3 +60,4 @@
     </form>
 </body>
 </html>
+-->

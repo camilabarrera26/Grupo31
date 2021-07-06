@@ -1,6 +1,5 @@
 
 <?php
-    session_start();
 
     // Nos conectamos a las bdds
     require("../config/conexion.php");
@@ -34,8 +33,12 @@
         echo "No ha podido ingresar sesión";
         //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a)) {
+        session_start();
+        $_SESSION['id'] = $id1;
+        if(isset($_SESSION["id"])) {
+            header("Location:index.php");
+            }
         echo "Ha ingresado correctamente";
-        $_SESSION['user'] = $id1;
     }
     // Mostramos los cambios en una nueva tabla
     $query = "SELECT usuarios.uid, usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.contrasena, usuarios.direccion FROM usuarios WHERE rut = '$_POST[rut]' AND contrasena = '$_POST[contrasena]';";
