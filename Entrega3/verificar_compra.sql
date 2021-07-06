@@ -12,10 +12,10 @@ RETURNS BOOLEAN AS $$
 DECLARE
 idmax int;
 a text;
-c CURSOR FOR
-    SELECT comunas.comuna_cobertura
-    FROM   usuarios, direccionesusuarios, comunas
-    WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid;
+--c CURSOR FOR
+  --  SELECT comunas.comuna_cobertura
+  --  FROM   usuarios, direccionesusuarios, comunas
+  --  WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid;
 
 -- definimos nuestra función
 BEGIN
