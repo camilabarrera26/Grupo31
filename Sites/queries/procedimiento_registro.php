@@ -28,15 +28,18 @@
         //session_start();
         //$_SESSION['user'] = $id_usuario[0];
         }
+    
+?>
+<!--
     // Mostramos los cambios en una nueva tabla
 //    $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
 //    $result = $dbimp -> prepare($query);
 //    $result -> execute();
 //    $personals = $result -> fetchAll();
 
-?>
 
-<!--
+
+
 <body>  
     <table class='table'>
         <thead>
@@ -51,7 +54,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php
+            
 //            foreach ($personals as $personal) {
   //              echo "<tr>";
     //            for ($i = 0; $i < 8; $i++) {
@@ -59,7 +62,7 @@
         //        }
           //      echo "</tr>";
             //}
-            ?>
+
         </tbody>
     </table>
 </body>
