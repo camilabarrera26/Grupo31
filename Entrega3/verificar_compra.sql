@@ -12,8 +12,10 @@ RETURNS BOOLEAN AS $$
 DECLARE
 idmax int;
 a text;
-comuna_usuario = SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid
-c comuna_usuario%type; 
+c CURSOR FAST_FORWARD FOR
+    SELECT comunas.comuna_cobertura
+    FROM   usuarios, direccionesusuarios, comunas
+    WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid;
 
 -- definimos nuestra función
 BEGIN
@@ -25,7 +27,7 @@ BEGIN
 
     -- verificamos que la tienda despache a la comuna
     a := FALSE;
-    FOR c in comuna_usuario LOOP
+    FOR c in SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid LOOP
         IF c IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid AND tiendas.tid = tid)
             a := TRUE
         END IF;
