@@ -54,4 +54,4 @@ session_start();
 
  <h1> Historial de Compras </h1>
 
-<a href='index.php' class='btn'> Volver </a>
+<a href='index.php' role='button' class='btn'> Volver </a>
