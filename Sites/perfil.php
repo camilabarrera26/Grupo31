@@ -29,7 +29,7 @@ session_start();
 #Se construye la consulta como un string
   $id = $_SESSION["id"];
   $query = "SELECT usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.direccion FROM usuarios WHERE usuarios.uid = $id;";
-  $query2 = "SELECT compras.did, compras.tid FROM compras WHERE compras.uid = $id;";
+  $query2 = "SELECT tiendas.nombre, comunas.direccion FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
   $result = $dbimp -> prepare($query);
