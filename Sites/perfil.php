@@ -77,7 +77,6 @@ session_start();
             foreach ($compra as $c) {
                 echo "<tr><td>$c[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
               }
-            }
           ?>
   </table>
 
