@@ -12,7 +12,7 @@
 
         <p>Edad<br><input type='number' name='edad' placeholder="Ingrese su edad"></p> <br>
         <p>Dirección<br><input type='text' name='direccion' placeholder="Ingrese su dirección"></p> <br>
-        <input class = "reg" type='submit' value='Registrarse'>
+        <input class = "reg" type='submit' value='Iniciar Sesión'>
     </form>
 </body>
 </html>

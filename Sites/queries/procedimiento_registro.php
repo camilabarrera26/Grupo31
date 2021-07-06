@@ -14,6 +14,11 @@
     $result = $dbimp -> prepare($query);
     $result -> execute();
 
+    $query1 = "SELECT usuarios.uid FROM usuarios WHERE usuarios.rut = '$_POST[rut]';";
+    $id_usuario = $dbimp -> prepare($query);
+    $id_usuario -> execute();
+    echo $id_usuario[0];
+
     // Si nos interesa acceder a los booleanos que retorna el procedimiento, debemos hacer fetch de los resultados
     $personals = $result -> fetchAll();
     $a = $personals['0'];
@@ -26,7 +31,9 @@
         //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a)) {
         echo "Se ha registrado correctamente";
-    }
+        //session_start();
+        //$_SESSION['user'] = $id_usuario[0];
+        }
     // Mostramos los cambios en una nueva tabla
     $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
     $result = $dbimp -> prepare($query);
@@ -34,6 +41,7 @@
     $personals = $result -> fetchAll();
 
 ?>
+
 
 <body>  
     <table class='table'>
