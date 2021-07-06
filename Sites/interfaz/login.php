@@ -2,32 +2,23 @@
     session_start();
     require("../config/conexion.php");
     $message="";
-    echo "hola";
-    echo count($_POST);
     if(count($_POST)>0) {
-        echo "aqui1";
         $rut = $_POST["rut"];
         $password = $_POST["password"];
-        echo $rut;
-        echo $password;
         $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$rut' AND usuarios.contrasena = '$password';";
         $result = $dbimp -> prepare($query);
         $result -> execute();
         $usuario = $result -> fetchAll();
-        echo count($usuario);
         if(count($usuario) > 0) {
-            echo "aqui2";
             foreach ($usuario as $u){
             $_SESSION["id"] = $u[0];
             $_SESSION["nombre"] = $u[1];
             }
         } else {
-            echo "aqui3";
          $message = "Nombre o Contraseña Inválida!";
         }
     }
     if(isset($_SESSION["id"])) {
-        echo "aqui4";
     header("Location:index.php");
     }
 ?>
