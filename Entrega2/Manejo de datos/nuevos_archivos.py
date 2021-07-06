@@ -123,7 +123,7 @@ def crear_tabla_compras(ruta):
     with open('tablas traspasadas\\compras.csv', 'w+', encoding='UTF-8') \
             as csv_file:
 
-        csv_file.write("cid,uid,tid,did\n")
+        csv_file.write("cid,uid,did,tid\n")
 
         delimiter = ","
 
