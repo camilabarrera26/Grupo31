@@ -116,6 +116,5 @@ session_start();
 
 <?php
       if(isset($_SESSION['id'])) // If session is not set then redirect to Login Page
-
-          echo "<a href='logout.php'> Logout</a> "; 
+          echo "<a href='logout.php' type='button'> Cerrar Sesión </a> "; 
 ?>

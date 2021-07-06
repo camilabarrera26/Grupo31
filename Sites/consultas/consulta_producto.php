@@ -51,15 +51,15 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 
     foreach ($producto as $t) {
         if ($t[0] == 'fresco'){
-            $query = "SELECT productoscomestibles.pid productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosfrescos.duracion FROM productosfrescos, productoscomestibles WHERE productosfrescos.pid = $id AND productosfrescos.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.pid, productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosfrescos.duracion FROM productosfrescos, productoscomestibles WHERE productosfrescos.pid = $id AND productosfrescos.pid = productoscomestibles.pid;";
         } elseif ($t[0] == 'congelado') {
-            $query = "SELECT productoscomestibles.pid productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productoscongelados.peso FROM productoscongelados, productoscomestibles WHERE productoscongelados.pid = $id AND productoscongelados.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.pid, productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productoscongelados.peso FROM productoscongelados, productoscomestibles WHERE productoscongelados.pid = $id AND productoscongelados.pid = productoscomestibles.pid;";
         } else {
-            $query = "SELECT productoscomestibles.pid productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosenconserva.metodo_conservacion FROM productosenconserva, productoscomestibles WHERE productosenconserva.pid = $id AND productosenconserva.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.pid, productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosenconserva.metodo_conservacion FROM productosenconserva, productoscomestibles WHERE productosenconserva.pid = $id AND productosenconserva.pid = productoscomestibles.pid;";
         }
     }
   } else {
-    $query = "SELECT productosnocomestibles.pid productosnocomestibles.nombre, productosnocomestibles.precio, productosnocomestibles.descripcion, productosnocomestibles.largo, productosnocomestibles.alto, productosnocomestibles.ancho, productosnocomestibles.peso FROM productosnocomestibles WHERE productosnocomestibles.pid = $id;";
+    $query = "SELECT productosnocomestibles.pid, productosnocomestibles.nombre, productosnocomestibles.precio, productosnocomestibles.descripcion, productosnocomestibles.largo, productosnocomestibles.alto, productosnocomestibles.ancho, productosnocomestibles.peso FROM productosnocomestibles WHERE productosnocomestibles.pid = $id;";
   }
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
