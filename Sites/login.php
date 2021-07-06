@@ -23,7 +23,7 @@
     }
 ?>
 
-<?php include('../templates/header.html');   ?>
+<?php include('templates/header.html');   ?>
 <html>
 <head>
 <title>Iniciar Sesión</title>
