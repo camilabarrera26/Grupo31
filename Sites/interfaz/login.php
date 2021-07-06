@@ -11,6 +11,7 @@
             foreach ($usuario as $u){
             $_SESSION["id"] = $u[0];
             $_SESSION["nombre"] = $u[1];
+            echo $u[1];
             }
         } else {
          $message = "Invalid Username or Password!";
