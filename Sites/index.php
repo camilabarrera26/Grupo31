@@ -23,12 +23,6 @@ session_start();
 </header>
 <body>
 
-
-<?php
-echo $_SESSION['id'];
-?>
-
-
 </body>
 
 
