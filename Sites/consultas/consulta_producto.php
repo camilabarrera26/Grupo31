@@ -1,3 +1,11 @@
+<?php
+session_start();
+if(!isset($_SESSION['rut'])) // If session is not set then redirect to Login Page
+       {
+           header("Location:login.php");  
+       }
+?>
+
 <header>
 <link href="styles/index.css" rel="stylesheet" />
 <link rel="stylesheet" href="../styles/index.css">

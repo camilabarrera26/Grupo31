@@ -15,17 +15,11 @@ session_start();
 </header>
 <body>
 
-<!--
-<?php
-//if($_SESSION["name"]) {
-?>
-Welcome <?php //echo $_SESSION["name"]; ?>. Click here to <a href="logout.php" tite="Logout">Logout.
-<?php 
-//}else echo "<h1>Please login first .</h1>";
 
+<?php
 echo $_SESSION['id'];
 ?>
--->
+
 
 </body>
 
@@ -118,14 +112,7 @@ echo $_SESSION['id'];
 </html>
 
 <?php
-      if(!isset($_SESSION['rut'])) // If session is not set then redirect to Login Page
-       {
-           header("Location:login.php");  
-       }
-
-          echo $_SESSION['nombre'];
-
-          echo "Login Success";
+      if(isset($_SESSION['rut'])) // If session is not set then redirect to Login Page
 
           echo "<a href='logout.php'> Logout</a> "; 
 ?>
