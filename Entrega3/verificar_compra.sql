@@ -29,7 +29,7 @@ BEGIN
     a := FALSE;
     FOR c in (SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid) LOOP
         IF c IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid AND tiendas.tid = tid) THEN
-            a := TRUE
+            a := TRUE;
         END IF;
     END LOOP;
     IF a = FALSE THEN
