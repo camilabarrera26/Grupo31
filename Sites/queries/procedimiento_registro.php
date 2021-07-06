@@ -2,10 +2,8 @@
 <html>
 
 <?php
-echo "hola";
     // Nos conectamos a las bdds
     require("../config/conexion.php");
-
 
     // Enviamos del post la informacion a la query con nuestro procedimiento almacenado que realizará
     // las verificaciones correspondientes
@@ -24,43 +22,3 @@ echo "hola";
     } elseif (in_array(1, $a)) {
         header("Location: ../register.php");
         }
-    
-?>
-<!--
-    // Mostramos los cambios en una nueva tabla
-//    $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
-//    $result = $dbimp -> prepare($query);
-//    $result -> execute();
-//    $personals = $result -> fetchAll();
-
-
-
-
-<body>  
-    <table class='table'>
-        <thead>
-            <tr>
-            <th>Id</th>
-            <th>Nombre</th>
-            <th>Rut</th>
-            <th>Sexo</th>
-            <th>Edad</th>
-            <th>Contrasena</th>
-            <th>Dirección</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-//            foreach ($personals as $personal) {
-  //              echo "<tr>";
-    //            for ($i = 0; $i < 8; $i++) {
-      //              echo "<td>$personal[$i]</td> ";
-        //        }
-          //      echo "</tr>";
-            //}
-
-        </tbody>
-    </table>
-</body>
-</html>
-        -->
