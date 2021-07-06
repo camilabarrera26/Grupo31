@@ -66,7 +66,7 @@ session_start();
           <?php
           // echo $tienda;
           foreach ($compra as $c) {
-            echo "<tr><td>$c[1]</td><tr><td>$c[0]</td></tr>";
+            echo "<tr><td>$c[1]</td><td>$c[0]</td></tr>";
         }
         ?>
   </table>
