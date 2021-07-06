@@ -11,16 +11,18 @@
         $result -> execute();
         $usuario = $result -> fetchAll();
         if(is_array($usuario)) {
+            echo "aqui2";
             foreach ($usuario as $u){
             $_SESSION["id"] = $u[0];
             $_SESSION["nombre"] = $u[1];
             }
         } else {
+            echo "aqui3";
          $message = "Invalid Username or Password!";
         }
     }
     if(isset($_SESSION["id"])) {
-        echo "aqui2";
+        echo "aqui4";
     header("Location:index.php");
     }
 ?>
