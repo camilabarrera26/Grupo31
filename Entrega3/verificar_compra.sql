@@ -10,10 +10,10 @@ RETURNS BOOLEAN AS $$
 
 -- declaramos las variables a utilizar si es que es necesario
 DECLARE
-idmax int
+idmax int;
 c foo%rowtype; 
-a text
-a := FALSE
+a text;
+a := FALSE;
 -- comuna_usuario = SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND current_user.id = usuarios.uid
 
 
