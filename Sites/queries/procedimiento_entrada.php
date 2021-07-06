@@ -21,9 +21,9 @@
 
     echo $id_usuario;
     
-    print_r ($id_usuario[0]);
+    print_r ($id_usuario['uid']);
     
-    echo $id_usuario[0];
+    echo $id_usuario['uid'];
 
 
     // Si nos interesa acceder a los booleanos que retorna el procedimiento, debemos hacer fetch de los resultados
