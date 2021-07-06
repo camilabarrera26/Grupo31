@@ -33,8 +33,8 @@
         echo "No ha podido ingresar sesión";
         //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a)) {
-        echo "Ha ingresado correctamente";
         session_start();
+        echo "Ha ingresado correctamente";
         $_SESSION['user'] = $id1;
     }
     // Mostramos los cambios en una nueva tabla
