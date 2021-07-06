@@ -8,6 +8,8 @@
         echo "aqui1";
         $rut = $_POST["rut"];
         $password = $_POST["password"];
+        echo $rut;
+        echo $password;
         $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$rut' AND usuarios.contrasena = '$password';";
         $result = $dbimp -> prepare($query);
         $result -> execute();
