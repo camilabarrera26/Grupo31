@@ -12,7 +12,7 @@ RETURNS BOOLEAN AS $$
 DECLARE
 idmax int;
 a text;
-c record;
+c cursor;
 
 -- definimos nuestra función
 BEGIN
