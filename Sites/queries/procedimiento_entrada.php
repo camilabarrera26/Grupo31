@@ -15,8 +15,11 @@
     $result -> execute();
 
     $query1 = "SELECT usuarios.uid FROM usuarios WHERE usuarios.rut = '$_POST[rut]';";
-    $id_usuario = $dbimp -> prepare($query1);
-    $id_usuario -> execute();
+    $result1 = $dbimp -> prepare($query1);
+    $result1 -> execute();
+    $id_usuario = $result1 -> fetchAll();
+
+    echo $id_usuario;
     
     print_r ($id_usuario[0]);
     
