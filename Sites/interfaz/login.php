@@ -3,7 +3,9 @@
     require("../config/conexion.php");
     $message="";
     echo "hola";
+    echo count($_POST);
     if(count($_POST)>0) {
+        echo "aqui1";
         $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$_POST[rut]' AND usuarios.contrasena = '$_POST[password]';";
         $result = $dbimp -> prepare($query);
         $result -> execute();
@@ -18,6 +20,7 @@
         }
     }
     if(isset($_SESSION["id"])) {
+        echo "aqui2";
     header("Location:index.php");
     }
 ?>
