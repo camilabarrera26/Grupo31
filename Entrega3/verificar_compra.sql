@@ -13,16 +13,13 @@ DECLARE
 idmax int;
 a text;
 comuna text;
-c CURSOR FOR
+c CURSOR 
+    FOR
     SELECT comunas.comuna_cobertura
     FROM   usuarios, direccionesusuarios, comunas
     WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid;
 
-OPEN c; -- This charges the results to memory
- 
-FETCH NEXT FROM c INTO comuna; -- We fetch the first result
- 
-WHILE @@FETCH_STATUS = 0 --If the fetch went well then we go for it
+
 -- definimos nuestra función
 BEGIN
 
@@ -33,6 +30,11 @@ BEGIN
 
     -- verificamos que la tienda despache a la comuna
     a := FALSE;
+    OPEN c; -- This charges the results to memory
+ 
+    FETCH NEXT FROM c INTO comuna; -- We fetch the first result
+ 
+    WHILE @@FETCH_STATUS = 0 --If the fetch went well then we go for it
     IF comuna IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
         a := TRUE;
     END IF;
