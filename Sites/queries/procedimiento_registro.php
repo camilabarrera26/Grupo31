@@ -2,7 +2,6 @@
 <html>
 
 <?php
-
     // Nos conectamos a las bdds
     require("../config/conexion.php");
 
@@ -19,14 +18,10 @@
 
     if ($personals == null) {
         header("Location: ../register.php");
-        //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a) == false) {
         header("Location: ../register.php");
-        //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a)) {
         header("Location: ../register.php");
-        //session_start();
-        //$_SESSION['user'] = $id_usuario[0];
         }
     
 ?>
