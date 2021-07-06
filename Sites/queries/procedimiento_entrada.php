@@ -1,5 +1,6 @@
 
 <?php
+    session_start();
 
     // Nos conectamos a las bdds
     require("../config/conexion.php");
@@ -33,7 +34,6 @@
         echo "No ha podido ingresar sesión";
         //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a)) {
-        session_start();
         echo "Ha ingresado correctamente";
         $_SESSION['user'] = $id1;
     }
