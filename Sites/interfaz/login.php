@@ -6,7 +6,9 @@
     echo count($_POST);
     if(count($_POST)>0) {
         echo "aqui1";
-        $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$_POST[rut]' AND usuarios.contrasena = '$_POST[password]';";
+        $rut = $_POST["rut"];
+        $password = $_POST["password"];
+        $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$rut' AND usuarios.contrasena = '$password';";
         $result = $dbimp -> prepare($query);
         $result -> execute();
         $usuario = $result -> fetchAll();
@@ -19,7 +21,7 @@
             }
         } else {
             echo "aqui3";
-         $message = "Invalid Username or Password!";
+         $message = "Nombre o Contraseña Inválida!";
         }
     }
     if(isset($_SESSION["id"])) {
@@ -38,7 +40,7 @@
 <div class="message"><?php if($message!="") { echo $message; } ?></div>
 <h3 align="center">Ingresa tus datos:</h3>
  Rut:<br>
- <input type="text" name="user_name">
+ <input type="text" name="rut">
  <br>
  Contraseña:<br>
 <input type="password" name="password">
