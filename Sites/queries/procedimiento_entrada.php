@@ -18,9 +18,10 @@
     $id_usuario = $dbimp -> prepare($query1);
     $id_usuario -> execute();
     
-    print_r ($id_usuario);
-    echo $id_usuario;
+    print_r ($id_usuario[0]);
+    
     echo $id_usuario[0];
+
 
     // Si nos interesa acceder a los booleanos que retorna el procedimiento, debemos hacer fetch de los resultados
     $personals = $result -> fetchAll();
