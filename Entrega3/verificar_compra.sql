@@ -12,11 +12,17 @@ RETURNS BOOLEAN AS $$
 DECLARE
 idmax int;
 a text;
-c1 CURSOR FOR
+comuna text;
+c CURSOR FOR
     SELECT comunas.comuna_cobertura
     FROM   usuarios, direccionesusuarios, comunas
     WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid;
 
+OPEN c -- This charges the results to memory
+ 
+FETCH NEXT FROM c INTO comuna -- We fetch the first result
+ 
+WHILE @@FETCH_STATUS = 0 --If the fetch went well then we go for it
 -- definimos nuestra función
 BEGIN
 
@@ -27,11 +33,11 @@ BEGIN
 
     -- verificamos que la tienda despache a la comuna
     a := FALSE;
-    FOR c as c1 LOOP
-        IF c IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
-            a := TRUE;
-        END IF;
-    END LOOP;
+    IF comuna IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
+        a := TRUE;
+    END IF;
+    FETCH NEXT FROM c INTO comuna
+
     IF a = FALSE THEN
         RETURN FALSE;
     END IF;
@@ -49,3 +55,6 @@ BEGIN
 -- -- finalizamos la definición de la función y declaramos el lenguaje
 END
 $$ language plpgsql
+
+CLOSE c 
+DEALLOCATE c -- CLOSE and DEALLOCATE remove the data from memory and clean up the process
