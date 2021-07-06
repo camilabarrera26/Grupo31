@@ -2,6 +2,7 @@
 <html>
 
 <?php
+echo "hola";
     // Nos conectamos a las bdds
     require("../config/conexion.php");
 
