@@ -29,16 +29,24 @@ session_start();
 #Se construye la consulta como un string
   $id = $_SESSION["id"];
   $query = "SELECT usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.direccion FROM usuarios WHERE usuarios.uid = $id;";
-  $query2 = "SELECT tiendas.nombre, comunas.direccion, comunas.comuna_cobertura FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid;";
+  $query2 = "SELECT tiendas.nombre, comunas.direccion, comunas.comuna_cobertura, compras.cid FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid;";
+  $query3 = "SELECT despachos.cid, entregado_por.fecha FROM despachos, entregado_por WHERE despachos.did = entregado_por.did ORDER BY entregado_por.fecha ASC"
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
   $result = $dbimp -> prepare($query);
   $result -> execute();
   $usuario = $result -> fetchAll();
 
+  #Consulta historial compras
   $result2 = $dbimp -> prepare($query2);
   $result2 -> execute();
   $compra = $result2 -> fetchAll();
+
+  require("config/conexion.php");
+  $result3 = $dbp -> prepare($query3);
+  $result3 -> execute();
+  $fecha = $result3 -> fetchAll();
+
 ?>
 
   <table class='table'>
@@ -63,12 +71,16 @@ session_start();
         <th>Nombre Tienda</th>
         <th>Dirección de envío</th>
         <th>Comuna de envío</th>
+        <th>Fecha de envío</th>
       </tr>
           <?php
-          // echo $tienda;
-          foreach ($compra as $c) {
-            echo "<tr><td>$c[0]</td><td>$c[1]</td><td>$c[2]</td></tr>";
-        }
+          foreach ($fecha as $f) {
+            foreach ($compra as $c) {
+              if $f[4] == $c[0] {
+                echo "<tr><td>$c[0]</td><td>$c[1]</td><td>$c[2]</td><td>$f[1]</td></tr>";
+              }
+            }
+          }
         ?>
   </table>
 
