@@ -1,5 +1,3 @@
-<?php include('../templates/header.html');   ?>
-
 <body>
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
@@ -13,6 +11,8 @@
 	$result -> execute();
 	$tienda = $result -> fetchAll();
   ?>
+
+<?php include('../templates/header.html');   ?>
 
   <table class='table'>
     <tr>
