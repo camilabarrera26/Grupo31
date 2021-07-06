@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-verificar_productos_tiendas (pid int, tid int, uid_ int)
+verificar_productos_tiendas (pid_ int, tid_ int, uid_ int)
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
@@ -21,14 +21,14 @@ c CURSOR FOR
 BEGIN
 
     -- si el producto no esta en la tienda retorna false
-    IF pid NOT IN (SELECT DISTINCT productos.pid FROM productos, productostiendas, tiendas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND productos.pid = pid AND tiendas.tid = tid) THEN
+    IF pid NOT IN (SELECT DISTINCT productos.pid FROM productos, productostiendas, tiendas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
         RETURN FALSE;
     END IF;
 
     -- verificamos que la tienda despache a la comuna
     a := FALSE;
     FOR c in (SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid) LOOP
-        IF c IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid AND tiendas.tid = tid) THEN
+        IF c IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
             a := TRUE;
         END IF;
     END LOOP;
