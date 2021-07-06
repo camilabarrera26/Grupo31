@@ -1,4 +1,64 @@
-<?php include("head.php"); ?>
+<?php
+    session_start();
+    require("config/conexion.php");
+    $message="";
+    if(count($_POST)>0) {
+        $rut = $_POST["rut"];
+        $password = $_POST["password"];
+        $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$rut' AND usuarios.contrasena = '$password';";
+        $result = $dbimp -> prepare($query);
+        $result -> execute();
+        $usuario = $result -> fetchAll();
+        if(count($usuario) > 0) {
+            foreach ($usuario as $u){
+            $_SESSION["id"] = $u[0];
+            $_SESSION["nombre"] = $u[1];
+            }
+        } else {
+         $message = "Error al Registrarse!";
+        }
+    }
+    if(isset($_SESSION["id"])) {
+      header("Location: index.php");
+    }
+?>
+
+<?php include('templates/header.html');   ?>
+<html>
+<head>
+<title>Registración</title>
+</head>
+<body>
+<form action='queries/procedimiento_registro.php' method='POST' name="frmUser" action="" align="center">
+<div class="message"><?php if($message!="") { echo $message; } ?></div>
+<h3 align="center">Ingresa tus datos:</h3>
+ Nombre:<br>
+ <input type="text" name="nombre">
+ <br>
+ Rut:<br>
+ <input type="text" name="rut">
+ <br>
+ Sexo<br><select name='sexo' id='type'>
+    <option value='hombre'>Hombre</option>
+    <option value='mujer'>Mujer</option>
+  </select>
+  <br>
+ Edad:<br>
+ <input type="number" name="edad">
+ <br>
+ Dirección:<br>
+ <input type="text" name="direccion">
+ <br>
+ Contraseña:<br>
+<input type="password" name="password">
+<br><br>
+<input type="submit" name="submit" value="Submit">
+<input type="reset">
+</form>
+</body>
+</html>
+
+<!--
 
 <body>
     <form action='./queries/procedimiento_registro.php' method='POST'>
@@ -16,3 +76,5 @@
     </form>
 </body>
 </html>
+
+-->

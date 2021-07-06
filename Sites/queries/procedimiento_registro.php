@@ -14,37 +14,30 @@
     $result = $dbimp -> prepare($query);
     $result -> execute();
 
-    $query1 = "SELECT usuarios.uid FROM usuarios WHERE usuarios.rut = '$_POST[rut]';";
-    $id_usuario = $dbimp -> prepare($query);
-    $id_usuario -> execute();
-    echo $id_usuario[0];
-    echo $id_usuario;
-    print_r ($id_usuario);
-
     // Si nos interesa acceder a los booleanos que retorna el procedimiento, debemos hacer fetch de los resultados
     $personals = $result -> fetchAll();
     $a = $personals['0'];
 
     if ($personals == null) {
-        echo "Error al registrarse";
+        header("Location: ../register.php");
         //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a) == false) {
-        echo "Error al registrarse";
+        header("Location: ../register.php");
         //echo '<script>window.open("error_registro.php")</script>';
     } elseif (in_array(1, $a)) {
-        echo "Se ha registrado correctamente";
+        header("Location: ../register.php");
         //session_start();
         //$_SESSION['user'] = $id_usuario[0];
         }
     // Mostramos los cambios en una nueva tabla
-    $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
-    $result = $dbimp -> prepare($query);
-    $result -> execute();
-    $personals = $result -> fetchAll();
+//    $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
+//    $result = $dbimp -> prepare($query);
+//    $result -> execute();
+//    $personals = $result -> fetchAll();
 
 ?>
 
-
+<!--
 <body>  
     <table class='table'>
         <thead>
@@ -60,15 +53,16 @@
         </thead>
         <tbody>
             <?php
-            foreach ($personals as $personal) {
-                echo "<tr>";
-                for ($i = 0; $i < 8; $i++) {
-                    echo "<td>$personal[$i]</td> ";
-                }
-                echo "</tr>";
-            }
+//            foreach ($personals as $personal) {
+  //              echo "<tr>";
+    //            for ($i = 0; $i < 8; $i++) {
+      //              echo "<td>$personal[$i]</td> ";
+        //        }
+          //      echo "</tr>";
+            //}
             ?>
         </tbody>
     </table>
 </body>
 </html>
+        -->
