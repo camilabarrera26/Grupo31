@@ -14,7 +14,7 @@ idmax int;
 a text;
 c cursor FOR
 SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid;
- comuna uniqueidentifier;
+comuna text;
 
 -- definimos nuestra función
 BEGIN
