@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require("../config/conexion.php");
+    require("config/conexion.php");
     $message="";
     if(count($_POST)>0) {
         $rut = $_POST["rut"];
