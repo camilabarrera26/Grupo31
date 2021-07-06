@@ -23,11 +23,19 @@
     }
 ?>
 
-<?php include('templates/header.html');   ?>
-<html>
-<head>
-<title>Iniciar Sesión</title>
-</head>
+<?php include('templates/header.html');?>
+
+<header class="py-5">
+    <div class="container px-lg-0">
+        <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
+            <div class="m-4 m-lg-2">
+                <h1 class="display-5 fw-bold">Mi Tienda Web</h1> 
+                 <p class="fs-4">Iniciar Sesión</p>  
+            </div>
+        </div>
+    </div>
+</header>
+
 <body>
 <form name="frmUser" method="post" action="" align="center">
 <div class="message"><?php if($message!="") { echo $message; } ?></div>

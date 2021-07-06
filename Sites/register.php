@@ -37,10 +37,18 @@
 ?>
 
 <?php include('templates/header.html');   ?>
-<html>
-<head>
-<title>Registración</title>
-</head>
+
+<header class="py-5">
+    <div class="container px-lg-0">
+        <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
+            <div class="m-4 m-lg-2">
+                <h1 class="display-5 fw-bold">Mi Tienda Web</h1> 
+                 <p class="fs-4">Regístrate</p>  
+            </div>
+        </div>
+    </div>
+</header>
+
 <body>
 <form method='POST' name="frmUser" action="" align="center">
 <div class="message"><?php if($message!="") { echo $message; } ?></div>
