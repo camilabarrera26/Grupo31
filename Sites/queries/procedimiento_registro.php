@@ -2,6 +2,7 @@
 <html>
 
 <?php
+header("Location: ../register.php");
     require("../config/conexion.php");
 
     $query = "SELECT registrar_usuario('$_POST[nombre]', '$_POST[rut]', '$_POST[sexo]', $_POST[edad], '$_POST[direccion]');";
