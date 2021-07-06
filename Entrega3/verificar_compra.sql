@@ -11,11 +11,10 @@ RETURNS BOOLEAN AS $$
 -- declaramos las variables a utilizar si es que es necesario
 DECLARE
 idmax int;
-c foo%rowtype; 
 a text;
 a := FALSE;
--- comuna_usuario = SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND current_user.id = usuarios.uid
-
+comuna_usuario = SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid
+c comuna_usuario%type; 
 
 SELECT DISTINCT productos.pid, tiendas.tid, comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = $producto AND tiendas.tid = $id;
 SELECT DISTINCT productos.pid FROM productos, productostiendas, tiendas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND productos.pid = pid AND tiendas.tid = tid;
