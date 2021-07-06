@@ -11,7 +11,7 @@
         $result -> execute();
         $usuario = $result -> fetchAll();
         echo count($usuario);
-        if(count($usuario) == 0) {
+        if(count($usuario) > 0) {
             echo "aqui2";
             foreach ($usuario as $u){
             $_SESSION["id"] = $u[0];
