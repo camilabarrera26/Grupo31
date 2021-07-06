@@ -54,5 +54,5 @@ session_start();
 
   <h1> Historial de Compras </h1>
 
-<?php include('../templates/footer.html'); ?>
+<?php include('templates/footer.html'); ?>
 </body>

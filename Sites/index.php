@@ -25,7 +25,7 @@ session_start();
 
 </body>
 
-
+<!--
 <!DOCTYPE html>
 
 <html>
@@ -112,6 +112,7 @@ session_start();
 
 </body>
 </html>
+-->
 
 <?php
       if(isset($_SESSION['id'])) // If session is not set then redirect to Login Page

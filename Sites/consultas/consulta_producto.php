@@ -51,15 +51,15 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 
     foreach ($producto as $t) {
         if ($t[0] == 'fresco'){
-            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosfrescos.duracion FROM productosfrescos, productoscomestibles WHERE productosfrescos.pid = $id AND productosfrescos.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.pid productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosfrescos.duracion FROM productosfrescos, productoscomestibles WHERE productosfrescos.pid = $id AND productosfrescos.pid = productoscomestibles.pid;";
         } elseif ($t[0] == 'congelado') {
-            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productoscongelados.peso FROM productoscongelados, productoscomestibles WHERE productoscongelados.pid = $id AND productoscongelados.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.pid productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productoscongelados.peso FROM productoscongelados, productoscomestibles WHERE productoscongelados.pid = $id AND productoscongelados.pid = productoscomestibles.pid;";
         } else {
-            $query = "SELECT productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosenconserva.metodo_conservacion FROM productosenconserva, productoscomestibles WHERE productosenconserva.pid = $id AND productosenconserva.pid = productoscomestibles.pid;";
+            $query = "SELECT productoscomestibles.pid productoscomestibles.nombre, productoscomestibles.precio, productoscomestibles.descripcion, productoscomestibles.fecha_expiracion, productosenconserva.metodo_conservacion FROM productosenconserva, productoscomestibles WHERE productosenconserva.pid = $id AND productosenconserva.pid = productoscomestibles.pid;";
         }
     }
   } else {
-    $query = "SELECT productosnocomestibles.nombre, productosnocomestibles.precio, productosnocomestibles.descripcion, productosnocomestibles.largo, productosnocomestibles.alto, productosnocomestibles.ancho, productosnocomestibles.peso FROM productosnocomestibles WHERE productosnocomestibles.pid = $id;";
+    $query = "SELECT productosnocomestibles.pid productosnocomestibles.nombre, productosnocomestibles.precio, productosnocomestibles.descripcion, productosnocomestibles.largo, productosnocomestibles.alto, productosnocomestibles.ancho, productosnocomestibles.peso FROM productosnocomestibles WHERE productosnocomestibles.pid = $id;";
   }
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
@@ -70,6 +70,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 
   <table class='table'>
     <tr>
+      <th>Id</th>
       <th>Nombre</th>
       <th>Precio</th>
       <th>Descripción</th>
@@ -98,13 +99,13 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
         <?php
          if ($tipo == 'comestible') {
           foreach ($producto1 as $t) {
-            $nombre_mayuscula = ucfirst($t[0]);
-            echo "<tr><td>$nombre_mayuscula</td><td>$$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td></tr>";
+            $nombre_mayuscula = ucfirst($t[1]);
+            echo "<tr><td>$$t[0]</td><td>$nombre_mayuscula</td><td>$$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td></tr>";
           }
          } else {
             foreach ($producto1 as $t) {
-              $nombre_mayuscula = ucfirst($t[0]);
-              echo "<tr><td>$nombre_mayuscula</td><td>$$t[1]</td><td>$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[6]</td></tr>";
+              $nombre_mayuscula = ucfirst($t[1]);
+              echo "<tr><td>$$t[0]</td><td>$nombre_mayuscula</td><td>$$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[5]</td><td>$t[6]</td></tr>";
             }
          }
       ?>    
