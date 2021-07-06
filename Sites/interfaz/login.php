@@ -17,11 +17,12 @@
         }
     }
     if(isset($_SESSION["id"])) {
+    echo $_SESSION["id"];
     header("Location:index.php");
     }
 ?>
 
-<?php include("head.php"); ?>
+<?php include('../templates/header.html');   ?>
 <html>
 <head>
 <title>Iniciar Sesión</title>
