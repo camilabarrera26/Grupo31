@@ -30,7 +30,7 @@ session_start();
   $id = $_SESSION["id"];
   $query = "SELECT usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.direccion FROM usuarios WHERE usuarios.uid = $id;";
   $query2 = "SELECT tiendas.nombre, comunas.direccion, comunas.comuna_cobertura, compras.cid FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid;";
-  $query3 = "SELECT despachos.cid, entregado_por.fecha FROM despachos, entregado_por WHERE despachos.did = entregado_por.did ORDER BY entregado_por.fecha ASC";
+  $query3 = "SELECT despacho.cid, entregado_por.fecha FROM despacho, entregado_por WHERE despacho.did = entregado_por.did ORDER BY entregado_por.fecha ASC";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
   $result = $dbimp -> prepare($query);
@@ -74,11 +74,12 @@ session_start();
         <th>Fecha de envío</th>
       </tr>
           <?php
+          foreach ($fecha as $fe) {
             foreach ($compra as $c) {
+              if ($fe[0] == $c[4]) {
                 echo "<tr><td>$c[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
+                }
               }
-            foreach ($fecha as $f) {
-              echo "<tr><td>$f[1]</td></tr>"
             }
           ?>
   </table>
