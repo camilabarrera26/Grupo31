@@ -28,7 +28,7 @@
         echo "Se ha registrado correctamente";
     }
     // Mostramos los cambios en una nueva tabla
-    $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
+    $query = "SELECT * FROM usuarios WHERE usuarios.rut = '$_POST[rut]';";
     $result = $dbimp -> prepare($query);
     $result -> execute();
     $personals = $result -> fetchAll();
