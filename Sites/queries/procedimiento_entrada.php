@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-
-<html>
 
 <?php
 
@@ -47,6 +44,8 @@
     $personals = $result -> fetchAll();
 
 ?>
+
+<html>
 
 <body>  
 
