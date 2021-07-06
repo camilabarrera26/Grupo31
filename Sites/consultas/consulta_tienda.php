@@ -71,24 +71,36 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 require("../config/conexion.php");
 
-$query = "SELECT productos.pid FROM productos;";
-
+$query = "SELECT productos.pid, productos.nombre FROM productos;";
 $result = $dbimp -> prepare($query);
 $result -> execute();
 $pid = $result -> fetchAll();
+
+$query1 = "SELECT comunas.direccion, comunas.comuna_cobertura FROM comunas, direccionesusuarios, usuarios WHERE comunas.did = direccionesusuarios.did and direccionesusarios.uid = usuarios.uid;";
+$result1 = $dbimp -> prepare($query1);
+$result1 -> execute();
+$direcciones = $result1 -> fetchAll();
 ?>
 
 <div class='py-5'>
 <div class="container-xl px-lg-4">
   <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
     <div class="m-4 m-lg-4">
-      <h1 class="display-6 fw-bold">Seleccione el ID del producto que desea comprar:</h1>
+      <h1 class="display-6 fw-bold">Seleccione el ID del producto que desea comprar y su direccion:</h1>
       <form action="consulta_compra.php" method="post">
         ID Producto:
-        <select>
+        <select name='id_producto'>
         <?php
         foreach ($pid as $p) {
-            echo "<option value=$p[0]>$p[0]</option>";
+            echo "<option value=$p[0]>$p[0] - $p[1]</option>";
+        }
+        ?>
+        </select>
+        Direccion:
+        <select name='direcciones'>
+        <?php
+        foreach ($direcciones as $d) {
+            echo "<option value=$d[1]>$d[0]</option>";
         }
         ?>
         </select>

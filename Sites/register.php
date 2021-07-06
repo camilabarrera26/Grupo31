@@ -8,8 +8,9 @@
         $sexo = $_POST["sexo"];
         $edad = $_POST["edad"];
         $direccion = $_POST["direccion"];
+        $comuna = $_POST["comuna"];
 
-        $query = "SELECT registrar_usuario('$nombre', '$rut', '$sexo', $edad, '$direccion');";
+        $query = "SELECT registrar_usuario('$nombre', '$rut', '$sexo', $edad, '$comuna');";
         $result = $dbimp -> prepare($query);
         $result -> execute();
 
@@ -69,6 +70,9 @@
  <br>
  Dirección:<br>
  <input type="text" name="direccion">
+ <br>
+ Comuna:<br>
+ <input type="text" name="comuna">
 <input type="submit" name="submit" value="Submit">
 <input type="reset">
 </form>

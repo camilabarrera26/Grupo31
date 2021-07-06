@@ -47,6 +47,8 @@ $nombre = $_REQUEST['nombre'];
     $productos = $result -> fetchAll();
     
     $id_usuario = $_SESSION['id'];
+    $comuna = $_POST["direcciones"];
+
 
     foreach ($productos as $p){
 
@@ -54,7 +56,7 @@ $nombre = $_REQUEST['nombre'];
         // Hacemos una verificacion para ver si el pokemon es legendario porque ese parámetro no se comporta muy bien entre php y sql
         // asi que lo agregamos manualmente al final (por eso los FALSE o TRUE)
 
-        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario);";
+        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario, $comuna);";
 
         // Ejecutamos las querys para efectivamente insertar los datos
         $result = $dbimp -> prepare($query);

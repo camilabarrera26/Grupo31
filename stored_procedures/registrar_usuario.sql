@@ -2,7 +2,7 @@ CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
 -- CUARTA FUNCIÓN QUE EJECUTAR
-registrar_usuario (nombrexd varchar(100), rute varchar(10), sexo varchar(20), edad int, direccion varchar(100))
+registrar_usuario (nombrexd varchar(100), rute varchar(10), sexo varchar(20), edad int, direccion varchar(100), comuna varchar(100))
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
@@ -11,7 +11,8 @@ RETURNS BOOLEAN AS $$
 -- declaramos las variables a utilizar si es que es necesario
 DECLARE
 idmax int;
-
+idmax1 int;
+idmax2 int;
 
 -- definimos nuestra función
 BEGIN
@@ -33,8 +34,18 @@ BEGIN
     MAX(usuarios.uid)
     FROM usuarios;
 
+    SELECT INTO idmax1
+    MAX(comunas.did)
+    FROM usuarios;
+
+    SELECT INTO idmax2
+    MAX(direccionesusuarios.duid)
+    FROM usuarios;
+
     -- insertamos el dato y la contraseña
     INSERT INTO usuarios values(idmax + 1, nombrexd, rute, edad, sexo, ROUND(RANDOM()*(999999999-100000000)+100000000), direccion);
+    INSERT INTO direccionesusuarios values(idmax2 + 1, idmax + 1, idmax1 + 1);
+    INSERT INTO comunas values(idmax1 + 1, direccion, comuna);
     RETURN TRUE;
     
 

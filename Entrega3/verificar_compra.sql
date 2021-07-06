@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-verificar_productos_tiendas (pid_ int, tid_ int, uid_ int)
+verificar_productos_tiendas (pid_ int, tid_ int, uid_ int, comuna varchar)
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
@@ -11,12 +11,7 @@ RETURNS BOOLEAN AS $$
 -- declaramos las variables a utilizar si es que es necesario
 DECLARE
 idmax int;
-a text;
-c cursor 
-(SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid);
-comuna text;
-
-
+idmax1 int;
 
 -- definimos nuestra función
 BEGIN
@@ -27,19 +22,7 @@ BEGIN
     END IF;
 
     -- verificamos que la tienda despache a la comuna
-    a := FALSE;
-    OPEN c;
-    FETCH NEXT FROM c INTO comuna;
-    WHILE @@FETCH_STATUS = 0
-        BEGIN
-            IF c IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
-                a := TRUE;
-            END IF;
-        END;
-    CLOSE c;
-    DEALLOCATE c;
-
-    IF a = FALSE THEN
+    IF comuna NOT IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
         RETURN FALSE;
     END IF;
 
@@ -48,8 +31,14 @@ BEGIN
     MAX(id)
     FROM compras;
 
+    SELECT INTO idmax1
+    MAX(direccionesdespacho.ddid)
+    FROM direccionesdespacho;
+
     -- insertamos el dato
     insert into compras values(idmax + 1, uid_, tid, pid);
+    insert into productoscompras values(idmax + 1, pid_, 1);
+    insert into direccionesdespacho values(idmax1 + 1, tid_, pid);
     RETURN TRUE;
     
 

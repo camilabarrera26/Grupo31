@@ -24,7 +24,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
         <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
             <div class="m-4 m-lg-2">
                 <h1 class="display-5 fw-bold"><?php echo "$nombre"; ?></h1> 
-                <p class="fs-4">Aquí podrás encontrar el resultado de tu cambio de contraseña</p>  
+                <p class="fs-4">Aquí podrás encontrar el resultado de tu cambio de contraseña.</p>  
             </div>
         </div>
     </div>
