@@ -18,9 +18,9 @@ c CURSOR FOR
     FROM   usuarios, direccionesusuarios, comunas
     WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid;
 
-OPEN c -- This charges the results to memory
+OPEN c; -- This charges the results to memory
  
-FETCH NEXT FROM c INTO comuna -- We fetch the first result
+FETCH NEXT FROM c INTO comuna; -- We fetch the first result
  
 WHILE @@FETCH_STATUS = 0 --If the fetch went well then we go for it
 -- definimos nuestra función
@@ -36,7 +36,7 @@ BEGIN
     IF comuna IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
         a := TRUE;
     END IF;
-    FETCH NEXT FROM c INTO comuna
+    FETCH NEXT FROM c INTO comuna;
 
     IF a = FALSE THEN
         RETURN FALSE;
