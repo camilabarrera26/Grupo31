@@ -52,7 +52,6 @@ session_start();
       ?>    
   </table>
 
-  <h1> Historial de Compras </h1>
+ <h1> Historial de Compras </h1>
 
-<?php include('templates/footer.html'); ?>
-</body>
+<a href='index.php' class='button'> Volver </a>

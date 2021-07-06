@@ -100,12 +100,12 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
          if ($tipo == 'comestible') {
           foreach ($producto1 as $t) {
             $nombre_mayuscula = ucfirst($t[1]);
-            echo "<tr><td>$$t[0]</td><td>$nombre_mayuscula</td><td>$$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td></tr>";
+            echo "<tr><td>$t[0]</td><td>$nombre_mayuscula</td><td>$$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td></tr>";
           }
          } else {
             foreach ($producto1 as $t) {
               $nombre_mayuscula = ucfirst($t[1]);
-              echo "<tr><td>$$t[0]</td><td>$nombre_mayuscula</td><td>$$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[5]</td><td>$t[6]</td></tr>";
+              echo "<tr><td>$t[0]</td><td>$nombre_mayuscula</td><td>$$t[2]</td><td>$t[3]</td><td>$t[4]</td><td>$t[5]</td><td>$t[5]</td><td>$t[6]</td></tr>";
             }
          }
       ?>    
