@@ -28,7 +28,7 @@
         echo "Su contraseña ha sido cambiada correctamente";
     }
     // Mostramos los cambios en una nueva tabla
-    $query = "SELECT usuarios.uid, usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.contrasena, usuarios.direccion FROM usuarios ORDER BY usuarios.uid;";
+    $query = "SELECT usuarios.uid, usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.contrasena, usuarios.direccion FROM usuarios WHERE rut = '$_POST[rut]'";
     $result = $dbimp -> prepare($query);
     $result -> execute();
     $personals = $result -> fetchAll();
