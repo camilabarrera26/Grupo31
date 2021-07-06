@@ -29,11 +29,16 @@ session_start();
 #Se construye la consulta como un string
   $id = $_SESSION["id"];
   $query = "SELECT usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.direccion FROM usuarios WHERE usuarios.uid = $id;";
+  $query2 = "SELECT compras.cid, compras.uid, compras.did, compras.tid FROM compras WHERE compras.uid = $id;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
   $result = $dbimp -> prepare($query);
   $result -> execute();
   $usuario = $result -> fetchAll();
+
+  $result2 = $dbimp -> prepare($query2);
+  $result2 -> execute();
+  $compra = $result2 -> fetchAll();
 ?>
 
   <table class='table'>
@@ -49,9 +54,24 @@ session_start();
         foreach ($usuario as $u) {
           echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
       }
-      ?>    
+      ?>
   </table>
 
  <h1> Historial de Compras </h1>
+  <table class='table'>
+      <tr>
+        <th>Nombre</th>
+        <th>Rut</th>
+        <th>Edad</th>
+        <th>Sexo</th>
+        <th>Dirección</th>
+      </tr>
+          <?php
+          // echo $tienda;
+          foreach ($compra as $c) {
+            echo "<tr><td>$c[0]</td><td>$c[1]</td><td>$c[2]</td><td>$c[3]</td><td>$c[4]</td></tr>";
+        }
+        ?>
+  </table>
 
 <a href='index.php' role='button' class='btn'> Volver </a>

@@ -1,9 +1,9 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-verificar_productos_tiendas (pid int, tid int, uid_ int)
+verificar_productos_tiendas (pid int, tid int)
 
--- declaramos lo que retorna 
+-- declaramos lo que retorna
 RETURNS BOOLEAN AS $$
 
 
@@ -11,7 +11,7 @@ RETURNS BOOLEAN AS $$
 -- declaramos las variables a utilizar si es que es necesario
 DECLARE
 idmax int
-c foo%rowtype; 
+c foo%rowtype;
 a text
 a := FALSE
 -- comuna_usuario = SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND current_user.id = usuarios.uid
@@ -44,7 +44,7 @@ BEGIN
     FROM compras;
 
     -- insertamos el dato
-    insert into compras values(idmax + 1, uid_, tid, pid);
+    insert into compras values(idmax + 1, current_user.id, tid, pid);
     RETURN TRUE;
     
 
