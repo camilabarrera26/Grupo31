@@ -69,10 +69,6 @@
  <br>
  Dirección:<br>
  <input type="text" name="direccion">
- <br>
- Contraseña:<br>
-<input type="password" name="password">
-<br><br>
 <input type="submit" name="submit" value="Submit">
 <input type="reset">
 </form>
