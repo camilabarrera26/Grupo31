@@ -65,6 +65,9 @@ session_start();
       ?>
   </table>
 
+  <p class="fs-4">Aquí podrás cambiar tu contraseña:</p>  
+  <a href='/consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar </a>
+
  <h1> Historial de Compras </h1>
   <table class='table'>
       <tr>

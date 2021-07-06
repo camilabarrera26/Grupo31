@@ -1,0 +1,81 @@
+<?php
+session_start();
+if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
+       {
+           header("Location: ../login.php");  
+       }
+?>
+
+<?php 
+  if(isset($_SESSION['id'])){
+    include('../templates/header_login.html'); 
+  }  
+  else {
+  include('../templates/header.html');  
+  }
+?>
+
+<!DOCTYPE html>
+
+<html>
+
+<?php
+
+    // Nos conectamos a las bdds
+    require("../config/conexion.php");
+
+
+    // Enviamos del post la informacion a la query con nuestro procedimiento almacenado que realizará
+    // las verificaciones correspondientes
+    $query = "SELECT cambiar_contrasena('$_POST[rut]', $_POST[contrasena_actual], $_POST[contrasena_nueva]);";
+    $result = $dbimp -> prepare($query);
+    $result -> execute();
+
+    // Si nos interesa acceder a los booleanos que retorna el procedimiento, debemos hacer fetch de los resultados
+    $personals = $result -> fetchAll();
+    $a = $personals['0'];
+
+    if ($personals == null) {
+        echo "Error al cambiar la contraseña";
+        //echo '<script>window.open("error_registro.php")</script>';
+    } elseif (in_array(1, $a) == false) {
+        echo "Error al cambiar la contraseña";
+        //echo '<script>window.open("error_registro.php")</script>';
+    } elseif (in_array(1, $a)) {
+        echo "Su contraseña ha sido cambiada correctamente";
+    }
+    // Mostramos los cambios en una nueva tabla
+    $query = "SELECT usuarios.uid, usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.contrasena, usuarios.direccion FROM usuarios WHERE rut = '$_POST[rut]'";
+    $result = $dbimp -> prepare($query);
+    $result -> execute();
+    $personals = $result -> fetchAll();
+
+?>
+
+<body>  
+    <table class='table'>
+        <thead>
+            <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Rut</th>
+            <th>Sexo</th>
+            <th>Edad</th>
+            <th>Contraseña</th>
+            <th>Dirección</th>            
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            foreach ($personals as $personal) {
+                echo "<tr>";
+                for ($i = 0; $i < 7; $i++) {
+                    echo "<td>$personal[$i]</td> ";
+                }
+                echo "</tr>";
+            }
+            ?>
+        </tbody>
+    </table>
+</body>
+</html>
