@@ -2,6 +2,7 @@
     session_start();
     require("../config/conexion.php");
     $message="";
+    echo "hola";
     if(count($_POST)>0) {
         $query = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$_POST[rut]' AND usuarios.contrasena = '$_POST[password]';";
         $result = $dbimp -> prepare($query);
@@ -29,7 +30,6 @@
 <body>
 <form name="frmUser" method="post" action="" align="center">
 <div class="message"><?php if($message!="") { echo $message; } ?></div>
-<?php echo "hola"; ?>
 <h3 align="center">Ingresa tus datos:</h3>
  Rut:<br>
  <input type="text" name="user_name">
