@@ -74,12 +74,8 @@ session_start();
         <th>Fecha de envío</th>
       </tr>
           <?php
-          foreach ($fecha as $fe) {
-            echo "<tr><td>$fe[1]</td></tr>";
             foreach ($compra as $c) {
-              if ($fe[0] == $c[4]) {
                 echo "<tr><td>$c[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
-                }
               }
             }
           ?>
