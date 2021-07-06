@@ -2,7 +2,15 @@
 session_start();
 ?>
 
-<?php include('templates/header.html');   ?>
+<?php 
+  if(isset($_SESSION['id'])){
+    include('templates/header_login.html'); 
+  }  
+  else {
+  include('templates/header.html');  
+  }
+?>
+
 <header class="py-5">
     <div class="container px-lg-0">
         <div class="p-4 p-lg-2 bg-light rounded-3 text-center">

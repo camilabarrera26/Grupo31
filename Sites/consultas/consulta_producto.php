@@ -11,7 +11,14 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 <link rel="stylesheet" href="../styles/index.css">
 </header>
 
-<?php include('../templates/header.html');   ?>
+<?php 
+  if(isset($_SESSION['id'])){
+    include('templates/header_login.html'); 
+  }  
+  else {
+  include('templates/header.html');  
+  }
+?>
 
 <?php
     $id = $_REQUEST['id']; 

@@ -6,7 +6,14 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
        }
 ?>
 
-<?php include('../templates/header.html');   ?>
+<?php 
+  if(isset($_SESSION['id'])){
+    include('templates/header_login.html'); 
+  }  
+  else {
+  include('templates/header.html');  
+  }
+?>
 
 <header class="py-5">
     <div class="container px-lg-0">
