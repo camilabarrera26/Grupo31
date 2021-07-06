@@ -18,12 +18,10 @@
     $result1 = $dbimp -> prepare($query1);
     $result1 -> execute();
     $id_usuario = $result1 -> fetchAll();
+    foreach ($id_usuario as $id){
+        echo $id;
+    }
 
-    echo $id_usuario;
-    
-    print_r ($id_usuario['uid']);
-    
-    echo $id_usuario['uid'];
 
 
     // Si nos interesa acceder a los booleanos que retorna el procedimiento, debemos hacer fetch de los resultados
