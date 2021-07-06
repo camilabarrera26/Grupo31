@@ -11,7 +11,6 @@ RETURNS BOOLEAN AS $$
 -- declaramos las variables a utilizar si es que es necesario
 DECLARE
 idmax int;
-a text;
 a := FALSE;
 comuna_usuario = SELECT comunas.comuna_cobertura FROM usuarios, direccionesusuarios, comunas WHERE usuarios.uid = direccionesusuarios.uid AND direccionesusuarios.did = comunas.did AND uid_ = usuarios.uid
 c comuna_usuario%type; 
