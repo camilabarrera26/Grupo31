@@ -112,7 +112,7 @@ echo $_SESSION['id'];
 </html>
 
 <?php
-      if(isset($_SESSION['rut'])) // If session is not set then redirect to Login Page
+      if(isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 
           echo "<a href='logout.php'> Logout</a> "; 
 ?>
