@@ -54,7 +54,10 @@ BEGIN
 
 -- -- finalizamos la definición de la función y declaramos el lenguaje
 END
+
+CLOSE c ;
+DEALLOCATE c; -- CLOSE and DEALLOCATE remove the data from memory and clean up the process
+
 $$ language plpgsql
 
-CLOSE c 
-DEALLOCATE c -- CLOSE and DEALLOCATE remove the data from memory and clean up the process
+
