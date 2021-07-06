@@ -10,7 +10,8 @@
         $result = $dbimp -> prepare($query);
         $result -> execute();
         $usuario = $result -> fetchAll();
-        if(is_array($usuario)) {
+        echo count($usuario);
+        if(count($usuario) == 0) {
             echo "aqui2";
             foreach ($usuario as $u){
             $_SESSION["id"] = $u[0];
