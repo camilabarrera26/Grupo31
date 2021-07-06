@@ -34,11 +34,13 @@ BEGIN
  
     FETCH NEXT FROM c INTO comuna; -- We fetch the first result
  
-    WHILE @@FETCH_STATUS = 0 --If the fetch went well then we go for it
+    WHILE @@FETCH_STATUS = 0 
+    BEGIN--If the fetch went well then we go for it
     IF comuna IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
         a := TRUE;
     END IF;
     FETCH NEXT FROM c INTO comuna;
+    END;
 
     IF a = FALSE THEN
         RETURN FALSE;
