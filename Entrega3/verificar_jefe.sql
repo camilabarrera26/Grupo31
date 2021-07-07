@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION
 
-verificar_jefe (id_)
+verificar_jefe (id_ int)
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
