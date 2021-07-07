@@ -52,49 +52,60 @@ session_start();
   $result4 = $dbimp -> prepare($query4);
   $result4 -> execute();
   $nombre = $result4 -> fetchAll();
-
 ?>
 
-  <table class='table'>
-    <tr>
-      <th>Nombre</th>
-      <th>Rut</th>
-      <th>Edad</th>
-      <th>Sexo</th>
-      <th>Dirección</th>
-    </tr>
-        <?php
-        // echo $tienda;
-        foreach ($usuario as $u) {
-          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
+<table class='table'>
+  <tr>
+    <th>Nombre</th>
+    <th>Rut</th>
+    <th>Edad</th>
+    <th>Sexo</th>
+    <th>Dirección</th>
+  </tr>
+    <?php
+    // echo $tienda;
+    foreach ($usuario as $u) {
+      echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
+    }
+    ?>
+
+</table>
+<a href='consultas/cambio_contrasena.php' role='button' class='btn'> <u>Cambiar Contraseña</u></a>
+
+<?php
+  $pila = array();
+  foreach ($fecha as $fe){
+    foreach ($compra as $c){
+      foreach ($nombre as $n){
+        if ($fe[0] == $c[3]){
+          if ($n[1] == $c[3]){
+            $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
+            array_push($pila, $line);
+          }
+        }
       }
-      ?>
-  </table>
+    }
+  }
 
-  <p class="fs-4">Aquí podrás cambiar tu contraseña:</p>  
-  <a href='consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar </a>
+  $number_of_elements = sizeof($pila);
+?>
 
- <h1> Historial de Compras </h1>
-  <table class='table'>
-      <tr>
-        <th>Nombre Tienda</th>
-        <th>Producto</th>
-        <th>Dirección de envío</th>
-        <th>Comuna de envío</th>
-        <th>Fecha de envío</th>
-      </tr>
-          <?php
-          foreach ($fecha as $fe) {
-            foreach ($compra as $c) {
-              foreach ($nombre as $n) {
-                if ($fe[0] == $c[3]) {
-                  if ($n[1] == $c[3])
-                  echo "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
-                  }
-                }
-              }
-            }
-          ?>
-  </table>
+<h1> Historial de Compras </h1>
+<table class='table'>
+  <tr>
+    <th>Nombre Tienda</th>
+    <th>Producto</th>
+    <th>Dirección de envío</th>
+    <th>Comuna de envío</th>
+    <th>Fecha de envío</th>
+  </tr>
+    <?php
+    foreach ($pila as $p){
+    echo $p;
+    }
+    ?>
+    
+
+</table>
 
 <a href='index.php' role='button' class='btn'> Volver </a>
