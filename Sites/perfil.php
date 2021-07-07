@@ -87,6 +87,7 @@ session_start();
           foreach ($fecha as $fe) {
             foreach ($compra as $c) {
               foreach ($nombre as $n) {
+                echo "<tr><td>$n[0]"
                 if ($fe[0] == $c[4]) {
                   if ($n[1] == $c[0])
                   echo "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
