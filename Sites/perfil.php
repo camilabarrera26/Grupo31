@@ -71,9 +71,10 @@ session_start();
 
 </table>
 
-<p class="fs-4">Aquí podrás cambiar tu contraseña:</p>  
+<p class="fs-4">Aquí podrás cambiar tu contraseña:
   <a href='consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar Contraseña </a>
-
+  </p>  
+  
 <?php
 
 $query5 = "SELECT verficar_jefe($id);";
