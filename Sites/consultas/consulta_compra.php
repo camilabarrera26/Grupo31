@@ -68,9 +68,8 @@ $did = $_REQUEST['did'];
         $result2 -> execute();
         $result2 -> fetchAll();
 
-        $a = $result2['0'];
-        if (in_array(1, $a) == true) {
-            break;
+        foreach ($result2 as $r) {
+            echo $r;
         }
     }
 
