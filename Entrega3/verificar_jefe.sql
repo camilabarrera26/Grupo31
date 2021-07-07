@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION
 
-verificar_jefe (id)
+verificar_jefe (id_)
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
@@ -8,7 +8,7 @@ RETURNS BOOLEAN AS $$
 -- definimos nuestra función
 BEGIN
 
-    IF id NOT IN (SELECT Personal.pid FROM Personal, Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion = "administracion" ORDER BY Personal.pid;) THEN
+    IF id_ NOT IN (SELECT Personal.pid FROM Personal, Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion = 'administracion' ORDER BY Personal.pid;) THEN
         RETURN FALSE;
     END IF;
 
