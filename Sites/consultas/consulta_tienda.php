@@ -76,7 +76,9 @@ $result = $dbimp -> prepare($query);
 $result -> execute();
 $pid = $result -> fetchAll();
 
-$query1 = "SELECT comunas.direccion, comunas.comuna_cobertura FROM comunas, direccionesusuarios, usuarios WHERE comunas.did = direccionesusuarios.did and direccionesusarios.uid = usuarios.uid;";
+$id_usuario = $_SESSION["id"];
+
+$query1 = "SELECT comunas.direccion, comunas.comuna_cobertura FROM comunas, direccionesusuarios, usuarios WHERE comunas.did = direccionesusuarios.did and direccionesusuarios.uid = usuarios.uid and usuarios.uid = $id_usuario;";
 $result1 = $dbimp -> prepare($query1);
 $result1 -> execute();
 $direcciones = $result1 -> fetchAll();
