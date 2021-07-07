@@ -4,7 +4,7 @@
 $contrasena = $_POST["contrasena"];
 
 if ($contrasena == 'administrador123') {
-    php include('../templates/header.html');  
+    include('../templates/header.html');  
     require("../config/conexion.php");
     $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
 
