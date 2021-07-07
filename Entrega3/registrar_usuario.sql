@@ -51,7 +51,7 @@ BEGIN
     INSERT INTO usuarios values(idmax + 1, nombrexd, rute, edad, sexo, ROUND(RANDOM()*(999999999-100000000)+100000000), direccion);
     INSERT INTO direccionesusuarios values(idmax2 + 1, idmax + 1, idmax1 + 1);
     INSERT INTO comunas values(idmax1 + 1, direccion, comuna);
-    --RETURN TRUE;
+    RETURN TRUE;
     
 
 
