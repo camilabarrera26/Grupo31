@@ -17,7 +17,7 @@ idmax2 int;
 -- definimos nuestra función
 BEGIN
 
-    -- verificamos que no se repita el name
+    -- IF direccion NOT IN 
 
     IF rute IN (SELECT usuarios.rut FROM usuarios) THEN
         RETURN FALSE;
