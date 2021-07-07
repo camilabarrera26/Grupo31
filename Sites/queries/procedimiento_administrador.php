@@ -21,7 +21,7 @@ if ($contrasena == 'administrador123') {
     #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
     $result = $dbimp -> prepare($query);
     $result -> execute();
-    $usuario = $result -> fetchAll();
+    $usuarios = $result -> fetchAll();
 } else {
     echo("Contraseña equivocada");
 }
@@ -45,7 +45,7 @@ if ($contrasena == 'administrador123') {
         </thead>
         <tbody>
             <?php
-            foreach ($usuario as $u) {
+            foreach ($usuarios as $u) {
                 echo "<tr>";
                 for ($i = 0; $i < 7; $i++) {
                     echo "<td>$u[$i]</td> ";
