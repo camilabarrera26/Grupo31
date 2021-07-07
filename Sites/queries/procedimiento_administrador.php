@@ -31,20 +31,30 @@ if ($contrasena == 'administrador123') {
 
 
 
-  <table class='table'>
-    <tr>
-      <th>Id</th>
-      <th>Nombre</th>
-      <th>Rut</th>
-      <th>Edad</th>
-      <th>Sexo</th>
-      <th>Contraseña</th>
-      <th>Dirección</th>
-    </tr>
-        <?php
-        // echo $tienda;
-        foreach ($usuario as $u) {
-          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td><td>$u[5]</td><td>$u[6]</td></tr>";
-      }
-      ?>
-  </table>
+<body>  
+    <table class='table'>
+        <thead>
+            <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Rut</th>
+            <th>Sexo</th>
+            <th>Edad</th>
+            <th>Contraseña</th>
+            <th>Dirección</th>            
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            foreach ($personals as $personal) {
+                echo "<tr>";
+                for ($i = 0; $i < 7; $i++) {
+                    echo "<td>$personal[$i]</td> ";
+                }
+                echo "</tr>";
+            }
+            ?>
+        </tbody>
+    </table>
+</body>
+</html>
