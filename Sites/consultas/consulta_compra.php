@@ -62,16 +62,22 @@ $did = $_REQUEST['did'];
         $result2 = $dbimp -> prepare($query2);
         $result2 -> execute();
         $result2 = $result2 -> fetchAll();
-
-        echo $result2;
-
-        foreach ($result2 as $r) {
-            echo $r;
-        }
     }
 
     if ($result2 == true) {
         echo 'Compra Exitosa';
+        #despacho.did, despacho.direccion_origen_id, despacho.direccion_destino_id, despacho.cid, entregado_por.vid, entregado_por.pid, entregado_por.fecha FROM despacho, entregado_por WHERE despacho.did = entregado_por.did ORDER BY entregado_por.fecha ASC";
+        $result3 = $dbp -> prepare($query3);
+        $result3 -> execute();
+        $fecha = $result3 -> fetchAll();
+
+        // Set the new timezone
+        date_default_timezone_set('America/Santiago');
+        $date = date('d-m-y h:i:s');
+        
+        $query4 = "SELECT insertar_fecha($p[0], $id_tienda, $id_usuario, '$comuna', $did);";
+        $result4 = $dbimp -> prepare($query4);
+        $result4 -> execute();
     } else {
         echo 'No se pudo realizar la compra';
     }
