@@ -29,7 +29,7 @@ session_start();
 #Se construye la consulta como un string
   $id = $_SESSION["id"];
   $query = "SELECT usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.direccion FROM usuarios WHERE usuarios.uid = $id;";
-  $query2 = "SELECT tiendas.nombre, comunas.direccion, comunas.comuna_cobertura, compras.cid, productos.nombre FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid;";
+  $query2 = "SELECT tiendas.nombre, comunas.direccion, comunas.comuna_cobertura, compras.cid FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid;";
   $query3 = "SELECT despacho.cid, entregado_por.fecha FROM despacho, entregado_por WHERE despacho.did = entregado_por.did ORDER BY entregado_por.fecha ASC";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
