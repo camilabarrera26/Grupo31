@@ -26,7 +26,6 @@ if ($contrasena == 'administrador123') {
     echo("Contraseña equivocada");
 }
 
-
 ?>
 
 
@@ -46,10 +45,10 @@ if ($contrasena == 'administrador123') {
         </thead>
         <tbody>
             <?php
-            foreach ($personals as $personal) {
+            foreach ($usuario as $u) {
                 echo "<tr>";
                 for ($i = 0; $i < 7; $i++) {
-                    echo "<td>$personal[$i]</td> ";
+                    echo "<td>$u[$i]</td> ";
                 }
                 echo "</tr>";
             }
