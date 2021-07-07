@@ -25,14 +25,14 @@ if ($contrasena == 'administrador123') {
     print_r($usuario);
 } else {
     echo("Contraseña equivocada");
-    $usuario = Array()
-    $usuario[0] = " "
-    $usuario[1] = " "
-    $usuario[2] = " "
-    $usuario[3] = " "
-    $usuario[4] = " "
-    $usuario[5] = " "
-    $usuario[6] = " "
+    #$usuario = Array()
+    $usuario[0] = " ";
+    $usuario[1] = " ";
+    $usuario[2] = " ";
+    $usuario[3] = " ";
+    $usuario[4] = " ";
+    $usuario[5] = " ";
+    $usuario[6] = " ";
 
 }
 
