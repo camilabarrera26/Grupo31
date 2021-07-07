@@ -16,9 +16,13 @@ idmax2 int;
 
 -- definimos nuestra función
 BEGIN
+
     --IF rute NOT LIKE '%[123456789][0123456789][0123456789][0123456789][0123456789][0123456789][0123456789][0123456789]-[0123456789]%' THEN 
 
 
+    IF rute LIKE '[^1-9][^0-9][^0-9][^0-9][{^0-9][^0-9][^0-9][^0-9]-[^0-9]' THEN 
+        RETURN FALSE;
+    END IF;
 
     IF rute IN (SELECT usuarios.rut FROM usuarios) THEN
         RETURN FALSE;
