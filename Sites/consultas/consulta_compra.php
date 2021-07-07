@@ -49,6 +49,8 @@ $nombre = $_REQUEST['nombre'];
     $id_usuario = $_SESSION['id'];
     $comuna = $_POST["direcciones"];
 
+    echo $comuna;
+
 
     foreach ($productos as $p){
 
