@@ -59,7 +59,7 @@ $nombre = $_REQUEST['nombre'];
         echo $id_tienda;
         echo $id_usuario;
         echo $comuna;
-        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario, $comuna);";
+        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario, '$comuna');";
 
         // Ejecutamos las querys para efectivamente insertar los datos
         $result = $dbimp -> prepare($query);
