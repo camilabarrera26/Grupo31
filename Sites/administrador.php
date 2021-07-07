@@ -1,4 +1,3 @@
-
 <?php include('templates/header.html');   ?>
 
 <header class="py-5">
@@ -13,7 +12,7 @@
 </header>
 
 <body>
-<form method='POST' name="frmUser" action="./queries/administrador.php" align="center">
+<form method='POST' name="frmUser" action="./queries/procedimiento_administrador.php" align="center">
 <div class="message"><?php if($message!="") { echo $message; } ?></div>
 <h3 align="center">Ingresa tus datos:</h3>
 Contraseña:<br>
