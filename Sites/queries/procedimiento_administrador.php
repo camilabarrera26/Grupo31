@@ -4,7 +4,6 @@
 $contrasena = $_POST["contrasena"];
 
 if ($contrasena == 'administrador123') {
-    include('../templates/header.html');  
     require("../config/conexion.php");
     $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
 
@@ -23,6 +22,7 @@ if ($contrasena == 'administrador123') {
 
 ?>
 
+<?php include('../templates/header.html');   ?>
 
 <header class="py-5">
     <div class="container px-lg-0">
