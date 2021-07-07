@@ -98,13 +98,11 @@ if ($jefe == true) {
 
 <?php
   $pila = array();
-  foreach ($fecha as $fe){
-    foreach ($compra as $c){
-      foreach ($nombre as $n){
-        if ($n[1] == $c[3]){
-          $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td></tr>";
-          array_push($pila, $line);
-        }
+  foreach ($compra as $c){
+    foreach ($nombre as $n){
+      if ($n[1] == $c[3]){
+        $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td></tr>";
+        array_push($pila, $line);
       }
     }
   }
