@@ -20,7 +20,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
   require("../config/conexion.php");
 
   #Se construye la consulta como un string
- 	$query = "SELECT tiendas.tid, tiendas.nombre, comunas.comuna_cobertura FROM tiendas, comunas WHERE tiendas.direccion = comunas.did;";
+ 	$query = "SELECT tiendas.tid, tiendas.nombre, comunas.comuna_cobertura, tiendas.tid FROM tiendas, comunas WHERE tiendas.direccion = comunas.did;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $dbimp -> prepare($query);
@@ -30,13 +30,14 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 
   <table class='table'>
     <tr>
+      <th>Id</th>
       <th>Tienda</th>
       <th>Comuna</th>
     </tr>
         <?php
         // echo $tienda;
         foreach ($tienda as $t) {
-          echo "<tr><td><a href='consulta_tienda.php?id=$t[0]&nombre=$t[1]' role='button' class='btn'> $t[1] </a></td><td>$t[2]</td></tr>";
+          echo "<tr><td>$t[3]</td><td><a href='consulta_tienda.php?id=$t[0]&nombre=$t[1]' role='button' class='btn'> $t[1] </a></td><td>$t[2]</td></tr>";
       }
       ?>
   </table>
