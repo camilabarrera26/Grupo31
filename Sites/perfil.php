@@ -72,7 +72,7 @@ session_start();
 </table>
 
 <p class="fs-4">Aquí podrás cambiar tu contraseña:</p>  
-  <a href='consultas/cambio_contrasena.php' role='button' class='btn'> <u>Cambiar Contraseña</u> </a>
+  <a href='consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar Contraseña </a>
 
 <?php
 
@@ -101,6 +101,24 @@ if ($jefe == true) {
 
 ?>
 
+<?php
+  $pila = array();
+  foreach ($fecha as $fe){
+    foreach ($compra as $c){
+      foreach ($nombre as $n){
+        if ($fe[0] == $c[3]){
+          if ($n[1] == $c[3]){
+            $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
+            array_push($pila, $line);
+          }
+        }
+      }
+    }
+  }
+
+  $number_of_elements = sizeof($pila);
+?>
+
 <h1> Historial de Compras </h1>
 <table class='table'>
   <tr>
@@ -110,36 +128,15 @@ if ($jefe == true) {
     <th>Comuna de envío</th>
     <th>Fecha de envío</th>
   </tr>
+    <?php
+    foreach ($pila as $p){
+    echo $p;
+    }
+    ?>
+    
 
 </table>
 
 <a href='index.php' role='button' class='btn'> Volver </a>
 
-
-
-<?php
-  #$pila = array();
-  #foreach ($fecha as $fe){
-   # foreach ($compra as $c){
-    #  foreach ($nombre as $n){
-     #   if ($fe[0] == $c[3]){
-      #    if ($n[1] == $c[3]){
-       #     $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
-        #    array_push($pila, $line);
- #         }
-  #      }
-   #   }
-    #}
-  #}
-
-  #$number_of_elements = sizeof($pila);
-
-  
-?>
-
-<?php
-    #foreach ($pila as $p){
-    #echo $p;
-    #}
-    ?>
     
