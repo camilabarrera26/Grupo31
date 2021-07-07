@@ -23,6 +23,10 @@ session_start();
 </header>
 
 
+<form action='./queries/procedimiento_asignar_contra.php' method='GET'>
+    <input type='submit' value='Asignar Contraseñas'>
+</form>
+
 <!--
 <!DOCTYPE html>
 
