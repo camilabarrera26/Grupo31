@@ -14,7 +14,7 @@
 <?php
 $contrasena = $_POST["contrasena"];
 
-if ($contrasena = 'administrador123'){
+if ($contrasena == 'administrador123') {
     require("../config/conexion.php");
     $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
 
@@ -22,9 +22,10 @@ if ($contrasena = 'administrador123'){
     $result = $dbimp -> prepare($query);
     $result -> execute();
     $usuario = $result -> fetchAll();
-}else{
-    echo("Contraseña equivocada")
+} else {
+    echo("Contraseña equivocada");
 }
+
 
 ?>
 
