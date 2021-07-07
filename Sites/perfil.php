@@ -143,10 +143,8 @@ if ($jefe == true) {
 <div class="container-xl px-lg-4">
   <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
     <div class="m-4 m-lg-4">
-      <h1 class="display-6 fw-bold">Consulte por los 3 productos comestibles y no comestibles más económicos de la tienda:</h1>
-        <p class="fs-4">Aquí podrás cambiar tu contraseña:
+      <h1 class="display-6 fw-bold">Aquí podrás cambiar tu Contraseña:</h1>
           <a href='consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar Contraseña </a>
-        </p>  
     </div>
   </div>
 </div>
