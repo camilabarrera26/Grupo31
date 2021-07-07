@@ -5,15 +5,10 @@ verificar_jefe (id)
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
 
-
--- declaramos las variables a utilizar si es que es necesario
-DECLARE
-idmax int;
-
 -- definimos nuestra función
 BEGIN
 
-    IF id NOT IN (--rellenar con select de ids de jefes ) THEN
+    IF id NOT IN (SELECT Personal.pid FROM Personal, Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion = "administracion" ORDER BY Personal.pid;) THEN
         RETURN FALSE;
     END IF;
 

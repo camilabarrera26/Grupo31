@@ -79,9 +79,13 @@ $result5 = $dbp -> prepare($query5);
 $result5 -> execute();
 $jefe = $result5 -> fetchAll();
 
+$puesto = "administracion";
+
 if ($jefe == true) {
   echo "<h1> Administrativos en su Unidad </h1>";
-  $query6 = "SELECT rellenar con query que obtiene administrativos trabajando en $direccion;";
+  $query6 = "SELECT SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
+            FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != $puesto
+            Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.id = $id) ORDER BY Personal.pid;"
 
   $result6 = $dbp -> prepare($query6);
   $result6 -> execute();
