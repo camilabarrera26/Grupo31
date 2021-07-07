@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-verificar_productos_tiendas (pid_ int, tid_ int, uid_ int, comuna varchar)
+verificar_productos_tiendas (pid_ int, tid_ int, uid_ int, comuna varchar, did_ int)
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
@@ -36,9 +36,9 @@ BEGIN
     FROM direccionesdespacho;
 
     -- insertamos el dato
-    insert into compras values(idmax + 1, uid_, tid_, pid_);
+    insert into compras values(idmax + 1, uid_, did_, tid_);
     insert into productoscompras values(idmax + 1, pid_, 1);
-    insert into direccionesdespacho values(idmax1 + 1, tid_, pid_);
+    insert into direccionesdespacho values(idmax1 + 1, tid_, did_);
     RETURN TRUE;
     
 

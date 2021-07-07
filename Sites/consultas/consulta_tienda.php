@@ -78,7 +78,7 @@ $pid = $result -> fetchAll();
 
 $id_usuario = $_SESSION["id"];
 
-$query1 = "SELECT comunas.direccion, comunas.comuna_cobertura FROM comunas, direccionesusuarios, usuarios WHERE comunas.did = direccionesusuarios.did and direccionesusuarios.uid = usuarios.uid and usuarios.uid = $id_usuario;";
+$query1 = "SELECT comunas.direccion, comunas.comuna_cobertura, comunas.did FROM comunas, direccionesusuarios, usuarios WHERE comunas.did = direccionesusuarios.did and direccionesusuarios.uid = usuarios.uid and usuarios.uid = $id_usuario;";
 $result1 = $dbimp -> prepare($query1);
 $result1 -> execute();
 $direcciones = $result1 -> fetchAll();
@@ -108,6 +108,7 @@ $direcciones = $result1 -> fetchAll();
         </select>
         <input type="hidden" name="id" value="<?php echo $id; ?>">
         <input type="hidden" name="nombre" value="<?php echo $nombre; ?>">
+        <input type="hidden" name="did" value="<?php echo $d[2]; ?>">
         <input type="submit" value="Comprar" class='btn'>
       </form>
     </div>

@@ -21,6 +21,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 <?php 
 $id_tienda = $_REQUEST['id']; 
 $nombre = $_REQUEST['nombre']; 
+$did = $_REQUEST['did'];
 ?>
 
 <header class="py-5">
@@ -59,7 +60,7 @@ $nombre = $_REQUEST['nombre'];
         echo $id_tienda;
         echo $id_usuario;
         echo $comuna;
-        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario, '$comuna');";
+        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario, '$comuna', $did);";
 
         // Ejecutamos las querys para efectivamente insertar los datos
         $result = $dbimp -> prepare($query);
