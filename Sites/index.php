@@ -26,6 +26,19 @@ session_start();
 
 </body>
 
+
+<h3>Cambio tablas</h3>
+
+<form action='./queries/procedimiento_tablas.php' method='GET'>
+    <input type='submit' value='Cambio tablas'>
+</form>
+
+<h3>Contraseñas</h3>
+
+<form action='./queries/procedimiento_asignar_contra.php' method='GET'>
+    <input type='submit' value='Asignar Contraseñas'>
+</form>
+
 <!--
 <!DOCTYPE html>
 
