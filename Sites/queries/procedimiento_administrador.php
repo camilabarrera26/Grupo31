@@ -1,4 +1,4 @@
-<?php include('templates/header.html');   ?>
+<?php include('../templates/header.html');   ?>
 
 <header class="py-5">
     <div class="container px-lg-0">
@@ -12,7 +12,7 @@
 </header>
 
 <?php
-require("config/conexion.php");
+require("../config/conexion.php");
 $contrasena = $_POST["contrasena"];
 
 if ($contrasena = "administrador123"){
