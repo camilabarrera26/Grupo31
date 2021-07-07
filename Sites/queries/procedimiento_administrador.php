@@ -13,6 +13,8 @@
 
 
 <?php
+$message="";
+
 $contrasena = $_POST["contrasena"];
 
 if ($contrasena == 'administrador123') {
@@ -25,15 +27,13 @@ if ($contrasena == 'administrador123') {
     $usuario = $result -> fetchAll();
     print_r($usuario);
 } else {
-    echo("Contraseña equivocada");
-    #$usuario = Array()
-    $usuario[0] = " ";
+    $message = "Contraseña Inválida!";
+    #$usuario[0] = " ";
 
 
 }
 
 ?>
-
 
 
 <body>  
