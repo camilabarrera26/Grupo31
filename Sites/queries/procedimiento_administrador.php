@@ -12,12 +12,10 @@
 </header>
 
 <?php
-require("../config/conexion.php");
 $contrasena = $_POST["contrasena"];
 
-if ($contrasena = "administrador123"){
-    #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-    #Se construye la consulta como un string
+if ($contrasena = 'administrador123'){
+    require("../config/conexion.php");
     $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
 
     #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
