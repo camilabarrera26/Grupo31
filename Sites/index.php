@@ -21,8 +21,31 @@ session_start();
         </div>
     </div>
 </header>
-<body>
 
+<body>
+<h3>Registrarse</h3>
+
+<form action='./queries/procedimiento_registro.php' method='POST'>
+        <label for='nombre'>Nombre</label>
+        <input type='text' name='nombre' />
+
+        <label for='rut'>Rut</label>
+        <input type='text' name='rut' />
+        
+        <label for='type'>Sexo</label>
+        <select name='sexo' id='type'>
+            <option value='hombre'>Hombre</option>
+            <option value='mujer'>Mujer</option>
+        </select>
+
+        <label for='edad'>Edad</label>
+        <input type='number' name='edad'/>
+
+        <label for='direccion'>Dirección</label>
+        <input type='text' name='direccion'/>
+
+    <input type='submit' value='Registrarse'>
+</form>
 
 </body>
 

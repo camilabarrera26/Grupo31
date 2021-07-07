@@ -17,7 +17,9 @@ idmax2 int;
 -- definimos nuestra función
 BEGIN
 
-    -- IF direccion NOT IN 
+    IF rute NOT LIKE '%xxxxxxxx-x%' OR '%xxxxxxx-x%' THEN 
+        RETURN FALSE;
+    END IF;
 
     IF rute IN (SELECT usuarios.rut FROM usuarios) THEN
         RETURN FALSE;
