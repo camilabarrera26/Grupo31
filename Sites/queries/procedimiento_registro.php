@@ -17,8 +17,6 @@
     $query1 = "SELECT usuarios.uid FROM usuarios WHERE usuarios.rut = '$_POST[rut]';";
     $id_usuario = $dbimp -> prepare($query);
     $id_usuario -> execute();
-    echo $id_usuario[0];
-    echo $id_usuario;
 
     // Si nos interesa acceder a los booleanos que retorna el procedimiento, debemos hacer fetch de los resultados
     $personals = $result -> fetchAll();
