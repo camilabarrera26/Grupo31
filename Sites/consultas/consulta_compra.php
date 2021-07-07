@@ -68,13 +68,14 @@ $did = $_REQUEST['did'];
         $result2 -> execute();
         $result2 -> fetchAll();
 
+        echo $result2;
+
         foreach ($result2 as $r) {
             echo $r;
         }
     }
 
-    $a = $result2['0'];
-    if (in_array(1, $a) == true) {
+    if ($result2 == true) {
         echo 'Compra Exitosa';
     } else {
         echo 'No se pudo realizar la compra';
