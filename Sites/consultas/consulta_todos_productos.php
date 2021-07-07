@@ -40,6 +40,8 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 	$productos = $result -> fetchAll();
   ?>
 
+  
+
   <table class='table'>
     <tr>
       <th>Id</th>

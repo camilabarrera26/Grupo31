@@ -51,33 +51,43 @@
 </header>
 
 <body>
-<form method='POST' name="frmUser" action="" align="center">
-<div class="message"><?php if($message!="") { echo $message; } ?></div>
-<h3 align="center">Ingresa tus datos:</h3>
- Nombre:<br>
- <input type="text" name="nombre">
- <br>
- Rut:<br>
- <input type="text" name="rut">
- <br>
- Sexo<br><select name='sexo' id='type'>
-    <option value='hombre'>Hombre</option>
-    <option value='mujer'>Mujer</option>
-  </select>
-  <br>
- Edad:<br>
- <input type="number" name="edad">
- <br>
- Dirección:<br>
- <input type="text" name="direccion">
- <br>
- Comuna:<br>
- <input type="text" name="comuna">
- <br><br>
 
-<input type="submit" name="submit" value="Submit">
-<input type="reset">
-</form>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <form method='POST' name="frmUser" action="" align="center">
+      <div class="message"><?php if($message!="") { echo $message; } ?></div>
+      <h3 align="center">Ingresa tus datos:</h3>
+       Nombre:<br>
+       <input type="text" name="nombre">
+       <br>
+       Rut:<br>
+       <input type="text" name="rut">
+       <br>
+       Sexo<br><select name='sexo' id='type'>
+          <option value='hombre'>Hombre</option>
+          <option value='mujer'>Mujer</option>
+        </select>
+        <br>
+       Edad:<br>
+       <input type="number" name="edad">
+       <br>
+       Dirección:<br>
+       <input type="text" name="direccion">
+       <br>
+       Comuna:<br>
+       <input type="text" name="comuna">
+       <br><br>
+
+      <input type="submit" name="submit" value="Submit">
+      <input type="reset">
+    </form>
+    </div>
+  </div>
+</div>
+</div>   
+
 </body>
 </html>
 

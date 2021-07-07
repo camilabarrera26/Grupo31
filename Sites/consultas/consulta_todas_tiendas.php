@@ -39,7 +39,11 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 	$tienda = $result -> fetchAll();
   ?>
 
-  <table class='table'>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <table class='table'>
     <tr>
       <th>Id</th>
       <th>Tienda</th>
@@ -51,6 +55,10 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
           echo "<tr><td>$t[3]</td><td><a href='consulta_tienda.php?id=$t[0]&nombre=$t[1]' role='button' class='btn'> $t[1] </a></td><td>$t[2]</td></tr>";
       }
       ?>
-  </table>
+    </table>
+    </div>
+  </div>
+</div>
+</div>   
 
 <?php include('../templates/footer.html'); ?>

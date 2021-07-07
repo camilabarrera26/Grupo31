@@ -70,7 +70,11 @@ $nombre = $_REQUEST['nombre'];
 	$productos = $result -> fetchAll();
   ?>
 
-  <table class='table'>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <table class='table'>
     <tr>
       <th>Nombre</th>
       <th>Descripción</th>
@@ -84,8 +88,11 @@ $nombre = $_REQUEST['nombre'];
           echo "<tr><td><a href='consulta_producto.php?id=$p[0]&nombre=$p[1]&tipo=$p[3]' role='button' class='btn'>$nombre_mayuscula</a></td><td>$p[2]</td><td>$p[3]</td></tr>";
       }
       ?>
-      
-  </table>
+    </table>
+    </div>
+  </div>
+</div>
+</div>   
 
   <?php
     echo "<a href='consulta_tienda.php?id=$id&nombre=$nombre' role='button' class='btn'> Volver </a>";
