@@ -11,7 +11,7 @@ Agregamos un link *Usuarios* en la barra de navegación que te lleva a toda la i
 
 Un usuario no registrado, al entrar a la página no puede seleccionar ningún link de la barra de navegación sin iniciar sesión o registrarse. Si selecciona otro link se le llevará a la página para iniciar sesión.
 
-*Registración:* Un nuevo usuario puede registrarse apretando el link *Registrarse* en la barra de navegación donde debe entregar todos sus datos incluyendo su **dirección** y la **comuna** de la dirección. Una contraseña se le asignará aleatoriamente con las especificaciones planteadas en **Otros**. Si no completa algún campo, su **rut** ya se encuentra registrado, la página le informará que hay un error en el registro, si no, iniciará sesión y agregará al usuario a la base de datos.
+*Registración:* Un nuevo usuario puede registrarse apretando el link *Registrarse* en la barra de navegación donde debe entregar todos sus datos incluyendo su **dirección** y la **comuna** de la dirección. Una contraseña se le asignará aleatoriamente con las especificaciones planteadas en **Otros**. Si no completa algún campo o su **rut** ya se encuentra registrado, la página le informará que hay un error en el registro, si no, iniciará sesión y agregará al usuario a la base de datos.
 
 *Importación de usuarios:* En la tabla **Usuarios** de la base de datos del **grupo 31** se puede notar que todos los usuarios registrados con anterioridad tienen asignada una contraseña y que se ha agregado todo el personal administrativo de la base de datos del grupo Par. Los procedimientos almacenados utilizados se encuentran en la carpeta **Entrega 3**.
 
