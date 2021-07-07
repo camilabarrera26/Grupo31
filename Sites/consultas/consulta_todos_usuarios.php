@@ -32,7 +32,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
   require("../config/conexion.php");
 
   #Se construye la consulta como un string
- 	$query = "SELECT usuarios.nombre, usuarios.rut, usuarios.sexo, usuarios.edad, usuarios.direccion FROM usuarios;";
+ 	$query = "SELECT usuarios.nombre, usuarios.rut, usuarios.sexo, usuarios.edad, usuarios.direccion, usuarios.uid FROM usuarios ORDER BY usuarios.uid;";
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $dbimp -> prepare($query);
 	$result -> execute();
@@ -41,6 +41,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 
   <table class='table'>
     <tr>
+      <th>Id</th>
       <th>Nombre</th>
       <th>Rut</th>
       <th>Sexo</th>
@@ -50,7 +51,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
         <?php
         // echo $tienda;
         foreach ($usuario as $u) {
-          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
+          echo "<tr><td>$u[5]</td><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
       }
       ?>    
   </table>
