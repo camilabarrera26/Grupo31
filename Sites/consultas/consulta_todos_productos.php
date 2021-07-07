@@ -32,7 +32,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
   require("../config/conexion.php");
 
   #Se construye la consulta como un string
- 	$query = "SELECT productos.pid, productos.nombre, productos.precio, productos.tipo FROM productos;";
+ 	$query = "SELECT productos.pid, productos.nombre, productos.precio, productos.tipo, productos.pid FROM productos ORDER BY productos.pid;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $dbimp -> prepare($query);
@@ -42,6 +42,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 
   <table class='table'>
     <tr>
+      <th>Id</th>
       <th>Productos</th>
       <th>Precio</th>
       <th>Tipo</th>
@@ -50,7 +51,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
         // echo $productos;
     foreach ($productos as $p) {
           $nombre_mayuscula = ucfirst($p[1]);
-          echo "<tr><td><a href='consulta_producto.php?id=$p[0]&nombre=$p[1]&tipo=$p[3]' role='button' class='btn'> $nombre_mayuscula </a></td><td>$$p[2]</td><td>$p[3]</td></tr>";
+          echo "<tr><td>$p[4]</td><td><a href='consulta_producto.php?id=$p[0]&nombre=$p[1]&tipo=$p[3]' role='button' class='btn'> $nombre_mayuscula </a></td><td>$$p[2]</td><td>$p[3]</td></tr>";
       }
       ?>    
   </table>
