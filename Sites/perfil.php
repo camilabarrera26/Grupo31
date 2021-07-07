@@ -48,6 +48,7 @@ session_start();
   $result3 -> execute();
   $fecha = $result3 -> fetchAll();
 
+  require("config/conexion.php");
   $result4 = $dbimp -> prepare($query4);
   $result4 -> execute();
   $nombre = $result4 -> fetchAll();
