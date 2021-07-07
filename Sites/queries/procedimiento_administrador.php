@@ -1,20 +1,10 @@
-<?php include('../templates/header.html');   ?>
 
-<header class="py-5">
-    <div class="container px-lg-0">
-        <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
-            <div class="m-4 m-lg-2">
-                <h1 class="display-5 fw-bold">Mi Tienda Web</h1> 
-                 <p class="fs-4">Administrador</p>  
-            </div>
-        </div>
-    </div>
-</header>
 
 <?php
 $contrasena = $_POST["contrasena"];
 
 if ($contrasena == 'administrador123') {
+    php include('../templates/header.html');  
     require("../config/conexion.php");
     $query = "SELECT * FROM usuarios ORDER BY usuarios.uid;";
 
@@ -33,6 +23,17 @@ if ($contrasena == 'administrador123') {
 
 ?>
 
+
+<header class="py-5">
+    <div class="container px-lg-0">
+        <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
+            <div class="m-4 m-lg-2">
+                <h1 class="display-5 fw-bold">Mi Tienda Web</h1> 
+                 <p class="fs-4">Administrador</p>  
+            </div>
+        </div>
+    </div>
+</header>
 
 
 <body>  
