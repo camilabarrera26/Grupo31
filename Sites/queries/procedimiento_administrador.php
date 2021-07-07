@@ -25,10 +25,10 @@ if ($contrasena == 'administrador123') {
     $result = $dbimp -> prepare($query);
     $result -> execute();
     $usuario = $result -> fetchAll();
-    print_r($usuario);
+
 } else {
     $message = "Contraseña Inválida!";
-    #$usuario[0] = " ";
+    $usuario[0] = " ";
 
 
 }
