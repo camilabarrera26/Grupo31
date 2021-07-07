@@ -10,16 +10,16 @@
         $direccion = $_POST["direccion"];
         $comuna = $_POST["comuna"];
 
-	    $sub_rut=substr($rut, 0, strlen($rut)-1);
-	    $sub_dv=substr($rut,-1);
-	    $x=2;
-	    $s=0;
+	    $sub_rut = substr($rut, 0, strlen($rut)-1);
+	    $sub_dv = substr($rut,-1);
+	    $x = 2;
+	    $s = 0;
     	for ( $i = strlen($sub_rut)-1; $i >= 0 ; $i-- ){
 	    	if ( $x > 7 )
 	    	{
 	    		$x = 2;
 	    	}
-	    	$s += $sub_rut[$i] * $x;
+	    	$s += (int)$sub_rut[$i] * $x;
 	    	$x++;
 	    }
     	$dv = 11 - ($s % 11);
