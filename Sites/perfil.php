@@ -71,10 +71,6 @@ session_start();
 
 </table>
 
-<p class="fs-4">Aquí podrás cambiar tu contraseña:
-  <a href='consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar Contraseña </a>
-  </p>  
-  
 <?php
 
 $query5 = "SELECT verficar_jefe($id);";
@@ -137,6 +133,10 @@ if ($jefe == true) {
     
 
 </table>
+
+<p class="fs-4">Aquí podrás cambiar tu contraseña:
+  <a href='consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar Contraseña </a>
+  </p>  
 
 <a href='index.php' role='button' class='btn'> Volver </a>
 
