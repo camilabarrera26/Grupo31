@@ -1,17 +1,3 @@
-<?php
-    session_start();
-    require("config/conexion.php");
-    $message="";
-    if(count($_POST)>0) {
-        $contrasena = $_POST["contrasena"];
-
-        if ($contrasena == "administrador123") {
-            $message = "Error al Registrarse!";
-        } else {
-            $message = "Error al Registrarse!";
-        } 
-
-?>
 
 <?php include('templates/header.html');   ?>
 
@@ -27,7 +13,7 @@
 </header>
 
 <body>
-<form method='POST' name="frmUser" action="./queries/procedimiento_administrador.php" align="center">
+<form method='POST' name="frmUser" action="./queries/administrador.php" align="center">
 <div class="message"><?php if($message!="") { echo $message; } ?></div>
 <h3 align="center">Ingresa tus datos:</h3>
 Contraseña:<br>
