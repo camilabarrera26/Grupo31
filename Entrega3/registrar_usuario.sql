@@ -36,11 +36,11 @@ BEGIN
 
     SELECT INTO idmax1
     MAX(comunas.did)
-    FROM usuarios;
+    FROM comunas;
 
     SELECT INTO idmax2
     MAX(direccionesusuarios.duid)
-    FROM usuarios;
+    FROM direccionesusarios;
 
     -- insertamos el dato y la contraseña
     INSERT INTO usuarios values(idmax + 1, nombrexd, rute, edad, sexo, ROUND(RANDOM()*(999999999-100000000)+100000000), direccion);

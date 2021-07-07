@@ -10,7 +10,7 @@
         $direccion = $_POST["direccion"];
         $comuna = $_POST["comuna"];
 
-        $query = "SELECT registrar_usuario('$nombre', '$rut', '$sexo', $edad, '$comuna');";
+        $query = "SELECT registrar_usuario('$nombre', '$rut', '$sexo', $edad, '$direccion', '$comuna');";
         $result = $dbimp -> prepare($query);
         $result -> execute();
 
@@ -72,6 +72,7 @@
  <input type="text" name="direccion">
  <br>
  Comuna:<br>
+ <br><br>
  <input type="text" name="comuna">
 <input type="submit" name="submit" value="Submit">
 <input type="reset">
