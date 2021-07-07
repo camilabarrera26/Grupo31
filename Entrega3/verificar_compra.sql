@@ -28,7 +28,7 @@ BEGIN
 
     -- insertamos el maximo id en la variable idmax
     SELECT INTO idmax
-    MAX(id)
+    MAX(compras.cid)
     FROM compras;
 
     SELECT INTO idmax1
