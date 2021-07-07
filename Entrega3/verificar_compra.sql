@@ -17,7 +17,6 @@ idmax1 int;
 BEGIN
 
     -- si el producto no esta en la tienda retorna false
-    RETURN pid_;
     IF pid_ NOT IN (SELECT DISTINCT productos.pid FROM productos, productostiendas, tiendas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
         RETURN FALSE;
     END IF;
