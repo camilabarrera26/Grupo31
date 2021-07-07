@@ -36,9 +36,9 @@ BEGIN
     FROM direccionesdespacho;
 
     -- insertamos el dato
-    insert into compras values(idmax + 1, uid_, tid, pid);
+    insert into compras values(idmax + 1, uid_, tid_, pid_);
     insert into productoscompras values(idmax + 1, pid_, 1);
-    insert into direccionesdespacho values(idmax1 + 1, tid_, pid);
+    insert into direccionesdespacho values(idmax1 + 1, tid_, pid_);
     RETURN TRUE;
     
 
