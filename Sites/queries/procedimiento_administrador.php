@@ -24,6 +24,7 @@ if ($contrasena == 'administrador123') {
     $usuario = $result -> fetchAll();
 } else {
     echo("Contraseña equivocada");
+    $usuario = ""
 }
 
 ?>
