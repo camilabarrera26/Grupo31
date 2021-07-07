@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-verificar_productos_tiendas (pid_ int, tid_ int, uid_ int, comuna varchar, did_ int)
+insertar_fecha (pid_ int, tid_ int, uid_ int, comuna varchar, did_ int)
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
@@ -38,11 +38,10 @@ BEGIN
     -- insertamos el dato
     insert into compras values(idmax + 1, uid_, did_, tid_);
     insert into productoscompras values(idmax + 1, pid_, 1);
+    insert into direccionesdespacho values(idmax1 + 1, tid_, did_);
     RETURN TRUE;
     
 
 -- -- finalizamos la definición de la función y declaramos el lenguaje
 END
 $$ language plpgsql
-
-
