@@ -43,12 +43,11 @@ session_start();
   $result2 -> execute();
   $compra = $result2 -> fetchAll();
 
-  require("config/conexion.php");
   $result3 = $dbp -> prepare($query3);
   $result3 -> execute();
   $fecha = $result3 -> fetchAll();
 
-  require("config/conexion.php");
+
   $result4 = $dbimp -> prepare($query4);
   $result4 -> execute();
   $nombre = $result4 -> fetchAll();
@@ -67,6 +66,7 @@ session_start();
         // echo $tienda;
         foreach ($usuario as $u) {
           echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
+          $direccion = $u[4];
       }
       ?>
   </table>
@@ -96,5 +96,32 @@ session_start();
             }
           ?>
   </table>
+
+  <?php
+
+  $query5 = "SELECT verficar_jefe($id);";
+
+  $result5 = $dbp -> prepare($query5);
+  $result5 -> execute();
+  $jefe = $result5 -> fetchAll();
+  
+  if ($jefe == true) {
+    echo "<h1> Administrativos en su Unidad </h1>";
+    $query6 = "SELECT rellenar con query que obtiene administrativos trabajando en $direccion;";
+
+    $result6 = $dbp -> prepare($query6);
+    $result6 -> execute();
+    $administrativos = $result6 -> fetchAll();
+    echo "<table class='table'>";
+    echo "<tr>";
+    echo "<th>Nombre administrativo</th>";
+    echo "</tr>";
+          foreach ($administrativos as $a) {
+                  echo "<tr><td>$a[0]</td></tr>";
+            }
+    echo "</table>";
+} 
+
+  ?>
 
 <a href='index.php' role='button' class='btn'> Volver </a>
