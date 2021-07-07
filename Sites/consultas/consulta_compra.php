@@ -56,17 +56,12 @@ $did = $_REQUEST['did'];
         // Luego construimos las querys con nuestro procedimiento almacenado para ir agregando esas tuplas a nuestra bdd objetivo
         // Hacemos una verificacion para ver si el pokemon es legendario porque ese parámetro no se comporta muy bien entre php y sql
         // asi que lo agregamos manualmente al final (por eso los FALSE o TRUE)
-        echo $p[0];
-        echo $id_tienda;
-        echo $id_usuario;
-        echo $comuna;
-        echo $did;
         $query2 = "SELECT verificar_productos_tiendas($p[0], $id_tienda, $id_usuario, '$comuna', $did);";
 
         // Ejecutamos las querys para efectivamente insertar los datos
         $result2 = $dbimp -> prepare($query2);
         $result2 -> execute();
-        $result2 -> fetchAll();
+        $result2 = $result2 -> fetchAll();
 
         echo $result2;
 
