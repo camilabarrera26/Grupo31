@@ -50,16 +50,6 @@ session_start();
     <input type='submit' value='Asignar Contraseñas'>
 </form>
 
-<h3>BDD1</h3>
-<form action='./queries/bdd1.php' method='GET'>
-    <input type='submit' value='Consultar'>
-</form>
-
-<h3>BDD2</h3>
-<form action='./queries/bdd2.php' method='GET'>
-    <input type='submit' value='Consultar'>
-</form>
-
 <h3>Registrarse</h3>
 
 <form action='./queries/procedimiento_registro.php' method='POST'>
