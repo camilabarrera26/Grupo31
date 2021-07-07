@@ -10,51 +10,27 @@
         $direccion = $_POST["direccion"];
         $comuna = $_POST["comuna"];
 
-	    $sub_rut = substr($rut, 0, strlen($rut)-1);
-	    $sub_dv = substr($rut,-1);
-	    $x = 2;
-	    $s = 0;
-    	for ( $i = strlen($sub_rut)-1; $i >= 0 ; $i-- ){
-	    	if ( $x > 7 )
-	    	{
-	    		$x = 2;
-	    	}
-	    	$s += (int)$sub_rut[$i] * $x;
-	    	$x++;
-	    }
-    	$dv = 11 - ($s % 11);
-    	if ( $dv == 10 ){
-	    	$dv = 'K';
-	    } 
-        if ( $dv == 11 ){
-	    	$dv = '0';
-    	}
-    	if ( $dv == $sub_dv ){
-    		$query = "SELECT registrar_usuario('$nombre', '$rut', '$sexo', $edad, '$direccion', '$comuna');";
-            $result = $dbimp -> prepare($query);
-            $result -> execute();
+        $query = "SELECT registrar_usuario('$nombre', '$rut', '$sexo', $edad, '$direccion', '$comuna');";
+        $result = $dbimp -> prepare($query);
+        $result -> execute();
 
-            $personals = $result -> fetchAll();
-            $a = $personals['0'];
+        $personals = $result -> fetchAll();
+        $a = $personals['0'];
 
-            if ($personals == null) {
-                $message = "Error al Registrarse!";
-            } elseif (in_array(1, $a) == false) {
-                $message = "Error al Registrarse!";
-            } elseif (in_array(1, $a)) {
-                $query1 = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$rut';";
-                $result1 = $dbimp -> prepare($query1);
-                $result1 -> execute();
-                $usuario = $result1 -> fetchAll();
-                foreach ($usuario as $u) {
-                  $_SESSION["id"] = $u[0];
-                  $_SESSION["nombre"] = $u[1];
-                }
+        if ($personals == null) {
+            $message = "Error al Registrarse!";
+        } elseif (in_array(1, $a) == false) {
+            $message = "Error al Registrarse!";
+        } elseif (in_array(1, $a)) {
+            $query1 = "SELECT usuarios.uid, usuarios.nombre FROM usuarios WHERE usuarios.rut = '$rut';";
+            $result1 = $dbimp -> prepare($query1);
+            $result1 -> execute();
+            $usuario = $result1 -> fetchAll();
+            foreach ($usuario as $u) {
+              $_SESSION["id"] = $u[0];
+              $_SESSION["nombre"] = $u[1];
             }
-    	}
-    	else {
-		    $message = "Error al Registrarse!";
-	    }        
+        }
     }
     if(isset($_SESSION["id"])) {
       header("Location: index.php");
