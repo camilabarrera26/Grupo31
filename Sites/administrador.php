@@ -1,3 +1,18 @@
+<?php
+    session_start();
+    require("config/conexion.php");
+    $message="";
+    if(count($_POST)>0) {
+        $contrasena = $_POST["contrasena"];
+
+        if ($contrasena == "administrador123") {
+            $message = "Error al Registrarse!";
+        } elseif (in_array(1, $a) == false) {
+            $message = "Error al Registrarse!";
+        } 
+
+?>
+
 <?php include('templates/header.html');   ?>
 
 <header class="py-5">
