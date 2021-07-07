@@ -459,5 +459,4 @@ Un usuario no registrado, al entrar a la página no puede seleccionar ningún li
 ## Workmap
 ![Caption for the picture.](workmap/workmap.png)
 
-El usuario al registrarse debe ingresar un rut con la siguiente estructura: siete u ocho números, el guión y un número o la letra k.
 
