@@ -31,6 +31,7 @@ session_start();
   $query = "SELECT usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.direccion FROM usuarios WHERE usuarios.uid = $id;";
   $query2 = "SELECT tiendas.nombre, comunas.direccion, comunas.comuna_cobertura, compras.cid FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid;";
   $query3 = "SELECT despacho.cid, entregado_por.fecha FROM despacho, entregado_por WHERE despacho.did = entregado_por.did ORDER BY entregado_por.fecha ASC";
+  $query4 = "SELECT productos.nombre, compras.cid FROM productos, productoscompras, compras WHERE compras.uid = $id AND productos.pid = productoscompras.pid AND productoscompras.cid = compras.cid;"
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
   $result = $dbimp -> prepare($query);
@@ -46,6 +47,10 @@ session_start();
   $result3 = $dbp -> prepare($query3);
   $result3 -> execute();
   $fecha = $result3 -> fetchAll();
+
+  $result4 = $dbimp -> prepare($query4);
+  $result4 -> execute();
+  $nombre = $result4 -> fetchAll();
 
 ?>
 
@@ -72,6 +77,7 @@ session_start();
   <table class='table'>
       <tr>
         <th>Nombre Tienda</th>
+        <th>Producto</th>
         <th>Dirección de envío</th>
         <th>Comuna de envío</th>
         <th>Fecha de envío</th>
@@ -79,8 +85,11 @@ session_start();
           <?php
           foreach ($fecha as $fe) {
             foreach ($compra as $c) {
-              if ($fe[0] == $c[4]) {
-                echo "<tr><td>$c[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
+              foreach ($nombre as $n) {
+                if ($fe[0] == $c[4]) {
+                  if ($n[1] == $c[0])
+                  echo "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
+                  }
                 }
               }
             }
