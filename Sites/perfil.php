@@ -110,12 +110,6 @@ if ($jefe == true) {
     <th>Comuna de envío</th>
     <th>Fecha de envío</th>
   </tr>
-    <?php
-    foreach ($pila as $p){
-    echo $p;
-    }
-    ?>
-    
 
 </table>
 
@@ -139,4 +133,13 @@ if ($jefe == true) {
   #}
 
   #$number_of_elements = sizeof($pila);
+
+  
 ?>
+
+<?php
+    #foreach ($pila as $p){
+    #echo $p;
+    #}
+    ?>
+    
