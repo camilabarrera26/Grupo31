@@ -127,20 +127,30 @@ $result5 -> execute();
 $jefe = $result5 -> fetchAll();
 
 if ($jefe == true) {
-  echo "<h1> Administrativos en su Unidad </h1>";
   $query6 = "SELECT rellenar con query que obtiene administrativos trabajando en $direccion;";
 
   $result6 = $dbp -> prepare($query6);
   $result6 -> execute();
   $administrativos = $result6 -> fetchAll();
-  echo "<table class='table'>";
-  echo "<tr>";
-  echo "<th>Nombre administrativo</th>";
-  echo "</tr>";
-        foreach ($administrativos as $a) {
-                echo "<tr><td>$a[0]</td></tr>";
-          }
-  echo "</table>";
+
+  echo "<div class='py-5'>";
+  echo "<div class='container-xl px-lg-4'>";
+    echo "<div class='p-4 p-lg-4 bg-primary rounded-3 text-center'>";
+      echo "<div class='m-4 m-lg-4'>";
+        echo "<h1 class='display-6 fw-bold'>Administrativos en su Unidad</h1>";
+        echo "<table class='table'>";
+        echo "<tr>";
+        echo "<th>Nombre administrativo</th>";
+        echo "</tr>";
+          foreach ($administrativos as $a) {
+            echo "<tr><td>$a[0]</td></tr>";
+           }
+        echo "</table>";
+      echo "</div>";
+    echo "</div>";
+  echo "</div>";
+  echo "</div>";   
+  
 } 
 ?>
 

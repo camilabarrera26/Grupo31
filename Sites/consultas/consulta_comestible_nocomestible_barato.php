@@ -49,7 +49,11 @@ $nombre = $_REQUEST['nombre'];
 	$nocomestibles = $result2 -> fetchAll();
   ?>
 
-  <table class='table'>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <table class='table'>
     <tr>
       <th>Productos Comestibles Más Baratos</th>
     </tr>
@@ -62,10 +66,17 @@ $nombre = $_REQUEST['nombre'];
           echo "<tr><td><a href='consulta_producto.php?id=$c[1]&nombre=$c[0]&tipo=$tipo' role='button' class='btn'>$nombre_mayuscula</td></tr>";
       }
       ?>
-      
-  </table>
+    </table>
+    </div>
+  </div>
+</div>
+</div>   
 
-  <table class='table'>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <table class='table'>
     <tr>
       <th>Productos No Comestibles Más Baratos</th>
     </tr>
@@ -77,9 +88,12 @@ $nombre = $_REQUEST['nombre'];
           $nombre_mayuscula = ucfirst($c[0]);
           echo "<tr><td><a href='consulta_producto.php?id=$c[1]&nombre=$c[0]&tipo=$tipo' role='button' class='btn'>$nombre_mayuscula</td></tr>";
       }
-      ?>
-      
-  </table>
+      ?> 
+    </table>
+    </div>
+  </div>
+</div>
+</div>   
 
   <?php
     echo "<a href='consulta_tienda.php?id=$id&nombre=$nombre' role='button' class='btn'> Volver </a>";
