@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION
 verificar_productos_tiendas (pid_ int, tid_ int, uid_ int, comuna varchar)
 
 -- declaramos lo que retorna 
-RETURNS BOOLEAN AS $$
+RETURNS INT AS $$
 
 
 
@@ -17,8 +17,9 @@ idmax1 int;
 BEGIN
 
     -- si el producto no esta en la tienda retorna false
-    IF pid_ IN (SELECT DISTINCT productos.pid FROM productos, productostiendas, tiendas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
-        RETURN TRUE;
+    RETURN pid_;
+    IF pid_ NOT IN (SELECT DISTINCT productos.pid FROM productos, productostiendas, tiendas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
+        RETURN FALSE;
     END IF;
 
     -- verificamos que la tienda despache a la comuna
