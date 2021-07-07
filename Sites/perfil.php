@@ -53,23 +53,28 @@ session_start();
   $result4 -> execute();
   $nombre = $result4 -> fetchAll();
 ?>
-
-<table class='table'>
-  <tr>
-    <th>Nombre</th>
-    <th>Rut</th>
-    <th>Edad</th>
-    <th>Sexo</th>
-    <th>Dirección</th>
-  </tr>
-    <?php
-    // echo $tienda;
-    foreach ($usuario as $u) {
-      echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
-    }
-    ?>
-
-</table>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+      <table class='table'>
+        <tr>
+          <th>Nombre</th>
+          <th>Rut</th>
+          <th>Edad</th>
+          <th>Sexo</th>
+          <th>Dirección</th>
+        </tr>
+          <?php
+          foreach ($usuario as $u) {
+            echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
+          }
+          ?>
+      </table>
+    </div>
+  </div>
+</div>
+</div>  
 
 <?php
   $pila = array();
