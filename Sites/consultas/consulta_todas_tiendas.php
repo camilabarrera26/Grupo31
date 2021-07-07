@@ -20,7 +20,7 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
   require("../config/conexion.php");
 
   #Se construye la consulta como un string
- 	$query = "SELECT tiendas.tid, tiendas.nombre, comunas.comuna_cobertura, tiendas.tid FROM tiendas, comunas WHERE tiendas.direccion = comunas.did;";
+ 	$query = "SELECT tiendas.tid, tiendas.nombre, comunas.comuna_cobertura, tiendas.tid FROM tiendas, comunas WHERE tiendas.direccion = comunas.did ORDER BY tiendas.tid;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $dbimp -> prepare($query);
