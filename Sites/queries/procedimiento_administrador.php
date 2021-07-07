@@ -22,9 +22,10 @@ if ($contrasena == 'administrador123') {
     $result = $dbimp -> prepare($query);
     $result -> execute();
     $usuario = $result -> fetchAll();
+    print_r($usuario);
 } else {
     echo("Contraseña equivocada");
-    $usuario = ""
+    
 }
 
 ?>
