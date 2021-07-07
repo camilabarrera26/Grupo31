@@ -72,8 +72,9 @@
  <input type="text" name="direccion">
  <br>
  Comuna:<br>
- <br><br>
  <input type="text" name="comuna">
+ <br><br>
+
 <input type="submit" name="submit" value="Submit">
 <input type="reset">
 </form>

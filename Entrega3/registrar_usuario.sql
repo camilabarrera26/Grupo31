@@ -23,7 +23,7 @@ BEGIN
         RETURN FALSE;
     END IF;
 
-    IF rute IS NULL OR nombrexd IS NULL OR sexo IS NULL OR edad IS NULL OR direccion IS NULL THEN
+    IF rute IS NULL OR nombrexd IS NULL OR sexo IS NULL OR edad IS NULL OR direccion IS NULL OR comuna IS NULL THEN
         RETURN FALSE;
     END IF;
 
@@ -40,7 +40,7 @@ BEGIN
 
     SELECT INTO idmax2
     MAX(direccionesusuarios.duid)
-    FROM direccionesusarios;
+    FROM direccionesusuarios;
 
     -- insertamos el dato y la contraseña
     INSERT INTO usuarios values(idmax + 1, nombrexd, rute, edad, sexo, ROUND(RANDOM()*(999999999-100000000)+100000000), direccion);
