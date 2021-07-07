@@ -68,12 +68,14 @@ $did = $_REQUEST['did'];
         $result -> execute();
         $result -> fetchAll();
 
-        if ($result == 'TRUE') {
+        $a = $personals['0'];
+        if (in_array(1, $a) == true) {
             break;
         }
     }
 
-    if ($result == 'TRUE') {
+    $a = $personals['0'];
+    if (in_array(1, $a) == true) {
         echo 'Compra Exitosa';
     } else {
         echo 'No se pudo realizar la compra';
