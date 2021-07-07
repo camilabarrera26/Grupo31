@@ -7,7 +7,7 @@
 
         if ($contrasena == "administrador123") {
             $message = "Error al Registrarse!";
-        } elseif (in_array(1, $a) == false) {
+        } else {
             $message = "Error al Registrarse!";
         } 
 
