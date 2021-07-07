@@ -39,7 +39,11 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 	$usuario = $result -> fetchAll();
   ?>
 
-  <table class='table'>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <table class='table'>
     <tr>
       <th>Id</th>
       <th>Nombre</th>
@@ -54,7 +58,11 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
           echo "<tr><td>$u[5]</td><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
       }
       ?>    
-  </table>
+    </table>
+    </div>
+  </div>
+</div>
+</div>   
 
 <?php include('../templates/footer.html'); ?>
 </body>

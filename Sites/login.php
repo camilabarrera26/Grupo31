@@ -37,21 +37,32 @@
 </header>
 
 <body>
-<form name="frmUser" method="post" action="" align="center">
-<div class="message"><?php if($message!="") { echo $message; } ?></div>
-<h3 align="center">Ingresa tus datos:</h3>
- Rut:<br>
- <input type="text" name="rut">
- <br>
- Contraseña:<br>
-<input type="password" name="password">
-<br><br>
-<input type="submit" name="submit" value="Submit">
-<input type="reset">
-</form>
+
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <form name="frmUser" method="post" action="" align="center">
+      <div class="message"><?php if($message!="") { echo $message; } ?></div>
+      <h3 align="center">Ingresa tus datos:</h3>
+       Rut:<br>
+       <input type="text" name="rut">
+       <br>
+       Contraseña:<br>
+      <input type="password" name="password">
+      <br><br>
+      <input type="submit" name="submit" value="Submit">
+      <input type="reset">
+    </form>
+    </div>
+  </div>
+</div>
+</div>   
+
 <?php
 echo $_SESSION["id"];
 ?>
+
 </body>
 </html>
 

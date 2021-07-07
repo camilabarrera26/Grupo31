@@ -68,7 +68,11 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 	$producto1 = $result -> fetchAll();
   ?>
 
-  <table class='table'>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <table class='table'>
     <tr>
       <th>Id</th>
       <th>Nombre</th>
@@ -109,7 +113,11 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
             }
          }
       ?>    
-  </table>
+    </table>
+    </div>
+  </div>
+</div>
+</div>   
 
 <form action="consulta_todos_productos.php" method="get">
     <input type="submit" value="Volver">
