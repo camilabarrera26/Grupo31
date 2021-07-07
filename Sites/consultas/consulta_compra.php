@@ -61,20 +61,20 @@ $did = $_REQUEST['did'];
         echo $id_usuario;
         echo $comuna;
         echo $did;
-        $query = "SELECT verificar_productos_tiendas($p[0], $id_tienda, $id_usuario, '$comuna', $did);";
+        $query2 = "SELECT verificar_productos_tiendas($p[0], $id_tienda, $id_usuario, '$comuna', $did);";
 
         // Ejecutamos las querys para efectivamente insertar los datos
-        $result = $dbimp -> prepare($query);
-        $result -> execute();
-        $result -> fetchAll();
+        $result2 = $dbimp -> prepare($query2);
+        $result2 -> execute();
+        $result2 -> fetchAll();
 
-        $a = $personals['0'];
+        $a = $result2['0'];
         if (in_array(1, $a) == true) {
             break;
         }
     }
 
-    $a = $personals['0'];
+    $a = $result2['0'];
     if (in_array(1, $a) == true) {
         echo 'Compra Exitosa';
     } else {
