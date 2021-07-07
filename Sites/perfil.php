@@ -116,6 +116,30 @@ if ($jefe == true) {
   $number_of_elements = sizeof($pila);
 ?>
 
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+      <h1 class="display-6 fw-bold">Historial de Compras</h1>
+        <table class='table'>
+          <tr>
+            <th>Nombre Tienda</th>
+            <th>Producto</th>
+            <th>Dirección de envío</th>
+            <th>Comuna de envío</th>
+            <th>Fecha de envío</th>
+           </tr>
+           <?php
+             foreach ($pila as $p){
+              echo $p;
+            }
+           ?>
+        </table>
+    </div>
+  </div>
+</div>
+</div>
+
 <h1> Historial de Compras </h1>
 <table class='table'>
   <tr>
@@ -130,8 +154,6 @@ if ($jefe == true) {
     echo $p;
     }
     ?>
-    
-
 </table>
 
 <p class="fs-4">Aquí podrás cambiar tu contraseña:
