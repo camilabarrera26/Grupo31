@@ -60,7 +60,12 @@ $did = $_REQUEST['did'];
         echo $id_tienda;
         echo $id_usuario;
         echo $comuna;
-        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario, '$comuna', $did);";
+        echo $did;
+        settype($id_usuario, 'integer');
+        settype($id_tienda, 'integer');
+        settype($comuna, 'string');
+        settype($did, 'integer');
+        $query = "SELECT verificar_compra($p[0], $id_tienda, $id_usuario, $comuna, $did);";
 
         // Ejecutamos las querys para efectivamente insertar los datos
         $result = $dbimp -> prepare($query);
