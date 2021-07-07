@@ -25,7 +25,15 @@ if ($contrasena == 'administrador123') {
     print_r($usuario);
 } else {
     echo("Contraseña equivocada");
-    $usuario = Array ( [0] => Array ( [uid] => ' ' [0] => ' ' [nombre] => ' ' [1] => ' ' [rut] => ' ' [2] => ' ' [edad] => ' ' => ' ' [sexo] => ' ' [4] => ' ' [contrasena] => ' ' [5] => ' ' [direccion] => ' ' [6] => ' ' ));
+    $usuario = Array()
+    $usuario[0] = " "
+    $usuario[1] = " "
+    $usuario[2] = " "
+    $usuario[3] = " "
+    $usuario[4] = " "
+    $usuario[5] = " "
+    $usuario[6] = " "
+
 }
 
 ?>
