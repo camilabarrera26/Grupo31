@@ -18,12 +18,12 @@ BEGIN
 
     -- si el producto no esta en la tienda retorna false
     IF pid_ NOT IN (SELECT DISTINCT productos.pid FROM productos, productostiendas, tiendas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
-        RETURN 'HOLA1';
+        RETURN TRUE;
     END IF;
 
     -- verificamos que la tienda despache a la comuna
     IF comuna NOT IN (SELECT DISTINCT comunas.comuna_cobertura FROM productos, productostiendas, tiendas, direccionesdespacho, comunas WHERE productos.pid = productostiendas.pid AND productostiendas.tid = tiendas.tid AND tiendas.tid = direccionesdespacho.tid AND direccionesdespacho.did = comunas.did AND productos.pid = pid_ AND tiendas.tid = tid_) THEN
-        RETURN 'HOLA2';
+        RETURN FALSE;
     END IF;
 
     -- insertamos el maximo id en la variable idmax
