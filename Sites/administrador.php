@@ -11,8 +11,21 @@
 
 ?>
 
+<header class="py-5">
+    <div class="container px-lg-0">
+        <div class="p-4 p-lg-2 bg-light rounded-3 text-center">
+            <div class="m-4 m-lg-2">
+                <h1 class="display-5 fw-bold">Mi Tienda Web</h1> 
+                 <p class="fs-4">Aquí podrás encontrar tu información</p>  
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+
   <table class='table'>
     <tr>
+      <th>Id</th>
       <th>Nombre</th>
       <th>Rut</th>
       <th>Edad</th>
@@ -23,7 +36,7 @@
         <?php
         // echo $tienda;
         foreach ($usuario as $u) {
-          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td><td>$u[5]</td></tr>";
+          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td><td>$u[5]</td><td>$u[6]</td></tr>";
       }
       ?>
   </table>
