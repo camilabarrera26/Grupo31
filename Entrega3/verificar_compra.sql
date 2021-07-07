@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION
 verificar_productos_tiendas (pid_ int, tid_ int, uid_ int, comuna varchar)
 
 -- declaramos lo que retorna 
-RETURNS INT AS $$
+RETURNS BOOLEAN AS $$
 
 
 
