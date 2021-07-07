@@ -14,7 +14,7 @@
         } 
 
 ?>
-
+<body>  
   <table class='table'>
     <tr>
       <th>Nombre</th>
@@ -31,6 +31,9 @@
       }
       ?>
   </table>
+
+<body>  
+
 
 <?php include('templates/header.html');   ?>
 
