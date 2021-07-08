@@ -21,7 +21,7 @@ session_start();
         </div>
     </div>
 </header>
-
+ 
 <!--
 <form action='./consultas/procedimiento_asignar_contra.php' method='GET'>
     <input type='submit' value='Asignar Contraseñas'>

@@ -21,7 +21,6 @@ if(!isset($_SESSION['id'])) // If session is not set then redirect to Login Page
 <?php 
 $id_tienda = $_REQUEST['id']; 
 $nombre = $_REQUEST['nombre']; 
-$did = $_REQUEST['did'];
 ?>
 
 <header class="py-5">
@@ -48,7 +47,13 @@ $did = $_REQUEST['did'];
     $productos = $result -> fetchAll();
     
     $id_usuario = $_SESSION['id'];
-    $comuna = $_POST["direcciones"];
+    $resultado = $_POST["direcciones"];
+    $resultado_explode = explode('|', $resultado);
+    $comuna = $resultado_explode[0];
+    $did = $resultado_explode[0];
+
+    echo $comuna;
+    echo $did;
     
 
     foreach ($productos as $p){

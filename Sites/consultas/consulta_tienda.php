@@ -102,13 +102,12 @@ $direcciones = $result1 -> fetchAll();
         <select name='direcciones'>
         <?php
         foreach ($direcciones as $d) {
-            echo "<option value=$d[1]>$d[0]</option>";
+            echo "<option value=$d[1]|$d[2]>$d[0]</option>";
         }
         ?>
         </select>
         <input type="hidden" name="id" value="<?php echo $id; ?>">
         <input type="hidden" name="nombre" value="<?php echo $nombre; ?>">
-        <input type="hidden" name="did" value="<?php echo $d[2]; ?>">
         <input type="submit" value="Comprar" class='btn'>
       </form>
     </div>
