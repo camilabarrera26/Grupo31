@@ -79,35 +79,34 @@ $result7 -> execute();
 $rut1 = $result7 -> fetchAll();
 
 foreach ($rut1 as $r){
-  echo $r[0];
   $query5 = "SELECT verificar_jefe('$r[0]');";
 
   $result5 = $dbp -> prepare($query5);
   $result5 -> execute();
   $jefe = $result5 -> fetchAll();
-  break;
-}
 
-$puesto = "administracion";
+  $puesto = "administracion";
 
-if ($jefe == true) {
-  echo "<h1> Administrativos en su Unidad </h1>";
-  $query6 = "SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
-            FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != $puesto
-            Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.rut = $rut) ORDER BY Personal.pid;";
+  if ($jefe == true) {
+    echo "<h1> Administrativos en su Unidad </h1>";
+    $query6 = "SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
+    FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != $puesto
+    and Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.rut = '$r[0]' and trabaja_en.pid = personal.pid);";
 
-  $result6 = $dbp -> prepare($query6);
-  $result6 -> execute();
-  $administrativos = $result6 -> fetchAll();
-  echo "<table class='table'>";
-  echo "<tr>";
-  echo "<th>Nombre administrativo</th>";
-  echo "</tr>";
+    $result6 = $dbp -> prepare($query6);
+    $result6 -> execute();
+    $administrativos = $result6 -> fetchAll();
+    echo "<table class='table'>";
+    echo "<tr>";
+    echo "<th>Nombre administrativo</th>";
+    echo "</tr>";
         foreach ($administrativos as $a) {
-                echo "<tr><td>$a[0]</td></tr>";
-          }
-  echo "</table>";
-} 
+            echo "<tr><td>$a[0]</td></tr>";
+        }
+    echo "</table>";
+  } 
+break;
+}
 
 ?>
 
