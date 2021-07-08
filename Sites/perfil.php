@@ -74,6 +74,7 @@ session_start();
 
 <?php
 
+echo "hola";
 echo $rut;
 
 $query5 = "SELECT verficar_jefe('$rut');";
