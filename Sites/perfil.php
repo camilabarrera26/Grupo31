@@ -29,9 +29,8 @@ session_start();
 #Se construye la consulta como un string
   $id = $_SESSION["id"];
   $query = "SELECT usuarios.nombre, usuarios.rut, usuarios.edad, usuarios.sexo, usuarios.direccion FROM usuarios WHERE usuarios.uid = $id;";
-  $query2 = "SELECT tiendas.nombre, comunas.direccion, comunas.comuna_cobertura, compras.cid FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid;";
-  $query3 = "SELECT despacho.cid, entregado_por.fecha FROM despacho, entregado_por WHERE despacho.did = entregado_por.did ORDER BY entregado_por.fecha ASC";
-  $query4 = "SELECT productos.nombre, compras.cid FROM productos, productoscompras, compras WHERE compras.uid = $id AND productos.pid = productoscompras.pid AND productoscompras.cid = compras.cid;";
+  $query2 = "SELECT tiendas.nombre, comunas.direccion, comunas.comuna_cobertura, compras.cid FROM compras, tiendas, comunas WHERE compras.uid = $id AND comunas.did = compras.did AND tiendas.tid = compras.tid ORDER BY compras.cid ASC;";
+  $query3 = "SELECT productos.nombre, compras.cid FROM productos, productoscompras, compras WHERE compras.uid = $id AND productos.pid = productoscompras.pid AND productoscompras.cid = compras.cid;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
   $result = $dbimp -> prepare($query);
@@ -44,14 +43,9 @@ session_start();
   $compra = $result2 -> fetchAll();
 
   require("config/conexion.php");
-  $result3 = $dbp -> prepare($query3);
+  $result3 = $dbimp -> prepare($query3);
   $result3 -> execute();
-  $fecha = $result3 -> fetchAll();
-
-  require("config/conexion.php");
-  $result4 = $dbimp -> prepare($query4);
-  $result4 -> execute();
-  $nombre = $result4 -> fetchAll();
+  $nombre = $result3 -> fetchAll();
 ?>
 
 <div class='py-5'>
@@ -111,15 +105,11 @@ if ($jefe == true) {
 
 <?php
   $pila = array();
-  foreach ($fecha as $fe){
-    foreach ($compra as $c){
-      foreach ($nombre as $n){
-        if ($fe[0] == $c[3]){
-          if ($n[1] == $c[3]){
-            $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td><td>$fe[1]</td></tr>";
-            array_push($pila, $line);
-          }
-        }
+  foreach ($compra as $c){
+    foreach ($nombre as $n){
+      if ($n[1] == $c[3]){
+        $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td></tr>";
+        array_push($pila, $line);
       }
     }
   }
@@ -134,7 +124,6 @@ if ($jefe == true) {
     <th>Producto</th>
     <th>Dirección de envío</th>
     <th>Comuna de envío</th>
-    <th>Fecha de envío</th>
   </tr>
     <?php
     foreach ($pila as $p){
