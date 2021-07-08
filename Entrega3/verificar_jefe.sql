@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION
 
-verificar_jefe (rut_ int)
+verificar_jefe (rut_ varchar)
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
