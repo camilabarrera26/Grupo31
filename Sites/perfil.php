@@ -85,12 +85,12 @@ foreach ($rut1 as $r){
   $result5 -> execute();
   $jefe = $result5 -> fetchAll();
 
-  $puesto = "administracion";
+  echo $r[0];
 
   if ($jefe == true) {
     echo "<h1> Administrativos en su Unidad </h1>";
     $query6 = "SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
-    FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != $puesto
+    FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != 'administracion'
     and Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.rut = '$r[0]' and trabaja_en.pid = personal.pid);";
 
     $result6 = $dbp -> prepare($query6);
@@ -101,7 +101,7 @@ foreach ($rut1 as $r){
     echo "<th>Nombre administrativo</th>";
     echo "</tr>";
         foreach ($administrativos as $a) {
-            echo "<tr><td>$a[0]</td></tr>";
+            echo "<tr><td>$a[0]</td><td>$a[1]</td><td>$a[2]</td><td>$a[3]</td><td>$a[4]</td><td>$a[5]</td></tr>";
         }
     echo "</table>";
   } 
