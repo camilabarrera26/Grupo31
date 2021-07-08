@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION
 
-verificar_jefe (rut int)
+verificar_jefe (rut_ int)
 
 -- declaramos lo que retorna 
 RETURNS BOOLEAN AS $$
@@ -8,7 +8,7 @@ RETURNS BOOLEAN AS $$
 -- definimos nuestra función
 BEGIN
 
-    IF rut NOT IN (SELECT Personal.rut FROM Personal, Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion = 'administracion' ORDER BY Personal.pid) THEN
+    IF rut_ NOT IN (SELECT Personal.rut FROM Personal, Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion = 'administracion' ORDER BY Personal.pid) THEN
         RETURN FALSE;
     END IF;
 
