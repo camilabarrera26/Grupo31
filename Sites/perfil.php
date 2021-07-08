@@ -80,17 +80,12 @@ $rut1 = $result7 -> fetchAll();
 
 foreach ($rut1 as $r){
   echo $r[0];
-  $query5 = "SELECT verficar_jefe('$r[0]');";
+  $query5 = "SELECT verificar_jefe('$r[0]');";
 
   $result5 = $dbp -> prepare($query5);
   $result5 -> execute();
   $jefe = $result5 -> fetchAll();
   break;
-}
-
-
-foreach ($jefe as $j){
-  echo $j[0];
 }
 
 $puesto = "administracion";
