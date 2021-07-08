@@ -67,6 +67,7 @@ session_start();
         <th>Dirección</th>
       </tr>
       <?php
+        $rut = $u[1];
         foreach ($usuario as $u) {
           echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
       }
@@ -79,7 +80,7 @@ session_start();
 
 <?php
 
-$query5 = "SELECT verficar_jefe($id);";
+$query5 = "SELECT verficar_jefe($rut);";
 
 $result5 = $dbp -> prepare($query5);
 $result5 -> execute();
@@ -91,7 +92,7 @@ if ($jefe == true) {
   echo "<h1> Administrativos en su Unidad </h1>";
   $query6 = "SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
             FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != $puesto
-            Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.id = $id) ORDER BY Personal.pid;";
+            Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.rut = $rut) ORDER BY Personal.pid;";
 
   $result6 = $dbp -> prepare($query6);
   $result6 -> execute();
