@@ -87,6 +87,7 @@ foreach ($rut1 as $r){
   $jefe = $result5 -> fetchAll();
   break;
 }
+echo $jefe;
 
 $puesto = "administracion";
 
