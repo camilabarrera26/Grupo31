@@ -85,9 +85,11 @@ foreach ($rut1 as $r){
   $result5 -> execute();
   $jefe = $result5 -> fetchAll();
 
+  $a = $jefe['0'];
+
   echo $r[0];
 
-  if ($jefe == true) {
+  if (in_array(1, $a)) {
     echo "<h1> Administrativos en su Unidad </h1>";
     $query6 = "SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
     FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != 'administracion'
