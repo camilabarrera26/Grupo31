@@ -31,7 +31,15 @@ Un usuario no registrado, al entrar a la página no puede seleccionar ningún li
 
 ## Usuarios Registrados
 
+**Ejemplo Usuario Jefe**
+
 |     Rut    | Contraseña |
+|:----------:|:----------:|
+| 67314332-6 | 741633051  |
+
+**Todos los usuarios**
+
+|     Rut    | Contraseña |   
 |:----------:|:----------:|
 | 18167947-6 | 1111111123 |
 | 72810804-5 | 357924316  |

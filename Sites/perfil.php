@@ -125,7 +125,7 @@ foreach ($rut1 as $r){
   $a = $jefe['0'];
 
   if (in_array(1, $a)) {    
-    $query6 = "SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
+    $query6 = "SELECT Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
     FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != 'administracion'
     and Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.rut = '$r[0]' and trabaja_en.pid = personal.pid);";
 
@@ -140,10 +140,14 @@ foreach ($rut1 as $r){
           echo "<h1 class='display-6 fw-bold'>Administrativos en su Unidad</h1>";
           echo "<table class='table'>";
             echo "<tr>";
-              echo "<th>Nombre administrativo</th>";
+              echo "<th>Nombre</th>";
+              echo "<th>Rut</th>";
+              echo "<th>Sexo</th>";
+              echo "<th>Edad</th>";
+              echo "<th>Clasificación</th>";
             echo "</tr>";
               foreach ($administrativos as $a) {
-                echo "<tr><td>$a[0]</td><td>$a[1]</td><td>$a[2]</td><td>$a[3]</td><td>$a[4]</td><td>$a[5]</td></tr>";
+                echo "<tr><td>$a[0]</td><td>$a[1]</td><td>$a[2]</td><td>$a[3]</td><td>$a[4]</td></tr>";
               }
           echo "</table>";
         echo "</div>";
