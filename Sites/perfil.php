@@ -48,22 +48,28 @@ session_start();
   $nombre = $result3 -> fetchAll();
 ?>
 
-<table class='table'>
-  <tr>
-    <th>Nombre</th>
-    <th>Rut</th>
-    <th>Edad</th>
-    <th>Sexo</th>
-    <th>Dirección</th>
-  </tr>
-    <?php
-    // echo $tienda;
-    foreach ($usuario as $u) {
-      echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
-    }
-    ?>
-
-</table>
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+    <table class='table'>
+      <tr>
+        <th>Nombre</th>
+        <th>Rut</th>
+        <th>Edad</th>
+        <th>Sexo</th>
+        <th>Dirección</th>
+      </tr>
+      <?php
+        foreach ($usuario as $u) {
+          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
+      }
+      ?>
+    </table>
+    </div>
+  </div>
+</div>
+</div>   
 
 <?php
 
@@ -77,7 +83,7 @@ $puesto = "administracion";
 
 if ($jefe == true) {
   echo "<h1> Administrativos en su Unidad </h1>";
-  $query6 = "SELECT SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
+  $query6 = "SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
             FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != $puesto
             Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.id = $id) ORDER BY Personal.pid;";
 
@@ -98,13 +104,11 @@ if ($jefe == true) {
 
 <?php
   $pila = array();
-  foreach ($fecha as $fe){
-    foreach ($compra as $c){
-      foreach ($nombre as $n){
-        if ($n[1] == $c[3]){
-          $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td></tr>";
-          array_push($pila, $line);
-        }
+  foreach ($compra as $c){
+    foreach ($nombre as $n){
+      if ($n[1] == $c[3]){
+        $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td></tr>";
+        array_push($pila, $line);
       }
     }
   }
