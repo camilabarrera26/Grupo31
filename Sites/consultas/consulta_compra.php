@@ -52,10 +52,6 @@ $nombre = $_REQUEST['nombre'];
     $comuna = $resultado_explode[0];
     $did = (int)$resultado_explode[1];
 
-    echo $comuna;
-    echo $did;
-    
-
     foreach ($productos as $p){
 
         // Luego construimos las querys con nuestro procedimiento almacenado para ir agregando esas tuplas a nuestra bdd objetivo
