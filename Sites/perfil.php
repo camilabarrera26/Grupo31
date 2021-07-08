@@ -72,6 +72,43 @@ session_start();
 </div>   
 
 <?php
+  $pila = array();
+  foreach ($compra as $c){
+    foreach ($nombre as $n){
+      if ($n[1] == $c[3]){
+        $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td></tr>";
+        array_push($pila, $line);
+      }
+    }
+  }
+
+  $number_of_elements = sizeof($pila);
+?>
+
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+      <h1 class="display-6 fw-bold">Historial de Compras</h1>
+        <table class='table'>
+          <tr>
+            <th>Nombre Tienda</th>
+            <th>Producto</th>
+            <th>Dirección de envío</th>
+            <th>Comuna de envío</th>
+          </tr>
+          <?php
+            foreach ($pila as $p){
+              echo $p;
+            }
+          ?>
+        </table>
+    </div>
+  </div>
+</div>
+</div>
+
+<?php
 
 $query7 = "SELECT usuarios.rut FROM usuarios WHERE usuarios.uid = $id;";
 $result7 = $dbimp -> prepare($query7);
@@ -87,10 +124,7 @@ foreach ($rut1 as $r){
 
   $a = $jefe['0'];
 
-  echo $r[0];
-
-  if (in_array(1, $a)) {
-    echo "<h1> Administrativos en su Unidad </h1>";
+  if (in_array(1, $a)) {    
     $query6 = "SELECT Personal.pid, Personal.nombre, Personal.rut, Personal.sexo, Personal.edad, Trabaja_en.clasificacion
     FROM Personal,  Trabaja_en WHERE Personal.pid =  Trabaja_en.pid AND Trabaja_en.clasificacion != 'administracion'
     and Trabaja_en.uid = (SELECT Trabaja_en.uid From Personal, Trabaja_en WHERE Personal.rut = '$r[0]' and trabaja_en.pid = personal.pid);";
@@ -98,54 +132,39 @@ foreach ($rut1 as $r){
     $result6 = $dbp -> prepare($query6);
     $result6 -> execute();
     $administrativos = $result6 -> fetchAll();
-    echo "<table class='table'>";
-    echo "<tr>";
-    echo "<th>Nombre administrativo</th>";
-    echo "</tr>";
-        foreach ($administrativos as $a) {
-            echo "<tr><td>$a[0]</td><td>$a[1]</td><td>$a[2]</td><td>$a[3]</td><td>$a[4]</td><td>$a[5]</td></tr>";
-        }
-    echo "</table>";
+
+    echo "<div class='py-5'>";
+    echo "<div class='container-xl px-lg-4'>";
+      echo "<div class='p-4 p-lg-4 bg-primary rounded-3 text-center'>";
+        echo "<div class='m-4 m-lg-4'>";
+          echo "<h1 class='display-6 fw-bold'>Administrativos en su Unidad</h1>";
+          echo "<table class='table'>";
+            echo "<tr>";
+              echo "<th>Nombre administrativo</th>";
+            echo "</tr>";
+              foreach ($administrativos as $a) {
+                echo "<tr><td>$a[0]</td><td>$a[1]</td><td>$a[2]</td><td>$a[3]</td><td>$a[4]</td><td>$a[5]</td></tr>";
+              }
+          echo "</table>";
+        echo "</div>";
+      echo "</div>";
+    echo "</div>";
+    echo "</div>";
   } 
 break;
 }
-
 ?>
 
-<?php
-  $pila = array();
-  foreach ($compra as $c){
-    foreach ($nombre as $n){
-      if ($n[1] == $c[3]){
-        $line = "<tr><td>$c[0]</td><td>$n[0]</td><td>$c[1]</td><td>$c[2]</td></tr>";
-        array_push($pila, $line);
-      }
-    }
-  }
-
-  $number_of_elements = sizeof($pila);
-?>
-
-<h1> Historial de Compras </h1>
-<table class='table'>
-  <tr>
-    <th>Nombre Tienda</th>
-    <th>Producto</th>
-    <th>Dirección de envío</th>
-    <th>Comuna de envío</th>
-  </tr>
-    <?php
-    foreach ($pila as $p){
-    echo $p;
-    }
-    ?>
-    
-
-</table>
-
-<p class="fs-4">Aquí podrás cambiar tu contraseña:
-  <a href='consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar Contraseña </a>
-  </p>  
+<div class='py-5'>
+<div class="container-xl px-lg-4">
+  <div class="p-4 p-lg-4 bg-primary rounded-3 text-center">
+    <div class="m-4 m-lg-4">
+      <h1 class="display-6 fw-bold">Aquí podrás cambiar tu contraseña:</h1>
+      <a href='consultas/cambio_contrasena.php' role='button' class='btn'> Cambiar Contraseña </a>
+    </div>
+  </div>
+</div>
+</div>
 
 <a href='index.php' role='button' class='btn'> Volver </a>
 
