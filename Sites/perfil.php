@@ -61,7 +61,6 @@ session_start();
         <th>Dirección</th>
       </tr>
       <?php
-        $rut = $u[1];
         foreach ($usuario as $u) {
           echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
       }
@@ -74,14 +73,19 @@ session_start();
 
 <?php
 
-echo "hola";
-echo $rut;
+$query7 = "SELECT usuarios.rut FROM usuarios WHERE usuarios.uid = $id;";
+$result7 = $dbimp -> prepare($query7);
+$result7 -> execute();
+$rut1 = $result7 -> fetchAll();
 
-$query5 = "SELECT verficar_jefe('$rut');";
+foreach ($rut1 as $r){
+  $query5 = "SELECT verficar_jefe('$r');";
 
-$result5 = $dbp -> prepare($query5);
-$result5 -> execute();
-$jefe = $result5 -> fetchAll();
+  $result5 = $dbp -> prepare($query5);
+  $result5 -> execute();
+  $jefe = $result5 -> fetchAll();
+  break;
+}
 
 $puesto = "administracion";
 
