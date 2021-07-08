@@ -70,7 +70,7 @@ $nombre = $_REQUEST['nombre'];
 
         $a = $result2['0'];
 
-        if ($personals == null){
+        if ($result2 == null){
           echo 'No se pudo realizar la compra';
         } elseif (in_array(1, $a)) {
           echo 'Compra Exitosa';
