@@ -79,6 +79,7 @@ $result7 -> execute();
 $rut1 = $result7 -> fetchAll();
 
 foreach ($rut1 as $r){
+  echo $r;
   $query5 = "SELECT verficar_jefe('$r');";
 
   $result5 = $dbp -> prepare($query5);
