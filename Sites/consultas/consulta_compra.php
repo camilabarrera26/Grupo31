@@ -50,7 +50,7 @@ $nombre = $_REQUEST['nombre'];
     $resultado = $_POST["direcciones"];
     $resultado_explode = explode('|', $resultado);
     $comuna = $resultado_explode[0];
-    $did = $resultado_explode[0];
+    $did = $resultado_explode[1];
 
     echo $comuna;
     echo $did;
