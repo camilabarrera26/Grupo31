@@ -74,7 +74,9 @@ session_start();
 
 <?php
 
-$query5 = "SELECT verficar_jefe($rut);";
+echo $rut;
+
+$query5 = "SELECT verficar_jefe('$rut');";
 
 $result5 = $dbp -> prepare($query5);
 $result5 -> execute();
