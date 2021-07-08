@@ -50,7 +50,7 @@ $nombre = $_REQUEST['nombre'];
     $resultado = $_POST["direcciones"];
     $resultado_explode = explode('|', $resultado);
     $comuna = $resultado_explode[0];
-    $did = $resultado_explode[1];
+    $did = (int)$resultado_explode[1];
 
     echo $comuna;
     echo $did;
@@ -70,9 +70,10 @@ $nombre = $_REQUEST['nombre'];
 
         $a = $result2['0'];
 
-        if (in_array(1, $a)) {
+        if ($personals == null){
+          echo 'No se pudo realizar la compra';
+        } elseif (in_array(1, $a)) {
           echo 'Compra Exitosa';
-  
       } else {
           echo 'No se pudo realizar la compra';
       }
